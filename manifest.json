@@ -1,1 +1,1 @@
-{"version":4,"diskSize":67108864,"chunkSize":262144,"base":"blank","baseIsBlank":true,"encryption":null,"machine":null,"sync":1,"chunks":{},"digests":{}}
+{"version":4,"diskSize":67108864,"chunkSize":262144,"base":"blank","baseIsBlank":true,"encryption":null,"machine":null,"sync":2,"chunks":{"0":"a97c4f0f86a5fc4a8fa96c7b47636b524e438f42"},"digests":{"0":"bab8027a2b55b07d718049b661853100ca2185739394d49c87cdc7fcc5f9246e"}}
