@@ -3,7 +3,7 @@
   "state": "held",
   "machine": "machine-mtvp2fnn",
   "acquiredAt": 1789054856306,
-  "renewedAt": 1789054856306,
-  "expiresAt": 1789055456306,
+  "renewedAt": 1789055102689,
+  "expiresAt": 1789055702689,
   "enforced": true
 }
