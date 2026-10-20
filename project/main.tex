@@ -1,0 +1,196 @@
+\documentclass{gstarticle}
+
+% JOURNAL METADATA
+\journalyear{2026}
+\journalvolume{XX}
+\articlenumber{XX}
+\journalissn{0000-0000}
+\articledoi{10.14719/gst.XX}
+% Select one: Research Article, Short Communication, Review Article,
+% or Mini-review Article.
+\articletype{Research Article}
+% Select one subject area from the list in README.md.
+\subjectarea{Interdisciplinary Research}
+
+% ARTICLE DETAILS
+\title{A sample article prepared for Global Science Today}
+\shorttitle{Sample Global Science Today article}
+
+\author{%
+  First Author\textsuperscript{1,*} and
+  Second Author\textsuperscript{2}}
+
+\affiliations{%
+  \textsuperscript{1}Department, Institution, City, State/Province, Country;
+  ORCID: 0000-0000-0000-0000\\
+  \textsuperscript{2}Department, Institution, City, State/Province, Country;
+  ORCID: 0000-0000-0000-0000}
+
+\correspondence{%
+  First Author,
+  \href{mailto:author@example.org}{author@example.org}}
+
+\keywords{scientific publishing; open access; reproducible research; LaTeX}
+\abbreviations{AI, artificial intelligence; GST, Global Science Today}
+
+% Per journal specification, the template displays Keywords and any
+% Abbreviations immediately after the Abstract.
+\abstract{%
+  This sample demonstrates the Global Science Today article design.
+  The title, author details, keywords, abbreviations, abstract and publication
+  dates span the full page width. The main article begins below in two columns.
+  Replace this paragraph with a concise, self-contained summary of the study,
+  its methods, principal findings and conclusions.}
+
+\received{01 January 2026}
+\accepted{15 February 2026}
+\published{01 March 2026 (version 1)}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Global Science Today publishes research across scientific disciplines.
+The introduction should explain the context, identify the research question
+and state the purpose of the study. Citations use Vancouver numbering in
+round parentheses, as demonstrated here \citep{lamport1994}.
+
+\section{Materials and Methods}
+
+Describe the study design, materials and analytical procedures in sufficient
+detail for the work to be evaluated and reproduced.
+
+\subsection{Equations}
+
+Equations may be included inline, such as $E=mc^2$, or displayed and numbered:
+\begin{equation}
+  \bar{x}=\frac{1}{n}\sum_{i=1}^{n}x_i .
+  \label{eq:mean}
+\end{equation}
+Equation~\eqref{eq:mean} gives the arithmetic mean.
+
+\subsection{Tables}
+
+\begin{table}[htbp]
+  \caption{Example presentation of study measurements.}
+  \label{tab:example}
+  \centering
+  \begin{tabular}{lcc}
+    \toprule
+    Group & Sample size & Mean value \\
+    \midrule
+    Control & 24 & 12.6 \\
+    Treatment & 25 & 15.8 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Results}
+
+Present the results clearly and in a logical sequence. Refer to each table,
+figure and equation in the text. Table~\ref{tab:example} illustrates the
+preferred table style. Figure~\ref{fig:example} demonstrates the placement of
+a single-column scientific figure. Figure~\ref{fig:image-example} shows how to
+include a separate image stored in the project's figures folder.
+
+\begin{figure}[htbp]
+  \centering
+  \begin{tikzpicture}[x=0.72cm,y=0.34cm]
+    \draw[->,GSTNavy,thick] (0,0) -- (6.5,0)
+      node[below right,fill=white,inner sep=1pt] {\small Time (days)};
+    \draw[->,GSTNavy,thick] (0,0) -- (0,11)
+      node[above left,rotate=90,anchor=south] {\small Response};
+    \foreach \x in {0,1,2,3,4,5,6}
+      \draw[GSTNavy] (\x,0.15) -- (\x,-0.15)
+        node[below] {\scriptsize \x};
+    \foreach \y in {0,2,4,6,8,10}
+      \draw[GSTNavy] (0.12,\y) -- (-0.12,\y)
+        node[left] {\scriptsize \y};
+    \draw[GSTNavy,thick]
+      plot[smooth] coordinates
+      {(0,1.2) (1,2.0) (2,3.1) (3,4.0) (4,5.3) (5,6.0) (6,7.2)};
+    \draw[GSTTeal,thick]
+      plot[smooth] coordinates
+      {(0,1.1) (1,2.8) (2,4.2) (3,6.3) (4,7.8) (5,8.8) (6,9.4)};
+    \foreach \x/\y in {0/1.2,1/2.0,2/3.1,3/4.0,4/5.3,5/6.0,6/7.2}
+      \fill[GSTNavy] (\x,\y) circle (1.5pt);
+    \foreach \x/\y in {0/1.1,1/2.8,2/4.2,3/6.3,4/7.8,5/8.8,6/9.4}
+      \fill[GSTTeal] (\x,\y) circle (1.5pt);
+    \draw[GSTNavy,thick] (3.7,1.5) -- (4.3,1.5)
+      node[right,GSTNavy] {\scriptsize Control};
+    \draw[GSTTeal,thick] (3.7,0.7) -- (4.3,0.7)
+      node[right,GSTNavy] {\scriptsize Treatment};
+  \end{tikzpicture}
+  \caption{Example response over time in control and treatment groups.
+  Replace this illustration with the author's figure and provide a
+  self-contained caption.}
+  \label{fig:example}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/sample-figure-2.png}
+  \caption{Illustrative mean responses for a control group and two treatment
+  groups. Error bars are included only to demonstrate a typical scientific
+  figure; all values are fictional.}
+  \label{fig:image-example}
+\end{figure}
+
+\section{Discussion}
+
+Interpret the findings in relation to the research question and relevant
+literature. Explain important limitations and avoid repeating the Results
+section.
+
+\section{Conclusion}
+
+State the principal conclusion and its implications without introducing new
+results.
+
+\section*{Acknowledgements}
+
+The authors may acknowledge contributors who do not meet the criteria for
+authorship.
+
+\section*{Funding}
+
+State the funding source and grant number, or state that the research received
+no external funding.
+
+\section*{Data availability}
+
+State where the data supporting the findings can be accessed, including a
+repository link or accession number where applicable, or explain any access
+restrictions.
+
+\section*{Authors' contributions}
+
+AR designed the study and wrote the first draft. DT analysed the data. MN
+reviewed and edited the manuscript. All authors approved the final version.
+
+\section*{Compliance with ethical standards}
+
+\begin{gstdeclaration}{Conflict of interest}
+The authors declare that they have no conflict of interest.
+\end{gstdeclaration}
+
+\begin{gstdeclaration}{Ethical issues}
+The study was conducted in accordance with applicable institutional and
+national ethical standards. Replace this statement with the appropriate
+approval and consent information.
+\end{gstdeclaration}
+
+\section*{Declaration of generative AI and AI-assisted technologies in the writing process}
+
+During the preparation of this work, the authors used \textit{tool name} for
+\textit{state the purpose}. The authors reviewed and edited the resulting
+material and take full responsibility for the content of the publication. If
+no such technology was used, replace this text with: "The authors declare
+that no generative AI or AI-assisted technologies were used in the writing of
+this manuscript."
+
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}

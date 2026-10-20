@@ -1,0 +1,18 @@
+Global Science Today LaTeX template
+Copyright (c) 2026 Horizon e-Publishing Group
+
+This work may be distributed and/or modified under the conditions of the
+LaTeX Project Public License, either version 1.3c of this license or (at your
+option) any later version.
+
+The latest version of this license is available at:
+https://www.latex-project.org/lppl/
+
+This work has the LPPL maintenance status "maintained".
+The Current Maintainer is Horizon e-Publishing Group.
+
+The work consists of gstarticle.cls, main.tex, references.bib, and accompanying
+documentation. The supplied logo assets are excluded from the LPPL grant;
+copyright and trademark rights in those assets remain with their respective
+owner. Their inclusion in an official distributed template must be authorised
+by that owner.
