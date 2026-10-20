@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%
+% CV template for Prasad Patil using altacv.cls
+% Based on altacv.cls (v1.7.2, 28 Aug 2024) by LianTze Lim
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\geometry{left=1.1cm,right=1.1cm,top=1cm,bottom=1cm,columnsep=1cm}
+
+% Including paracol for two-column layout
+\usepackage{paracol}
+
+% Setting up Lato font
+\iftutex%
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+
+% Defining colors for consistent styling
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Customizing itemize and rating markers
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+% Tightening vertical spacing to keep everything on one page
+\setlist[itemize]{leftmargin=*,label=\cvItemMarker,topsep=1pt,itemsep=1pt,parsep=0pt,after=\vspace{1pt}}
+\renewcommand{\cvsection}[2][]{%
+  \nointerlineskip\medskip%
+  \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
+  {\color{heading}\cvsectionfont\MakeUppercase{#2}}\\[-1ex]%
+  {\color{headingrule}\rule{\linewidth}{2pt}\par}\smallskip
+}
+
+\begin{document}
+% Setting up personal information
+\name{Prasad Patil}
+\tagline{Solution Architect | Cloud, AI and Microservices Expert | Research Scholar | Patent Holder}
+\personalinfo{%
+  \email{prasadpatil252@gmail.com}
+  \linkedin{prasad-p-patil}
+  \github{prasadpatil25}
+  \phone{9021421601}
+  \location{Mihan, Nagpur, Maharashtra}
+}
+\makecvheader%
+
+% Starting two-column layout
+\begin{paracol}{2}
+
+% Listing professional experience
+\cvsection{Experience}
+\cvevent{Solution Architect, MBU Apps Infra Engg. - AI.cloud Unit}{Tata Consultancy Services (TCS)}{Aug 2023 -- Present}{Nagpur, India}
+\begin{itemize}
+\item \textbf{Infrastructure Migration}: Lead research and implementation for Azure Cloud Migration lifecycle tools (Cloud Console, Migration Factory Hub, Well-Architected Framework)
+\item \textbf{Application Modernization}: Migrate legacy .NET and mainframe systems to Angular/React front-ends with .NET/Java microservices
+\item \textbf{Application Migration}: Architect GenAI/Agentic AI solutions for COBOL-to-Java migration with contextual understanding
+\item \textbf{Design Thinking}: Design modular microservices systems using Domain-Driven Design (DDD) principles
+\end{itemize}
+\divider%
+
+\cvevent{Technical Architect, ISN - Corporate Unit}{Tata Consultancy Services (TCS)}{Apr 2019 -- Jul 2023}{Pune, India}
+\begin{itemize}
+\item Core contributor to ISN (Intelligent Services Networks) \textit{[quantify: team size]}; built Java/Spring Boot microservices deployed on Azure
+\item Refactored legacy applications to microservices using DDD principles
+\end{itemize}
+\divider%
+
+\cvevent{Full Stack Developer \& Researcher, Ignio Project}{Tata Research Development and Design Centre (TRDDC)}{Apr 2014 -- Mar 2019}{Pune, India}
+\begin{itemize}
+\item Developed compliance automation for networks and operating systems
+\item Built policy engines for Firewalls, Switches, Routers, Windows and Linux using Bash, PowerShell and Perl
+\end{itemize}
+\divider%
+
+\cvevent{Developer \& Researcher, eTransform Project, CTO Unit}{Tata Research Development and Design Centre (TRDDC)}{Mar 2011 -- Mar 2014}{Pune, India}
+\begin{itemize}
+\item Built Java Swing modules for cloud migration estimation; analyzed as-is/to-be states for cloud transformation
+\item Developed performance-sensitive applications using multithreading and design patterns
+\end{itemize}
+\divider%
+
+\cvsection{Certifications}
+\begin{itemize}
+\item NPTEL: Machine Learning for Engineering \& Science Applications (IIT Madras)
+\item Microsoft Azure: Solutions Architect Expert (AZ-305), Administrator Associate (AZ-104)
+\end{itemize}
+
+% Switching to the second column
+\switchcolumn%
+
+% Listing educational qualifications
+\cvsection{Education}
+\cvevent{PhD Scholar in Machine Learning, Quantum Computing and Cryptography }{Indian Institute of Information Technology (IIIT)}{Present}{Nagpur, India}
+\begin{itemize}
+\item Recipient of the ACM India Anveshan Setu Fellowship - \textit{IIT Hyderabad}
+\end{itemize}
+\divider%
+
+\cvevent{B.E. in Computer Science \& Engineering}{Shri Ramdeobaba Kamla Nehru Engg. College, RTMNU}{2010}{Nagpur, India}
+\begin{itemize}
+\item 2nd prize in internal coding competition
+\end{itemize}
+\divider%
+
+\cvevent{Diploma in Computer Technology}{Nagpur Polytechnic, RTMNU}{2007}{Nagpur, India}
+\begin{itemize}
+\item Gold medalist for 3 consecutive years
+\end{itemize}
+
+
+
+\cvsection{Skills}
+\raggedright%
+\cvtag{Microservices}
+\cvtag{Azure Infrastructure}
+\cvtag{Advanced Java}
+\cvtag{Spring Boot}
+\cvtag{LLM Fine Tuning}
+\cvtag{Technical Research}\\
+\cvtag{DDD}
+\cvtag{Machine Learning}
+\cvtag{Legacy Modernization}
+\cvtag{Cloud Migration}
+\cvtag{Critical Thinking}
+\cvtag{Architect}
+
+\cvsection{Open-Source Projects}
+\cvevent{MindSpark --- Mind-Mapping Platform}{\href{https://github.com/prasadpatil25/MindSpark}{github.com/prasadpatil25/MindSpark}}{}{}
+\begin{itemize}
+\item Zero-dependency vanilla-JS, MIT-licensed app; real-time collaboration on Cloudflare Workers (GitHub OAuth, role-based access)
+\item Custom GPT builds maps from natural language via a \texttt{POST /api/import} endpoint
+\end{itemize}
+
+% Listing awards and honors
+\cvsection{Awards and Honors}
+\cvachievement{\faFile*[regular]}{\href{https://doi.org/10.1109/TIM.2026.3659640}{IEEE Journal Publication -- Hybrid Quantum DOA Framework (First Paper on Quantum from IIITN)}}{2026}
+\cvachievement{\faFile*[regular]}{IEEE Journal Publication -- \textit{[Fully Coherent Dynamic Oracle Adaptation]}, {(Under Review)}}{2026}
+\cvachievement{\faCopyright}{Indian \& US Patent on Compliance as a Service}{2024, 2017}
+\cvachievement{\faTrophy}{Best Performer of the Year}{2016, 2018, 2021}
+\cvachievement{\faTrophy}{2nd Rank in Hackathon held during Ignio}{2019}
+
+
+% Ending two-column layout
+\end{paracol}
+
+\end{document}
