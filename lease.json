@@ -1,9 +1,9 @@
 {
   "holder": "tab-kdusag",
-  "state": "held",
+  "state": "released",
   "machine": "37",
   "acquiredAt": 1792590962248,
-  "renewedAt": 1792590962248,
-  "expiresAt": 1792591562248,
+  "renewedAt": 1792591071478,
+  "expiresAt": 1792591071478,
   "enforced": true
 }
