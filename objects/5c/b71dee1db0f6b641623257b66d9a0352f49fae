@@ -2040,82 +2040,86 @@ Classical work before the run & Circuit construction; classical queries in the o
 When $\mathcal{M}$ changes & n/a & Re-emit the oracle & Recompute the list and re-emit $k$ gates
  & Re-emit $|\mathcal{M}|$ marking gates; $U_f$ unchanged \\
 Cost model & Asymptotic; resource estimates~\cite{bonnetain2022quantum} & None
- & Closed form, Eq.~\eqref{eq:costct} & Closed form, Proposition~\ref{prop:coherence} \\
-Oracle choice & Fixed by the attack & Always the emitted list
- & \multicolumn{2}{>{\raggedright\arraybackslash}p{0.4\textwidth}@{}}{Made per target by the selection pass of Section~\ref{sec:select}} \\
-\bottomrule
-\end{tabular}
-\end{table*}
+ This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Alpine Linux) (preloaded format=pdflatex 2026.10.21)  22 OCT 2026 00:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**fqdoa_tc.tex
+(./fqdoa_tc.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen148
+\@IEEEtrantmpdimenB=\dimen149
+\@IEEEtrantmpdimenC=\dimen150
+\@IEEEtrantmpcountA=\count275
+\@IEEEtrantmpcountB=\count276
+\@IEEEtrantmpcountC=\count277
+\@IEEEtrantmptoksA=\toks17
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen151
+-- This is a 10 point document.
+LaTeX Encoding Info:    Redeclaring text command \textunderscore (encoding ?) o
+n input line 937.
+\CLASSINFOnormalsizebaselineskip=\dimen152
+\CLASSINFOnormalsizeunitybaselineskip=\dimen153
+\IEEEnormaljot=\dimen154
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-% ============================================================
-\section{Method}
-\label{sec:method}
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-This section defines the search task and the three function families, builds
-both oracles, and proves the coherent oracle correct. It then derives the cost of
-each oracle, the cost of coherence, and the cost of finding the period, and turns
-these costs into a selection pass for compilers.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-\subsection{Problem Statement and Function Families}
-\label{sec:problem}
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-Let $f:\{0,1\}^n\to\{0,1\}^n$ satisfy $f(x)=f(x\oplus s)$ for a nonzero period
-$s$. We write a bit string left to right as $x_0x_1\cdots x_{n-1}$, so $x_0$ is
-its highest-order bit, and qubit $i$ of a register holds bit $i$. The inputs
-fall into $2^{n-1}$ pairs $\{x,x\oplus s\}$, which we call cosets. Let $b$ be the
-position of the leftmost 1 in $s$. Exactly one member of
-each coset has bit $b$ equal to 0. We call it the canonical representative and
-write $\Xo=\{x: x_b=0\}$ for the set of canonical representatives.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-An input $x$ is marked if $f(x)\in\mathcal{M}$ for a given marked set
-$\mathcal{M}\subseteq\{0,1\}^n$, and the task is to return a marked input. We
-write $k$ for the number of marked canonical representatives. It differs from
-$|\mathcal{M}|$ in general: $k=|\mathcal{M}|$ when $f$ is two-to-one and every
-element of $\mathcal{M}$ has a preimage, while an output shared by many cosets
-counts once in $|\mathcal{M}|$ but many times in $k$. The period $s$, the count
-$k$, and the iteration count $R=\lfloor(\pi/4)\sqrt{2^{n-1}/k}\rfloor$ are fixed
-before the run.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-\textit{Family $\famE$ (exceptions).} A function in this family has a default
-output $\delta$ and $c$ exceptional cosets $C_i=\{a_i,a_i\oplus s\}$ with
-outputs $o_i$, where $a_i$ is canonical. Every input outside the exceptional
-cosets maps to $\delta$. For example, the four-bit member of our benchmark has
-$s=1010$, so $b=0$ and $\Xo$ holds the eight inputs that begin with 0. Its
-exceptional cosets are $\{0000,1010\}\mapsto 0000$ and $\{0011,1001\}\mapsto
-0011$, its default output is $1111$, and $\mathcal{M}=\{0000,0011\}$. The
-canonical representatives $0000$ and $0011$ are the $k=2$ marked inputs.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-\textit{Family $\famL$ (compact circuits).} A function in this family is
-$f(x)=L\,(x\oplus x_b s)$ over GF(2), that is, with arithmetic modulo 2, where
-$L$ is an invertible $n\times n$ matrix. The map $x\mapsto x\oplus x_b s$ sends both members of a coset to the
-canonical one, so $f$ is two-to-one with period $s$, and $f(x)=f(y)$ holds only
-for $y\in\{x,x\oplus s\}$. Its circuit is a network of CNOT gates.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-\textit{Family $\famN$ (quadratic functions).} A function in this family is
-$f(x)=F(x\oplus x_b s)$, where $F(z)_i=z_i\oplus\bigoplus_{(j,l,i)}z_jz_l$ sums
-$t$ products $z_jz_l$ with $j<l<i$ and $b\notin\{j,l,i\}$. Each output bit adds
-products of earlier bits only, so $F$ is invertible, $f$ is two-to-one with
-period $s$, and Simon's condition holds. Its circuit is $n-1$ CNOTs and one
-Toffoli per product, so $t$ sets how nonlinear, and how costly in T gates, the
-function is.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
 
-\subsection{Two Oracle Designs}
-\label{sec:styles}
-
-Both oracles act on the canonical representatives and apply
-$(-1)^{[f(x)\in\mathcal{M}]}$, where $[\cdot]$ is 1 when its condition holds and
-0 otherwise. Grover's algorithm alternates the oracle with a diffusion step, a
-reflection about the uniform superposition of the $n-1$ search
-qubits~\cite{brassard2002amplitude}.
-
-\begin{figure*}[!t]
-\centering
-\resizebox{0.97\textwidth}{!}{%
-\begin{tikzpicture}
-\node[anchor=south west] at (0,6.0) {\textbf{(a) Search circuit}};
-\node[anchor=north west] at (1.1,5.8) {
-  \Qcircuit @C=1.2em @R=0.9em {
-    \lstick{x} & \gate{H^{\otimes(n-1)}} & \mul„«ÛÑÊ±0Fıí>J∆õoH˘p1C_œò’~!;s•ÎJõ/Ê·˛∆‘∑´≠TbvÉnª2âóáU›vßR[ï!n‹É∂¬ˆlv≠õ` ÌXé ·≠w§ò„&‚ﬁ‡Æ≤5¿ oK¿âî∫ „
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(F„«ÛÑÊ±0Fıí>J∆õoH˘p1C_œò’~!;s•ÎJõ/Ê·˛∆‘∑´≠TbvÉnª2âóáU›vßR[ï!n‹É∂¬ˆlv≠õ` ÌXé ·≠w§ò„&‚ﬁ‡Æ≤5¿ oK¿âî∫ „
 ‚∆õœ Ò1åô£¬~È∫^⁄ìFôwÄI
 5 +|<º\=	∞O!ù˙(î™m≥|ÎKÃˆ'˘0áÜÎ6sa7Ç±ÉîòÂc»ª’Ω;D¯˝◊G÷ï}¯"Íf9Ÿ^ãõºp◊Ï"Ü
 ÷ò∑[‰V°•±2\Ä”6gî (*m≈Â2´≠ñF∫˛†«Ae‹BÍT»séHÅMZêΩxΩ 2à≥Ú=)Ï–~À˙∞∑èÂgZﬁ1PΩç*¥!\7ﬂÀ∏Gƒ£¢3Ê ‹KÓƒ™‰ÛT∂÷Ê~ûvŸö‘]ƒH•â¶ü€’SÈî˝°<´$ù$◊÷OŸÉSeñ!;öπt˚m1Z>èºñﬂÆÃÉyÑ”>ï)8éπXÙ>ê≤≈ÅÍpnˇ«&•Sàˆ2;Î®tÛ¥_FÅ1ÊunPã.◊SF°‡£H€⁄(«$óÉ°¢t’Ê(ÖC
