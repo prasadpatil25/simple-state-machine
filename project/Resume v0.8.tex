@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%
+% CV template for Prasad Patil using altacv.cls
+% Based on altacv.cls (v1.7.2, 28 Aug 2024) by LianTze Lim
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\geometry{left=1cm,right=1cm,top=1.25cm,bottom=1cm,columnsep=0.8cm}
+
+% Including paracol for two-column layout
+\usepackage{paracol}
+
+% Setting up Lato font
+\iftutex
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+% Defining colors for consistent styling
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Customizing itemize and rating markers
+\renewcommand{\cvItemMarker}{{\tiny\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+% Reduce spacing
+\setlength{\parskip}{0.2em}
+\renewcommand{\baselinestretch}{0.95}
+
+\begin{document}
+% Setting up personal information
+\name{Prasad Patil}
+\tagline{Technical Architect | Cloud \& AI Expert | PhD Scholar}
+\personalinfo{%
+  \email{479153@tcs.com} \phone{+91~9021421601} \location{Mihan, Nagpur, India}
+}
+\makecvheader
+
+% Starting two-column layout
+\begin{paracol}{2}
+
+% Listing professional experience
+\cvsection{Experience}
+\cvevent{Technical Architect, AI.cloud Unit}{TCS}{Aug 2023 -- Present}{Nagpur}
+\begin{itemize}\vspace{-0.3em}
+\item Led Azure Cloud Migration tools, integrating Cloud Console and Azure Well-Architected Framework.
+\item Architected GenAI-based COBOL to Java migration and DDD microservices systems.
+\end{itemize}\vspace{-0.2em}
+
+\cvevent{Technical Architect, ISN}{TCS}{Apr 2019 -- Jul 2023}{Pune}
+\begin{itemize}\vspace{-0.3em}
+\item Built Spring Boot microservices for ISN, transforming legacy apps with Azure integration.
+\end{itemize}\vspace{-0.2em}
+
+\cvevent{Full Stack Developer, Ignio}{TRDDC}{Apr 2014 -- Mar 2019}{Pune}
+\begin{itemize}\vspace{-0.3em}
+\item Developed compliance automation for networks/OS, creating scalable full-stack solutions.
+\end{itemize}\vspace{-0.2em}
+
+\cvevent{Developer, eTransform}{TRDDC}{Mar 2011 -- Mar 2014}{Pune}
+\begin{itemize}\vspace{-0.3em}
+\item Built Java Swing modules for cloud migration using multithreading and design patterns.
+\end{itemize}
+
+% Listing education
+\cvsection{Education}
+\cvevent{PhD Scholar, Quantum Computing}{IIIT Nagpur}{Present}{Nagpur}
+\begin{itemize}\vspace{-0.3em}
+\item Fellowship from IIT Patna.
+\end{itemize}\vspace{-0.2em}
+
+\cvevent{B.E., Computer Science}{SRKNEC}{2007 -- 2010}{Nagpur}
+\begin{itemize}\vspace{-0.3em}
+\item 2nd prize in coding competition.
+\end{itemize}\vspace{-0.2em}
+
+\cvevent{Diploma, Computer Tech}{Nagpur Polytechnic}{2004 -- 2007}{Nagpur}
+\begin{itemize}\vspace{-0.3em}
+\item Gold medalist for 3 years.
+\end{itemize}
+
+% Switching to second column
+\switchcolumn
+
+% Listing skills
+\cvsection{Skills}
+{\LaTeXraggedright\vspace{-0.3em}
+\cvtag{Legacy Modernization}\cvtag{Cloud Migration}\cvtag{Microservices}\cvtag{Azure}\cvtag{GenAI}\cvtag{Java}\cvtag{Spring Boot}\cvtag{Prompt Engineering}\cvtag{Research}\cvtag{Project Management}
+}
+
+% Listing certifications
+\cvsection{Certifications}
+\begin{itemize}\vspace{-0.3em}
+\item Azure Solutions Architect Expert (AZ-305), 2023
+\item Azure Administrator Associate (AZ-104)
+\end{itemize}
+
+% Listing patents and publications
+\cvsection{Patents \& Publications}
+\begin{itemize}\vspace{-0.3em}
+\item Indian Patent: Compliance as a Service, 2024
+\item US Patent: Compliance Automation, 2017
+\item Paper: Hybrid Quantum DOA, IEEE TIM (Submitted), 2025
+\item Paper: Compliance as a Service, 2017
+\end{itemize}
+
+% Listing awards
+\cvsection{Awards}
+\begin{itemize}\vspace{-0.3em}
+\item Contextual Master: GenAI Modernization, 2024
+\item Best Performer, TCS, 2021
+\item 2nd Rank, Ignio Hackathon, 2019
+\item 1st Place, TCS ILP Training, 2011
+\end{itemize}
+
+% Ending two-column layout
+\end{paracol}
+
+\end{document}
