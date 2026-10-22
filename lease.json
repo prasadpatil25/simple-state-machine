@@ -1,9 +1,9 @@
 {
   "holder": "tab-7l9edz",
-  "state": "held",
+  "state": "released",
   "machine": "40",
   "acquiredAt": 1792628642507,
-  "renewedAt": 1792629006062,
-  "expiresAt": 1792629606062,
+  "renewedAt": 1792629066424,
+  "expiresAt": 1792629066424,
   "enforced": true
 }
