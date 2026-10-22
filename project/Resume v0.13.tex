@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%
+% CV template for Prasad Patil using altacv.cls
+% Based on altacv.cls (v1.7.2, 28 Aug 2024) by LianTze Lim
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% Including paracol for two-column layout
+\usepackage{paracol}
+
+% Setting up Lato font
+\iftutex%
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+
+% Defining colors for consistent styling
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Customizing itemize and rating markers
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\begin{document}
+% Setting up personal information
+\name{Prasad Patil}
+\tagline{Solution Architect | Cloud, AI and Microservices Expert | Research Scholar | Patent Holder}
+\personalinfo{%
+  \email{479153@tcs.com}
+  \phone{9021421601}
+  \location{Mihan, Nagpur, Maharashtra}
+}
+\makecvheader%
+
+% Starting two-column layout
+\begin{paracol}{2}
+
+% Listing professional experience
+\cvsection{Experience}
+\cvevent{Technical Architect, MBU Apps Infra Engg. - AI.cloud Unit}{Tata Consultancy Services (TCS)}{Aug 2023 -- Present}{Nagpur, India}
+\begin{itemize}
+\item Lead research and implementation for Azure Cloud Migration lifecycle tools
+\item Architect GenAI/Agentic AI solutions for COBOL-to-Java migration with contextual understanding
+\item Design modular microservices systems using Domain-Driven Design (DDD) principles
+\item Integrate Azure offerings: Cloud Console, Migration Factory Hub, Well-Architected Framework
+\end{itemize}
+\divider%
+
+\cvevent{Technical Architect, ISN - Corporate Unit}{Tata Consultancy Services (TCS)}{Apr 2019 -- Jul 2023}{Pune, India}
+\begin{itemize}
+\item Core contributor to ISN (Intelligent Services Networks) project
+\item Developed Java-based microservices using Spring Boot
+\item Refactored legacy applications to microservices using DDD principles
+\item Implemented Azure cloud solutions for enterprise deployments
+\end{itemize}
+\divider%
+
+\cvevent{Full Stack Developer \& Researcher, Ignio Project}{Tata Research Development and Design Centre (TRDDC)}{Apr 2014 -- Mar 2019}{Pune, India}
+\begin{itemize}
+\item Developed compliance automation for networks and operating systems
+\item Created policy engines for Firewalls, Switches, Routers, Windows, and Linux
+\item Implemented full-stack solutions using Bash, PowerShell, and Perl
+\end{itemize}
+\divider%
+
+\cvevent{Developer \& Researcher, eTransform Project, CTO Unit}{Tata Research Development and Design Centre (TRDDC)}{Mar 2011 -- Mar 2014}{Pune, India}
+\begin{itemize}
+\item Built Java Swing modules for cloud migration estimation
+\item Developed performance-sensitive applications using multithreading and design patterns
+\item Analyzed as-is/to-be states for cloud transformation
+\end{itemize}
+
+% Switching to the second column
+\switchcolumn%
+
+% Listing educational qualifications
+\cvsection{Education}
+\cvevent{PhD Scholar in Machine Learning, Quantum Computing and Cryptography }{Indian Institute of Information Technology (IIIT)}{Present}{Nagpur, India}
+\begin{itemize}
+\item Recipient of Fellowship from IIT Hyderabad
+\item Research focus: Machine learning, NLP
+\end{itemize}
+\divider%
+
+\cvevent{B.E. in Computer Science \& Engineering}{Shri Ramdeobaba Kamla Nehru Engg. College, RTMNU}{2010}{Nagpur, India}
+\begin{itemize}
+\item 2nd prize in internal coding competition
+\end{itemize}
+\divider%
+
+\cvevent{Diploma in Computer Technology}{Nagpur Polytechnic, RTMNU}{2007}{Nagpur, India}
+\begin{itemize}
+\item Gold medalist for 3 consecutive years
+\end{itemize}
+
+
+
+\cvsection{Skills}
+\raggedright%
+\cvtag{Microservices}
+\cvtag{Azure Infrastructure}
+\cvtag{Advanced Java}
+\cvtag{Spring Boot}
+\cvtag{GenAI}
+\cvtag{Prompt Engineering}
+\cvtag{DDD}
+\cvtag{Machine Learning}
+\cvtag{Technical Research}\\
+\cvtag{Legacy Modernization}
+\cvtag{Cloud Migration}
+
+\cvsection{Certifications}
+\begin{itemize}
+\item NPTEL Certified: Machine Learning for Engineering and Science Applications, IIT Madras
+\item Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
+\item Microsoft Certified: Azure Administrator Associate (AZ-104)
+\end{itemize}
+
+% Listing awards and honors
+\cvsection{Awards and Honors}
+\cvachievement{\faTrophy}{\href{https://doi.org/10.1109/TIM.2026.3659640}{IEEE Journal Publication – Hybrid Quantum DOA Framework}}{2026}
+\cvachievement{\faCopyright}{Indian \& US Patent on Compliance as a Service}{2024, 2017}
+\cvachievement{\faTrophy}{Best Performer of the Year}{2021}
+\cvachievement{\faTrophy}{2nd Rank in Hackathon held during Ignio}{2019}
+\cvachievement{\faTrophy}{Special Mention for Data Privacy Day Challenge Fest}{2014}
+\cvachievement{\faTrophy}{1st Place in ILP Training in TCS}{2011}
+
+
+% Ending two-column layout
+\end{paracol}
+
+\end{document}
