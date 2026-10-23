@@ -1,9 +1,9 @@
 {
   "holder": "tab-c31dfy",
-  "state": "held",
+  "state": "released",
   "machine": "43",
   "acquiredAt": 1792797970945,
-  "renewedAt": 1792797970945,
-  "expiresAt": 1792798570945,
+  "renewedAt": 1792798178761,
+  "expiresAt": 1792798178761,
   "enforced": true
 }
