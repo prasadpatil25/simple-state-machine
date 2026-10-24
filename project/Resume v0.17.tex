@@ -1,0 +1,92 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[
+    a4paper,          % Sets the paper size to A4
+    includehead,      % Ensures the header is included in the total text height calculation
+    headheight=6mm,  % Sets the vertical space for the header (adjust as needed)
+    headsep=-7mm,      % Sets the distance between the header and the text body (adjust as needed)
+    top=8mm,         % Adjusts the top margin (distance from paper edge to header top)
+    margin=1.8cm        % Sets all other margins (left, right, bottom)
+]{geometry}
+
+% Personal data
+\name{Prasad}{Patil \vspace{0.2em} \\ \small \textit{\color{gray}Solution Architect - Cloud, AI and Microservices Architect \& \\ Research Scholar - Patent Holder}}
+\phone[mobile]{+91~9021421601}
+\email{479153@tcs.com}
+\homepage{prasadpatil25.github.io/prasadpatil25}
+\social[linkedin]{prasad-p-patil}
+\social[github]{prasadpatil25}
+\address{Mihan, Nagpur, Maharashtra, India}
+
+\begin{document}
+
+\makecvtitle
+\vspace{-3.1em}
+\section{Summary} 
+\cvlistitem{Experienced Research and Technology Professional with 15+ years in software development, applied research, and cloud transformation, currently pursuing a PhD in Machine Learning and Quantum Computing, Cryptography.} \cvlistitem{Proficient in GenAI-based legacy code analysis and migration, microservices architecture, and cloud-native design, with a deep focus on Microsoft Azure solutions and AI-driven transformations.}\cvlistitem{Blend of academic rigor and industrial experience, with strong analytical, problem-solving, and technical writing skills. Holds granted patents and IEEE journal publications spanning intelligent compliance systems and quantum computing.} \cvlistitem{Well-versed in prompt engineering and AI tools; recognized for contextual innovations in mainframe modernization using GenAI.}
+
+\section{Experience} 
+\cventry{08/2023-Present}{Solution Architect, Product Development - Cloud (formerly AI.cloud)}
+{Tata Consultancy Services (TCS)}{Nagpur, India}{}{
+\begin{itemize} 
+    \item Designed and built an agentic legacy-modernization platform (PoC) (Python/FastAPI) that transforms complete legacy projects into deployable modern applications, demonstrated across two unrelated stacks - COBOL→Spring Boot and Classic ASP→ASP.NET Core - using identical agent code, with behaviour driven entirely by pluggable skill and tool registries.
+    \item Sole inventor on a filed invention disclosure for a capability-governed artifact lineage framework, in which an autonomous agent's tool authorization is computed at runtime from version-pinned knowledge configuration and written into the provenance of every generated artifact - making AI-generated code auditable and reproducible for regulated modernization programmes.
+    \item Leading research and implementation initiatives for Azure Cloud Migration lifecycle tools, integrating offerings like Cloud Console, Migration Factory Hub, and Azure Well-Architected Framework.
+    \item Designed modular, microservices-based systems following Domain-Driven Design (DDD) principles. 
+\end{itemize}}
+\vspace{0.5em}
+\cventry{04/2019-07/2023}{Technical Architect, ISN - Corporate Unit}{TCS}{Pune, India}{}{ 
+\begin{itemize} 
+    \item Core contributor to ISN (Intelligent Services Networks) with focus on Spring Boot microservices and Azure cloud integration.
+    \item Played the role of product architect and development responsible for automating the life-cycle of the software development journey. 
+    \item Transformed legacy applications to microservices using DDD; deployed robust enterprise solutions on Azure. 
+\end{itemize}}
+\vspace{0.5em}
+\cventry{04/2014-03/2019}{Full Stack Developer \& Researcher, Ignio Project - CTO \& Digitate Unit}{Tata Research Development and Design Centre (TRDDC)}{Pune, India}{}{ 
+\begin{itemize} 
+    \item Specialized in compliance automation for networks and operating systems; developed scalable full-stack solutions.
+    \item Owned the complete project development of Compliance As A Service (CaaS), from research to product/service delivery.
+    \item Contributed to policy definition, compliance engines, and integrations for diverse enterprise infrastructure. 
+\end{itemize}}
+\vspace{0.5em}
+\cventry{03/2011-03/2014}{Developer \& Researcher, eTransform Project - CTO Unit}{TRDDC}{Pune, India}{}{ \begin{itemize} 
+    \item Built standalone Java Swing modules for migration and transformation estimations. 
+    \item Understanding of legacy infrastructure data center migration domain. 
+    \item Leveraged multi-threading, design patterns, and data structures to develop performance-sensitive applications. 
+\end{itemize}}
+\vspace{5.5em}
+\section{Education} \cventry{Present}{PhD Scholar in Machine Learning \& Quantum Computing, Cryptography}{IIIT Nagpur}{Nagpur, India}{}{\textit{Recipient of the ACM India Anveshan Setu Fellowship (2025) - IIT Hyderabad}} \cventry{2010}{B.E. in Computer Science and Engineering}{Shri Ramdeobaba Kamla Nehru Engineering College}{Nagpur, India}{}{\textit{2nd prize in internal coding competition}} \cventry{2007}{Diploma in Computer Technology}{Nagpur Polytechnic}{Nagpur, India}{}{\textit{Gold medalist for 3 consecutive years}}
+
+\section{Skills} \cvlistitem{Microservices Architecture, Spring Boot, Advanced Java}
+\cvlistitem{Domain Driven Design and Architect}
+\cvlistitem{Agentic AI, LLM Fine Tuning, Machine Learning}
+\cvlistitem{Azure Infrastructure, Legacy Modernization, Cloud Migration}
+\cvlistitem{Quick Learner, Critical Thinking}
+\cvlistitem{Academic and Technical Research}
+
+\section{Open-Source Projects}
+\cventry{2026-Present}{MindSpark - Mind-Mapping Web Platform (Creator \& Maintainer)}{}{\href{https://github.com/prasadpatil25/MindSpark}{github.com/prasadpatil25/MindSpark}}{}{
+\begin{itemize}
+    \item Zero-runtime-dependency, MIT-licensed vanilla-JavaScript mind-mapping app; self-hostable in one command or run free in-browser with every map saved to the user's own private GitHub repository.
+    \item Engineered real-time collaboration on Cloudflare Workers and Durable Objects, with GitHub OAuth and JWT-signed, role-based access control (editor/viewer roles, revocable share links).
+    \item Integrated a Custom GPT that converts a natural-language topic into a structured map via a \texttt{POST /api/import} endpoint, returning a self-contained, shareable link.
+\end{itemize}}
+
+\section{Certifications} 
+\cvlistitem{NPTEL Certified: Quantum Algorithms and Cryptography}
+\cvlistitem{NPTEL Certified: Machine Learning for Engineering and Science Applications}
+\cvlistitem{Microsoft Certified: Azure Solutions Architect Expert (AZ-305)} 
+\cvlistitem{Microsoft Certified: Azure Administrator Associate (AZ-104)}
+
+\section{Patents and Publications}
+\cvlistitem{\href{https://doi.org/10.1109/TIM.2026.3659640}{IEEE Journal Publication (IEEE TIM, 2026) – \textit{Hybrid Quantum DOA Framework} \\ (First Paper on Quantum Computing from IIIT Nagpur - 2026)}}
+\cvlistitem{IEEE Journal Publication (IEEE TETC, 2026) – \textit{Fully Coherent Dynamic Oracle Adaptation} \\ (Under Review) }
+\cvlistitem{Indian Patent (2024), US Patent (2017): Compliance as a Service}
+\cvlistitem{IDF filed (2026): Capability-governed artifact lineage framework}
+\cvlistitem{Technical Paper: Compliance as a Service (2017)}
+
+\section{Awards and Honors} \cvlistitem{Contextual Master: GenAI for Mainframe Modernization (2024)} \cvlistitem{Best Performer of the Year, TCS (2021)} \cvlistitem{2nd Rank, Ignio Hackathon (2019)} \cvlistitem{Special Mention, Data Privacy Day Challenge Fest (2014)} \cvlistitem{1st Place, Initial Learning Program Training, TCS (2011)}
+
+\end{document}

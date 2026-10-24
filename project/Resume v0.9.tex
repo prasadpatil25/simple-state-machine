@@ -1,0 +1,130 @@
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+\usepackage{paracol}
+\iftutex
+  \setmainfont{Lato}
+\else
+  \usepackage[default]{lato}
+\fi
+
+% Color scheme
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Customizations
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+
+\begin{document}
+% Personal Information
+\name{Prasad Patil}
+\tagline{Technical Architect | Cloud \& AI Expert | Quantum Computing Researcher | Patent Holder}
+\personalinfo{%
+  \email{prasadpatil252@gmail.com}
+  \phone{+91~9021421601}
+  \location{Mihan, Nagpur, Maharashtra}
+}
+\makecvheader
+
+\begin{paracol}{2}
+% Experience Column
+\cvsection{Experience}
+
+\cvevent{Technical Architect, MBU Apps Infra Engg. - AI.cloud Unit}{Tata Consultancy Services (TCS)}{Aug 2023 -- Present}{Nagpur, India}
+\begin{itemize}
+\item Lead research and implementation for Azure Cloud Migration lifecycle tools
+\item Architect GenAI solutions for COBOL-to-Java migration with contextual understanding
+\item Design modular microservices systems using Domain-Driven Design (DDD) principles
+\item Integrate Azure offerings: Cloud Console, Migration Factory Hub, Well-Architected Framework
+\end{itemize}
+\divider
+
+\cvevent{Technical Architect, ISN - Corporate Unit}{Tata Consultancy Services (TCS)}{Apr 2019 -- Jul 2023}{Pune, India}
+\begin{itemize}
+\item Core contributor to ISN (Intelligent Services Networks) project
+\item Developed Java-based microservices using Spring Boot
+\item Refactored legacy applications to microservices using DDD principles
+\item Implemented Azure cloud solutions for enterprise deployments
+\end{itemize}
+\divider
+
+\cvevent{Full Stack Developer \& Researcher, Ignio Project}{Tata Research Development and Design Centre (TRDDC)}{Apr 2014 -- Mar 2019}{Pune, India}
+\begin{itemize}
+\item Developed compliance automation for networks and operating systems
+\item Created policy engines for Firewalls, Switches, Routers, Windows, and Linux
+\item Implemented full-stack solutions using Bash, PowerShell, and Perl
+\end{itemize}
+\divider
+
+\cvevent{Developer \& Researcher, eTransform Project}{Tata Research Development and Design Centre (TRDDC)}{Mar 2011 -- Mar 2014}{Pune, India}
+\begin{itemize}
+\item Built Java Swing modules for cloud migration estimation
+\item Developed performance-sensitive applications using multithreading and design patterns
+\item Analyzed as-is/to-be states for cloud transformation
+\end{itemize}
+
+\cvsection{Education}
+\cvevent{PhD Scholar in Quantum Computing, Cryptography \& ML}{Indian Institute of Information Technology (IIIT)}{Present}{Nagpur, India}
+\begin{itemize}
+\item Recipient of Fellowship from IIT Patna
+\item Research focus: Quantum algorithms and AI integration
+\end{itemize}
+\divider
+
+\cvevent{B.E. Computer Science \& Engineering}{Shri Ramdeobaba Kamla Nehru Engg. College}{2010}{Nagpur, India}
+\begin{itemize}
+\item 2nd prize in internal coding competition
+\end{itemize}
+\divider
+
+\cvevent{Diploma in Computer Technology}{Nagpur Polytechnic}{2007}{Nagpur, India}
+\begin{itemize}
+\item Gold medalist for 3 consecutive years
+\end{itemize}
+
+% Skills Column
+\switchcolumn
+
+\cvsection{Skills}
+\raggedright
+\cvtag{Cloud Migration}
+\cvtag{Microservices}
+\cvtag{Azure Infrastructure}
+\cvtag{Java}
+\cvtag{Spring Boot}
+\cvtag{GenAI}
+\cvtag{Quantum Computing}
+\cvtag{Legacy Modernization}
+\cvtag{DDD}
+\cvtag{Prompt Engineering}
+\cvtag{Project Management}
+\cvtag{Technical Research}
+
+\cvsection{Certifications}
+\begin{itemize}
+\item Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
+\item Microsoft Certified: Azure Administrator Associate (AZ-104)
+\item Designing Microsoft Azure Infrastructure Solutions (2023)
+\end{itemize}
+
+\cvsection{Awards \& Honors}
+\cvachievement{\faTrophy}{Contextual Master: GenAI for Mainframe Modernization}{2024}
+\cvachievement{\faTrophy}{Best Performer of the Year, TCS}{2021}
+\cvachievement{\faTrophy}{2nd Rank, Ignio Hackathon}{2019}
+\cvachievement{\faTrophy}{Special Mention, Data Privacy Day Challenge}{2014}
+\cvachievement{\faTrophy}{1st Place, TCS Initial Learning Program}{2011}
+
+\cvsection{Patents \& Publications}
+\cvachievement{\faCopyright}{Indian Patent: Compliance as a Service}{2024}
+\cvachievement{\faCopyright}{US Patent: Compliance Automation Platform}{2017}
+\cvachievement{\faFileAlt}{Technical Paper: Compliance as a Service}{2017}
+\cvachievement{\faFileAlt}{Submitted: Hybrid Quantum DOA Algorithm to IEEE TIM}{2025}
+
+\end{paracol}
+\end{document}

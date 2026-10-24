@@ -1,0 +1,207 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Define colors
+\definecolor{primarycolor}{RGB}{0,102,204}
+\definecolor{textcolor}{RGB}{51,51,51}
+\definecolor{sectioncolor}{RGB}{0,76,153}
+
+% Configure hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primarycolor,
+    urlcolor=primarycolor,
+    pdfborder={0 0 0}
+}
+
+% Remove page numbering
+\pagestyle{empty}
+
+% Configure section formatting
+\titleformat{\section}
+{\color{sectioncolor}\Large\bfseries\uppercase}
+{}
+{0em}
+{}[\color{sectioncolor}\titlerule]
+
+\titlespacing{\section}{0pt}{15pt}{8pt}
+
+% Configure subsection formatting
+\titleformat{\subsection}
+{\color{primarycolor}\large\bfseries}
+{}
+{0em}
+{}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[6]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeEducationSubheading}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Prasad Patil} \\ \vspace{3pt}
+    \small 
+    \faPhone\ +91 9021421601 $|$ 
+    \faEnvelope\ \href{mailto:479153@tcs.com}{479153@tcs.com} $|$ 
+    \faMapMarker\ Mihan, Nagpur, Maharashtra, India
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\small{Experienced Research and Technology Professional with 14+ years in software development, applied research, and cloud transformation, currently pursuing PhD in Quantum Computing, Cryptography, and Machine Learning. Proficient in GenAI-based legacy code analysis and migration, microservices architecture, and cloud-native design with deep focus on Microsoft Azure solutions. Strong blend of academic rigor and industrial experience, with proven track record in AI-driven transformations and published patents in intelligent compliance systems.}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Technical Architect}{August 2023 -- Present}
+    {Tata Consultancy Services (TCS)}{Nagpur, India}
+    {MBU Apps Infra Engineering - AI.Cloud Unit}{}
+    \resumeItemListStart
+        \resumeItem{Lead research and implementation initiatives for Azure Cloud Migration lifecycle tools, integrating Cloud Console, Migration Factory Hub, and Azure Well-Architected Framework}
+        \resumeItem{Architect solutions using GenAI for COBOL to Java migration with contextual understanding of legacy systems}
+        \resumeItem{Design modular, microservices-based systems following Domain-Driven Design (DDD) principles}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Technical Architect}{April 2019 -- July 2023}
+    {Tata Consultancy Services (TCS)}{Pune, India}
+    {ISN - Corporate Unit}{}
+    \resumeItemListStart
+        \resumeItem{Core contributor to ISN (Intelligent Services Networks) with focus on Spring Boot microservices and Azure cloud integration}
+        \resumeItem{Transformed legacy applications to microservices using Domain-Driven Design; deployed robust enterprise solutions on Azure platform}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Full Stack Developer \& Researcher}{April 2014 -- March 2019}
+    {Tata Research Development and Design Centre (TRDDC)}{Pune, India}
+    {Ignio Project - CTO \& Digitate Unit}{}
+    \resumeItemListStart
+        \resumeItem{Specialized in compliance automation for networks and operating systems; developed scalable full-stack solutions}
+        \resumeItem{Contributed to policy definition, compliance engines, and integrations for diverse enterprise infrastructure environments}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Developer \& Researcher}{March 2011 -- March 2014}
+    {Tata Research Development and Design Centre (TRDDC)}{Pune, India}
+    {eTransform Project - CTO Unit}{}
+    \resumeItemListStart
+        \resumeItem{Built standalone Java Swing modules for migration and transformation estimations}
+        \resumeItem{Leveraged multithreading, design patterns, and data structures to develop performance-sensitive applications}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {PhD Scholar in Quantum Computing, Cryptography \& Machine Learning}{Present}
+      {IIIT Nagpur}{Nagpur, India}
+      {Fellowship Recipient from IIT Patna}
+    \resumeEducationSubheading
+      {Bachelor of Engineering in Computer Science and Engineering}{2010}
+      {Shri Ramdeobaba Kamla Nehru Engineering College}{Nagpur, India}
+      {2nd Prize in Internal Coding Competition}
+    \resumeEducationSubheading
+      {Diploma in Computer Technology}{2007}
+      {Nagpur Polytechnic}{Nagpur, India}
+      {Gold Medalist for 3 Consecutive Years}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Core Expertise}{: Legacy Modernization, Cloud Migration, Microservices Architecture, GenAI for Code Transformation} \\
+     \textbf{Cloud \& Infrastructure}{: Microsoft Azure, Azure Solutions Architecture, Cloud-Native Design, Infrastructure as Code} \\
+     \textbf{Programming \& Frameworks}{: Java, Spring Boot, Domain-Driven Design, Full-Stack Development, Multithreading} \\
+     \textbf{AI \& Research}{: Prompt Engineering, Quantum Computing, Machine Learning, Technical Research, Applied Research} \\
+     \textbf{Management \& Tools}{: Project Management, Technical Writing, Compliance Systems, Network Automation}
+    }}
+ \end{itemize}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Microsoft Certified: Azure Solutions Architect Expert (AZ-305)}}{2024}
+  \resumeProjectHeading
+    {\textbf{Microsoft Certified: Azure Administrator Associate (AZ-104)}}{2024}
+\resumeSubHeadingListEnd
+
+%-----------PATENTS & PUBLICATIONS-----------
+\section{Patents \& Publications}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Hybrid Quantum DOA Algorithm} -- Submitted to IEEE TIM}{2025}
+  \resumeProjectHeading
+    {\textbf{Compliance as a Service} -- Indian Patent Application}{2024}
+  \resumeProjectHeading
+    {\textbf{Compliance Automation Platform} -- US Patent}{2017}
+  \resumeProjectHeading
+    {\textbf{Compliance as a Service} -- Technical Paper}{2017}
+\resumeSubHeadingListEnd
+
+%-----------AWARDS & HONORS-----------
+\section{Awards \& Honors}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Contextual Master: GenAI for Mainframe Modernization}}{2024}
+  \resumeProjectHeading
+    {\textbf{Best Performer of the Year} -- Tata Consultancy Services}{2021}
+  \resumeProjectHeading
+    {\textbf{2nd Rank} -- Ignio Hackathon}{2019}
+  \resumeProjectHeading
+    {\textbf{Special Mention} -- Data Privacy Day Challenge Fest}{2014}
+  \resumeProjectHeading
+    {\textbf{1st Place} -- Initial Learning Program Training, TCS}{2011}
+\resumeSubHeadingListEnd
+
+\end{document}
