@@ -4961,1611 +4961,3396 @@ mÕC'uE¬OÌ/î)v|<CÒi/’£‘≠≈stÎ’h∞∑•ÑwùﬂJ√ÎÃo•·%ö¿”E´|&pm0è"MÇZ¥œLnú^Úá
 ogDÀﬁnÙ‘˝v∆Ÿ{¸<π{Ñø„]pº‚ßÚﬁÒÆX·e_≈^¡€K«∂xΩõhØﬂä«öÃ˙}i˝F’vûGãÜQ⁄1„nGHª:›3Vı∆\@ÁÜÓ\Õ˝9Ã»Í	û;f±\‡.q’»⁄‰’Œ≥Ô¿·Ì‘I2•£d)ñá“˛,Ωƒ~'◊¢Rr-ñ"…t+Èœ¨F”ßÑ©ﬁNrj>ì\63ßz€C‚0Ï÷;ÊÜÁjÅ${£/∞ ™â4¡Ò9≥¡Pî6d˜¯"·Ä^kç8≥áåÅ®H≠¯Ë[ãfBeo˝y&GÔ£Ùsúù61ñç¥3√Î*]ˆ’6P6e√¢NV%ŸΩ™YPET "∞XO=a·í1Ö∏Fàá¬ …VhS‹j•ã-∆j˜<a≈ë˘GÙïƒán˝ªe1∆6cìGKª±òE];eàWW+ü∏ÆB\{s†ö;ñ´˘n.-]t)R˘ƒün¢Ó†7x6∞Ã∫»M‘_åeSÄûykbP~NHΩ˝≥Z‰ÿxÌÛˆp?πv◊yRÿ®¸Ùﬂœö˘.≈¬—p«kÁ≥Uáö"ﬁx˜⁄mûã"⁄òÁs\}€¶ÄC¨/∂BÆ\Ω∂Â<Wö*^BæQOò‡ΩáiuÊj7@˝S¶∞Ì¢V™ ™\˚≠»‰"´•p*ŒE¯á·ñπ◊Î€wQczÆvxŒOõuÖ
 ﬁLê^M0bØØ¿ﬁ3Ñ–Û¥’2•pÓıπ⁄ˆ∏—TìMø±ç)◊Ü÷Ø'£À$!?7,WKà2ß
 S8∞‰jKo„ëUKêÅ≤´Ü≠S˘" ØoÔ ⁄ÈÔ1˙ã3„.–˙?≈ÊÉ∂XÆ[´/‹R®VnÖRS!yﬁŸå≥Â·yBÿA(wYÀ‘NãA◊Ë|C•≈;¬E
-eÇ]bv¯˙d∞±$ñ28»≥zÂ◊mœªñJÅˆ≠í860Ã…ãZ˘.ö≠qâ’Bãp[ÑÆÿêµFÊ«nr≈Ùâ¬v\—ó¨Só£Ô"-–æ'Ï<&…´ãˇ};°≥ÌÑÀ∂∑—ﬂVBp±h"Hå÷EGAÆ6‰Â;,‰1‰»öÊ∫à9™˝ÓqƒÔœºº:KtdÓ¥8gf/frontendlayer/tikz/libraries/tikzlibrary
-arrows.code.tex
-File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\arrowsize=\dimen367
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.code.tex
-File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
-ric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
-ode.tex
-File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
-s.code.tex
-File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows
-.code.tex
-File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.callouts.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callou
-ts.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multip
-art.code.tex
-File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodepartlowerbox=\box113
-\pgfnodeparttwobox=\box114
-\pgfnodepartthreebox=\box115
-\pgfnodepartfourbox=\box116
-\pgfnodeparttwentybox=\box117
-\pgfnodepartnineteenbox=\box118
-\pgfnodeparteighteenbox=\box119
-\pgfnodepartseventeenbox=\box120
-\pgfnodepartsixteenbox=\box121
-\pgfnodepartfifteenbox=\box122
-\pgfnodepartfourteenbox=\box123
-\pgfnodepartthirteenbox=\box124
-\pgfnodeparttwelvebox=\box125
-\pgfnodepartelevenbox=\box126
-\pgfnodeparttenbox=\box127
-\pgfnodepartninebox=\box128
-\pgfnodeparteightbox=\box129
-\pgfnodepartsevenbox=\box130
-\pgfnodepartsixbox=\box131
-\pgfnodepartfivebox=\box132
-))) (/usr/share/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
-Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams fro
-m lists of items.
-
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count472
-\xs_countb=\count473
-)
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shadows.code.tex
-File: tikzlibraryshadows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-\pgf@layerbox@smart diagram arrow back=\box133
-\pgf@layerboxsaved@smart diagram arrow back=\box134
-
-(/usr/share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitio
-ns.code.tex)
-(/usr/share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.co
-de.tex)
-(/usr/share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.
-code.tex)) (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count474
-\l__lipsum_a_int=\count475
-\l__lipsum_b_int=\count476
-
-(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2026/04/26 v3.21 programmable bibliographies (PK/MW)
-
-(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count477
-
-(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count478
-\c@listtotal=\count479
-\c@listcount=\count480
-\c@liststart=\count481
-\c@liststop=\count482
-\c@citecount=\count483
-\c@citetotal=\count484
-\c@multicitecount=\count485
-\c@multicitetotal=\count486
-\c@instcount=\count487
-\c@maxnames=\count488
-\c@minnames=\count489
-\c@maxitems=\count490
-\c@minitems=\count491
-\c@citecounter=\count492
-\c@maxcitecounter=\count493
-\c@savedcitecounter=\count494
-\c@uniquelist=\count495
-\c@uniquename=\count496
-\c@refsection=\count497
-\c@refsegment=\count498
-\c@maxextratitle=\count499
-\c@maxextratitleyear=\count500
-\c@maxextraname=\count501
-\c@maxextradate=\count502
-\c@maxextraalpha=\count503
-\c@abbrvpenalty=\count504
-\c@highnamepenalty=\count505
-\c@lownamepenalty=\count506
-\c@maxparens=\count507
-\c@parenlevel=\count508
-\blx@tempcnta=\count509
-\blx@tempcntb=\count510
-\blx@tempcntc=\count511
-\c@blx@maxsection=\count512
-\blx@maxsegment@0=\count513
-\blx@notetype=\count514
-\blx@parenlevel@text=\count515
-\blx@parenlevel@foot=\count516
-\blx@sectionciteorder@0=\count517
-\blx@sectionciteorderinternal@0=\count518
-\blx@entrysetcounter=\count519
-\blx@biblioinstance=\count520
-\labelnumberwidth=\skip79
-\labelalphawidth=\skip80
-\biblabelsep=\skip81
-\bibitemsep=\skip82
-\bibnamesep=\skip83
-\bibinitsep=\skip84
-\bibparsep=\skip85
-\bibhang=\skip86
-\blx@bcfin=\read6
-\blx@bcfout=\write6
-\blx@langwohyphens=\language6
-\c@mincomprange=\count521
-\c@maxcomprange=\count522
-\c@mincompwidth=\count523
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2026/04/26 v3.21 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex citestyle data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
-Package biblatex Info: Trying to load biblatex bibstyle data model...
-Package biblatex Info: ... file 'apa.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count524
-\c@savedafterword=\count525
-\c@annotator=\count526
-\c@savedannotator=\count527
-\c@author=\count528
-\c@savedauthor=\count529
-\c@bookauthor=\count530
-\c@savedbookauthor=\count531
-\c@commentator=\count532
-\c@savedcommentator=\count533
-\c@editor=\count534
-\c@savededitor=\count535
-\c@editora=\count536
-\c@savededitora=\count537
-\c@editorb=\count538
-\c@savededitorb=\count539
-\c@editorc=\count540
-\c@savededitorc=\count541
-\c@foreword=\count542
-\c@savedforeword=\count543
-\c@holder=\count544
-\c@savedholder=\count545
-\c@introduction=\count546
-\c@savedintroduction=\count547
-\c@namea=\count548
-\c@savednamea=\count549
-\c@nameb=\count550
-\c@savednameb=\count551
-\c@namec=\count552
-\c@savednamec=\count553
-\c@translator=\count554
-\c@savedtranslator=\count555
-\c@shortauthor=\count556
-\c@savedshortauthor=\count557
-\c@shorteditor=\count558
-\c@savedshorteditor=\count559
-\c@labelname=\count560
-\c@savedlabelname=\count561
-\c@institution=\count562
-\c@savedinstitution=\count563
-\c@lista=\count564
-\c@savedlista=\count565
-\c@listb=\count566
-\c@savedlistb=\count567
-\c@listc=\count568
-\c@savedlistc=\count569
-\c@listd=\count570
-\c@savedlistd=\count571
-\c@liste=\count572
-\c@savedliste=\count573
-\c@listf=\count574
-\c@savedlistf=\count575
-\c@location=\count576
-\c@savedlocation=\count577
-\c@organization=\count578
-\c@savedorganization=\count579
-\c@origlocation=\count580
-\c@savedoriglocation=\count581
-\c@origpublisher=\count582
-\c@savedorigpublisher=\count583
-\c@publisher=\count584
-\c@savedpublisher=\count585
-\c@language=\count586
-\c@savedlanguage=\count587
-\c@origlanguage=\count588
-\c@savedoriglanguage=\count589
-\c@pageref=\count590
-\c@savedpageref=\count591
-\shorthandwidth=\skip87
-\shortjournalwidth=\skip88
-\shortserieswidth=\skip89
-\shorttitlewidth=\skip90
-\shortauthorwidth=\skip91
-\shorteditorwidth=\skip92
-\locallabelnumberwidth=\skip93
-\locallabelalphawidth=\skip94
-\localshorthandwidth=\skip95
-\localshortjournalwidth=\skip96
-\localshortserieswidth=\skip97
-\localshorttitlewidth=\skip98
-\localshortauthorwidth=\skip99
-\localshorteditorwidth=\skip100
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-unicode.def)
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2026/04/26 v3.21 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2026/04/26 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count592
-\c@textcitetotal=\count593
-\c@textcitemaxnames=\count594
-\c@biburlbigbreakpenalty=\count595
-\c@biburlbreakpenalty=\count596
-\c@biburlnumpenalty=\count597
-\c@biburlucpenalty=\count598
-\c@biburllcpenalty=\count599
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count600
-)
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' not found.
-
-
-! Package biblatex Error: Style 'apa' not found.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16439 \RequireBibliographyStyle{\blx@bbxfile}
-                                               
-The bibliography style 'apa' could not be found.
-
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2026/04/26 v3.21 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2026-01-19 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2026/04/26 v3.21 expl3 case changing code for biblatex
-))
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count601
-\csq@gtype=\count602
-\csq@glevel=\count603
-\csq@qlevel=\count604
-\csq@maxlvl=\count605
-\csq@tshold=\count606
-\csq@ltx@everypar=\toks60
-
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
-File: csquotes.cfg 
-))
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2026/04/26 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2026/04/26 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count607
-\c@bbx:relatedtotal=\count608
-))
-
-LaTeX Warning: Writing or overwriting file `self.bib'.
-
-\openout15 = `self.bib'.
-
-
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
-(./inria-poster.aux
-<Reading QR code for \protect \errhelp {Use `` for a simple double quote charac
-ter.}\errmessage {ngerman: The command "\qr@savedmatrix@name is undefined}``htt
-ps://github.com/Inria-Chile/inria-latex-poster\protect √§t level 4-M from aux fi
-le.>
-)
-\openout1 = `inria-poster.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 2335.97145pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 3383.0325pt, 0.0pt)
-* \paperwidth=2392.87694pt
-* \paperheight=3383.0325pt
-* \textwidth=2335.97145pt
-* \textheight=3354.57977pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-72.26999pt
-* \headheight=14.22636pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-Package hyperref Info: Link coloring OFF on input line 146.
-(./inria-poster.out) (./inria-poster.out)
-\@outlinefile=\write7
-\openout7 = `inria-poster.out'.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 146.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 146.
-\symnumbers=\mathgroup12
-\sympureletters=\mathgroup13
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/InriaSans(1)/m/n --> TU/InriaSans(0)/m/n on input li
-ne 146.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 146.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/InriaSans(0)/m/n on input line 146.
-
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/InriaSans(0)/m/n on input line 146
-.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/InriaSans(1)/m/it --> TU/InriaSans(0)/m/it on input 
-line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/InriaSans(1)/bx/it --> TU/InriaSans(0)/m/it on input
- line 146.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 146.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/InriaSans(0)/m/n --> TU/InriaSans(0)/b/n on input li
-ne 146.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/InriaSans(0)/m/it --> TU/InriaSans(0)/b/it on input 
-line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/InriaSans(0)/b/n --> TU/InriaSans(0)/b/n on input li
-ne 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/InriaSans(0)/m/n --> TU/InriaSans(0)/b/n on input li
-ne 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/InriaSans(0)/m/it --> TU/InriaSans(0)/b/it on input 
-line 146.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/FiraCode(0)/m/n --> TU/FiraCode(0)/b/n on input line
- 146.
-
-(/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
-.dict
-Dictionary: translator-basic-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-
-English.dict
-Dictionary: translator-bibliography-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-environment-dictionary-E
-nglish.dict
-Dictionary: translator-environment-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-months-dictionary-Englis
-h.dict
-Dictionary: translator-months-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-Engli
-sh.dict
-Dictionary: translator-numbers-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
-sh.dict
-Dictionary: translator-theorem-dictionary, Language: English 
-)
-\c@lstlisting=\count609
-LaTeX Encoding Info:    Redeclaring text command \" (encoding T1) on input line
- 146.
-LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input lin
-e 146.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2026/04/26 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout6 = `inria-poster.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'inria-poster.bbl' not found.
-
-No file inria-poster.bbl.
-
-Package biblatex Warning: citation 'knuth:tex'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'russell2020artificial'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'hu2026postermeldmultiagentpapertopostergene
-ration'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-
-Package biblatex Warning: citation 'this-paper'
-(biblatex)                was not found at all in the .bbl file,
-(biblatex)                bibliography labels cannot be generated,
-(biblatex)                please correct the citation.
-
-Package biblatex Info: Reference section=0 on input line 146.
-Package biblatex Info: Reference segment=0 on input line 146.
-(./inria-poster.nav)
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 14.62796pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 36.39577pt on input line 146.
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 14.28163pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 51.17587pt on input line 146.
-LaTeX Font Info:    Font shape `TU/FiraCode(0)/m/n' will be
-(Font)              scaled to size 25.77438pt on input line 146.
-
-! Font TU/FiraCode(0)/m/n/34.83="Fira Code" at 25.77438pt not loadable: Metric 
-(TFM) file or installed font not found.
-<to be read again> 
-                   relax 
-l.146 \begin{document}
-                      
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 30.3269pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 21.22873pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 15.16344pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 21.22873pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 15.16344pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 30.3269pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 21.22873pt on input line 146.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 15.16344pt on input line 146.
-! \textfont 0 is undefined (character h).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character p).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character :).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character /).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character /).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character n).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character c).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character f).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character @).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character n).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character c).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.146 \begin{document}
-                      
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
-! \textfont 0 is undefined (character h).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character p).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character :).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character /).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character /).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character n).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character c).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character f).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character @).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character n).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character c).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.147 \begin{frame}[fragile]{
-                             }
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-\openout4 = `inria-poster.vrb'.
-
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
-! \textfont 0 is undefined (character h).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character p).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character :).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character /).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character /).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character n).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character c).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character f).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character r).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character .).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character l).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character a).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character s).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character t).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character @).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that character.
-
-! \textfont 0 is undefined (character i).
-\Url@FormatString ...\Url@String \UrlRight \m@th $
-                                                  
-l.390 \end{frame}
-                 
-Somewhere in the math formula just ended, you used the
-stated character from an undefined font family. For example,
-plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I needed that char
+eÇ]bv¯˙d∞±$ñ28»≥zÂ◊mœªñJÅˆ≠í860Ã…ãZ˘.ö≠qâ’Bãp[ÑÆÿêµFÊ«nr≈Ùâ¬v\—ó¨Só£Ô"-–æ'Ï<&…´ãˇ};°≥ÌÑÀ∂∑—ﬂVBp±h"Hå÷EGAÆ6‰Â;,‰1‰»öÊ∫à9™˝ÓqƒÔœºº:KtdÓ¥8
+   ["name"]="Ihookabove",
+   ["unicode"]=7880,
+   ["width"]=278,
+  },
+  [7881]={
+   ["boundingbox"]={ 22, 0, 216, 718 },
+   ["index"]=356,
+   ["name"]="ihookabove",
+   ["unicode"]=7881,
+   ["width"]=239,
+  },
+  [7882]={
+   ["boundingbox"]={ 94, -200, 183, 694 },
+   ["index"]=351,
+   ["name"]="Idotbelow",
+   ["unicode"]=7882,
+   ["width"]=278,
+  },
+  [7883]={
+   ["boundingbox"]={ 75, -200, 164, 655 },
+   ["index"]=352,
+   ["name"]="idotbelow",
+   ["unicode"]=7883,
+   ["width"]=239,
+  },
+  [7884]={
+   ["boundingbox"]={ 56, -200, 679, 716 },
+   ["index"]=443,
+   ["name"]="Odotbelow",
+   ["unicode"]=7884,
+   ["width"]=736,
+  },
+  [7885]={
+   ["boundingbox"]={ 30, -200, 469, 461 },
+   ["index"]=444,
+   ["name"]="odotbelow",
+   ["unicode"]=7885,
+   ["width"]=500,
+  },
+  [7886]={
+   ["boundingbox"]={ 56, -22, 679, 951 },
+   ["index"]=451,
+   ["name"]="Ohookabove",
+   ["unicode"]=7886,
+   ["width"]=736,
+  },
+  [7887]={
+   ["boundingbox"]={ 30, -11, 469, 718 },
+   ["index"]=452,
+   ["name"]="ohookabove",
+   ["unicode"]=7887,
+   ["width"]=500,
+  },
+  [7888]={
+   ["boundingbox"]=107,
+   ["index"]=429,
+   ["name"]="Ocircumflexacute",
+   ["unicode"]=7888,
+   ["width"]=736,
+  },
+  [7889]={
+   ["boundingbox"]=108,
+   ["index"]=430,
+   ["name"]="ocircumflexacute",
+   ["unicode"]=7889,
+   ["width"]=500,
+  },
+  [7890]={
+   ["boundingbox"]=107,
+   ["index"]=433,
+   ["name"]="Ocircumflexgrave",
+   ["unicode"]=7890,
+   ["width"]=736,
+  },
+  [7891]={
+   ["boundingbox"]=108,
+   ["index"]=434,
+   ["name"]="ocircumflexgrave",
+   ["unicode"]=7891,
+   ["width"]=500,
+  },
+  [7892]={
+   ["boundingbox"]={ 56, -22, 679, 1100 },
+   ["index"]=435,
+   ["name"]="Ocircumflexhookabove",
+   ["unicode"]=7892,
+   ["width"]=736,
+  },
+  [7893]={
+   ["boundingbox"]={ 30, -11, 469, 889 },
+   ["index"]=436,
+   ["name"]="ocircumflexhookabove",
+   ["unicode"]=7893,
+   ["width"]=500,
+  },
+  [7894]={
+   ["boundingbox"]={ 56, -22, 679, 1044 },
+   ["index"]=437,
+   ["name"]="Ocircumflextilde",
+   ["unicode"]=7894,
+   ["width"]=736,
+  },
+  [7895]={
+   ["boundingbox"]={ 30, -11, 469, 833 },
+   ["index"]=438,
+   ["name"]="ocircumflextilde",
+   ["unicode"]=7895,
+   ["width"]=500,
+  },
+  [7896]={
+   ["boundingbox"]={ 56, -200, 679, 870 },
+   ["index"]=431,
+   ["name"]="Ocircumflexdotbelow",
+   ["unicode"]=7896,
+   ["width"]=736,
+  },
+  [7897]={
+   ["boundingbox"]={ 30, -200, 469, 697 },
+   ["index"]=432,
+   ["name"]="ocircumflexdotbelow",
+   ["unicode"]=7897,
+   ["width"]=500,
+  },
+  [7898]={
+   ["boundingbox"]=109,
+   ["index"]=455,
+   ["name"]="Ohornacute",
+   ["unicode"]=7898,
+   ["width"]=736,
+  },
+  [7899]={
+   ["boundingbox"]=110,
+   ["index"]=456,
+   ["name"]="ohornacute",
+   ["unicode"]=7899,
+   ["width"]=500,
+  },
+  [7900]={
+   ["boundingbox"]=109,
+   ["index"]=459,
+   ["name"]="Ohorngrave",
+   ["unicode"]=7900,
+   ["width"]=736,
+  },
+  [7901]={
+   ["boundingbox"]=110,
+   ["index"]=460,
+   ["name"]="ohorngrave",
+   ["unicode"]=7901,
+   ["width"]=500,
+  },
+  [7902]={
+   ["boundingbox"]={ 55, -22, 679, 951 },
+   ["index"]=461,
+   ["name"]="Ohornhookabove",
+   ["unicode"]=7902,
+   ["width"]=736,
+  },
+  [7903]={
+   ["boundingbox"]={ 30, -11, 470, 718 },
+   ["index"]=462,
+   ["name"]="ohornhookabove",
+   ["unicode"]=7903,
+   ["width"]=500,
+  },
+  [7904]={
+   ["boundingbox"]={ 55, -22, 679, 855 },
+   ["index"]=463,
+   ["name"]="Ohorntilde",
+   ["unicode"]=7904,
+   ["width"]=736,
+  },
+  [7905]={
+   ["boundingbox"]={ 30, -11, 470, 670 },
+   ["index"]=464,
+   ["name"]="ohorntilde",
+   ["unicode"]=7905,
+   ["width"]=500,
+  },
+  [7906]={
+   ["boundingbox"]={ 55, -200, 679, 778 },
+   ["index"]=457,
+   ["name"]="Ohorndotbelow",
+   ["unicode"]=7906,
+   ["width"]=736,
+  },
+  [7907]={
+   ["boundingbox"]={ 30, -200, 470, 528 },
+   ["index"]=458,
+   ["name"]="ohorndotbelow",
+   ["unicode"]=7907,
+   ["width"]=500,
+  },
+  [7908]={
+   ["boundingbox"]={ 94, -200, 593, 694 },
+   ["index"]=586,
+   ["name"]="Udotbelow",
+   ["unicode"]=7908,
+   ["width"]=688,
+  },
+  [7909]={
+   ["boundingbox"]={ 81, -200, 435, 444 },
+   ["index"]=587,
+   ["name"]="udotbelow",
+   ["unicode"]=7909,
+   ["width"]=517,
+  },
+  [7910]={
+   ["boundingbox"]={ 94, -22, 593, 951 },
+   ["index"]=590,
+   ["name"]="Uhookabove",
+   ["unicode"]=7910,
+   ["width"]=688,
+  },
+  [7911]={
+   ["boundingbox"]={ 81, -11, 435, 718 },
+   ["index"]=591,
+   ["name"]="uhookabove",
+   ["unicode"]=7911,
+   ["width"]=517,
+  },
+  [7912]={
+   ["boundingbox"]=112,
+   ["index"]=594,
+   ["name"]="Uhornacute",
+   ["unicode"]=7912,
+   ["width"]=687,
+  },
+  [7913]={
+   ["boundingbox"]=113,
+   ["index"]=595,
+   ["name"]="uhornacute",
+   ["unicode"]=7913,
+   ["width"]=544,
+  },
+  [7914]={
+   ["boundingbox"]=112,
+   ["index"]=598,
+   ["name"]="Uhorngrave",
+   ["unicode"]=7914,
+   ["width"]=687,
+  },
+  [7915]={
+   ["boundingbox"]=113,
+   ["index"]=599,
+   ["name"]="uhorngrave",
+   ["unicode"]=7915,
+   ["width"]=544,
+  },
+  [7916]={
+   ["boundingbox"]={ 94, -22, 690, 951 },
+   ["index"]=600,
+   ["name"]="Uhornhookabove",
+   ["unicode"]=7916,
+   ["width"]=687,
+  },
+  [7917]={
+   ["boundingbox"]={ 80, -11, 534, 718 },
+   ["index"]=601,
+   ["name"]="uhornhookabove",
+   ["unicode"]=7917,
+   ["width"]=544,
+  },
+  [7918]={
+   ["boundingbox"]={ 94, -22, 690, 855 },
+   ["index"]=602,
+   ["name"]="Uhorntilde",
+   ["unicode"]=7918,
+   ["width"]=687,
+  },
+  [7919]={
+   ["boundingbox"]={ 80, -11, 534, 670 },
+   ["index"]=603,
+   ["name"]="uhorntilde",
+   ["unicode"]=7919,
+   ["width"]=544,
+  },
+  [7920]={
+   ["boundingbox"]={ 94, -200, 690, 778 },
+   ["index"]=596,
+   ["name"]="Uhorndotbelow",
+   ["unicode"]=7920,
+   ["width"]=687,
+  },
+  [7921]={
+   ["boundingbox"]={ 80, -200, 534, 528 },
+   ["index"]=597,
+   ["name"]="uhorndotbelow",
+   ["unicode"]=7921,
+   ["width"]=544,
+  },
+  [7922]={
+   ["boundingbox"]=52,
+   ["index"]=639,
+   ["name"]="Ygrave",
+   ["unicode"]=7922,
+   ["width"]=667,
+  },
+  [7923]={
+   ["boundingbox"]=65,
+   ["index"]=640,
+   ["name"]="ygrave",
+   ["unicode"]=7923,
+   ["width"]=461,
+  },
+  [7924]={
+   ["boundingbox"]={ 3, -200, 663, 694 },
+   ["index"]=636,
+   ["name"]="Ydotbelow",
+   ["unicode"]=7924,
+   ["width"]=667,
+  },
+  [7925]={
+   ["boundingbox"]=28,
+   ["index"]=637,
+   ["name"]="ydotbelow",
+   ["unicode"]=7925,
+   ["width"]=461,
+  },
+  [7926]={
+   ["boundingbox"]={ 3, 0, 663, 951 },
+   ["index"]=641,
+   ["name"]="Yhookabove",
+   ["unicode"]=7926,
+   ["width"]=667,
+  },
+  [7927]={
+   ["boundingbox"]={ 14, -205, 446, 718 },
+   ["index"]=642,
+   ["name"]="yhookabove",
+   ["unicode"]=7927,
+   ["width"]=461,
+  },
+  [7928]={
+   ["boundingbox"]={ 3, 0, 663, 855 },
+   ["index"]=643,
+   ["name"]="Ytilde",
+   ["unicode"]=7928,
+   ["width"]=667,
+  },
+  [7929]={
+   ["boundingbox"]={ 14, -205, 446, 670 },
+   ["index"]=644,
+   ["name"]="ytilde",
+   ["unicode"]=7929,
+   ["width"]=461,
+  },
+  [8208]={
+   ["boundingbox"]=130,
+   ["index"]=610,
+   ["name"]="uni2010",
+   ["unicode"]=8208,
+   ["width"]=333,
+  },
+  [8209]={
+   ["boundingbox"]=130,
+   ["index"]=611,
+   ["name"]="uni2011",
+   ["unicode"]=8209,
+   ["width"]=333,
+  },
+  [8211]={
+   ["boundingbox"]={ 0, 244, 499, 305 },
+   ["index"]=284,
+   ["name"]="endash",
+   ["unicode"]=8211,
+   ["width"]=500,
+  },
+  [8212]={
+   ["boundingbox"]={ 0, 244, 999, 305 },
+   ["index"]=283,
+   ["name"]="emdash",
+   ["unicode"]=8212,
+   ["width"]=1000,
+  },
+  [8214]={
+   ["boundingbox"]={ 119, -250, 279, 750 },
+   ["index"]=227,
+   ["name"]="dblverticalbar",
+   ["unicode"]=8214,
+   ["width"]=398,
+  },
+  [8216]={
+   ["boundingbox"]=91,
+   ["index"]=501,
+   ["name"]="quoteleft",
+   ["unicode"]=8216,
+   ["width"]=278,
+  },
+  [8217]={
+   ["boundingbox"]=91,
+   ["index"]=502,
+   ["name"]="quoteright",
+   ["unicode"]=8217,
+   ["width"]=278,
+  },
+  [8218]={
+   ["boundingbox"]={ 97, -124, 180, 84 },
+   ["index"]=503,
+   ["name"]="quotesinglbase",
+   ["unicode"]=8218,
+   ["width"]=278,
+  },
+  [8220]={
+   ["boundingbox"]={ 97, 486, 374, 694 },
+   ["index"]=499,
+   ["name"]="quotedblleft",
+   ["unicode"]=8220,
+   ["width"]=472,
+  },
+  [8221]={
+   ["boundingbox"]={ 98, 486, 375, 694 },
+   ["index"]=500,
+   ["name"]="quotedblright",
+   ["unicode"]=8221,
+   ["width"]=472,
+  },
+  [8222]={
+   ["boundingbox"]={ 98, -124, 375, 84 },
+   ["index"]=498,
+   ["name"]="quotedblbase",
+   ["unicode"]=8222,
+   ["width"]=472,
+  },
+  [8224]={
+   ["boundingbox"]={ 56, -216, 387, 705 },
+   ["index"]=222,
+   ["name"]="dagger",
+   ["unicode"]=8224,
+   ["width"]=444,
+  },
+  [8225]={
+   ["boundingbox"]={ 56, -205, 387, 705 },
+   ["index"]=223,
+   ["name"]="daggerdbl",
+   ["unicode"]=8225,
+   ["width"]=444,
+  },
+  [8226]={
+   ["boundingbox"]=122,
+   ["index"]=199,
+   ["name"]="bullet",
+   ["unicode"]=8226,
+   ["width"]=778,
+  },
+  [8230]={
+   ["boundingbox"]={ 98, 0, 529, 83 },
+   ["index"]=280,
+   ["name"]="ellipsis",
+   ["unicode"]=8230,
+   ["width"]=626,
+  },
+  [8240]={
+   ["boundingbox"]={ 63, -56, 1091, 750 },
+   ["index"]=488,
+   ["name"]="perthousand",
+   ["unicode"]=8240,
+   ["width"]=1154,
+  },
+  [8241]={
+   ["boundingbox"]={ 56, -56, 1431, 750 },
+   ["index"]=487,
+   ["name"]="permyriad",
+   ["unicode"]=8241,
+   ["width"]=1471,
+  },
+  [8249]={
+   ["boundingbox"]={ 111, 0, 277, 439 },
+   ["index"]=321,
+   ["name"]="guilsinglleft",
+   ["unicode"]=8249,
+   ["width"]=333,
+  },
+  [8250]={
+   ["boundingbox"]={ 56, 0, 222, 439 },
+   ["index"]=322,
+   ["name"]="guilsinglright",
+   ["unicode"]=8250,
+   ["width"]=333,
+  },
+  [8251]={
+   ["boundingbox"]=33,
+   ["index"]=520,
+   ["name"]="referencemark",
+   ["unicode"]=8251,
+   ["width"]=778,
+  },
+  [8253]={
+   ["boundingbox"]={ 43, 0, 402, 726 },
+   ["index"]=362,
+   ["name"]="interrobang",
+   ["unicode"]=8253,
+   ["width"]=472,
+  },
+  [8255]={
+   ["boundingbox"]=94,
+   ["index"]=608,
+   ["name"]="uni203F",
+   ["unicode"]=8255,
+   ["width"]=597,
+  },
+  [8256]={
+   ["boundingbox"]=95,
+   ["index"]=560,
+   ["name"]="uni2040",
+   ["unicode"]=8256,
+   ["width"]=597,
+  },
+  [8260]={
+   ["boundingbox"]={ 56, 20, 502, 674 },
+   ["index"]=302,
+   ["name"]="fraction",
+   ["unicode"]=8260,
+   ["width"]=558,
+  },
+  [8261]={
+   ["boundingbox"]={ 71, -309, 308, 751 },
+   ["index"]=496,
+   ["name"]="quillbracketleft",
+   ["unicode"]=8261,
+   ["width"]=361,
+  },
+  [8262]={
+   ["boundingbox"]={ 53, -249, 289, 751 },
+   ["index"]=497,
+   ["name"]="quillbracketright",
+   ["unicode"]=8262,
+   ["width"]=361,
+  },
+  [8274]={
+   ["boundingbox"]={ 56, 1, 444, 751 },
+   ["index"]=239,
+   ["name"]="discount",
+   ["unicode"]=8274,
+   ["width"]=500,
+  },
+  [8276]={
+   ["boundingbox"]=94,
+   ["index"]=609,
+   ["name"]="uni2054",
+   ["unicode"]=8276,
+   ["width"]=597,
+  },
+  [8353]={
+   ["boundingbox"]={ 67, -96, 588, 790 },
+   ["index"]=218,
+   ["name"]="colonmonetary",
+   ["unicode"]=8353,
+   ["width"]=639,
+  },
+  [8356]={
+   ["boundingbox"]=32,
+   ["index"]=388,
+   ["name"]="lira",
+   ["unicode"]=8356,
+   ["width"]=667,
+  },
+  [8358]={
+   ["boundingbox"]={ 53, 0, 654, 694 },
+   ["index"]=407,
+   ["name"]="naira",
+   ["unicode"]=8358,
+   ["width"]=708,
+  },
+  [8361]={
+   ["boundingbox"]=22,
+   ["index"]=628,
+   ["name"]="won",
+   ["unicode"]=8361,
+   ["width"]=944,
+  },
+  [8363]={
+   ["boundingbox"]={ 34, -64, 486, 694 },
+   ["index"]=244,
+   ["name"]="dong",
+   ["unicode"]=8363,
+   ["width"]=517,
+  },
+  [8364]={
+   ["boundingbox"]={ 51, -22, 549, 716 },
+   ["index"]=299,
+   ["name"]="Euro",
+   ["unicode"]=8364,
+   ["width"]=599,
+  },
+  [8369]={
+   ["boundingbox"]={ 20, 0, 582, 694 },
+   ["index"]=489,
+   ["name"]="peso",
+   ["unicode"]=8369,
+   ["width"]=639,
+  },
+  [8451]={
+   ["boundingbox"]={ 1, -21, 810, 717 },
+   ["index"]=214,
+   ["name"]="centigrade",
+   ["unicode"]=8451,
+   ["width"]=861,
+  },
+  [8470]={
+   ["boundingbox"]={ 95, 0, 741, 695 },
+   ["index"]=420,
+   ["name"]="numero",
+   ["unicode"]=8470,
+   ["width"]=819,
+  },
+  [8471]={
+   ["boundingbox"]=35,
+   ["index"]=494,
+   ["name"]="published",
+   ["unicode"]=8471,
+   ["width"]=694,
+  },
+  [8478]={
+   ["boundingbox"]=19,
+   ["index"]=519,
+   ["name"]="recipe",
+   ["unicode"]=8478,
+   ["width"]=646,
+  },
+  [8480]={
+   ["boundingbox"]={ 26, 252, 764, 694 },
+   ["index"]=541,
+   ["name"]="servicemark",
+   ["unicode"]=8480,
+   ["width"]=858,
+  },
+  [8482]={
+   ["boundingbox"]={ 22, 282, 851, 698 },
+   ["index"]=566,
+   ["name"]="trademark",
+   ["unicode"]=8482,
+   ["width"]=933,
+  },
+  [8486]={
+   ["boundingbox"]=121,
+   ["index"]=450,
+   ["name"]="ohm",
+   ["unicode"]=8486,
+   ["width"]=722,
+  },
+  [8487]={
+   ["boundingbox"]={ 45, -22, 678, 694 },
+   ["index"]=399,
+   ["name"]="uni2127",
+   ["unicode"]=8487,
+   ["width"]=722,
+  },
+  [8494]={
+   ["boundingbox"]={ 28, -10, 640, 712 },
+   ["index"]=292,
+   ["name"]="estimated",
+   ["unicode"]=8494,
+   ["width"]=669,
+  },
+  [8592]={
+   ["boundingbox"]={ 56, -9, 944, 511 },
+   ["index"]=184,
+   ["name"]="uni2190",
+   ["unicode"]=8592,
+   ["width"]=1000,
+  },
+  [8593]={
+   ["boundingbox"]={ 28, -201, 472, 694 },
+   ["index"]=186,
+   ["name"]="uni2191",
+   ["unicode"]=8593,
+   ["width"]=500,
+  },
+  [8594]={
+   ["boundingbox"]={ 55, -9, 943, 511 },
+   ["index"]=185,
+   ["name"]="uni2192",
+   ["unicode"]=8594,
+   ["width"]=1000,
+  },
+  [8595]={
+   ["boundingbox"]={ 28, -194, 472, 701 },
+   ["index"]=183,
+   ["name"]="uni2193",
+   ["unicode"]=8595,
+   ["width"]=500,
+  },
+  [8722]={
+   ["boundingbox"]={ 56, 230, 721, 270 },
+   ["index"]=400,
+   ["name"]="minus",
+   ["unicode"]=8722,
+   ["width"]=778,
+  },
+  [8725]={
+   ["boundingbox"]={ -223, 20, 223, 674 },
+   ["index"]=303,
+   ["name"]="fraction.alt",
+   ["unicode"]=8725,
+   ["width"]=0,
+  },
+  [8727]={
+   ["boundingbox"]={ 64, 29, 435, 473 },
+   ["index"]=187,
+   ["name"]="asterisk.math",
+   ["unicode"]=8727,
+   ["width"]=500,
+  },
+  [8730]={
+   ["boundingbox"]={ 24, -104, 522, 763 },
+   ["index"]=506,
+   ["name"]="radical",
+   ["unicode"]=8730,
+   ["width"]=472,
+  },
+  [8734]={
+   ["boundingbox"]={ 56, -24, 944, 468 },
+   ["index"]=361,
+   ["name"]="infinity",
+   ["unicode"]=8734,
+   ["width"]=1000,
+  },
+  [8738]={
+   ["boundingbox"]=2,
+   ["index"]=174,
+   ["name"]="anglearc",
+   ["unicode"]=8738,
+   ["width"]=778,
+  },
+  [8960]={
+   ["boundingbox"]=2,
+   ["index"]=236,
+   ["name"]="diameter",
+   ["unicode"]=8960,
+   ["width"]=778,
+  },
+  [9001]={
+   ["boundingbox"]={ 110, -249, 333, 751 },
+   ["index"]=175,
+   ["name"]="angleleft",
+   ["unicode"]=9001,
+   ["width"]=389,
+  },
+  [9002]={
+   ["boundingbox"]={ 55, -249, 278, 751 },
+   ["index"]=176,
+   ["name"]="angleright",
+   ["unicode"]=9002,
+   ["width"]=389,
+  },
+  [9250]={
+   ["boundingbox"]={ 0, -11, 480, 694 },
+   ["index"]=192,
+   ["name"]="blanksymbol",
+   ["unicode"]=9250,
+   ["width"]=517,
+  },
+  [9251]={
+   ["boundingbox"]={ 42, -118, 458, 247 },
+   ["index"]=612,
+   ["name"]="uni2423",
+   ["unicode"]=9251,
+   ["width"]=500,
+  },
+  [9702]={
+   ["boundingbox"]=122,
+   ["index"]=476,
+   ["name"]="openbullet",
+   ["unicode"]=9702,
+   ["width"]=778,
+  },
+  [9834]={
+   ["boundingbox"]={ 56, -30, 556, 723 },
+   ["index"]=404,
+   ["name"]="uni266A",
+   ["unicode"]=9834,
+   ["width"]=611,
+  },
+  [9901]={
+   ["boundingbox"]={ -89, 29, 589, 473 },
+   ["index"]=396,
+   ["name"]="married",
+   ["unicode"]=9901,
+   ["width"]=500,
+  },
+  [9902]={
+   ["boundingbox"]={ -201, -113, 700, 615 },
+   ["index"]=241,
+   ["name"]="divorced",
+   ["unicode"]=9902,
+   ["width"]=500,
+  },
+  [10214]={
+   ["boundingbox"]={ 118, -249, 380, 751 },
+   ["index"]=224,
+   ["name"]="dblbracketleft",
+   ["unicode"]=10214,
+   ["width"]=403,
+  },
+  [10215]={
+   ["boundingbox"]={ 23, -249, 284, 751 },
+   ["index"]=225,
+   ["name"]="dblbracketright",
+   ["unicode"]=10215,
+   ["width"]=403,
+  },
+  [59395]={
+   ["boundingbox"]={ 27, 0, 771, 705 },
+   ["index"]=654,
+   ["name"]="f_k",
+   ["unicode"]={ 102, 107 },
+   ["width"]=792,
+  },
+  [59904]={
+   ["boundingbox"]={ 155, 496, 441, 618 },
+   ["index"]=655,
+   ["name"]="acute.cap",
+   ["unicode"]=180,
+   ["width"]=500,
+  },
+  [59905]={
+   ["boundingbox"]={ -310, 777, -99, 944 },
+   ["index"]=656,
+   ["name"]="uni0301.cap",
+   ["unicode"]=769,
+   ["width"]=0,
+  },
+  [59906]={
+   ["boundingbox"]=88,
+   ["index"]=657,
+   ["name"]="breve.cap",
+   ["unicode"]=728,
+   ["width"]=500,
+  },
+  [59907]={
+   ["boundingbox"]=129,
+   ["index"]=658,
+   ["name"]="space_uni0306_uni0301.cap",
+   ["unicode"]={ 32, 774, 769 },
+   ["width"]=500,
+  },
+  [59908]={
+   ["boundingbox"]=128,
+   ["index"]=659,
+   ["name"]="space_uni0306_uni0301",
+   ["unicode"]={ 32, 774, 769 },
+   ["width"]=500,
+  },
+  [59909]={
+   ["boundingbox"]=89,
+   ["index"]=660,
+   ["name"]="space_uni032E",
+   ["unicode"]={ 32, 814 },
+   ["width"]=500,
+  },
+  [59910]={
+   ["boundingbox"]=89,
+   ["index"]=661,
+   ["name"]="space_uni032F",
+   ["unicode"]={ 32, 815 },
+   ["width"]=500,
+  },
+  [59911]={
+   ["boundingbox"]=90,
+   ["index"]=662,
+   ["name"]="uni0306.cap",
+   ["unicode"]=774,
+   ["width"]=0,
+  },
+  [59912]={
+   ["boundingbox"]=129,
+   ["index"]=663,
+   ["name"]="space_uni0306_uni0300.cap",
+   ["unicode"]={ 32, 774, 768 },
+   ["width"]=500,
+  },
+  [59913]={
+   ["boundingbox"]=128,
+   ["index"]=664,
+   ["name"]="space_uni0306_uni0300",
+   ["unicode"]={ 32, 774, 768 },
+   ["width"]=500,
+  },
+  [59914]={
+   ["boundingbox"]={ 82, 496, 419, 904 },
+   ["index"]=665,
+   ["name"]="space_uni0306_uni0309.cap",
+   ["unicode"]={ 32, 774, 777 },
+   ["width"]=500,
+  },
+  [59915]={
+   ["boundingbox"]={ 82, 522, 419, 930 },
+   ["index"]=666,
+   ["name"]="space_uni0306_uni0309",
+   ["unicode"]={ 32, 774, 777 },
+   ["width"]=500,
+  },
+  [59916]={
+   ["boundingbox"]=88,
+   ["index"]=667,
+   ["name"]="space_uni0311.cap",
+   ["unicode"]={ 32, 785 },
+   ["width"]=500,
+  },
+  [59917]={
+   ["boundingbox"]=127,
+   ["index"]=668,
+   ["name"]="space_uni0311",
+   ["unicode"]={ 32, 785 },
+   ["width"]=500,
+  },
+  [59918]={
+   ["boundingbox"]=90,
+   ["index"]=669,
+   ["name"]="uni0311.cap",
+   ["unicode"]=785,
+   ["width"]=0,
+  },
+  [59919]={
+   ["boundingbox"]={ 82, 496, 419, 848 },
+   ["index"]=670,
+   ["name"]="space_uni0306_uni0303.cap",
+   ["unicode"]={ 32, 774, 771 },
+   ["width"]=500,
+  },
+  [59920]={
+   ["boundingbox"]={ 82, 522, 419, 874 },
+   ["index"]=671,
+   ["name"]="space_uni0306_uni0303",
+   ["unicode"]={ 32, 774, 771 },
+   ["width"]=500,
+  },
+  [59921]={
+   ["boundingbox"]=126,
+   ["index"]=672,
+   ["name"]="caron.cap",
+   ["unicode"]=711,
+   ["width"]=500,
+  },
+  [59924]={
+   ["boundingbox"]=125,
+   ["index"]=673,
+   ["name"]="uni030C.cap",
+   ["unicode"]=780,
+   ["width"]=0,
+  },
+  [59925]={
+   ["boundingbox"]=126,
+   ["index"]=674,
+   ["name"]="circumflex.cap",
+   ["unicode"]=710,
+   ["width"]=500,
+  },
+  [59926]={
+   ["boundingbox"]=124,
+   ["index"]=675,
+   ["name"]="space_uni0302_uni0301.cap",
+   ["unicode"]={ 32, 770, 769 },
+   ["width"]=500,
+  },
+  [59927]={
+   ["boundingbox"]=123,
+   ["index"]=676,
+   ["name"]="space_uni0302_uni0301",
+   ["unicode"]={ 32, 770, 769 },
+   ["width"]=500,
+  },
+  [59928]={
+   ["boundingbox"]=125,
+   ["index"]=677,
+   ["name"]="uni0302.cap",
+   ["unicode"]=770,
+   ["width"]=0,
+  },
+  [59929]={
+   ["boundingbox"]=124,
+   ["index"]=678,
+   ["name"]="space_uni0302_uni0300.cap",
+   ["unicode"]={ 32, 770, 768 },
+   ["width"]=500,
+  },
+  [59930]={
+   ["boundingbox"]=123,
+   ["index"]=679,
+   ["name"]="space_uni0302_uni0300",
+   ["unicode"]={ 32, 770, 768 },
+   ["width"]=500,
+  },
+  [59931]={
+   ["boundingbox"]={ 94, 486, 444, 850 },
+   ["index"]=680,
+   ["name"]="space_uni0302_uni0309.cap",
+   ["unicode"]={ 32, 770, 777 },
+   ["width"]=500,
+  },
+  [59932]={
+   ["boundingbox"]={ 94, 525, 444, 889 },
+   ["index"]=681,
+   ["name"]="space_uni0302_uni0309",
+   ["unicode"]={ 32, 770, 777 },
+   ["width"]=500,
+  },
+  [59933]={
+   ["boundingbox"]={ 84, 486, 417, 794 },
+   ["index"]=682,
+   ["name"]="space_uni0302_uni0303.cap",
+   ["unicode"]={ 32, 770, 771 },
+   ["width"]=500,
+  },
+  [59934]={
+   ["boundingbox"]={ 84, 525, 417, 833 },
+   ["index"]=683,
+   ["name"]="space_uni0302_uni0303",
+   ["unicode"]={ 32, 770, 771 },
+   ["width"]=500,
+  },
+  [59935]={
+   ["boundingbox"]={ 213, -266, 287, -79 },
+   ["index"]=684,
+   ["name"]="space_uni0326",
+   ["unicode"]={ 32, 806 },
+   ["width"]=500,
+  },
+  [59941]={
+   ["boundingbox"]={ 84, 496, 392, 663 },
+   ["index"]=685,
+   ["name"]="space_uni030F.cap",
+   ["unicode"]={ 32, 783 },
+   ["width"]=500,
+  },
+  [59942]={
+   ["boundingbox"]={ 84, 527, 392, 694 },
+   ["index"]=686,
+   ["name"]="space_uni030F",
+   ["unicode"]={ 32, 783 },
+   ["width"]=500,
+  },
+  [59943]={
+   ["boundingbox"]={ -406, 777, -98, 944 },
+   ["index"]=687,
+   ["name"]="uni030F.cap",
+   ["unicode"]=783,
+   ["width"]=0,
+  },
+  [59944]={
+   ["boundingbox"]={ 123, 486, 377, 566 },
+   ["index"]=688,
+   ["name"]="dieresis.cap",
+   ["unicode"]=168,
+   ["width"]=500,
+  },
+  [59945]={
+   ["boundingbox"]={ 123, 486, 441, 740 },
+   ["index"]=689,
+   ["name"]="space_uni0308_uni0301.cap",
+   ["unicode"]={ 32, 776, 769 },
+   ["width"]=500,
+  },
+  [59946]={
+   ["boundingbox"]={ 137, 571, 441, 829 },
+   ["index"]=690,
+   ["name"]="space_uni0308_uni0301",
+   ["unicode"]={ 32, 776, 769 },
+   ["width"]=500,
+  },
+  [59947]={
+   ["boundingbox"]={ 94, 486, 406, 742 },
+   ["index"]=691,
+   ["name"]="space_uni0308_uni030C.cap",
+   ["unicode"]={ 32, 776, 780 },
+   ["width"]=500,
+  },
+  [59948]={
+   ["boundingbox"]={ 94, 571, 406, 831 },
+   ["index"]=692,
+   ["name"]="space_uni0308_uni030C",
+   ["unicode"]={ 32, 776, 780 },
+   ["width"]=500,
+  },
+  [59949]={
+   ["boundingbox"]={ -353, 821, -127, 901 },
+   ["index"]=693,
+   ["name"]="uni0308.cap",
+   ["unicode"]=776,
+   ["width"]=0,
+  },
+  [59950]={
+   ["boundingbox"]={ 59, 486, 377, 740 },
+   ["index"]=694,
+   ["name"]="space_uni0308_uni0300.cap",
+   ["unicode"]={ 32, 776, 768 },
+   ["width"]=500,
+  },
+  [59951]={
+   ["boundingbox"]={ 59, 571, 363, 829 },
+   ["index"]=695,
+   ["name"]="space_uni0308_uni0300",
+   ["unicode"]={ 32, 776, 768 },
+   ["width"]=500,
+  },
+  [59952]={
+   ["boundingbox"]={ 94, 486, 183, 575 },
+   ["index"]=696,
+   ["name"]="dotaccent.cap",
+   ["unicode"]=729,
+   ["width"]=278,
+  },
+  [59953]={
+   ["boundingbox"]={ -285, 816, -196, 905 },
+   ["index"]=697,
+   ["name"]="uni0307.cap",
+   ["unicode"]=775,
+   ["width"]=0,
+  },
+  [59954]={
+   ["boundingbox"]={ 59, 496, 345, 618 },
+   ["index"]=698,
+   ["name"]="grave.cap",
+   ["unicode"]=96,
+   ["width"]=500,
+  },
+  [59955]={
+   ["boundingbox"]={ -381, 777, -170, 944 },
+   ["index"]=699,
+   ["name"]="uni0300.cap",
+   ["unicode"]=768,
+   ["width"]=0,
+  },
+  [59956]={
+   ["boundingbox"]={ 153, 486, 347, 701 },
+   ["index"]=700,
+   ["name"]="space_uni0309.cap",
+   ["unicode"]={ 32, 777 },
+   ["width"]=500,
+  },
+  [59957]={
+   ["boundingbox"]={ 153, 503, 347, 718 },
+   ["index"]=701,
+   ["name"]="space_uni0309",
+   ["unicode"]={ 32, 777 },
+   ["width"]=500,
+  },
+  [59958]={
+   ["boundingbox"]={ -337, 753, -143, 968 },
+   ["index"]=702,
+   ["name"]="uni0309.cap",
+   ["unicode"]=777,
+   ["width"]=0,
+  },
+  [59960]={
+   ["boundingbox"]={ 108, 496, 416, 663 },
+   ["index"]=703,
+   ["name"]="hungarumlaut.cap",
+   ["unicode"]=733,
+   ["width"]=500,
+  },
+  [59961]={
+   ["boundingbox"]={ -382, 777, -74, 944 },
+   ["index"]=704,
+   ["name"]="uni030B.cap",
+   ["unicode"]=779,
+   ["width"]=0,
+  },
+  [59962]={
+   ["boundingbox"]=93,
+   ["index"]=705,
+   ["name"]="space_uni0332",
+   ["unicode"]={ 32, 818 },
+   ["width"]=500,
+  },
+  [59963]={
+   ["boundingbox"]={ 70, 506, 431, 570 },
+   ["index"]=706,
+   ["name"]="macron.cap",
+   ["unicode"]=175,
+   ["width"]=500,
+  },
+  [59964]={
+   ["boundingbox"]={ 153, 506, 348, 570 },
+   ["index"]=707,
+   ["name"]="macron.cap.alt",
+   ["unicode"]=175,
+   ["width"]=500,
+  },
+  [59965]={
+   ["boundingbox"]={ 153, 579, 348, 643 },
+   ["index"]=708,
+   ["name"]="macron.alt",
+   ["unicode"]=175,
+   ["width"]=500,
+  },
+  [59966]={
+   ["boundingbox"]=93,
+   ["index"]=709,
+   ["name"]="space_uni0331",
+   ["unicode"]={ 32, 817 },
+   ["width"]=500,
+  },
+  [59967]={
+   ["boundingbox"]={ -420, 829, -59, 893 },
+   ["index"]=710,
+   ["name"]="uni0304.cap",
+   ["unicode"]=772,
+   ["width"]=0,
+  },
+  [59968]={
+   ["boundingbox"]={ 222, 444, 444, 612 },
+   ["index"]=711,
+   ["name"]="ring.cap",
+   ["unicode"]=730,
+   ["width"]=667,
+  },
+  [59969]={
+   ["boundingbox"]={ 190, 444, 476, 769 },
+   ["index"]=712,
+   ["name"]="space_uni030A_uni0301.cap",
+   ["unicode"]={ 32, 778, 769 },
+   ["width"]=667,
+  },
+  [59970]={
+   ["boundingbox"]={ 190, 517, 476, 842 },
+   ["index"]=713,
+   ["name"]="space_uni030A_uni0301",
+   ["unicode"]={ 32, 778, 769 },
+   ["width"]=667,
+  },
+  [59971]={
+   ["boundingbox"]={ -352, 767, -130, 935 },
+   ["index"]=714,
+   ["name"]="uni030A.cap",
+   ["unicode"]=778,
+   ["width"]=0,
+  },
+  [59972]={
+   ["boundingbox"]={ 84, 486, 417, 605 },
+   ["index"]=715,
+   ["name"]="tilde.cap",
+   ["unicode"]=732,
+   ["width"]=500,
+  },
+  [59973]={
+   ["boundingbox"]={ 84, -214, 417, -95 },
+   ["index"]=716,
+   ["name"]="space_uni0330",
+   ["unicode"]={ 32, 816 },
+   ["width"]=500,
+  },
+  [59974]={
+   ["boundingbox"]={ -406, 801, -73, 920 },
+   ["index"]=717,
+   ["name"]="uni0303.cap",
+   ["unicode"]=771,
+   ["width"]=0,
+  },
+  [60162]={
+   ["boundingbox"]={ 205, 538, 416, 723 },
+   ["index"]=718,
+   ["name"]="acute.ts1",
+   ["unicode"]=180,
+   ["width"]=500,
+  },
+  [60163]={
+   ["boundingbox"]={ 28, -212, 656, 868 },
+   ["index"]=719,
+   ["name"]="Aogonekacute",
+   ["unicode"]=60163,
+   ["width"]=667,
+  },
+  [60164]={
+   ["boundingbox"]={ 54, -212, 444, 694 },
+   ["index"]=720,
+   ["name"]="aogonekacute",
+   ["unicode"]=60164,
+   ["width"]=481,
+  },
+  [60168]={
+   ["boundingbox"]=35,
+   ["index"]=721,
+   ["name"]="bigcircle",
+   ["unicode"]=60168,
+   ["width"]=694,
+  },
+  [60169]={
+   ["boundingbox"]={ 0, 13, 500, 490 },
+   ["index"]=722,
+   ["name"]="star.alt",
+   ["unicode"]=60169,
+   ["width"]=500,
+  },
+  [60170]={
+   ["boundingbox"]={ 80, 526, 530, 723 },
+   ["index"]=723,
+   ["name"]="breve.ts1",
+   ["unicode"]=728,
+   ["width"]=611,
+  },
+  [60173]={
+   ["boundingbox"]={ 133, 490, 477, 745 },
+   ["index"]=724,
+   ["name"]="caron.ts1",
+   ["unicode"]=711,
+   ["width"]=611,
+  },
+  [60175]={
+   ["boundingbox"]=35,
+   ["index"]=725,
+   ["name"]="copyleft",
+   ["unicode"]=60175,
+   ["width"]=694,
+  },
+  [60176]={
+   ["boundingbox"]=1,
+   ["index"]=726,
+   ["name"]="cwm",
+   ["unicode"]=60176,
+   ["width"]=0,
+  },
+  [60177]={
+   ["boundingbox"]=1,
+   ["index"]=727,
+   ["name"]="cwmascender",
+   ["unicode"]=60177,
+   ["width"]=0,
+  },
+  [60178]={
+   ["boundingbox"]=1,
+   ["index"]=728,
+   ["name"]="cwmcapital",
+   ["unicode"]=60178,
+   ["width"]=0,
+  },
+  [60181]={
+   ["boundingbox"]={ 83, 540, 391, 723 },
+   ["index"]=729,
+   ["name"]="dblgrave.ts1",
+   ["unicode"]=63190,
+   ["width"]=500,
+  },
+  [60182]={
+   ["boundingbox"]={ 55, -27, 444, 626 },
+   ["index"]=730,
+   ["name"]="died",
+   ["unicode"]=60182,
+   ["width"]=500,
+  },
+  [60183]={
+   ["boundingbox"]={ 111, 598, 388, 681 },
+   ["index"]=731,
+   ["name"]="dieresis.ts1",
+   ["unicode"]=168,
+   ["width"]=500,
+  },
+  [60185]={
+   ["boundingbox"]={ 94, -200, 183, -111 },
+   ["index"]=732,
+   ["name"]="space_uni0323",
+   ["unicode"]={ 32, 803 },
+   ["width"]=278,
+  },
+  [60190]={
+   ["boundingbox"]={ 94, -212, 554, 868 },
+   ["index"]=733,
+   ["name"]="Eogonekacute",
+   ["unicode"]=60190,
+   ["width"]=597,
+  },
+  [60191]={
+   ["boundingbox"]={ 35, -212, 414, 694 },
+   ["index"]=734,
+   ["name"]="eogonekacute",
+   ["unicode"]=60191,
+   ["width"]=444,
+  },
+  [60200]={
+   ["boundingbox"]={ 44, -22, 1055, 716 },
+   ["index"]=735,
+   ["name"]="S_S",
+   ["unicode"]={ 83, 83 },
+   ["width"]=1111,
+  },
+  [60201]={
+   ["boundingbox"]={ 56, -226, 415, 500 },
+   ["index"]=736,
+   ["name"]="gnaborretni",
+   ["unicode"]=60201,
+   ["width"]=472,
+  },
+  [60202]={
+   ["boundingbox"]={ 83, 539, 294, 723 },
+   ["index"]=737,
+   ["name"]="grave.ts1",
+   ["unicode"]=96,
+   ["width"]=500,
+  },
+  [60203]={
+   ["boundingbox"]={ 67, -96, 599, 790 },
+   ["index"]=738,
+   ["name"]="guarani",
+   ["unicode"]=60203,
+   ["width"]=667,
+  },
+  [60206]={
+   ["boundingbox"]={ 108, 538, 416, 723 },
+   ["index"]=739,
+   ["name"]="hungarumlaut.ts1",
+   ["unicode"]=733,
+   ["width"]=500,
+  },
+  [60207]={
+   ["boundingbox"]={ 11, 193, 274, 251 },
+   ["index"]=740,
+   ["name"]="hyphen.alt",
+   ["unicode"]=45,
+   ["width"]=167,
+  },
+  [60208]={
+   ["boundingbox"]={ 34, 304, 299, 362 },
+   ["index"]=741,
+   ["name"]="hyphen.prop",
+   ["unicode"]=45,
+   ["width"]=333,
+  },
+  [60209]={
+   ["boundingbox"]=119,
+   ["index"]=742,
+   ["name"]="hyphendbl",
+   ["unicode"]=60209,
+   ["width"]=333,
+  },
+  [60210]={
+   ["boundingbox"]=119,
+   ["index"]=743,
+   ["name"]="hyphendbl.alt",
+   ["unicode"]=60210,
+   ["width"]=167,
+  },
+  [60213]={
+   ["boundingbox"]={ 29, -212, 380, 868 },
+   ["index"]=744,
+   ["name"]="Iogonekacute",
+   ["unicode"]=60213,
+   ["width"]=278,
+  },
+  [60214]={
+   ["boundingbox"]={ 2, -212, 292, 694 },
+   ["index"]=745,
+   ["name"]="iogonekacute",
+   ["unicode"]=60214,
+   ["width"]=239,
+  },
+  [60218]={
+   ["boundingbox"]={ 42, -22, 588, 868 },
+   ["index"]=747,
+   ["name"]="Jacute",
+   ["unicode"]=60218,
+   ["width"]=472,
+  },
+  [60219]={
+   ["boundingbox"]={ -61, -205, 320, 694 },
+   ["index"]=748,
+   ["name"]="jacute",
+   ["unicode"]=60219,
+   ["width"]=267,
+  },
+  [60224]={
+   ["boundingbox"]={ -13, -47, 1012, 770 },
+   ["index"]=749,
+   ["name"]="leaf",
+   ["unicode"]=60224,
+   ["width"]=1000,
+  },
+  [60227]={
+   ["boundingbox"]={ 83, 682, 694, 724 },
+   ["index"]=750,
+   ["name"]="macron.ts1",
+   ["unicode"]=175,
+   ["width"]=778,
+  },
+  [60232]={
+   ["boundingbox"]={ 56, -212, 679, 868 },
+   ["index"]=751,
+   ["name"]="Oogonekacute",
+   ["unicode"]=60232,
+   ["width"]=736,
+  },
+  [60233]={
+   ["boundingbox"]={ 30, -212, 469, 694 },
+   ["index"]=752,
+   ["name"]="oogonekacute",
+   ["unicode"]=60233,
+   ["width"]=500,
+  },
+  [60236]={
+   ["boundingbox"]={ 55, -193, 443, 723 },
+   ["index"]=753,
+   ["name"]="paragraph.alt",
+   ["unicode"]=182,
+   ["width"]=472,
+  },
+  [60237]={
+   ["boundingbox"]={ 57, -56, 334, 347 },
+   ["index"]=754,
+   ["name"]="perthousandzero",
+   ["unicode"]=60237,
+   ["width"]=392,
+  },
+  [60240]={
+   ["boundingbox"]={ 173, -124, 450, 84 },
+   ["index"]=755,
+   ["name"]="quotedblbase.cm",
+   ["unicode"]=8222,
+   ["width"]=500,
+  },
+  [60241]={
+   ["boundingbox"]={ 156, -124, 433, 84 },
+   ["index"]=756,
+   ["name"]="quotedblbase.cs",
+   ["unicode"]=8222,
+   ["width"]=500,
+  },
+  [60242]={
+   ["boundingbox"]={ 126, -281, 373, 80 },
+   ["index"]=757,
+   ["name"]="quotedblbase.ts1",
+   ["unicode"]=8222,
+   ["width"]=500,
+  },
+  [60243]={
+   ["boundingbox"]={ 189, 486, 466, 694 },
+   ["index"]=758,
+   ["name"]="quotedblleft.cm",
+   ["unicode"]=8220,
+   ["width"]=500,
+  },
+  [60244]={
+   ["boundingbox"]={ 33, 486, 310, 694 },
+   ["index"]=759,
+   ["name"]="quotedblright.cm",
+   ["unicode"]=8221,
+   ["width"]=500,
+  },
+  [60245]={
+   ["boundingbox"]={ 67, 486, 344, 694 },
+   ["index"]=760,
+   ["name"]="quotedblright.cs",
+   ["unicode"]=8221,
+   ["width"]=500,
+  },
+  [60246]={
+   ["boundingbox"]={ 155, -281, 233, 80 },
+   ["index"]=761,
+   ["name"]="quotesinglbase.ts1",
+   ["unicode"]=8218,
+   ["width"]=389,
+  },
+  [60247]={
+   ["boundingbox"]={ 99, 363, 178, 723 },
+   ["index"]=762,
+   ["name"]="quotesingle.ts1",
+   ["unicode"]=39,
+   ["width"]=278,
+  },
+  [60250]={
+   ["boundingbox"]={ 30, 278, 447, 694 },
+   ["index"]=763,
+   ["name"]="registered.alt",
+   ["unicode"]=174,
+   ["width"]=477,
+  },
+  [60257]={
+   ["boundingbox"]={ -7, 266, 245, 398 },
+   ["index"]=764,
+   ["name"]="suppress",
+   ["unicode"]=60257,
+   ["width"]=239,
+  },
+  [60259]={
+   ["boundingbox"]={ 108, 477, 599, 639 },
+   ["index"]=765,
+   ["name"]="tieaccentcapital",
+   ["unicode"]=60259,
+   ["width"]=294,
+  },
+  [60260]={
+   ["boundingbox"]={ 6, 477, 454, 639 },
+   ["index"]=766,
+   ["name"]="tieaccentcapital.new",
+   ["unicode"]=60260,
+   ["width"]=461,
+  },
+  [60261]={
+   ["boundingbox"]=95,
+   ["index"]=767,
+   ["name"]="tieaccentlowercase",
+   ["unicode"]=60261,
+   ["width"]=239,
+  },
+  [60262]={
+   ["boundingbox"]={ 61, 568, 399, 693 },
+   ["index"]=768,
+   ["name"]="tieaccentlowercase.new",
+   ["unicode"]=60262,
+   ["width"]=461,
+  },
+  [60263]={
+   ["boundingbox"]={ 0, 0, 555, 114 },
+   ["index"]=769,
+   ["name"]="asciitilde.low",
+   ["unicode"]=126,
+   ["width"]=556,
+  },
+  [60267]={
+   ["boundingbox"]={ 0, 245, 666, 306 },
+   ["index"]=770,
+   ["name"]="emdash.alt",
+   ["unicode"]=8212,
+   ["width"]=667,
+  },
+  [60270]={
+   ["boundingbox"]={ 94, -244, 593, 694 },
+   ["index"]=771,
+   ["name"]="U_uni032F",
+   ["unicode"]={ 85, 815 },
+   ["width"]=688,
+  },
+  [60271]={
+   ["boundingbox"]={ 81, -244, 435, 444 },
+   ["index"]=772,
+   ["name"]="u_uni032F",
+   ["unicode"]={ 117, 815 },
+   ["width"]=517,
+  },
+  [60286]={
+   ["boundingbox"]={ 42, -22, 499, 694 },
+   ["index"]=746,
+   ["name"]="J_uni030C.cap",
+   ["unicode"]={ 74, 780 },
+   ["width"]=472,
+  },
+  [60416]={
+   ["boundingbox"]={ 0, -111, 666, 555 },
+   ["index"]=784,
+   ["name"]="copyright.alt",
+   ["unicode"]=169,
+   ["width"]=666,
+  },
+  [60417]={
+   ["boundingbox"]={ 94, 525, 183, 614 },
+   ["index"]=785,
+   ["name"]="dotaccent.alt",
+   ["unicode"]=729,
+   ["width"]=278,
+  },
+  [60422]={
+   ["boundingbox"]={ 22, 0, 217, 643 },
+   ["index"]=776,
+   ["name"]="imacron.alt",
+   ["unicode"]=299,
+   ["width"]=239,
+  },
+  [60423]={
+   ["boundingbox"]={ 42, 0, 237, 820 },
+   ["index"]=775,
+   ["name"]="Imacron.alt",
+   ["unicode"]=298,
+   ["width"]=278,
+  },
+  [60424]={
+   ["boundingbox"]={ 94, 0, 613, 855 },
+   ["index"]=773,
+   ["name"]="H_uni0303",
+   ["unicode"]={ 72, 771 },
+   ["width"]=708,
+  },
+  [60425]={
+   ["boundingbox"]={ 81, 0, 435, 855 },
+   ["index"]=774,
+   ["name"]="h_uni0303",
+   ["unicode"]={ 104, 771 },
+   ["width"]=517,
+  },
+  [60426]={
+   ["boundingbox"]={ -27, 0, 499, 855 },
+   ["index"]=777,
+   ["name"]="L_uni0303",
+   ["unicode"]={ 76, 771 },
+   ["width"]=542,
+  },
+  [60427]={
+   ["boundingbox"]={ -47, 0, 286, 855 },
+   ["index"]=778,
+   ["name"]="l_uni0303",
+   ["unicode"]={ 108, 771 },
+   ["width"]=239,
+  },
+  [60428]={
+   ["boundingbox"]={ 36, 0, 644, 855 },
+   ["index"]=782,
+   ["name"]="T_uni0303",
+   ["unicode"]={ 84, 771 },
+   ["width"]=681,
+  },
+  [60429]={
+   ["boundingbox"]={ -25, -11, 332, 732 },
+   ["index"]=783,
+   ["name"]="t_uni0303",
+   ["unicode"]={ 116, 771 },
+   ["width"]=361,
+  },
+  [60430]={
+   ["boundingbox"]={ 36, 0, 644, 816 },
+   ["index"]=781,
+   ["name"]="T_uni0308",
+   ["unicode"]={ 84, 776 },
+   ["width"]=681,
+  },
+  [60432]={
+   ["boundingbox"]={ 56, -186, 679, 881 },
+   ["index"]=779,
+   ["name"]="Orogate",
+   ["unicode"]=60432,
+   ["width"]=736,
+  },
+  [60433]={
+   ["boundingbox"]={ 30, -186, 469, 631 },
+   ["index"]=780,
+   ["name"]="orogate",
+   ["unicode"]=60433,
+   ["width"]=500,
+  },
+  [63032]={
+   ["boundingbox"]={ 32, -22, 467, 678 },
+   ["index"]=818,
+   ["name"]="zero.slash",
+   ["unicode"]=48,
+   ["width"]=500,
+  },
+  [63033]={
+   ["boundingbox"]=99,
+   ["index"]=817,
+   ["name"]="zero.prop",
+   ["unicode"]=48,
+   ["width"]=563,
+  },
+  [63034]={
+   ["boundingbox"]={ 74, 0, 481, 678 },
+   ["index"]=814,
+   ["name"]="two.prop",
+   ["unicode"]=50,
+   ["width"]=555,
+  },
+  [63035]={
+   ["boundingbox"]=99,
+   ["index"]=810,
+   ["name"]="three.prop",
+   ["unicode"]=51,
+   ["width"]=563,
+  },
+  [63036]={
+   ["boundingbox"]={ 37, 0, 480, 656 },
+   ["index"]=795,
+   ["name"]="four.prop",
+   ["unicode"]=52,
+   ["width"]=517,
+  },
+  [63037]={
+   ["boundingbox"]={ 74, -22, 484, 656 },
+   ["index"]=792,
+   ["name"]="five.prop",
+   ["unicode"]=53,
+   ["width"]=558,
+  },
+  [63038]={
+   ["boundingbox"]=99,
+   ["index"]=807,
+   ["name"]="six.prop",
+   ["unicode"]=54,
+   ["width"]=563,
+  },
+  [63039]={
+   ["boundingbox"]={ 37, -11, 452, 656 },
+   ["index"]=804,
+   ["name"]="seven.prop",
+   ["unicode"]=55,
+   ["width"]=489,
+  },
+  [63040]={
+   ["boundingbox"]=99,
+   ["index"]=789,
+   ["name"]="eight.prop",
+   ["unicode"]=56,
+   ["width"]=563,
+  },
+  [63041]={
+   ["boundingbox"]=99,
+   ["index"]=798,
+   ["name"]="nine.prop",
+   ["unicode"]=57,
+   ["width"]=563,
+  },
+  [63043]={
+   ["boundingbox"]={ 42, -22, 458, 484 },
+   ["index"]=820,
+   ["name"]="zero.taboldstyle",
+   ["unicode"]=48,
+   ["width"]=500,
+  },
+  [63044]={
+   ["boundingbox"]={ 90, 0, 424, 484 },
+   ["index"]=803,
+   ["name"]="one.taboldstyle",
+   ["unicode"]=49,
+   ["width"]=500,
+  },
+  [63045]={
+   ["boundingbox"]={ 44, 0, 449, 484 },
+   ["index"]=816,
+   ["name"]="two.taboldstyle",
+   ["unicode"]=50,
+   ["width"]=500,
+  },
+  [63046]={
+   ["boundingbox"]=96,
+   ["index"]=813,
+   ["name"]="three.taboldstyle",
+   ["unicode"]=51,
+   ["width"]=500,
+  },
+  [63047]={
+   ["boundingbox"]={ 28, -194, 471, 484 },
+   ["index"]=797,
+   ["name"]="four.taboldstyle",
+   ["unicode"]=52,
+   ["width"]=500,
+  },
+  [63048]={
+   ["boundingbox"]={ 39, -216, 449, 462 },
+   ["index"]=794,
+   ["name"]="five.taboldstyle",
+   ["unicode"]=53,
+   ["width"]=500,
+  },
+  [63049]={
+   ["boundingbox"]=5,
+   ["index"]=809,
+   ["name"]="six.taboldstyle",
+   ["unicode"]=54,
+   ["width"]=500,
+  },
+  [63050]={
+   ["boundingbox"]={ 42, -205, 457, 462 },
+   ["index"]=806,
+   ["name"]="seven.taboldstyle",
+   ["unicode"]=55,
+   ["width"]=500,
+  },
+  [63051]={
+   ["boundingbox"]=5,
+   ["index"]=791,
+   ["name"]="eight.taboldstyle",
+   ["unicode"]=56,
+   ["width"]=500,
+  },
+  [63052]={
+   ["boundingbox"]=96,
+   ["index"]=800,
+   ["name"]="nine.taboldstyle",
+   ["unicode"]=57,
+   ["width"]=500,
+  },
+  [63166]={
+   ["boundingbox"]=92,
+   ["index"]=788,
+   ["name"]="dotlessj",
+   ["unicode"]=567,
+   ["width"]=267,
+  },
+  [63196]={
+   ["boundingbox"]={ 37, 0, 372, 678 },
+   ["index"]=801,
+   ["name"]="one.prop",
+   ["unicode"]=49,
+   ["width"]=409,
+  },
+  [63198]={
+   ["boundingbox"]={ 0, 244, 749, 305 },
+   ["index"]=812,
+   ["name"]="threequartersemdash",
+   ["unicode"]=63198,
+   ["width"]=750,
+  },
+  [63268]={
+   ["boundingbox"]={ 45, -27, 555, 751 },
+   ["index"]=787,
+   ["name"]="dollar.oldstyle",
+   ["unicode"]=36,
+   ["width"]=610,
+  },
+  [63280]={
+   ["boundingbox"]={ 74, -22, 490, 484 },
+   ["index"]=819,
+   ["name"]="zero.oldstyle",
+   ["unicode"]=48,
+   ["width"]=564,
+  },
+  [63281]={
+   ["boundingbox"]={ 37, 0, 371, 484 },
+   ["index"]=802,
+   ["name"]="one.oldstyle",
+   ["unicode"]=49,
+   ["width"]=408,
+  },
+  [63282]={
+   ["boundingbox"]={ 74, 0, 479, 484 },
+   ["index"]=815,
+   ["name"]="two.oldstyle",
+   ["unicode"]=50,
+   ["width"]=553,
+  },
+  [63283]={
+   ["boundingbox"]=118,
+   ["index"]=811,
+   ["name"]="three.oldstyle",
+   ["unicode"]=51,
+   ["width"]=563,
+  },
+  [63284]={
+   ["boundingbox"]={ 37, -194, 480, 484 },
+   ["index"]=796,
+   ["name"]="four.oldstyle",
+   ["unicode"]=52,
+   ["width"]=517,
+  },
+  [63285]={
+   ["boundingbox"]={ 74, -216, 484, 462 },
+   ["index"]=793,
+   ["name"]="five.oldstyle",
+   ["unicode"]=53,
+   ["width"]=558,
+  },
+  [63286]={
+   ["boundingbox"]=99,
+   ["index"]=808,
+   ["name"]="six.oldstyle",
+   ["unicode"]=54,
+   ["width"]=563,
+  },
+  [63287]={
+   ["boundingbox"]={ 37, -205, 452, 462 },
+   ["index"]=805,
+   ["name"]="seven.oldstyle",
+   ["unicode"]=55,
+   ["width"]=489,
+  },
+  [63288]={
+   ["boundingbox"]=99,
+   ["index"]=790,
+   ["name"]="eight.oldstyle",
+   ["unicode"]=56,
+   ["width"]=563,
+  },
+  [63289]={
+   ["boundingbox"]=118,
+   ["index"]=799,
+   ["name"]="nine.oldstyle",
+   ["unicode"]=57,
+   ["width"]=563,
+  },
+  [63394]={
+   ["boundingbox"]=31,
+   ["index"]=786,
+   ["name"]="cent.oldstyle",
+   ["unicode"]=162,
+   ["width"]=444,
+  },
+  [64256]={
+   ["boundingbox"]={ 27, 0, 624, 705 },
+   ["index"]=122,
+   ["name"]="f_f",
+   ["unicode"]={ 102, 102 },
+   ["width"]=583,
+  },
+  [64257]={
+   ["boundingbox"]={ 27, 0, 457, 705 },
+   ["index"]=125,
+   ["name"]="f_i",
+   ["unicode"]={ 102, 105 },
+   ["width"]=536,
+  },
+  [64258]={
+   ["boundingbox"]={ 27, 0, 453, 705 },
+   ["index"]=126,
+   ["name"]="f_l",
+   ["unicode"]={ 102, 108 },
+   ["width"]=536,
+  },
+  [64259]={
+   ["boundingbox"]={ 27, 0, 735, 705 },
+   ["index"]=123,
+   ["name"]="f_f_i",
+   ["unicode"]={ 102, 102, 105 },
+   ["width"]=814,
+  },
+  [64260]={
+   ["boundingbox"]={ 27, 0, 731, 705 },
+   ["index"]=124,
+   ["name"]="f_f_l",
+   ["unicode"]={ 102, 102, 108 },
+   ["width"]=814,
+  },
+  [983040]={
+   ["boundingbox"]=1,
+   ["index"]=0,
+   ["name"]=".notdef",
+   ["unicode"]=983040,
+   ["width"]=280,
+  },
+  [983041]={
+   ["boundingbox"]=37,
+   ["index"]=1,
+   ["name"]="acute.dup",
+   ["unicode"]=180,
+   ["width"]=500,
+  },
+  [983042]={
+   ["boundingbox"]=42,
+   ["index"]=2,
+   ["name"]="AE.dup",
+   ["unicode"]=198,
+   ["width"]=861,
+  },
+  [983043]={
+   ["boundingbox"]=56,
+   ["index"]=3,
+   ["name"]="ae.dup",
+   ["unicode"]=230,
+   ["width"]=722,
+  },
+  [983044]={
+   ["boundingbox"]=38,
+   ["index"]=4,
+   ["name"]="cedilla.dup",
+   ["unicode"]=184,
+   ["width"]=444,
+  },
+  [983045]={
+   ["boundingbox"]=106,
+   ["index"]=5,
+   ["name"]="circumflex.dup",
+   ["unicode"]=710,
+   ["width"]=500,
+  },
+  [983046]={
+   ["boundingbox"]=34,
+   ["index"]=6,
+   ["name"]="dieresis.dup",
+   ["unicode"]=168,
+   ["width"]=500,
+  },
+  [983047]={
+   ["boundingbox"]=70,
+   ["index"]=7,
+   ["name"]="Gcedilla",
+   ["unicode"]=290,
+   ["width"]=667,
+  },
+  [983048]={
+   ["boundingbox"]=71,
+   ["index"]=8,
+   ["name"]="gcedilla",
+   ["unicode"]=291,
+   ["width"]=500,
+  },
+  [983049]={
+   ["boundingbox"]=53,
+   ["index"]=9,
+   ["name"]="germandbls.dup",
+   ["unicode"]=223,
+   ["width"]=481,
+  },
+  [983050]={
+   ["boundingbox"]=3,
+   ["index"]=10,
+   ["name"]="hyphen.dup",
+   ["unicode"]=45,
+   ["width"]=333,
+  },
+  [983051]={
+   ["boundingbox"]=73,
+   ["index"]=11,
+   ["name"]="Kcedilla",
+   ["unicode"]=310,
+   ["width"]=694,
+  },
+  [983052]={
+   ["boundingbox"]=74,
+   ["index"]=12,
+   ["name"]="kcedilla",
+   ["unicode"]=311,
+   ["width"]=489,
+  },
+  [983053]={
+   ["boundingbox"]=75,
+   ["index"]=13,
+   ["name"]="Lcedilla",
+   ["unicode"]=315,
+   ["width"]=542,
+  },
+  [983054]={
+   ["boundingbox"]=76,
+   ["index"]=14,
+   ["name"]="lcedilla",
+   ["unicode"]=316,
+   ["width"]=239,
+  },
+  [983055]={
+   ["boundingbox"]=36,
+   ["index"]=15,
+   ["name"]="macron.dup",
+   ["unicode"]=175,
+   ["width"]=500,
+  },
+  [983056]={
+   ["boundingbox"]=77,
+   ["index"]=16,
+   ["name"]="Ncedilla",
+   ["unicode"]=325,
+   ["width"]=708,
+  },
+  [983057]={
+   ["boundingbox"]=78,
+   ["index"]=17,
+   ["name"]="ncedilla",
+   ["unicode"]=326,
+   ["width"]=517,
+  },
+  [983058]={
+   ["boundingbox"]=80,
+   ["index"]=18,
+   ["name"]="OE.dup",
+   ["unicode"]=338,
+   ["width"]=972,
+  },
+  [983059]={
+   ["boundingbox"]=81,
+   ["index"]=19,
+   ["name"]="oe.dup",
+   ["unicode"]=339,
+   ["width"]=778,
+  },
+  [983060]={
+   ["boundingbox"]=49,
+   ["index"]=20,
+   ["name"]="Oslash.dup",
+   ["unicode"]=216,
+   ["width"]=778,
+  },
+  [983061]={
+   ["boundingbox"]=62,
+   ["index"]=21,
+   ["name"]="oslash.dup",
+   ["unicode"]=248,
+   ["width"]=500,
+  },
+  [983062]={
+   ["boundingbox"]=91,
+   ["index"]=22,
+   ["name"]="quoteleft.dup",
+   ["unicode"]=8216,
+   ["width"]=278,
+  },
+  [983063]={
+   ["boundingbox"]=91,
+   ["index"]=23,
+   ["name"]="quoteright.dup",
+   ["unicode"]=8217,
+   ["width"]=278,
+  },
+  [983064]={
+   ["boundingbox"]=82,
+   ["index"]=24,
+   ["name"]="Rcedilla",
+   ["unicode"]=342,
+   ["width"]=646,
+  },
+  [983065]={
+   ["boundingbox"]=83,
+   ["index"]=25,
+   ["name"]="rcedilla",
+   ["unicode"]=343,
+   ["width"]=342,
+  },
+  [983066]={
+   ["boundingbox"]=111,
+   ["index"]=26,
+   ["name"]="tilde.dup",
+   ["unicode"]=732,
+   ["width"]=500,
+  },
+ },
+ ["format"]="opentype",
+ ["goodies"]={},
+ ["metadata"]={
+  ["ascender"]=806,
+  ["averagewidth"]=520,
+  ["boundingbox"]={ -420, -309, 1431, 1154 },
+  ["capheight"]=694,
+  ["compatiblename"]="LM Sans 10 Regular",
+  ["defaultvheight"]=0,
+  ["descender"]=-194,
+  ["designsize"]=100,
+  ["family"]="LM Sans 10",
+  ["familyname"]="Latin Modern Sans",
+  ["fontname"]="LMSans10-Regular",
+  ["fstype"]=12,
+  ["fullname"]="LMSans10-Regular",
+  ["horizontalmetrics"]={
+   ["ascender"]=1154,
+   ["descender"]=-309,
+   ["linegap"]=0,
+   ["maxadvanceheight"]=0,
+   ["maxadvancewidth"]=1471,
+   ["maxextent"]=1431,
+   ["minbottomsidebearing"]=0,
+   ["mintopsidebearing"]=0,
+   ["version"]=65536,
+  },
+  ["italicangle"]=0.0,
+  ["maxsize"]=110,
+  ["minsize"]=95,
+  ["monospaced"]=false,
+  ["panoseweight"]="book",
+  ["panosewidth"]="normal",
+  ["pfmweight"]=400,
+  ["pfmwidth"]=5,
+  ["subfamily"]="Regular",
+  ["subfamilyname"]="10 Regular",
+  ["subfontindex"]=1,
+  ["units"]=1000,
+  ["version"]="Version 2.004;PS 2.004;hotconv 1.0.49;makeotf.lib2.0.14853",
+  ["verticalmetrics"]={
+   ["ascender"]=0,
+   ["descender"]=0,
+   ["linegap"]=0,
+   ["maxadvanceheight"]=0,
+   ["maxadvancewidth"]=0,
+   ["maxextent"]=0,
+   ["minbottomsidebearing"]=0,
+   ["mintopsidebearing"]=0,
+   ["version"]=0,
+  },
+  ["weight"]="normal",
+  ["width"]="normal",
+  ["xheight"]=444,
+ },
+ ["nofglyphs"]=820,
+ ["private"]=983067,
+ ["properties"]={
+  ["hascolor"]=true,
+  ["hasitalics"]=false,
+  ["hasspacekerns"]=false,
+ },
+ ["resources"]={
+  ["cidinfo"]={},
+  ["duplicates"]={},
+  ["features"]={
+   ["gpos"]={
+    ["cpsp"]=133,
+    ["kern"]=133,
+   },
+   ["gsub"]={
+    ["aalt"]=133,
+    ["dlig"]=133,
+    ["frac"]=133,
+    ["liga"]=133,
+    ["lnum"]=133,
+    ["locl"]=135,
+    ["onum"]=133,
+    ["pnum"]=133,
+    ["tnum"]=133,
+    ["zero"]=133,
+   },
+  },
+  ["filename"]="/usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf",
+  ["foundtables"]={ "cff", "cmap", "gpos", "gsub", "head", "hhea", "hmtx", "maxp", "name", "os/2", "post" },
+  ["markclasses"]={},
+  ["marks"]={},
+  ["marksets"]={},
+  ["private"]=983040,
+  ["sequences"]={
+   {
+    ["features"]=168,
+    ["flags"]=134,
+    ["index"]=1,
+    ["name"]="s_s_0",
+    ["nofsteps"]=1,
+    ["order"]=132,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [36]=63268,
+       [38]=38,
+       [162]=63394,
+       [350]=536,
+       [351]=537,
+       [354]=538,
+       [355]=539,
+       [63268]=36,
+       [63394]=162,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]=168,
+    ["flags"]=134,
+    ["index"]=2,
+    ["name"]="s_s_1",
+    ["nofsteps"]=1,
+    ["order"]=132,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [48]={ 63280, 63033, 63032 },
+       [49]={ 63281, 63196 },
+       [50]={ 63282, 63034 },
+       [51]={ 63283, 63035 },
+       [52]={ 63284, 63036 },
+       [53]={ 63285, 63037 },
+       [54]={ 63286, 63038 },
+       [55]={ 63287, 63039 },
+       [56]={ 63288, 63040 },
+       [57]={ 63289, 63041 },
+       [63033]={ 63280, 48 },
+       [63034]={ 63282, 50 },
+       [63035]={ 63283, 51 },
+       [63036]={ 63284, 52 },
+       [63037]={ 63285, 53 },
+       [63038]={ 63286, 54 },
+       [63039]={ 63287, 55 },
+       [63040]={ 63288, 56 },
+       [63041]={ 63289, 57 },
+       [63043]={ 48, 63280 },
+       [63044]={ 49, 63281 },
+       [63045]={ 50, 63282 },
+       [63046]={ 51, 63283 },
+       [63047]={ 52, 63284 },
+       [63048]={ 53, 63285 },
+       [63049]={ 54, 63286 },
+       [63050]={ 55, 63287 },
+       [63051]={ 56, 63288 },
+       [63052]={ 57, 63289 },
+       [63196]={ 63281, 49 },
+       [63280]={ 63033, 63043 },
+       [63281]={ 63196, 63044 },
+       [63282]={ 63034, 63045 },
+       [63283]={ 63035, 63046 },
+       [63284]={ 63036, 63047 },
+       [63285]={ 63037, 63048 },
+       [63286]={ 63038, 63049 },
+       [63287]={ 63039, 63050 },
+       [63288]={ 63040, 63051 },
+       [63289]={ 63041, 63052 },
+      },
+     },
+    },
+    ["type"]="gsub_alternate",
+   },
+   {
+    ["features"]={
+     ["locl"]=135,
+    },
+    ["flags"]=134,
+    ["index"]=3,
+    ["name"]="s_s_2",
+    ["nofsteps"]=1,
+    ["order"]={ "locl" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [350]=536,
+       [351]=537,
+       [354]=538,
+       [355]=539,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]={
+     ["frac"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=4,
+    ["name"]="s_s_3",
+    ["nofsteps"]=1,
+    ["order"]={ "frac" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [49]={
+        [47]={
+         [50]={
+          ["ligature"]=189,
+         },
+         [52]={
+          ["ligature"]=188,
+         },
+        },
+        [8260]={
+         [50]={
+          ["ligature"]=189,
+         },
+         [52]={
+          ["ligature"]=188,
+         },
+        },
+       },
+       [51]={
+        [47]={
+         [52]={
+          ["ligature"]=190,
+         },
+        },
+        [8260]={
+         [52]={
+          ["ligature"]=190,
+         },
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]={
+     ["onum"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=5,
+    ["name"]="s_s_4",
+    ["nofsteps"]=1,
+    ["order"]={ "onum" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [36]=63268,
+       [38]=38,
+       [48]=63280,
+       [49]=63281,
+       [50]=63282,
+       [51]=63283,
+       [52]=63284,
+       [53]=63285,
+       [54]=63286,
+       [55]=63287,
+       [56]=63288,
+       [57]=63289,
+       [162]=63394,
+       [63033]=63280,
+       [63034]=63282,
+       [63035]=63283,
+       [63036]=63284,
+       [63037]=63285,
+       [63038]=63286,
+       [63039]=63287,
+       [63040]=63288,
+       [63041]=63289,
+       [63196]=63281,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]={
+     ["lnum"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=6,
+    ["name"]="s_s_5",
+    ["nofsteps"]=1,
+    ["order"]={ "lnum" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [38]=38,
+       [63043]=48,
+       [63044]=49,
+       [63045]=50,
+       [63046]=51,
+       [63047]=52,
+       [63048]=53,
+       [63049]=54,
+       [63050]=55,
+       [63051]=56,
+       [63052]=57,
+       [63268]=36,
+       [63280]=63033,
+       [63281]=63196,
+       [63282]=63034,
+       [63283]=63035,
+       [63284]=63036,
+       [63285]=63037,
+       [63286]=63038,
+       [63287]=63039,
+       [63288]=63040,
+       [63289]=63041,
+       [63394]=162,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]={
+     ["pnum"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=7,
+    ["name"]="s_s_6",
+    ["nofsteps"]=1,
+    ["order"]={ "pnum" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [48]=63033,
+       [49]=63196,
+       [50]=63034,
+       [51]=63035,
+       [52]=63036,
+       [53]=63037,
+       [54]=63038,
+       [55]=63039,
+       [56]=63040,
+       [57]=63041,
+       [63043]=63280,
+       [63044]=63281,
+       [63045]=63282,
+       [63046]=63283,
+       [63047]=63284,
+       [63048]=63285,
+       [63049]=63286,
+       [63050]=63287,
+       [63051]=63288,
+       [63052]=63289,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]={
+     ["tnum"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=8,
+    ["name"]="s_s_7",
+    ["nofsteps"]=1,
+    ["order"]={ "tnum" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [63033]=48,
+       [63034]=50,
+       [63035]=51,
+       [63036]=52,
+       [63037]=53,
+       [63038]=54,
+       [63039]=55,
+       [63040]=56,
+       [63041]=57,
+       [63196]=49,
+       [63280]=63043,
+       [63281]=63044,
+       [63282]=63045,
+       [63283]=63046,
+       [63284]=63047,
+       [63285]=63048,
+       [63286]=63049,
+       [63287]=63050,
+       [63288]=63051,
+       [63289]=63052,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]={
+     ["liga"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=9,
+    ["name"]="s_s_8",
+    ["nofsteps"]=1,
+    ["order"]=136,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [102]={
+        [102]={
+         [108]={
+          ["ligature"]=64260,
+         },
+         ["ligature"]=64256,
+        },
+        [108]={
+         ["ligature"]=64258,
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]={
+     ["liga"]={
+      ["cyrl"]={
+       ["dflt"]=true,
+      },
+      ["dflt"]={
+       ["dflt"]=true,
+      },
+      ["latn"]={
+       ["dflt"]=true,
+       ["mol"]=true,
+       ["rom"]=true,
+      },
+     },
+    },
+    ["flags"]=134,
+    ["index"]=10,
+    ["name"]="s_s_9",
+    ["nofsteps"]=1,
+    ["order"]=136,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [102]={
+        [105]={
+         ["ligature"]=64257,
+        },
+       },
+       [64256]={
+        [105]={
+         ["ligature"]=64259,
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]=169,
+    ["flags"]=134,
+    ["index"]=11,
+    ["name"]="s_s_10",
+    ["nofsteps"]=1,
+    ["order"]=136,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [73]={
+        [74]={
+         ["ligature"]=306,
+        },
+       },
+       [105]={
+        [106]={
+         ["ligature"]=307,
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]=169,
+    ["flags"]=134,
+    ["index"]=12,
+    ["name"]="s_s_11",
+    ["nofsteps"]=1,
+    ["order"]=136,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [102]={
+        [105]={
+         ["ligature"]=64257,
+        },
+       },
+       [64256]={
+        [105]={
+         ["ligature"]=64259,
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]={
+     ["liga"]={
+      ["latn"]={
+       ["plk"]=true,
+      },
+     },
+    },
+    ["flags"]=134,
+    ["index"]=13,
+    ["name"]="s_s_12",
+    ["nofsteps"]=1,
+    ["order"]=136,
+    ["steps"]={
+     {
+      ["coverage"]={
+       [102]={
+        [105]={
+         ["ligature"]=64257,
+        },
+        [107]={
+         ["ligature"]=59395,
+        },
+       },
+       [64256]={
+        [105]={
+         ["ligature"]=64259,
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]={
+     ["dlig"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=14,
+    ["name"]="s_s_13",
+    ["nofsteps"]=1,
+    ["order"]={ "dlig" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [33]={
+        [96]={
+         ["ligature"]=161,
+        },
+        [8216]={
+         ["ligature"]=161,
+        },
+       },
+       [44]={
+        [44]={
+         ["ligature"]=8222,
+        },
+       },
+       [45]={
+        [45]={
+         [45]={
+          [45]={
+           ["ligature"]=8212,
+          },
+          ["ligature"]=63198,
+         },
+         ["ligature"]=8211,
+        },
+       },
+       [63]={
+        [96]={
+         ["ligature"]=191,
+        },
+        [8216]={
+         ["ligature"]=191,
+        },
+       },
+       [8216]={
+        [8216]={
+         ["ligature"]=8220,
+        },
+       },
+       [8217]={
+        [8217]={
+         ["ligature"]=8221,
+        },
+       },
+      },
+     },
+    },
+    ["type"]="gsub_ligature",
+   },
+   {
+    ["features"]={
+     ["zero"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=15,
+    ["name"]="s_s_14",
+    ["nofsteps"]=1,
+    ["order"]={ "zero" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [48]=63032,
+      },
+     },
+    },
+    ["type"]="gsub_single",
+   },
+   {
+    ["features"]={
+     ["cpsp"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=16,
+    ["name"]="p_s_0",
+    ["nofsteps"]=1,
+    ["order"]={ "cpsp" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [65]=138,
+       [66]=138,
+       [67]=138,
+       [68]=138,
+       [69]=138,
+       [70]=138,
+       [71]=138,
+       [72]=138,
+       [73]=138,
+       [74]=138,
+       [75]=138,
+       [76]=138,
+       [77]=138,
+       [78]=138,
+       [79]=138,
+       [80]=138,
+       [81]=138,
+       [82]=138,
+       [83]=138,
+       [84]=138,
+       [85]=138,
+       [86]=138,
+       [87]=138,
+       [88]=138,
+       [89]=138,
+       [90]=138,
+       [192]=138,
+       [193]=138,
+       [194]=138,
+       [195]=138,
+       [196]=138,
+       [197]=138,
+       [198]=138,
+       [199]=138,
+       [200]=138,
+       [201]=138,
+       [202]=138,
+       [203]=138,
+       [204]=138,
+       [205]=138,
+       [206]=138,
+       [207]=138,
+       [208]=138,
+       [209]=138,
+       [210]=138,
+       [211]=138,
+       [212]=138,
+       [213]=138,
+       [214]=138,
+       [216]=138,
+       [217]=138,
+       [218]=138,
+       [219]=138,
+       [220]=138,
+       [221]=138,
+       [222]=138,
+       [256]=138,
+       [258]=138,
+       [260]=138,
+       [262]=138,
+       [264]=138,
+       [266]=138,
+       [268]=138,
+       [270]=138,
+       [272]=138,
+       [274]=138,
+       [276]=138,
+       [278]=138,
+       [280]=138,
+       [282]=138,
+       [284]=138,
+       [286]=138,
+       [288]=138,
+       [290]=138,
+       [292]=138,
+       [294]=138,
+       [296]=138,
+       [298]=138,
+       [300]=138,
+       [302]=138,
+       [306]=138,
+       [308]=138,
+       [310]=138,
+       [313]=138,
+       [315]=138,
+       [317]=138,
+       [319]=138,
+       [321]=138,
+       [323]=138,
+       [325]=138,
+       [327]=138,
+       [330]=138,
+       [332]=138,
+       [334]=138,
+       [336]=138,
+       [338]=138,
+       [340]=138,
+       [342]=138,
+       [344]=138,
+       [346]=138,
+       [348]=138,
+       [350]=138,
+       [352]=138,
+       [354]=138,
+       [356]=138,
+       [360]=138,
+       [362]=138,
+       [364]=138,
+       [366]=138,
+       [368]=138,
+       [370]=138,
+       [372]=138,
+       [374]=138,
+       [376]=138,
+       [377]=138,
+       [379]=138,
+       [381]=138,
+       [398]=138,
+       [416]=138,
+       [431]=138,
+       [486]=138,
+       [490]=138,
+       [500]=138,
+       [506]=138,
+       [508]=138,
+       [510]=138,
+       [512]=138,
+       [516]=138,
+       [520]=138,
+       [524]=138,
+       [528]=138,
+       [532]=138,
+       [536]=138,
+       [538]=138,
+       [7692]=138,
+       [7694]=138,
+       [7716]=138,
+       [7718]=138,
+       [7722]=138,
+       [7734]=138,
+       [7736]=138,
+       [7746]=138,
+       [7748]=138,
+       [7750]=138,
+       [7768]=138,
+       [7770]=138,
+       [7772]=138,
+       [7778]=138,
+       [7788]=138,
+       [7790]=138,
+       [7808]=138,
+       [7810]=138,
+       [7812]=138,
+       [7826]=138,
+       [7840]=138,
+       [7842]=138,
+       [7844]=138,
+       [7846]=138,
+       [7848]=138,
+       [7850]=138,
+       [7852]=138,
+       [7854]=138,
+       [7856]=138,
+       [7858]=138,
+       [7860]=138,
+       [7862]=138,
+       [7864]=138,
+       [7866]=138,
+       [7868]=138,
+       [7870]=138,
+       [7872]=138,
+       [7874]=138,
+       [7876]=138,
+       [7878]=138,
+       [7880]=138,
+       [7882]=138,
+       [7884]=138,
+       [7886]=138,
+       [7888]=138,
+       [7890]=138,
+       [7892]=138,
+       [7894]=138,
+       [7896]=138,
+       [7898]=138,
+       [7900]=138,
+       [7902]=138,
+       [7904]=138,
+       [7906]=138,
+       [7908]=138,
+       [7910]=138,
+       [7912]=138,
+       [7914]=138,
+       [7916]=138,
+       [7918]=138,
+       [7920]=138,
+       [7922]=138,
+       [7924]=138,
+       [7926]=138,
+       [7928]=138,
+       [60163]=138,
+       [60190]=138,
+       [60200]=138,
+       [60213]=138,
+       [60218]=138,
+       [60232]=138,
+       [60270]=138,
+       [60423]=138,
+       [60424]=138,
+       [60426]=138,
+       [60428]=138,
+       [60430]=138,
+      },
+      ["format"]="single",
+     },
+    },
+    ["type"]="gpos_single",
+   },
+   {
+    ["features"]={
+     ["kern"]=133,
+    },
+    ["flags"]=134,
+    ["index"]=17,
+    ["name"]="p_s_1",
+    ["nofsteps"]=1,
+    ["order"]={ "kern" },
+    ["steps"]={
+     {
+      ["coverage"]={
+       [46]={
+        [8216]=-139,
+        [8217]=-139,
+        [8220]=-139,
+        [8221]=-139,
+       },
+       [65]={
+        [67]=-28,
+        [71]=-28,
+        [79]=-28,
+        [81]=-28,
+        [84]=-83,
+        [85]=-28,
+        [86]=-111,
+        [87]=-111,
+        [89]=-83,
+        [99]=-28,
+        [100]=-28,
+        [101]=-28,
+        [111]=-28,
+        [113]=-28,
+        [116]=-28,
+        [117]=-28,
+        [118]=-28,
+        [119]=-28,
+        [121]=-28,
+        [199]=-28,
+        [210]=-28,
+        [211]=-28,
+        [212]=-28,
+        [213]=-28,
+        [214]=-28,
+        [216]=-28,
+        [217]=-28,
+        [218]=-28,
+        [219]=-28,
+        [220]=-28,
+        [221]=-83,
+        [231]=-28,
+        [232]=-28,
+        [233]=-28,
+        [234]=-28,
+        [235]=-28,
+        [240]=-28,
+        [242]=-28,
+        [243]=-28,
+        [244]=-28,
+        [245]=-28,
+        [246]=-28,
+        [248]=-28,
+        [249]=-28,
+        [250]=-28,
+        [251]=-28,
+        [252]=-28,
+        [253]=-28,
+        [255]=-28,
+        [262]=-28,
+        [263]=-28,
+        [264]=-28,
+        [265]=-28,
+        [266]=-28,
+        [267]=-28,
+        [268]=-28,
+        [269]=-28,
+        [271]=-28,
+        [273]=-28,
+        [275]=-28,
+        [277]=-28,
+        [279]=-28,
+        [281]=-28,
+        [283]=-28,
+        [284]=-28,
+        [286]=-28,
+        [288]=-28,
+        [290]=-28,
+        [322]=-28,
+        [332]=-28,
+        [333]=-28,
+        [334]=-28,
+        [335]=-28,
+        [336]=-28,
+        [337]=-28,
+        [338]=-28,
+        [339]=-28,
+        [356]=-83,
+        [357]=-28,
+        [360]=-28,
+        [361]=-28,
+        [362]=-28,
+        [363]=-28,
+        [364]=-28,
+        [365]=-28,
+        [366]=-28,
+        [367]=-28,
+        [368]=-28,
+        [369]=-28,
+        [370]=-28,
+        [371]=-28,
+        [372]=-111,
+        [373]=-28,
+        [374]=-83,
+        [375]=-28,
+        [376]=-83,
+        [416]=-28,
+        [417]=-28,
+        [486]=-28,
+        [490]=-28,
+        [491]=-28,
+        [500]=-28,
+        [538]=-83,
+        [539]=-28,
+        [7808]=-111,
+        [7809]=-28,
+        [7810]=-111,
+        [7811]=-28,
+        [7812]=-111,
+        [7813]=-28,
+        [7865]=-28,
+        [7867]=-28,
+        [7869]=-28,
+        [7871]=-28,
+        [7873]=-28,
+        [7875]=-28,
+        [7877]=-28,
+        [7879]=-28,
+        [7884]=-28,
+        [7885]=-28,
+        [7886]=-28,
+        [7887]=-28,
+        [7888]=-28,
+        [7889]=-28,
+        [7890]=-28,
+        [7891]=-28,
+        [7892]=-28,
+        [7893]=-28,
+        [7894]=-28,
+        [7895]=-28,
+        [7896]=-28,
+        [7897]=-28,
+        [7898]=-28,
+        [7899]=-28,
+        [7900]=-28,
+        [7901]=-28,
+        [7902]=-28,
+        [7903]=-28,
+        [7904]=-28,
+        [7905]=-28,
+        [7906]=-28,
+        [7907]=-28,
+        [7908]=-28,
+        [7910]=-28,
+        [7922]=-83,
+        [7923]=-28,
+        [7924]=-83,
+        [7925]=-28,
+        [7926]=-83,
+        [7927]=-28,
+        [7928]=-83,
+        [7929]=-28,
+       },
+       [68]=148,
+       [70]={
+        [65]=-83,
+        [67]=-28,
+        [71]=-28,
+        [79]=-28,
+        [81]=-28,
+        [97]=-28,
+        [99]=-28,
+        [100]=-28,
+        [101]=-28,
+        [103]=-28,
+        [109]=-28,
+        [110]=-28,
+        [111]=-28,
+        [112]=-28,
+        [114]=-28,
+        [115]=-28,
+        [117]=-28,
+        [118]=-28,
+        [119]=-28,
+        [121]=-28,
+        [122]=-28,
+        [192]=-83,
+        [193]=-83,
+        [194]=-83,
+        [195]=-83,
+        [196]=-83,
+        [197]=-83,
+        [198]=-28,
+        [199]=-28,
+        [210]=-28,
+        [211]=-28,
+        [212]=-28,
+        [213]=-28,
+        [214]=-28,
+        [216]=-28,
+        [224]=-7,
+        [225]=-21,
+        [226]=-7,
+        [227]=-7,
+        [228]=-7,
+        [229]=-7,
+        [230]=-28,
+        [231]=-28,
+        [232]=-7,
+        [233]=-21,
+        [234]=-7,
+        [235]=-7,
+        [241]=-7,
+        [242]=-7,
+        [243]=-21,
+        [244]=-7,
+        [245]=-7,
+        [246]=-7,
+        [248]=-28,
+        [249]=-7,
+        [250]=-21,
+        [251]=-7,
+        [252]=-7,
+        [253]=-21,
+        [255]=-7,
+        [256]=-83,
+        [257]=-7,
+        [258]=-83,
+        [259]=-7,
+        [260]=-83,
+        [261]=-28,
+        [262]=-28,
+        [263]=-21,
+        [264]=-28,
+        [265]=-7,
+        [266]=-28,
+        [267]=-7,
+        [268]=-28,
+        [269]=-7,
+        [271]=-7,
+        [273]=-28,
+        [275]=-7,
+        [277]=-7,
+        [279]=-7,
+        [281]=-28,
+        [283]=-7,
+        [284]=-28,
+        [285]=-7,
+        [286]=-28,
+        [287]=-7,
+        [288]=-28,
+        [289]=-7,
+        [290]=-28,
+        [291]=-28,
+        [324]=-21,
+        [326]=-28,
+        [328]=-7,
+        [332]=-28,
+        [333]=-7,
+        [334]=-28,
+        [335]=-7,
+        [336]=-28,
+        [337]=-7,
+        [338]=-28,
+        [341]=-21,
+        [343]=-28,
+        [345]=-7,
+        [347]=-21,
+        [349]=-7,
+        [351]=-28,
+        [353]=-7,
+        [361]=-7,
+        [363]=-7,
+        [365]=-7,
+        [367]=-7,
+        [369]=-7,
+        [371]=-28,
+        [373]=-7,
+        [375]=-7,
+        [378]=-21,
+        [380]=-7,
+        [382]=-7,
+        [416]=-28,
+        [417]=-28,
+        [486]=-28,
+        [487]=-7,
+        [490]=-28,
+        [491]=-28,
+        [500]=-28,
+        [501]=-21,
+        [537]=-28,
+        [7809]=-7,
+        [7811]=-21,
+        [7813]=-7,
+        [7840]=-83,
+        [7841]=-28,
+        [7842]=-83,
+        [7843]=-28,
+        [7844]=-83,
+        [7845]=-28,
+        [7846]=-83,
+        [7847]=-28,
+        [7848]=-83,
+        [7849]=-28,
+        [7850]=-83,
+        [7851]=-28,
+        [7852]=-83,
+        [7853]=-28,
+        [7854]=-83,
+        [7855]=-28,
+        [7856]=-83,
+        [7857]=-28,
+        [7858]=-83,
+        [7859]=-28,
+        [7860]=-83,
+        [7861]=-28,
+        [7862]=-83,
+        [7863]=-28,
+        [7865]=-28,
+        [7867]=-28,
+        [7869]=-28,
+        [7871]=-28,
+        [7873]=-28,
+        [7875]=-28,
+        [7877]=-28,
+        [7879]=-28,
+        [7884]=-28,
+        [7885]=-28,
+        [7886]=-28,
+        [7887]=-28,
+        [7888]=-28,
+        [7889]=-28,
+        [7890]=-28,
+        [7891]=-28,
+        [7892]=-28,
+        [7893]=-28,
+        [7894]=-28,
+        [7895]=-28,
+        [7896]=
