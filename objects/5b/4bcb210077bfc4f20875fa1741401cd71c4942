@@ -4961,17 +4961,7 @@ mÕC'uE¬OÌ/î)v|<CÒi/’£‘≠≈stÎ’h∞∑•ÑwùﬂJ√ÎÃo•·%ö¿”E´|&pm0è"MÇZ¥œLnú^Úá
 ogDÀﬁnÙ‘˝v∆Ÿ{¸<π{Ñø„]pº‚ßÚﬁÒÆX·e_≈^¡€K«∂xΩõhØﬂä«öÃ˙}i˝F’vûGãÜQ⁄1„nGHª:›3Vı∆\@ÁÜÓ\Õ˝9Ã»Í	û;f±\‡.q’»⁄‰’Œ≥Ô¿·Ì‘I2•£d)ñá“˛,Ωƒ~'◊¢Rr-ñ"…t+Èœ¨F”ßÑ©ﬁNrj>ì\63ßz€C‚0Ï÷;ÊÜÁjÅ${£/∞ ™â4¡Ò9≥¡Pî6d˜¯"·Ä^kç8≥áåÅ®H≠¯Ë[ãfBeo˝y&GÔ£Ùsúù61ñç¥3√Î*]ˆ’6P6e√¢NV%ŸΩ™YPET "∞XO=a·í1Ö∏Fàá¬ …VhS‹j•ã-∆j˜<a≈ë˘GÙïƒán˝ªe1∆6cìGKª±òE];eàWW+ü∏ÆB\{s†ö;ñ´˘n.-]t)R˘ƒün¢Ó†7x6∞Ã∫»M‘_åeSÄûykbP~NHΩ˝≥Z‰ÿxÌÛˆp?πv◊yRÿ®¸Ùﬂœö˘.≈¬—p«kÁ≥Uáö"ﬁx˜⁄mûã"⁄òÁs\}€¶ÄC¨/∂BÆ\Ω∂Â<Wö*^BæQOò‡ΩáiuÊj7@˝S¶∞Ì¢V™ ™\˚≠»‰"´•p*ŒE¯á·ñπ◊Î€wQczÆvxŒOõuÖ
 ﬁLê^M0bØØ¿ﬁ3Ñ–Û¥’2•pÓıπ⁄ˆ∏—TìMø±ç)◊Ü÷Ø'£À$!?7,WKà2ß
 S8∞‰jKo„ëUKêÅ≤´Ü≠S˘" ØoÔ ⁄ÈÔ1˙ã3„.–˙?≈ÊÉ∂XÆ[´/‹R®VnÖRS!yﬁŸå≥Â·yBÿA(wYÀ‘NãA◊Ë|C•≈;¬E
-eÇ]bv¯˙d∞±$ñ28»≥zÂ◊mœªñJÅˆ≠í860Ã…ãZ˘.ö≠qâ’Bãp[ÑÆÿêµFÊ«nr≈Ùâ¬v\—ó¨Só£Ô"-–æ'Ï<&…´ãˇ};°≥ÌÑÀ∂∑—ﬂVBp±h"Hå÷EGAÆ6‰Â;,‰1‰»öÊ∫à9™˝ÓqƒÔœºº:KtdÓ¥8/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-calc.code.tex
-File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-backgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@layerbox@background=\box111
-\pgf@layerboxsaved@background=\box112
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+eÇ]bv¯˙d∞±$ñ28»≥zÂ◊mœªñJÅˆ≠í860Ã…ãZ˘.ö≠qâ’Bãp[ÑÆÿêµFÊ«nr≈Ùâ¬v\—ó¨Só£Ô"-–æ'Ï<&…´ãˇ};°≥ÌÑÀ∂∑—ﬂVBp±h"Hå÷EGAÆ6‰Â;,‰1‰»öÊ∫à9™˝ÓqƒÔœºº:KtdÓ¥8gf/frontendlayer/tikz/libraries/tikzlibrary
 arrows.code.tex
 File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
@@ -5363,26 +5353,26 @@ le.>
 )
 \openout1 = `inria-poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -5418,67 +5408,67 @@ LaTeX Font Info:    ... okay on input line 148.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 148.
+Package hyperref Info: Link coloring OFF on input line 146.
 (./inria-poster.out) (./inria-poster.out)
 \@outlinefile=\write7
 \openout7 = `inria-poster.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 148.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 146.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 148.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 146.
 \symnumbers=\mathgroup12
 \sympureletters=\mathgroup13
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/InriaSans(1)/m/n --> TU/InriaSans(0)/m/n on input li
-ne 148.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 148.
+ne 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 148.
+ine 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 148.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 148.
+ine 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/InriaSans(0)/m/n on input line 148.
+(Font)                  OT1/cmss/m/n --> TU/InriaSans(0)/m/n on input line 146.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/InriaSans(0)/m/n on input line 148
+(Font)                  OT1/cmss/bx/n --> TU/InriaSans(0)/m/n on input line 146
 .
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 148.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  TU/InriaSans(1)/m/it --> TU/InriaSans(0)/m/it on input 
-line 148.
+line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/InriaSans(1)/bx/it --> TU/InriaSans(0)/m/it on input
- line 148.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 148.
+ line 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 148.
+(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 148.
+(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 146.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/InriaSans(0)/m/n --> TU/InriaSans(0)/b/n on input li
-ne 148.
+ne 146.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/InriaSans(0)/m/it --> TU/InriaSans(0)/b/it on input 
-line 148.
+line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 148.
+ine 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/InriaSans(0)/b/n --> TU/InriaSans(0)/b/n on input li
-ne 148.
+ne 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/InriaSans(0)/m/n --> TU/InriaSans(0)/b/n on input li
-ne 148.
+ne 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/InriaSans(0)/m/it --> TU/InriaSans(0)/b/it on input 
-line 148.
+line 146.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraCode(0)/m/n --> TU/FiraCode(0)/b/n on input line
- 148.
+ 146.
 
 (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
 .dict
@@ -5506,9 +5496,9 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count609
 LaTeX Encoding Info:    Redeclaring text command \" (encoding T1) on input line
- 148.
+ 146.
 LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input lin
-e 148.
+e 146.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -5549,27 +5539,27 @@ Package biblatex Warning: citation 'this-paper'
 (biblatex)                bibliography labels cannot be generated,
 (biblatex)                please correct the citation.
 
-Package biblatex Info: Reference section=0 on input line 148.
-Package biblatex Info: Reference segment=0 on input line 148.
+Package biblatex Info: Reference section=0 on input line 146.
+Package biblatex Info: Reference segment=0 on input line 146.
 (./inria-poster.nav)
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 14.62796pt on input line 148.
+(Font)              scaled to size 14.62796pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 36.39577pt on input line 148.
+(Font)              scaled to size 36.39577pt on input line 146.
 File: theme/rf-inria.pdf Graphic file (type pdf)
 <use theme/rf-inria.pdf>
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 14.28163pt on input line 148.
+(Font)              scaled to size 14.28163pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 51.17587pt on input line 148.
+(Font)              scaled to size 51.17587pt on input line 146.
 LaTeX Font Info:    Font shape `TU/FiraCode(0)/m/n' will be
-(Font)              scaled to size 25.77438pt on input line 148.
+(Font)              scaled to size 25.77438pt on input line 146.
 
 ! Font TU/FiraCode(0)/m/n/34.83="Fira Code" at 25.77438pt not loadable: Metric 
 (TFM) file or installed font not found.
 <to be read again> 
                    relax 
-l.148 \begin{document}
+l.146 \begin{document}
                       
 I wasn't able to read the size data for this font,
 so I will ignore the font specification.
@@ -5577,27 +5567,27 @@ so I will ignore the font specification.
 You might try inserting a different font spec;
 e.g., type `I\font<same font id>=<substitute font name>'.
 
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 148.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 30.3269pt on input line 148.
+(Font)              scaled to size 30.3269pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 21.22873pt on input line 148.
+(Font)              scaled to size 21.22873pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 15.16344pt on input line 148.
+(Font)              scaled to size 15.16344pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 21.22873pt on input line 148.
+(Font)              scaled to size 21.22873pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 15.16344pt on input line 148.
+(Font)              scaled to size 15.16344pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 30.3269pt on input line 148.
+(Font)              scaled to size 30.3269pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 21.22873pt on input line 148.
+(Font)              scaled to size 21.22873pt on input line 146.
 LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 15.16344pt on input line 148.
+(Font)              scaled to size 15.16344pt on input line 146.
 ! \textfont 0 is undefined (character h).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5607,7 +5597,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5617,7 +5607,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5627,7 +5617,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character p).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5637,7 +5627,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5647,7 +5637,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character :).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5657,7 +5647,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character /).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5667,7 +5657,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character /).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5677,7 +5667,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5687,7 +5677,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character n).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5697,7 +5687,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5707,7 +5697,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5717,7 +5707,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5727,7 +5717,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5737,7 +5727,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character c).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5747,7 +5737,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5757,7 +5747,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character f).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5767,7 +5757,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5777,7 +5767,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5787,7 +5777,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5797,7 +5787,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5807,7 +5797,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5817,7 +5807,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5827,7 +5817,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5837,7 +5827,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5847,7 +5837,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5857,7 +5847,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character @).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5867,7 +5857,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5877,7 +5867,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character n).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5887,7 +5877,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5897,7 +5887,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5907,7 +5897,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5917,7 +5907,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5927,7 +5917,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character c).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5937,7 +5927,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.148 \begin{document}
+l.146 \begin{document}
                       
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5949,7 +5939,7 @@ File: theme/rf-inria.pdf Graphic file (type pdf)
 ! \textfont 0 is undefined (character h).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5959,7 +5949,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5969,7 +5959,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5979,7 +5969,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character p).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5989,7 +5979,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -5999,7 +5989,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character :).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6009,7 +5999,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character /).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6019,7 +6009,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character /).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6029,7 +6019,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6039,7 +6029,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character n).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6049,7 +6039,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6059,7 +6049,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6069,7 +6059,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6079,7 +6069,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6089,7 +6079,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character c).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6099,7 +6089,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6109,7 +6099,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character f).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6119,7 +6109,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6129,7 +6119,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6139,7 +6129,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6149,7 +6139,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6159,7 +6149,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6169,7 +6159,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6179,7 +6169,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6189,7 +6179,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6199,7 +6189,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6209,7 +6199,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character @).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6219,7 +6209,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6229,7 +6219,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character n).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6239,7 +6229,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6249,7 +6239,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6259,7 +6249,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6269,7 +6259,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6279,7 +6269,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character c).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6289,7 +6279,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.149 \begin{frame}[fragile]{
+l.147 \begin{frame}[fragile]{
                              }
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6303,7 +6293,7 @@ File: theme/rf-inria.pdf Graphic file (type pdf)
 ! \textfont 0 is undefined (character h).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6313,7 +6303,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6323,7 +6313,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6333,7 +6323,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character p).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6343,7 +6333,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6353,7 +6343,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character :).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6363,7 +6353,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character /).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6373,7 +6363,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character /).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6383,7 +6373,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6393,7 +6383,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character n).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6403,7 +6393,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6413,7 +6403,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6423,7 +6413,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6433,7 +6423,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6443,7 +6433,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character c).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6453,7 +6443,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6463,7 +6453,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character f).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6473,7 +6463,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character i).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6483,7 +6473,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character r).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6493,7 +6483,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6503,7 +6493,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6513,7 +6503,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character .).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6523,7 +6513,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character l).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6533,7 +6523,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character a).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6543,7 +6533,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character s).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6553,7 +6543,7 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character t).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
@@ -6563,9 +6553,19 @@ and I'll try to forget that I needed that character.
 ! \textfont 0 is undefined (character @).
 \Url@FormatString ...\Url@String \UrlRight \m@th $
                                                   
-l.392 \end{frame}
+l.390 \end{frame}
                  
 Somewhere in the math formula just ended, you used the
 stated character from an undefined font family. For example,
 plain TeX doesn't allow \it or \sl in subscripts. Proceed,
-and I'll try to forget that I n
+and I'll try to forget that I needed that character.
+
+! \textfont 0 is undefined (character i).
+\Url@FormatString ...\Url@String \UrlRight \m@th $
+                                                  
+l.390 \end{frame}
+                 
+Somewhere in the math formula just ended, you used the
+stated character from an undefined font family. For example,
+plain TeX doesn't allow \it or \sl in subscripts. Proceed,
+and I'll try to forget that I needed that char
