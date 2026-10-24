@@ -1,0 +1,627 @@
+% References for "Repo as Root Disk".
+%
+% Converted from the inline thebibliography block. Every field here was already
+% in the manuscript; nothing has been added, and where a source gave no author,
+% venue or date, none is invented.
+%
+% Build:  pdflatex -> bibtex -> pdflatex -> pdflatex
+
+% IEEE style lists up to six authors and truncates beyond that. Two entries
+% here carry fourteen and fifteen, and spelling them out cost most of a page.
+% Repeated author names are printed rather than replaced by IEEEtran's long
+% dash: AGENTS.md allows no em dash anywhere, the reference list included.
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_forced_etal       = "yes",
+  CTLmax_names_forced_etal = "6",
+  CTLnames_show_etal       = "1",
+  CTLdash_repeated_names   = "no"
+}
+
+% ------------------------------------------------ browser-native machines
+
+@misc{jslinux,
+  author       = {F. Bellard},
+  title        = {{JSLinux}: run {Linux} or other operating systems in your browser},
+  url          = {https://bellard.org/jslinux/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{vfsync,
+  author       = {F. Bellard},
+  title        = {{VFsync}: virtual file synchronization},
+  url          = {https://vfsync.org/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{v86,
+  title        = {v86: x86 {PC} emulator and x86-to-wasm {JIT}, running in the browser},
+  url          = {https://github.com/copy/v86},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{webvm,
+  author       = {A. Pignotti},
+  title        = {{WebVM}: server-less x86 virtual machines in the browser},
+  url          = {https://labs.leaningtech.com/blog/webvm-server-less-x86-virtual-machines-in-the-browser},
+  note         = {{Leaning Technologies}, Feb. 1, 2022. Accessed: Oct. 7, 2026}
+}
+
+@misc{cheerpx,
+  author       = {{Leaning Technologies}},
+  title        = {{CheerpX} documentation: files and filesystems},
+  url          = {https://cheerpx.io/docs/guides/File-System-support},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{c2w,
+  author       = {K. Tokunaga},
+  title        = {container2wasm: container to {WASM} converter},
+  url          = {https://github.com/container2wasm/container2wasm},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{webcontainers,
+  author       = {{StackBlitz}},
+  title        = {Introducing {WebContainers}: run {Node.js} natively in your browser},
+  year         = {2021},
+  url          = {https://blog.stackblitz.com/posts/introducing-webcontainers/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{onworks,
+  author       = {{OnWorks}},
+  title        = {Run online {OS} {Linux} free with {OnWorks}},
+  url          = {https://www.onworks.net/playonline/runonworks.php},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+% ---------------------------------------- hosted and reproducible environments
+
+@misc{codespaces,
+  author       = {{GitHub}},
+  title        = {{GitHub Codespaces} documentation},
+  url          = {https://docs.github.com/en/codespaces},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@inproceedings{binder,
+  author       = {{Project Jupyter} and M. Bussonnier and J. Forde and J. Freeman
+                  and B. Granger and T. Head and C. Holdgraf and K. Kelley and
+                  G. Nalvarte and A. Osheroff and M. Pacer and Y. Panda and
+                  F. Perez and B. Ragan-Kelley and C. Willing},
+  title        = {{Binder} 2.0: reproducible, interactive, sharable environments
+                  for science at scale},
+  booktitle    = {Proc. 17th Python Sci. Conf.},
+  pages        = {113--120},
+  year         = {2018},
+  doi          = {10.25080/Majora-4af1f417-011},
+  note={\href{https://doi.org/10.25080/Majora-4af1f417-011}{doi:~10.25080/Majora-4af1f417-011}}
+}
+
+@misc{repo2docker,
+  author       = {{Project Jupyter}},
+  title        = {repo2docker: turn repositories into {Jupyter}-enabled {Docker} images},
+  url          = {https://repo2docker.readthedocs.io/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{codeocean,
+  author       = {{Code Ocean}},
+  title        = {{Code Ocean} version 4},
+  url          = {https://codeocean.com/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@article{wholetale,
+  title = {Computing environments for reproducibility: Capturing the `{Whole Tale}'},
+  journal = {Future Gener. Comput. Syst.},
+  volume = {94},
+  pages = {854-867},
+  year = {2019},
+  issn = {0167-739X},
+  doi = {10.1016/j.future.2017.12.029},
+  author = {Adam Brinckman and Kyle Chard and Niall Gaffney and Mihael Hategan and Matthew B. Jones and Kacper Kowalik and Sivakumar Kulasekaran and Bertram Ludäscher and Bryce D. Mecum and Jarek Nabrzyski and Victoria Stodden and Ian J. Taylor and Matthew J. Turk and Kandace Turner},
+  note={\href{https://doi.org/10.1016/j.future.2017.12.029}{doi:~10.1016/j.future.2017.12.029}}
+}
+
+% ------------------------------------------- content addressing and chunking
+
+@inproceedings {venti,
+	author = {Sean Quinlan and Sean Dorward},
+	title = {Venti: A New Approach to Archival Data Storage},
+	booktitle = {Proc. USENIX Conf. File Storage Technol. (FAST)},
+	year = {2002}
+}
+
+
+@misc{bup,
+  title        = {bup: highly efficient backup based on the git packfile format},
+  url          = {https://bup.github.io/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{gitannex,
+  author       = {J. Hess},
+  title        = {git-annex: manage files with git},
+  url          = {https://git-annex.branchable.com/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{gitlfs,
+  title        = {{Git Large File Storage}},
+  url          = {https://git-lfs.com/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{restic,
+  author       = {{restic}},
+  title        = {Foundation: introducing content-defined chunking},
+  year         = {2015},
+  url          = {https://restic.net/blog/2015-09-12/restic-foundation1-cdc/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{borg,
+  title        = {{BorgBackup}: deduplicating archiver with compression and authenticated encryption},
+  url          = {https://www.borgbackup.org/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{casync,
+  author       = {L. Poettering},
+  title        = {casync: content-addressable data synchronization tool},
+  url          = {https://github.com/systemd/casync},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+% --------------------------------------------------- git as a filesystem view
+
+@misc{gitfs,
+  author       = {{PressLabs}},
+  title        = {gitfs: version controlled file system},
+  url          = {https://github.com/presslabs/gitfs},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@article{repofs,
+  title =  {{RepoFS}: file system view of {Git} repositories},
+  journal = {SoftwareX},
+  volume = {9},
+  pages = {288-292},
+  year = {2019},
+  issn = {2352-7110},
+  doi = {10.1016/j.softx.2019.03.007},
+  author = {Vitalis Salis and Diomidis Spinellis},
+  note={\href{https://doi.org/10.1016/j.softx.2019.03.007}{doi:~10.1016/j.softx.2019.03.007}}
+}
+
+@misc{ipfs,
+  title={{IPFS}: content addressed, versioned, {P2P} file system}, 
+  author={Juan Benet},
+  year={2014},
+  eprint={1407.3561},
+  archivePrefix={arXiv},
+  primaryClass={cs.NI},
+  url={https://arxiv.org/abs/1407.3561},
+  note={{arXiv} preprint, \href{https://doi.org/10.48550/arXiv.1407.3561}{doi:~10.48550/arXiv.1407.3561}},
+  doi={10.48550/arXiv.1407.3561}
+}
+
+% ------------------------------------------------ static hosting and formats
+
+@misc{mindspark,
+  author       = {P. Patil},
+  title        = {{MindSpark}: mind map for everyone},
+  url          = {https://github.com/prasadpatil25/MindSpark},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@inproceedings{firecracker,
+  author       = {A. Agache and M. Brooker and A. Florescu and A. Iordache and
+                  A. Liguori and R. Neugebauer and P. Piwonka and D.-M. Popa},
+  title        = {{Firecracker}: lightweight virtualization for serverless
+                  applications},
+  booktitle    = {Proc. 17th USENIX Symp. Netw. Syst. Des. Implement. (NSDI)},
+  pages        = {419--434},
+  year         = {2020}
+}
+
+% Machine state moved, versioned and archived; checked 2026-10-08 against
+% Crossref (isr) and the USENIX proceedings pages (the rest).
+@inproceedings{isr,
+  author       = {M. Kozuch and M. Satyanarayanan},
+  title        = {{Internet Suspend/Resume}},
+  booktitle    = {Proc. 4th IEEE Workshop Mobile Comput. Syst. Appl. (WMCSA)},
+  pages        = {40--46},
+  year         = {2002},
+  doi          = {10.1109/MCSA.2002.1017484}
+}
+
+@inproceedings{collective,
+  author       = {R. Chandra and N. Zeldovich and C. Sapuntzakis and M. S. Lam},
+  title        = {The {Collective}: a cache-based system management architecture},
+  booktitle    = {Proc. 2nd USENIX Symp. Netw. Syst. Des. Implement. (NSDI)},
+  year         = {2005}
+}
+
+@inproceedings{foundation,
+  author       = {S. Rhea and R. Cox and A. Pesterev},
+  title        = {Fast, inexpensive content-addressed storage in {Foundation}},
+  booktitle    = {Proc. USENIX Annu. Tech. Conf. (ATC)},
+  pages        = {143--156},
+  year         = {2008}
+}
+
+@inproceedings{cumulus,
+  author       = {M. Vrable and S. Savage and G. M. Voelker},
+  title        = {Cumulus: filesystem backup to the cloud},
+  booktitle    = {Proc. 7th USENIX Conf. File Storage Technol. (FAST)},
+  year         = {2009}
+}
+
+@inproceedings{bluesky,
+  author       = {M. Vrable and S. Savage and G. M. Voelker},
+  title        = {{BlueSky}: a cloud-backed file system for the enterprise},
+  booktitle    = {Proc. 10th USENIX Conf. File Storage Technol. (FAST)},
+  year         = {2012}
+}
+
+@misc{s3backer,
+  title        = {s3backer: a filesystem containing a single file backed by {Amazon S3}},
+  url          = {https://github.com/archiecobbs/s3backer},
+  note         = {Accessed: Oct. 8, 2026}
+}
+
+@misc{artifact,
+  author       = {P. Patil},
+  title        = {{Repo as Root Disk}},
+  howpublished = {Software, version v1.0.5, Zenodo},
+  month        = oct,
+  year         = {2026},
+  doi          = {10.5281/zenodo.23215296},
+  note         = {\href{https://doi.org/10.5281/zenodo.23215296}{doi:~10.5281/zenodo.23215296}}
+}
+
+@misc{httpvfs,
+  author       = {{phiresky}},
+  title        = {Hosting {SQLite} databases on {Github Pages} (or {IPFS} or any static file hoster)},
+  url          = {https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/},
+  note         = {{Apr.} 17, 2021. Accessed: Oct. 7, 2026}
+}
+
+@misc{opfs,
+  author       = {{WHATWG}},
+  title        = {{File System Standard}: the origin private file system},
+  url          = {https://fs.spec.whatwg.org/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@inproceedings{nix,
+  author = {Dolstra, Eelco and de Jonge, Merijn and Visser, Eelco},
+  title = {{Nix}: A Safe and Policy-Free System for Software Deployment},
+  year = {2004},
+  booktitle = {Proc. 18th USENIX Large Installation Syst. Admin. Conf. (LISA)},
+  pages = {79--92}
+}
+
+% --------------------------------------------------------------- host APIs
+
+@misc{ghapi,
+  author       = {{GitHub}},
+  title        = {{REST API} documentation},
+  url          = {https://docs.github.com/en/rest},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+% The documented limits the paper measures against: 80 content-generating
+% requests a minute and 500 an hour, 900 points a minute at 5 points a write,
+% and 5,000 requests an hour for a personal access token. Read 2026-10-06.
+@misc{ghratelimits,
+  author       = {{GitHub}},
+  title        = {Rate limits for the {REST API}},
+  note         = {Accessed: Oct. 6, 2026},
+  url          = {https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api}
+}
+
+@misc{forgejo,
+  author       = {{Forgejo}},
+  title        = {{API} specification},
+  url          = {https://codeberg.org/swagger.v1.json},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{gitlabapi,
+  author       = {{GitLab}},
+  title        = {Commits {API}: create a commit with multiple file actions},
+  url          = {https://docs.gitlab.com/api/commits/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{s3pricing,
+  author       = {{Amazon Web Services}},
+  title        = {{Amazon S3} pricing},
+  note         = {{US East (N. Virginia)}, {S3} Standard. Accessed: Oct. 10, 2026},
+  url          = {https://aws.amazon.com/s3/pricing/}
+}
+
+@misc{s3conditional,
+  author       = {{Amazon Web Services}},
+  title        = {{Amazon S3}: conditional writes},
+  year         = {2024},
+  url          = {https://docs.aws.amazon.com/AmazonS3/latest/userguide/conditional-writes.html},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+% ------------------------------------ IEEE Transactions on Cloud Computing
+
+@ARTICLE{duplicacy,
+  author={Li, Zonghui and Chen, Gilbert and Deng, Yangdong},
+  journal={IEEE Trans. Cloud Comput.}, 
+  title={{Duplicacy}: A New Generation of Cloud Backup Tool Based on Lock-Free Deduplication}, 
+  year={2022},
+  volume={10},
+  number={4},
+  pages={2508-2520},
+  doi={10.1109/TCC.2020.3047403},
+  note={\href{https://doi.org/10.1109/TCC.2020.3047403}{doi:~10.1109/TCC.2020.3047403}}
+}
+
+@ARTICLE{boafft,
+  author={Luo, Shengmei and Zhang, Guangyan and Wu, Chengwen and Khan, Samee U. and Li, Keqin},
+  journal={IEEE Trans. Cloud Comput.}, 
+  title={{Boafft}: Distributed Deduplication for Big Data Storage in the Cloud}, 
+  year={2020},
+  volume={8},
+  number={4},
+  pages={1199-1211},
+  doi={10.1109/TCC.2015.2511752},
+  note={\href{https://doi.org/10.1109/TCC.2015.2511752}{doi:~10.1109/TCC.2015.2511752}}
+}
+
+@ARTICLE{mgrm,
+  author={Zhang, Datong and Deng, Yuhui and Zhou, Yi and Li, Jie and Zhu, Weiheng and Min, Geyong},
+  journal={IEEE Trans. Cloud Comput.}, 
+  title={{MGRM}: A Multi-Segment Greedy Rewriting Method to Alleviate Data Fragmentation in Deduplication-Based Cloud Backup Systems}, 
+  year={2023},
+  volume={11},
+  number={3},
+  pages={2503-2516},
+  doi={10.1109/TCC.2022.3214816},
+  note={\href{https://doi.org/10.1109/TCC.2022.3214816}{doi:~10.1109/TCC.2022.3214816}}
+}
+
+@ARTICLE{sidechannel,
+  author={Yu, Chia-Mu and Gochhayat, Sarada Prasad and Conti, Mauro and Lu, Chun-Shien},
+  journal={IEEE Trans. Cloud Comput.}, 
+  title={Privacy Aware Data Deduplication for Side Channel in Cloud Storage}, 
+  year={2020},
+  volume={8},
+  number={2},
+  pages={597-609},
+  doi={10.1109/TCC.2018.2794542},
+  note={\href{https://doi.org/10.1109/TCC.2018.2794542}{doi:~10.1109/TCC.2018.2794542}}
+}
+
+@ARTICLE{sidechannelcomment,
+  author={Tang, Xin and Zhu, Yudan and Fu, Mingjun},
+  journal={IEEE Trans. Cloud Comput.}, 
+  title={Comments on `{Privacy Aware Data Deduplication for Side Channel in Cloud Storage}'}, 
+  year={2024},
+  volume={12},
+  number={2},
+  pages={814-817},
+  doi={10.1109/TCC.2024.3376996},
+  note={\href{https://doi.org/10.1109/TCC.2024.3376996}{doi:~10.1109/TCC.2024.3376996}}
+}
+
+@ARTICLE{harnik,
+  author={Harnik, Danny and Pinkas, Benny and Shulman-Peleg, Alexandra},
+  journal={IEEE Secur. Privacy},
+  title={Side Channels in Cloud Services: Deduplication in Cloud Storage},
+  year={2010},
+  volume={8},
+  number={6},
+  pages={40-47},
+  doi={10.1109/MSP.2010.187},
+  note={\href{https://doi.org/10.1109/MSP.2010.187}{doi:~10.1109/MSP.2010.187}}
+}
+
+@INPROCEEDINGS{siv,
+  author={Rogaway, Phillip and Shrimpton, Thomas},
+  title={A Provable-Security Treatment of the Key-Wrap Problem},
+  booktitle={Advances in Cryptology -- {EUROCRYPT} 2006},
+  series={Lecture Notes in Computer Science},
+  volume={4004},
+  pages={373-390},
+  year={2006},
+  publisher={Springer},
+  doi={10.1007/11761679_23},
+  note={\href{https://doi.org/10.1007/11761679_23}{doi:~10.1007/11761679\_23}}
+}
+
+@misc{ghlargefiles,
+  author       = {{GitHub}},
+  title        = {About large files on {GitHub}},
+  url          = {https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{ghaup,
+  author       = {{GitHub}},
+  title        = {{GitHub} Acceptable Use Policies},
+  url          = {https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{gitlabsettings,
+  author       = {{GitLab}},
+  title        = {{GitLab.com} settings},
+  url          = {https://docs.gitlab.com/user/gitlab_com/},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@inproceedings{browsix,
+  author       = {B. Powers and J. Vilk and E. D. Berger},
+  title        = {{Browsix}: Bridging the gap between {Unix} and the browser},
+  booktitle    = {Proc. 22nd Int. Conf. Archit. Support Program. Lang. Oper. Syst. (ASPLOS)},
+  pages        = {253--266},
+  year         = {2017},
+  doi          = {10.1145/3037697.3037727},
+  note={\href{https://doi.org/10.1145/3037697.3037727}{doi:~10.1145/3037697.3037727}}
+}
+
+@inproceedings{doppio,
+  author       = {J. Vilk and E. D. Berger},
+  title        = {{Doppio}: Breaking the browser language barrier},
+  booktitle    = {Proc. 35th ACM SIGPLAN Conf. Program. Lang. Des. Implement. (PLDI)},
+  pages        = {508--518},
+  year         = {2014},
+  doi          = {10.1145/2594291.2594293},
+  note={\href{https://doi.org/10.1145/2594291.2594293}{doi:~10.1145/2594291.2594293}}
+}
+
+@inproceedings{jinmiller,
+  author       = {K. Jin and E. L. Miller},
+  title        = {The effectiveness of deduplication on virtual machine disk images},
+  booktitle    = {Proc. {SYSTOR} 2009: Israeli Exp. Syst. Conf.},
+  pages        = {1--12},
+  year         = {2009},
+  doi          = {10.1145/1534530.1534540},
+  note={\href{https://doi.org/10.1145/1534530.1534540}{doi:~10.1145/1534530.1534540}}
+}
+
+@inproceedings{mirage,
+  author       = {D. Reimer and A. Thomas and G. Ammons and T. Mummert and
+                  B. Alpern and V. Bala},
+  title        = {Opening black boxes: Using semantic information to combat
+                  virtual machine image sprawl},
+  booktitle    = {Proc. 4th ACM SIGPLAN/SIGOPS Int. Conf. Virtual Execution Environ. (VEE)},
+  pages        = {111--120},
+  year         = {2008},
+  doi          = {10.1145/1346256.1346272},
+  note={\href{https://doi.org/10.1145/1346256.1346272}{doi:~10.1145/1346256.1346272}}
+}
+
+@misc{ostree,
+  author       = {{OSTree project}},
+  title        = {{OSTree} overview},
+  note         = {Accessed: Oct. 7, 2026},
+  url          = {https://ostreedev.github.io/ostree/introduction/}
+}
+
+@misc{qcow2,
+  author       = {{QEMU project}},
+  title        = {Qcow2 image file format},
+  note         = {Accessed: Oct. 7, 2026},
+  url          = {https://www.qemu.org/docs/master/interop/qcow2.html}
+}
+
+@misc{fetch,
+  author       = {{WHATWG}},
+  title        = {Fetch standard},
+  note         = {Section 4.9, {CORS}-preflight cache. Accessed: Oct. 7, 2026},
+  url          = {https://fetch.spec.whatwg.org/}
+}
+
+@misc{irmin,
+  author       = {{Irmin project}},
+  title        = {Irmin: an {OCaml} library for building mergeable, branchable
+                  distributed data stores},
+  note         = {Accessed: Oct. 7, 2026},
+  url          = {https://irmin.org/}
+}
+
+@misc{dolt,
+  author       = {{DoltHub}},
+  title        = {Dolt: {Git} for data},
+  note         = {Accessed: Oct. 7, 2026},
+  url          = {https://github.com/dolthub/dolt}
+}
+
+% ------------------------------------------- added by the reference audit
+% Each verified on 07-Oct-2026: DOIs against Crossref, web pages read in full.
+
+@misc{jslinuxtech,
+  author       = {F. Bellard},
+  title        = {{JSLinux}: technical notes},
+  url          = {https://bellard.org/jslinux/tech.html},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@misc{fcsnap,
+  author       = {{Firecracker project}},
+  title        = {Firecracker snapshotting},
+  url          = {https://github.com/firecracker-microvm/firecracker/blob/main/docs/snapshotting/snapshot-support.md},
+  note         = {Accessed: Oct. 7, 2026}
+}
+
+@inproceedings{shattered,
+  author       = {M. Stevens and E. Bursztein and P. Karpman and A. Albertini and Y. Markov},
+  title        = {The first collision for full {SHA-1}},
+  booktitle    = {Advances in Cryptology -- {CRYPTO} 2017},
+  series       = {Lecture Notes in Computer Science},
+  publisher    = {Springer},
+  pages        = {570--596},
+  year         = {2017},
+  doi          = {10.1007/978-3-319-63688-7_19},
+  note={\href{https://doi.org/10.1007/978-3-319-63688-7_19}{doi:~10.1007/978-3-319-63688-7\_19}}
+}
+
+% Nov. 25, 2024: If-Match on PUT, the compare-and-swap; If-None-Match came on Aug. 20, 2024.
+@misc{s3cas2024,
+  author       = {{Amazon Web Services}},
+  title        = {{Amazon S3} adds new functionality for conditional writes},
+  url          = {https://aws.amazon.com/about-aws/whats-new/2024/11/amazon-s3-functionality-conditional-writes/},
+  note         = {{Nov.} 25, 2024. Accessed: Oct. 7, 2026}
+}
+
+@misc{resticsw,
+  author       = {{restic authors}},
+  title        = {restic 0.19.1},
+  url          = {https://github.com/restic/restic/releases/tag/v0.19.1},
+  note         = {Released Jul. 5, 2026. Accessed: Oct. 7, 2026}
+}
+
+@misc{restserver,
+  author       = {{restic authors}},
+  title        = {rest-server 0.14.0},
+  url          = {https://github.com/restic/rest-server/releases/tag/v0.14.0},
+  note         = {Released May 31, 2025. Accessed: Oct. 7, 2026}
+}
+
+@article{deltalake,
+  author       = {M. Armbrust and T. Das and L. Sun and B. Yavuz and S. Zhu and M. Murthy and
+                  J. Torres and H. van Hovell and A. Ionescu and A. {\L}uszczak and
+                  M. {\'S}witakowski and M. Szafra{\'n}ski and X. Li and T. Ueshin and
+                  M. Mokhtar and P. Boncz and A. Ghodsi and S. Paranjpye and P. Senster and
+                  R. Xin and M. Zaharia},
+  title        = {{Delta Lake}: high-performance {ACID} table storage over cloud object stores},
+  journal      = {Proc. VLDB Endow.},
+  volume       = {13},
+  number       = {12},
+  pages        = {3411--3424},
+  year         = {2020},
+  doi          = {10.14778/3415478.3415560},
+  note={\href{https://doi.org/10.14778/3415478.3415560}{doi:~10.14778/3415478.3415560}}
+}
+
+@techreport{gcm,
+  author       = {M. J. Dworkin},
+  title        = {Recommendation for block cipher modes of operation: {Galois/Counter Mode (GCM)} and {GMAC}},
+  institution  = {National Institute of Standards and Technology},
+  type         = {NIST Special Publication},
+  number       = {800-38D},
+  year         = {2007},
+  doi          = {10.6028/NIST.SP.800-38D},
+  note={\href{https://doi.org/10.6028/NIST.SP.800-38D}{doi:~10.6028/NIST.SP.800-38D}}
+}
+
+@misc{rfc8018,
+  author       = {K. Moriarty and B. Kaliski and A. Rusch},
+  title        = {{PKCS} \#5: Password-Based Cryptography Specification Version 2.1},
+  howpublished = {RFC 8018},
+  month        = jan,
+  year         = {2017},
+  doi          = {10.17487/RFC8018},
+  note={\href{https://doi.org/10.17487/RFC8018}{doi:~10.17487/RFC8018}}
+}
