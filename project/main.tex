@@ -1,123 +1,254 @@
+\documentclass[twoside,british,a4paper,twocolumn]{article}
+%%% Au Naturel
+%%% A LaTeX article template. See https://github.com/episanty/AuNaturel for more.
+%%% (c) Emilio Pisanty (2018), available under the MIT license.
 
-\documentclass[theme=dnd]{rpgbook}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb,upref}
+\usepackage{tgheros} %% Main sans-serif font
+\usepackage{tgtermes} %% Main serif font
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{subfig}
+\usepackage{siunitx}
 
-\graphicspath{{img/}}
+\usepackage{balance}
 
-\title{The Sunken Temple}
-\subtitle{An example adventure for typesetters}
-\author{A. W. Riter}
- 
-\cover{enraged-monster}
-\RpgCoverTransparency{0.3}
-\RpgPartTransparency{0.4}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
-%% this is the GM's copy, so show the secrets (dnd-handout.tex leaves them hidden)
-\RpgSwitch{ShowSecrets}{on}
+%% slightly prettier date
+\usepackage{isodate}
+\cleanlookdateon
+
+%% Fancy first letter
+\usepackage{lettrine}
+\renewcommand{\LettrineFont}{
+  \fontfamily{iwonal}\fontsize{42}{42}\selectfont %% Iwona Light
+  \color[rgb]{0,0.25,0.8}
+  }
+
+\usepackage{lipsum}
+
+%%%% math font
+\usepackage{newtxmath}
+
+\usepackage{geometry}
+\geometry{reset,ignoreall,
+  textheight=253mm,
+  textwidth=175mm,
+  bottom=21mm,
+  inner=17.5mm,
+  footskip=8mm,
+  headsep=5mm,
+  headheight=10pt
+  }
+
+\usepackage{fancyhdr}
+\renewcommand{\headrule}{}
+\renewcommand{\footrule}{}
+\pagestyle{fancy}
+\fancyhead{}\fancyfoot{}
+\fancyhead[LE]{ \footnotesize\sffamily\upshape \shortauthor}
+\fancyhead[RO]{ \footnotesize\sffamily\upshape \shorttitle}
+\fancyfoot[LE,RO]{\sffamily\bfseries\upshape \thepage}
+\fancypagestyle{firstpagestyle}
+\fancyhead{}\fancyfoot{}
+\fancyfoot[LE,RO]{\sffamily\bfseries\upshape \thepage}
+
+\usepackage{titlesec}
+\titleformat{\section}[block]{\bfseries\upshape\sffamily\boldmath}{}{0.em}{}
+\titlespacing*{\section}{0pt}{0.8em plus 0ex minus 0ex}{0em plus 0.ex}
+
+\usepackage{titling}
+\setlength{\droptitle}{-12mm}
+\pretitle{\noindent\begin{minipage}{\textwidth} \raggedright\huge\bfseries\upshape\sffamily\boldmath
+\color[rgb]{0,0,0.8}
+}
+\posttitle{\end{minipage} \vskip 0.6em}
+\preauthor{\noindent \begin{minipage}{\textwidth} \large\mdseries\sffamily}
+\postauthor{
+  \end{minipage}
+  \vskip 0.4em
+  {
+   \sffamily
+   \color{black!80}
+   \noindent \small
+   \address
+   \par
+   \authoremail
+   }
+   \par \vskip 0.4em
+  }
+\predate{ \noindent \hspace{-0.4em} \sffamily\small}
+\postdate{\vskip 0.0em}
+
+% Figure captions
+\usepackage{caption}
+\DeclareCaptionFont{cfs}{\fontsize{8.5}{10.25}\selectfont}
+\DeclareCaptionLabelSeparator{vline}{\;|\;}
+\captionsetup{
+ labelsep=vline,
+ font={sf,cfs},
+ labelfont={cfs,bf},
+ belowskip=-12pt
+ }
+\newcommand{\figurecaption}[2]{\caption[#1]{\textbf{#1.} #2}}
+
+\usepackage{tcolorbox}
+\definecolor{abstractboxcolor}{cmyk}{0.1,0,0,0}
+\newtcolorbox{abstractbox}{
+  arc=0pt,
+  boxrule=0pt,
+  colback=abstractboxcolor,
+  boxsep=0.5em,
+  left=0pt, right=0pt, bottom=0pt, top=0pt,
+  width=\columnwidth
+}
+%%% To avoid some bad box warnings, as per tex.se/q/62296/
+\makeatletter
+ \def\@textbottom{\vskip \z@ \@plus 1pt}
+ \let\@texttop\relax
+\makeatother
+
+\renewenvironment{abstract}{
+   \noindent
+   \begin{minipage}{\textwidth}
+   \upshape\sffamily \bfseries
+   \fontsize{9}{11.5}\selectfont
+  }{
+   \end{minipage}
+   \vskip 2.0em
+  }
+
+%%% Bibliography
+\usepackage[numbers,sort&compress]{natbib}
+\makeatletter \def\NAT@def@citea{\def\@citea{\NAT@separator\,}} \makeatother
+\setlength{\bibsep}{0pt plus 0.3ex}
+
+\usepackage{etoolbox}
+\apptocmd{\sloppy}{\hbadness 10000\relax}{}{}
+
+\newcommand{\citer}[1]{Ref.~\citealp{#1}}
+\newcommand{\citers}[1]{Refs.~\citealp{#1}}
+\newcommand{\reffig}[1]{Fig.~\ref{#1}}
+
+\usepackage[%
+  bookmarks=true,
+  colorlinks,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue,
+  plainpages=false,
+  pdfpagelabels,
+  final,
+  breaklinks=true
+]{hyperref}
+\hypersetup{
+pdftitle={A journal-style article},
+pdfauthor={A. Researcher},
+pdfkeywords={latex, article, class}
+}
+
+\title{A Two-Column Journal-Style Article}
+\newcommand\shorttitle{Journal Article Starter}
+
+\author{A. Researcher\textsuperscript{1$\,*$}}
+\newcommand\shortauthor{A. Researcher}
+
+\newcommand\address{\textsuperscript{1}Department of Example Studies, State University, Anytown, ST}
+\newcommand\authoremail{$^*$author@example.edu}
+
+\date{ \today }
+
+\usepackage{physics}
+\renewcommand{\d}{\ensuremath{\textrm{d}}}
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+\newcommand{\vbe}{\vb{E}}
+\newcommand{\vbr}{\vb{r}}
+\newcommand{\tve}{\tilde{\vb{E}}}
+\newcommand{\ue}[1]{\hat{\vb{e}}_{#1}}
+
+\usepackage{textcomp}
 
 \begin{document}
-	\maketitle
 
-	%% D&D themed table of contents are possible, but with an example document this short it looks bad, so use it when it makes sense!
-	% \tableofcontents
+\twocolumn[
+\begin{@twocolumnfalse}
 
+\maketitle
+\thispagestyle{firstpagestyle}
 
-	\chapter{The Village of Saltmere}
+\begin{abstract}
+This starter typesets a compact, two-column article with a sans-serif title
+block and a drop-cap opening paragraph, in the style of a general-science
+journal. Replace this abstract, and everything below it, with your own text.
+\end{abstract}
 
-		\begin{RpgNarration}
-			The tide is out, and the whole village smells of salt and tar. Nets hang drying between the houses, and a bell clangs somewhere out on the flats, though there is no wind to ring it.
+\vspace{-2mm}
 
-			The buildings around are dilapidated and empty, the only warmth coming from a low-slung building to the west, balanced on stilts which keep it out of the muddy water. The sign outside declares itself to be ``The Drowned Bell".
-		\end{RpgNarration}
-		\input{village.tex}
-		\appendix
+\end{@twocolumnfalse}
+]
 
-	\chapter{Creatures}
+\section{Introduction}
+\lettrine[lines=3, lhang=0.15]{T}{\:} his
+is a paragraph with some text at the start of the article. This is just a
+sample but it has some mathematics like $x=y^2 +A_\mathrm{eff}$ and something
+else like $\hat{V}_\mathsf{L} = \sum_j \mathbf{r}_j^k$. Replace this paragraph
+and the rest of the body text with your own content.
 
-		%% The adventure's final foe: a full-width (RpgStat*) legendary statblock
-		\begin{RpgStat*}{The Typesetter}[
-				size=Medium,
-				type=Undead,
-				alignment={Chaotic evil},
-				AC=15,
-				HP=12d8+24,
-				str=12, dex=15, con=14, int=18, wis=14, cha=12,
-				str-save, int-save,
-				skills={Perception, Arcana},
-				skills-expertise=History,
-				cr=6,
-				languages={Common, Draconic, \LaTeX},
-			]
-			\RpgStatLegendaryResistance{2}
+This is another paragraph with more text just to show paragraph breaks.
 
-			\begin{RpgStatSpells}[title={Drowned Spellcasting}, innate, modifier=int]
-				\atWill{faulty preamble, thunderclap}
-				\perDay{2}{fireball}
-				\level[3][2]{compile document}
-			\end{RpgStatSpells}
+\section{Results}
+Here is a paragraph with a couple of citations: one to an article
+\cite{example-article}, and one to a book \cite{example-book}.
 
-			\section{Actions}
-				\attack{Inkblade}[distance=both, reach=10, range=20/60, modifier=int, dmg=1d8+\RpgStatMod{int}, dmg-type=necrotic]
+\lipsum[4]
 
-				\RpgStatLegendarySection[uses=2]
-				\action{Rapid Edit} \name{} makes an Inkblade attack, then moves up to 30 feet.
+Here's an equation with a label, \eqref{first-equation}. So, we have
+\begin{equation}
+V(\mathbf{x}_A,\mathbf{x}_B)=d^2\frac{r^2-2\lambda^2}{(r^2+\lambda^2)^{5/2}},
+\label{first-equation}
+\end{equation}
+with $d$, $\lambda$ and $r$ as defined in the text.
 
-				\RpgStatMythicSection[narration={Just as the Typesetter falls, a voice rings out: \textit{``but will it compile on Overleaf?''} The ink on the walls begins to move\ldots}]
-				\save{Online Woes}[modifier=int, dc=15, shape=sphere, origin={within 10 feet of the Typesetter}, success={half damage, and is not stunned}, fail={\RpgDice{4d10} psychic damage, and is stunned until the end of its next turn}]
-		\end{RpgStat*}
+\begin{figure}[b]
+\centering
+  \fbox{
+    \begin{minipage}[c][0.07\textheight][c]{0.4\textwidth}
+      \centering{figure placeholder}
+    \end{minipage}
+  }
+\label{fig-placeholder}
+\figurecaption{%
+Brief figure description%
+}{%
+Longer figure description.
+}
+\end{figure}
 
-		\begin{RpgStat}{Powerful Dragon Format}[
-				size=Tiny,
-				type=Dragon,
-				alignment={Lawful neutral},
-				AC=13,
-				HP=2d8+2,
-				speed={10ft, fly 30ft},
-				str=5, dex=16, con=12, int=16, wis=12, cha=15,
-				cr=1/8,
-				int-save, wis-save,
-				languages={Draconic, \LaTeX},
-				nickname=PDF,
-			]
-			\trait{Portable} The \name{} is unaffected by its surroundings, ignoring difficult terrain and strong winds.
+\lipsum[1-2]
 
-			\section{Actions}
-				\attack{Claw}[modifier=dex, dmg-type=slashing, plus-dmg=1d6, plus-type=fire]
-		\end{RpgStat}
+\section{Discussion}
+\lipsum[1-3]
 
-	\chapter{Treasure \& Magic}
+\section{Conclusions}
+\lipsum[1-2]
 
-		The following items can be found in the temple, and the Typesetter casts the spells below.
+\section*{Acknowledgements}
+Thank funding sources and colleagues here.
 
-		\section{Magic Items}
+%% To balance the columns on the last page.
+\balance
 
-			\begin{RpgItem}{Knonald's Quill}[
-					type={Wondrous item},
-					rarity=Rare,
-					requires-attunement={by a creature with an Intelligence of 13 or higher},
-				]
-				As an action, you may use this quill to write on any surface. The symbols you write are so beautifully typeset that a creature which reads them must succeed on a DC 13 Intelligence saving throw or be charmed by you, as if by the \textit{charm person} spell.
-			\end{RpgItem}
+\bibliographystyle{arthur}
+\bibliography{references}{}
+%% To get the bibliography: pdflatex -> bibtex -> pdflatex -> pdflatex.
 
-		\section{Spells}
+\hfill % hacky fix for a bad-box warning caused by the balance package.
 
-			\begin{RpgSpell}{Compile Document}[
-					level=3,
-					school=Conjuration,
-					range={60 feet},
-					area={30-foot cube},
-					components=VS,
-				]
-				Roll \RpgDice{1d4}. That many documents within the area are converted into a \textit{Powerful Dragon Format}, which acts on its own initiative and regards you as an ally. For each dragon created in this way, you regain 5 hit points.
-
-				\RpgSpellUpcast[The hit points restored by each dragon increase by]{5}
-			\end{RpgSpell}
-			\begin{RpgSpell}{Faulty Preamble}[
-					school=Evocation,
-					range=Touch,
-					duration={Until dispelled},
-				]
-				You corrupt a document that you touch. When this document is next affected by \textit{compile document}, it does not become a Powerful Dragon Format. Instead, it deals \RpgDice{1d10} psychic damage to the creature attempting the compilation.
-
-				\RpgCantripScaling{1d10}{2d10}{3d10}{4d10}
-			\end{RpgSpell}
 \end{document}
