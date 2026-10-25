@@ -12,7 +12,15 @@
 \cover{enraged-monster}
 \RpgCoverTransparency{0.3}
 \RpgPartTransparency{0.4}
+\usepackage{fontspec}
 
+% If the file is in your working directory:
+\setmainfont{GilliusADFNo2-Regular.otf}[
+    Path = ./ ,
+    BoldFont = GilliusADFNo2-Bold.otf ,         % Add if available
+    ItalicFont = GilliusADFNo2-Italic.otf ,     % Add if available
+    BoldItalicFont = GilliusADFNo2-BoldItalic.otf
+]
 %% this is the GM's copy, so show the secrets (dnd-handout.tex leaves them hidden)
 \RpgSwitch{ShowSecrets}{on}
 
