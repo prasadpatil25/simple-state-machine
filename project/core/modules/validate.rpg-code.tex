@@ -1,0 +1,75 @@
+\ExplSyntaxOn
+\cs_generate_variant:Nn \seq_set_split:Nnn { NVV }
+
+% \begin{noindent}
+\cs_if_exist:NTF\RpgPackagePath
+{	%% True branch: RpgPath already defined
+	\wlog{RpgPackagePath~set~by~external~means}
+}
+{	%% False branch: need to find package path
+
+	\wlog{RpgPackagePath~not~set.~Attempting~to~locate~myself}
+
+	\file_if_exist:nTF { core/rpg-config.cfg }
+	{	%% True branch (file exists, load easily)
+		\wlog{rpg-config~file~located.~Extracting~RpgPackagePath.}
+		\file_input:n { core/rpg-config.cfg }
+	}
+	{	%% False branch (no file extant, ask kpsewhich where rpgtex.sty lives)
+
+		\wlog{rpg-config~not~found.~Attempting~to~locate~rpgtex.sty~with~kpsewhich.}
+
+		%% kpsewhich is permitted in restricted shell-escape mode (the TeX Live and MiKTeX default)
+		%% Need to do some processing because messages can be injected (i.e. elevation warnings, such as in the github actions)
+		\sys_get_shell:nnNTF { kpsewhich~rpgtex.sty }
+			{
+				\char_set_catcode_space:n { 32 }
+				\char_set_catcode_other:n { 10 }
+				\int_set:Nn \tex_endlinechar:D { 10 }
+			}
+			\l_tmpa_tl
+		{	%% keep the last line which ends with rpgtex.sty
+			\tl_set:Ne \l_tmpb_tl { \char_generate:nn { 10 } { 12 } }
+			\seq_set_split:NVV \l_tmpa_seq \l_tmpb_tl \l_tmpa_tl
+			\tl_clear:N \l_tmpa_tl
+			\seq_map_inline:Nn \l_tmpa_seq
+			{
+				\str_if_eq:eeT { \str_range:nnn {#1} { -10 } { -1 } } { rpgtex.sty }
+				{ \tl_set:Nn \l_tmpa_tl {#1} }
+			}
+		}
+		{	%% shell escape is fully disabled
+			\tl_clear:N \l_tmpa_tl
+		}
+
+		%% Now check if that worked...
+		\tl_if_empty:NTF \l_tmpa_tl
+		{
+		%% If that didn't work, throw an error
+		\msg_new:nnnn { rpgtex } { missing-font-config }
+		{
+			Configuration~file~was~not~found.
+			\\
+			rpgtex~needs~to~know~its~root~location~to~load~fonts
+			\\
+			You~can~configure~package~in~one~of~these~ways:
+			\\\\
+			1.~Compile~with~rpglatex~compiler~(inserts~kpsewhich~command~automatically)
+			\\\\
+			2.~Run~configuration~script~`scripts/configure-rpgtex'~in~rpgtex~root~directory
+			\\\\
+			3.~Manually~create~file~`[rpgtexroot]/core/rpg-config.cfg'~with~contents:\\
+			\unexpanded{\edef}\unexpanded{\RpgPackagePath}\{absolute / path~/to/rpgtex/root\}
+			\\\\
+			4.~Run~compiler~with~shell~escape~enabled~(the~default~restricted~mode~is~enough;~rpgtex~asks~kpsewhich)
+			}{}
+			\msg_error:nnn { rpgtex } { missing-font-config } {  }
+		}
+		{	%% Strip the file name from the path to rpgtex.sty, leaving the root directory
+			\file_parse_full_name:VNNN \l_tmpa_tl \RpgPackagePath \l_tmpb_tl \l_tmpb_tl
+			\wlog{RpgPackagePath~located~via~kpsewhich:~\RpgPackagePath}
+		}
+	}
+}
+% \end{noindent}
+\ExplSyntaxOff

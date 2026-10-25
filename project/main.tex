@@ -1,515 +1,125 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2016 Jan Küster
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%
-%	*************	RESOURCES USED	 ********************
-%
-%	http://tex.stackexchange.com/questions/5718/package-for-pie-charts
-%	http://tex.stackexchange.com/questions/183087/draw-colored-world-us-map-in-latex#183138
-%	http://www.texample.net/tikz/examples/simple-flow-chart/
-%	http://vizualize.me/#
-%	http://devnet.kentico.com/getattachment/fd511a92-e164-40f5-ba51-07c228a49fed/Kentico_fortune500_infographics_FINAL.png
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
 
+\documentclass[theme=dnd]{rpgbook}
+
+\graphicspath{{img/}}
+\usepackage[notext]{kpfonts-otf}
+% Then load a different text font, like Latin Modern:
+\usepackage{lmodern}
+\title{The Sunken Temple}
+\subtitle{An example adventure for typesetters}
+\author{A. W. Riter}
+ 
+\cover{enraged-monster}
+\RpgCoverTransparency{0.3}
+\RpgPartTransparency{0.4}
+
+%% this is the GM's copy, so show the secrets (dnd-handout.tex leaves them hidden)
+\RpgSwitch{ShowSecrets}{on}
 
-%============================================================================%
-%
-%	DOCUMENT DEFINITION
-%
-%============================================================================%
-
-%we use article class because we want to fully customize the page
-\documentclass[10pt,A4]{article}	
-
-
-%----------------------------------------------------------------------------------------
-%	ENCODING
-%----------------------------------------------------------------------------------------
-
-%we use utf8 since we want to build from any machine
-\usepackage[utf8]{inputenc}		
-
-%----------------------------------------------------------------------------------------
-%	LOGIC
-%----------------------------------------------------------------------------------------
-
-\usepackage{xifthen}
-\usepackage{calc}
-
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
-
-% some tex-live fonts - choose your own
-
-%\usepackage[defaultsans]{droidsans}
-%\usepackage[default]{comfortaa}
-%\usepackage{cmbright}
-\usepackage[default]{raleway}
-%\usepackage{fetamont}
-%\usepackage[default]{gillius}
-%\usepackage[light,math]{iwona}
-%\usepackage[thin]{roboto} 
-
-% set font default
-\renewcommand*\familydefault{\sfdefault} 	
-\usepackage[T1]{fontenc}
-
-% more font size definitions
-\usepackage{moresize}		
-
-%----------------------------------------------------------------------------------------
-%	PAGE LAYOUT  DEFINITIONS
-%----------------------------------------------------------------------------------------
-
-%debug page outer frames
-%\usepackage{showframe}			
-
-%define page styles using geometry
-\usepackage[a4paper]{geometry}		
-
-% for example, change the margins to 2 inches all round
-\geometry{top=1cm, bottom=1cm, left=1cm, right=1cm} 	
-
-% use customized header
-\usepackage{fancyhdr}				
-\pagestyle{fancy}
-
-%less space between header and content
-\setlength{\headheight}{-5pt}		
-
-% customize header entries
-\lhead{}
-\rhead{}
-\chead{}
-
-%indentation is zero
-\setlength{\parindent}{0mm}
-
-%----------------------------------------------------------------------------------------
-%	TABLE /ARRAY DEFINITIONS
-%---------------------------------------------------------------------------------------- 
-
-%extended aligning of tabular cells
-\usepackage{array}
-
-% custom column width
-\newcolumntype{x}[1]{%
->{\raggedleft\hspace{0pt}}p{#1}}%
-
-
-%----------------------------------------------------------------------------------------
-%	GRAPHICS DEFINITIONS
-%---------------------------------------------------------------------------------------- 
-
-\usepackage{graphicx}
-\usepackage{wrapfig}
-
-% for drawing graphics and charts
-\usepackage{tikz}
-\usetikzlibrary{shapes, backgrounds}
-
-% use to vertically center content
-% credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
-\newcommand{\vcenteredinclude}[1]{\begingroup
-\setbox0=\hbox{\includegraphics{#1}}%
-\parbox{\wd0}{\box0}\endgroup}
-
-% use to vertically center content
-% credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
-\newcommand*{\vcenteredhbox}[1]{\begingroup
-\setbox0=\hbox{#1}\parbox{\wd0}{\box0}\endgroup}
-
-%----------------------------------------------------------------------------------------
-%	ICON-SET EMBEDDING
-%---------------------------------------------------------------------------------------- 
-
-% at this point we simplify our icon-embedding by simply referring to a set of png images.
-% if you find a good way of including svg without conflicting with other packages you can
-% replace this part
-
-\newcommand{\icons}{Font-Awesome-SVG-PNG/}	%path to your icon lib
-\newcommand{\icon}[2]{\colorbox{thirdcol}{\includegraphics[height=#2]{\icons#1}}}	%icon shortcut
-\newcommand{\icontext}[3]{ 						%icon with text shortcut
-	\vcenteredhbox{\icon{#1}{#2}} \vcenteredhbox{\textcolor{textcol}{#3}}
-}
-
-%----------------------------------------------------------------------------------------
-%	Color DEFINITIONS
-%---------------------------------------------------------------------------------------- 
-
-\usepackage{color}
-
-%main color
-\definecolor{maincol}{RGB}{255,150,0}
-
-%secondary colors
-\definecolor{secondcol}{RGB}{0,178,255}
-\definecolor{thirdcol}{RGB}{0,80,130}
-\definecolor{fourthcol}{RGB}{0,100,160}
-\definecolor{fifthcol}{RGB}{0,120,200}
-\definecolor{sixthcol}{RGB}{0,80,130}
-
-%background color
-\definecolor{bgcol}{RGB}{190,220,255}
-
-%textcolor
-\definecolor{textcol}{RGB}{0,50,80}
-
-%sectioncolor
-\definecolor{sectcol}{RGB}{255,255,255}\colorbox{#FF0000}{}
-
-%set a background col for whole page
-\pagecolor{bgcol}
-
-
-%----------------------------------------------------------------------------------------
-% 	HEADER
-%----------------------------------------------------------------------------------------
-
-% remove top header line
-\renewcommand{\headrulewidth}{0pt} 
-
-%remove botttom header line
-\renewcommand{\footrulewidth}{0pt}	  	
-
-%remove pagenum
-\renewcommand{\thepage}{}	
-
-%remove section num		
-\renewcommand{\thesection}{}			
-
-
-%----------------------------------------------------------------------------------------
-%
-% 	TIKZ GRAPHICS
-%
-%----------------------------------------------------------------------------------------
-
-% a six pointed arrow poiting to the left
-\newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}	
-
-% a six pointed arrow poiting to the right
-\newcommand{\tzrarrow}{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;}
-
-
-% include the left arrow into a tikz picture
-% param1: fill color
-%
-\newcommand{\larrow}[1]
-{\begin{tikzpicture}[scale=0.58]
-	 \filldraw[fill=#1!100,draw=#1!100!black]  \tzlarrow
- \end{tikzpicture}
-}
-
-% include the right arrow into a tikz picture
-% param1: fill color
-%
-\newcommand{\rarrow}[1]
-{\begin{tikzpicture}[scale=0.58]
-	\filldraw[fill=#1!100,draw=#1!100!black] \tzrarrow
- \end{tikzpicture}
-}
-
-% the chart graphics are outsourced into own files
-
-%----------------------------------------------------------------------------------------
-% 	PIE CHART
-%----------------------------------------------------------------------------------------
-\input{./g/chart.tex}
-
-%----------------------------------------------------------------------------------------
-% 	BAR CHART
-%----------------------------------------------------------------------------------------
-\input{./g/barchart.tex}
-
-
-%----------------------------------------------------------------------------------------
-% 	BUBBLE CHART
-%----------------------------------------------------------------------------------------
-\input{./g/bubbles.tex}
-
-%----------------------------------------------------------------------------------------
-% 	SQUARE CHART
-%----------------------------------------------------------------------------------------
-\input{./g/squares.tex}
-\textcolor[HTML]{FFFFFF}{}
-
-%----------------------------------------------------------------------------------------
-% 	TIMELINE CHART
-%----------------------------------------------------------------------------------------
-\input{./g/timeline.tex}
-
-%----------------------------------------------------------------------------------------
-% 	FACT BUBBLE
-%----------------------------------------------------------------------------------------
-\input{./g/factbubble.tex}
-
-
-%----------------------------------------------------------------------------------------
-%	custom sections
-%----------------------------------------------------------------------------------------
-
-% create a coloured box with arrow and title as cv section headline
-% param 1: section title
-%
-\newcommand{\cvsection}[2] {
-\textcolor{sectcol}{\uppercase{\textbf{#1}}}
-}
-
-\newcommand{\cvsect}[4]{
-	\textcolor{#3}{\hrule}
-	\colorbox{#3}{ {\cvsection{#1}{#4}}}
-}
-
-% create a coloured arrow with title as cv meta section section
-% param 1: meta section title
-%
-\newcommand{\metasection}[2] {
-	\begin{tabular*}{1\textwidth}{ l l }
-		#1&#2\\[12pt]
-	\end{tabular*}
-}
-
-%----------------------------------------------------------------------------------------
-%	 CV EVENT
-%----------------------------------------------------------------------------------------
-
-% creates a stretched box as 
-\newcommand{\cveventmeta}[2] {
-	\mbox{\mystrut \hspace{87pt}\textit{#1}}\\
-	#2
-}
-
-%----------------------------------------------------------------------------------------
-% STRUTS AND RULES
-%----------------------------------------- -----------------------------------------------
-
-% custom strut
-\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
-
-% colored rule and text for chart legends, wrapped in parbox
-% param 1: text
-% param 2: width in cm or pt, em ...
-% param 3: color
-\newcommand{\legend}[3]{\parbox{#2}{\textcolor{#3}{\rule{#2}{4pt}}\\#1}}
-
-%----------------------------------------------------------------------------------------
-% CUSTOM LOREM IPSUM
-%----------------------------------------------------------------------------------------
-\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
-
-
-%============================================================================%
-%
-%
-%
-%	DOCUMENT CONTENT
-%
-%
-%
-%============================================================================%
 \begin{document}
+	\maketitle
+
+	%% D&D themed table of contents are possible, but with an example document this short it looks bad, so use it when it makes sense!
+	% \tableofcontents
 
 
-%use our custom fancy header definitions
-\pagestyle{fancy}	
+	\chapter{The Village of Saltmere}
 
+		\begin{RpgNarration}
+			The tide is out, and the whole village smells of salt and tar. Nets hang drying between the houses, and a bell clangs somewhere out on the flats, though there is no wind to ring it.
 
-%----------------------------------------------------------------------------------------
-%	TITLE HEADLINE
-%----------------------------------------------------------------------------------------
-\mystrut
-\vspace{-12pt}
+			The buildings around are dilapidated and empty, the only warmth coming from a low-slung building to the west, balanced on stilts which keep it out of the muddy water. The sign outside declares itself to be ``The Drowned Bell".
+		\end{RpgNarration}
+		\input{village.tex}
+		\appendix
 
-\begin{tabular*}{1\textwidth}{ c c c}
-	\parbox[c]{0.4\linewidth}{
-		\colorbox{thirdcol}{\HUGE{\textcolor{white}{\textbf{\uppercase{Jan Küster}}} }}\\
-		\Large{\textcolor{thirdcol}{\textsc{ Consultant Developer}}}\\
-	}&
-	\parbox{0.25\textwidth}{
-	\icontext{map-marker}{22pt}{Bremen, Germany}\\
-	\icontext{mobile-phone}{22pt}{+49 176 313 877 34}\\
-	\icontext{send}{22pt}{info@jankuester.com}\\
-	}&
-	\parbox{0.3\textwidth}{
-	\icontext{mouse-pointer}{22pt}{www.jankuester.com}\\
-	\icontext{github}{22pt}{github.com/jankapunkt}\\
-	\icontext{twitter}{22pt}{@Kuester\_Jan}\\
-	}
-\end{tabular*}
+	\chapter{Creatures}
 
-% manage space by reducing font size
-\small
+		%% The adventure's final foe: a full-width (RpgStat*) legendary statblock
+		\begin{RpgStat*}{The Typesetter}[
+				size=Medium,
+				type=Undead,
+				alignment={Chaotic evil},
+				AC=15,
+				HP=12d8+24,
+				str=12, dex=15, con=14, int=18, wis=14, cha=12,
+				str-save, int-save,
+				skills={Perception, Arcana},
+				skills-expertise=History,
+				cr=6,
+				languages={Common, Draconic, \LaTeX},
+			]
+			\RpgStatLegendaryResistance{2}
 
-\vspace{16pt}
+			\begin{RpgStatSpells}[title={Drowned Spellcasting}, innate, modifier=int]
+				\atWill{faulty preamble, thunderclap}
+				\perDay{2}{fireball}
+				\level[3][2]{compile document}
+			\end{RpgStatSpells}
 
+			\section{Actions}
+				\attack{Inkblade}[distance=both, reach=10, range=20/60, modifier=int, dmg=1d8+\RpgStatMod{int}, dmg-type=necrotic]
 
-\begin{minipage}{0.59\textwidth}
+				\RpgStatLegendarySection[uses=2]
+				\action{Rapid Edit} \name{} makes an Inkblade attack, then moves up to 30 feet.
 
-%----------------------------------------------------------------------------------------
-%	FACTS
-%----------------------------------------------------------------------------------------
+				\RpgStatMythicSection[narration={Just as the Typesetter falls, a voice rings out: \textit{``but will it compile on Overleaf?''} The ink on the walls begins to move\ldots}]
+				\save{Online Woes}[modifier=int, dc=15, shape=sphere, origin={within 10 feet of the Typesetter}, success={half damage, and is not stunned}, fail={\RpgDice{4d10} psychic damage, and is stunned until the end of its next turn}]
+		\end{RpgStat*}
 
-	\mbox{
-		\parbox[c][3cm][c]{0.29\textwidth}{
-		\textcolor{textcol}{I am a digital media graduate with working experience in research projects as well as in the private sector.}
-		}
-		\hspace{10pt}
-		\parbox[c][3cm][c]{0.32\textwidth}{
-			\begin{center}
-			\factbubble{\huge{\textcolor{sectcol}{\textbf{M.Sc.}}}\\\small{\textcolor{sectcol}{\textbf{Digital Media}}}}{1}{maincol}{sectcol}{thirdcol}\\
-			\textcolor{textcol}{as latest degree from}\\
-			\textcolor{textcol}{\textbf{University of Bremen}}
-			\end{center}
-		}
-		\hspace{10pt}
-		\parbox[c][3cm][c]{0.29\textwidth}{
-		\textcolor{textcol}{And I am looking for exciting interdisciplinary projects worldwide.}
-		}
-	}
-	\vspace{34pt}
+		\begin{RpgStat}{Powerful Dragon Format}[
+				size=Tiny,
+				type=Dragon,
+				alignment={Lawful neutral},
+				AC=13,
+				HP=2d8+2,
+				speed={10ft, fly 30ft},
+				str=5, dex=16, con=12, int=16, wis=12, cha=15,
+				cr=1/8,
+				int-save, wis-save,
+				languages={Draconic, \LaTeX},
+				nickname=PDF,
+			]
+			\trait{Portable} The \name{} is unaffected by its surroundings, ignoring difficult terrain and strong winds.
 
-%----------------------------------------------------------------------------------------
-%	SKILLS AND TECHNOLOGIES
-%----------------------------------------------------------------------------------------
+			\section{Actions}
+				\attack{Claw}[modifier=dex, dmg-type=slashing, plus-dmg=1d6, plus-type=fire]
+		\end{RpgStat}
 
-	\cvsect{Skills and Technologies}{0.49}{thirdcol}{textcol}\\[4pt]
-	\mbox{
-		
-		% TEXT BOX
-		\parbox[b][150pt][c]{0.35\textwidth}{
-			\textcolor{textcol}{The biggest part I contribute to my work is in the area of software development.}\\
-		
-			% LANGUAGES
-			\cvsect{Languages}{0.49}{thirdcol}{textcol}\\[4pt]
-			\icontext{language}{14pt}{\colorbox{maincol}{German (native)}}\\
-			\icontext{language}{14pt}{\colorbox{maincol}{English (c1)}}\\
-		}
+	\chapter{Treasure \& Magic}
 
-		% PIE CHART	
-		\begin{piechart}{360}{2}{bgcol}{textcol}{sectcol}
-			\slice{6}{Design}{thirdcol}
-			\slice{16}{Consulting}{fourthcol}
-			\slice{16}{Research}{fifthcol}
-			\slice{16}{Projects}{secondcol}
-			\slice{46}{Development}{maincol}
-		\end{piechart}\\
-	}
-	\begin{center}
-	\begin{tikzpicture}
-		\draw[draw=sectcol,dashed, opacity=0.5] (4,0) -- (-4,0);
-	\end{tikzpicture}
-	\end{center}
+		The following items can be found in the temple, and the Typesetter casts the spells below.
 
-	% BAR CHART
-	\mbox{\hspace{-14pt}
-		\begin{barchart}{10}{5.5}{sectcol}{textcol}{sectcol}{maincol}{secondcol}{thirdcol}
-			\baritem{50}{Java}{0}{0}{65}
-			\baritem{80}{Javascript}{100}{0}{0}
-			\baritem{80}{Metor}{0}{0}{70}
-			\baritem{80}{React}{0}{0}{30}
-			\baritem{50}{XPages}{0}{0}{50}
-			\baritem{50}{LaTex}{0}{0}{60}
-		\end{barchart}
-		\hspace{10pt}
+		\section{Magic Items}
 
-		% TEXTBOX
-		\parbox[b][100pt][c]{0.3\textwidth}{\textcolor{textcol}{Currently, I develop realtime apps with Meteor and react.\\Formerly I worked with Java and XPages.}}
-	}
-	\begin{center}
-	\begin{tikzpicture}
-		\draw[draw=sectcol,dashed, opacity=0.5] (4,0) -- (-4,0);
-	\end{tikzpicture}
-	\end{center}
-	\begin{center}
-	\mbox{
-		\parbox[b][2cm][c]{3cm}{
-			\textcolor{textcol}{I am using git and eclipse regularly for my dev projects.}
-		}\hspace{12pt}
-		\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}{\cvsection{Technologies}}		
-	}
-	\end{center}
-%---------------------------------------------------------------------------------------
-%	ACTIVITIES
-%----------------------------------------------------------------------------------------
-	\cvsect{Actvities}{0.49}{thirdcol}{textcol}\\[20pt]
-	\mbox{
-		
-		% FACT BUBBLE
-		\parbox[b][3cm][c]{3cm}{
-			\factbubble{\HUGE{\textcolor{sectcol}{\textbf{6}}}\\\large{\textcolor{sectcol}{\textbf{years}}}}{0.85}{maincol}{sectcol}{thirdcol}\\
-			\textcolor{textcol}{of participation at}\\
-			\textcolor{textcol}{\textbf{Global Game Jam}}
-		}
+			\begin{RpgItem}{Knonald's Quill}[
+					type={Wondrous item},
+					rarity=Rare,
+					requires-attunement={by a creature with an Intelligence of 13 or higher},
+				]
+				As an action, you may use this quill to write on any surface. The symbols you write are so beautifully typeset that a creature which reads them must succeed on a DC 13 Intelligence saving throw or be charmed by you, as if by the \textit{charm person} spell.
+			\end{RpgItem}
 
-		% TEXT BOX
-		\parbox[b][3cm][c]{4cm}{
-			\textcolor{textcol}{In my freetime I do practice many creative hobbies. Due to Muay Thai training I can keep my body and mind in balance.}
-		}
+		\section{Spells}
 
-		% SQUARE BARS
-		\squares{20/Game Dev,40/Martial Arts,10/News,20/Music}{1}
-	}
-\end{minipage}
-\begin{minipage}{0.05\textwidth}
-	\begin{center}
-		\begin{tikzpicture}
-			\draw[draw=sectcol,dashed, opacity=0.5] (0,-12) -- (0,12);
-		\end{tikzpicture}
-	\end{center}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-%---------------------------------------------------------------------------------------
-%	EXPERIENCE / EDUCATION
-%----------------------------------------------------------------------------------------
-\cvsect{Experience and Education}{0.4}{thirdcol}{textcol}\\[16pt]
+			\begin{RpgSpell}{Compile Document}[
+					level=3,
+					school=Conjuration,
+					range={60 feet},
+					area={30-foot cube},
+					components=VS,
+				]
+				Roll \RpgDice{1d4}. That many documents within the area are converted into a \textit{Powerful Dragon Format}, which acts on its own initiative and regards you as an ally. For each dragon created in this way, you regain 5 hit points.
 
-\hspace{60pt}\mbox{\legend{Experience}{1.8cm}{maincol} \legend{Events}{1.1cm}{secondcol} \legend{Education}{1.5cm}{thirdcol}}
-\vspace{-40pt}
-\begin{center}
+				\RpgSpellUpcast[The hit points restored by each dragon increase by]{5}
+			\end{RpgSpell}
+			\begin{RpgSpell}{Faulty Preamble}[
+					school=Evocation,
+					range=Touch,
+					duration={Until dispelled},
+				]
+				You corrupt a document that you touch. When this document is next affected by \textit{compile document}, it does not become a Powerful Dragon Format. Instead, it deals \RpgDice{1d10} psychic damage to the creature attempting the compilation.
 
-% TIMELINE
-\begin{cvtimeline}{2009}{2017}{20}{\linewidth}
-\cvevent{1/2009}{11/2011}{Bachelor Studies}{Uni Bremen}{Master Thesis: Semi Automated Scoring in Technology Based Assessment}{thirdcol}{0}
-\cvevent{5/2009}{1/2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne, Australia}{maincol}{1}
-\cvevent{6/2010}{11/2011}{Student Assistant}{Uni Bremen}{Realized an online diagnosis platform for workforce literacy development (Flex)}{maincol}{1}
-\cvevent{9/2011}{9/2011}{PM Simulation}{Getoq Consulting}{Performed a two-day project simulation from management perspective}{secondcol}{2}
-\cvevent{11/2011}{7/2015}{Master Studies Digital Media}{University of Bremen}{Inter-cultural classes in English, covering special topics in computer science and design}{thirdcol}{0}
-\cvevent{1/2012}{11/2014}{Scientific Employee}{Uni of Bremen}{Invented a flexible assessment framework, targeting industrial trainees}{maincol}{1}
-\cvevent{11/2012}{11/2013}{Master Project - PrIMA}{University of Bremen}{Co-Invented a touch table application for medical support, co-developed software (Java) }{thirdcol}{2}
-\cvevent{9/2013}{9/2013}{Poster Presentation}{DELFI Conference}{Co-published poster with paper on usability guidelines for tests with functional illiterates}{secondcol}{2}
-\cvevent{11/2014}{9/2016}{IT Consultant}{We4IT GmbH Bremen}{Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports}{maincol}{1}
-\cvevent{7/2015}{7/2015}{M.Sc. Graduation}{University of Bremen}{Master Thesis: Semi Automated Scoring in Technology Based Assessment}{thirdcol}{0}
-\cvevent{5/2016}{5/2016}{Startup Weekend}{Uni Bremen}{Performed a two-day project simulation from management perspective}{secondcol}{0}
-\cvevent{9/2016}{12/2016}{Software Engineer}{University of Bremen}{text a}{maincol}{1}
-\end{cvtimeline}
-\end{center}
-\end{minipage}
-%============================================================================%
-%
-%
-%
-%	DOCUMENT END
-%
-%
-%
-%============================================================================%
+				\RpgCantripScaling{1d10}{2d10}{3d10}{4d10}
+			\end{RpgSpell}
 \end{document}

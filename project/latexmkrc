@@ -1,0 +1,3 @@
+# rpgtex needs XeLaTeX (or LuaLaTeX). Overleaf builds with latexmk, so compile with xelatex
+# even when the project's compiler is set to pdfLaTeX, the default for new projects
+$pdflatex = 'xelatex %O %S';

@@ -1,0 +1,87 @@
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Class / Package options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage {l3keys2e} %key/value parsing
+
+%% Define the nice simple key-wrappers
+\input {core/modules/helpers.rpg-code.tex}
+\bool_new:N \__rpg_ShowBackground
+\bool_new:N \__rpg_ShowFooterDecoration
+
+%% Use the key-wrappers to define the available options
+%% BoolKey: false by default -> true if present
+%% BoolKey*: true by default -> false if present
+\RpgThemeKeys{ rpg / options }
+{
+	\RpgThemeBoolKey	{justified} {\__rpg_IsJustified}
+	\RpgThemeBoolKey	{openright}	{\__rpg_OpenRight}
+	\RpgThemeBoolKey	{oneside}	{\__rpg_OneSide}
+	\RpgThemeBoolKey*	{noemph}	{\__rpg_OverrideEmph}
+	\RpgThemeBoolKey*	{nomultitoc}{\__rpg_HasMulticolToc}
+
+	\RpgThemeTLKey		{size}		{\__rpg_FontSize}	{10pt}
+	\RpgThemeTLKey		{themepath}	{\__rpg_ThemePath}	{\RpgPackagePath/themes}
+	\RpgThemeTLKey		{theme}		{\__rpg_Theme}		{default}
+
+	\RpgThemeTLMapKey	{columns}	{\__rpg_PageColumns}	{1,2}	{onecolumn,twocolumn} {2}
+
+	\RpgThemeCodeMapKey	{bg}		{full,print,none} {
+		\bool_set_true:N \__rpg_ShowBackground
+		\bool_set_true:N \__rpg_ShowFooterDecoration
+		,
+		\bool_set_false:N \__rpg_ShowBackground
+		\bool_set_true:N \__rpg_ShowFooterDecoration
+		,
+		\bool_set_false:N \__rpg_ShowBackground
+		\bool_set_false:N \__rpg_ShowFooterDecoration
+	}{full}
+
+	%% package inclusion options
+	\RpgThemeBoolKey	{font}		{\__rpg_UseFontOption}
+	\RpgThemeBoolKey	{background}{\__rpg_UsePaperOption}
+	\RpgThemeBoolKey	{sections}	{\__rpg_UseSectionsOption}
+	\RpgThemeBoolKey	{title}		{\__rpg_UseTitlesOption}
+}
+
+
+% % Check the class defaultss
+\tl_if_exist:NT \__rpg_ClassDefaults
+{
+	\exp_args:Nee\keys_set:nn {rpg / options}{\__rpg_ClassDefaults}
+}
+
+% Set the values provided in the file
+\ProcessKeysOptions { rpg / options }
+
+
+%then override with command line if present
+\ifcsname RpgCMD\endcsname
+	\keys_set:nV {rpg/options}{\RpgCMD}
+\fi
+
+
+%then insert the saved arguments into the parent class
+\bool_if:NT \__rpg_IsClass
+{
+
+	\PassOptionsToClass{\__rpg_FontSize}{\__rpg_BaseClass}
+	\PassOptionsToClass{\__rpg_PageColumns}{\__rpg_BaseClass}
+
+	\bool_if:NTF \__rpg_OpenRight
+	{
+		\PassOptionsToClass{ openright }{\__rpg_BaseClass }
+	}
+	{
+		\PassOptionsToClass{ openany }{\__rpg_BaseClass }
+	}
+
+	\bool_if:NT \__rpg_OneSide
+	{
+		\PassOptionsToClass{ oneside }{\__rpg_BaseClass }
+	}
+}
+
+

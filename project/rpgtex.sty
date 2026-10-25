@@ -1,0 +1,30 @@
+%% The basic RPG package defines the many of the commands used, but does not declare a documentstyle
+%% This allows it to be used flexibly
+
+\RequirePackage{expl3}
+\ProvidesExplPackage{rpgtex}{2026/10/10} {1.0.0} { Template for RPG material }
+
+
+
+%%Do I know where I am?
+\input{core/modules/validate.rpg-code.tex}
+
+\ExplSyntaxOn
+%Am I loaded by a class?
+\cs_if_exist:NF \__rpg_IsClass
+{
+	% Doesn't exist -- loaded by a barebones class, or as a standalone package
+	\bool_new:N \__rpg_IsClass
+	\bool_set_false:N \__rpg_IsClass
+
+	\input {core/rpgoptions.clo}
+}
+
+
+%% Load the core definitions 
+\input {core/rpgcore.def}
+
+%% Then set the theme (if none set as option, go to Default)
+\RpgSetTheme{\__rpg_Theme}
+
+\ExplSyntaxOff
