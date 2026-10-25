@@ -1,9 +1,9 @@
 {
   "holder": "tab-ig5imn",
-  "state": "held",
+  "state": "released",
   "machine": "51",
   "acquiredAt": 1792901474806,
-  "renewedAt": 1792903691022,
-  "expiresAt": 1792904291022,
+  "renewedAt": 1792903853194,
+  "expiresAt": 1792903853194,
   "enforced": true
 }
