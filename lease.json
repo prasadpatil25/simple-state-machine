@@ -1,9 +1,9 @@
 {
   "holder": "tab-lk74tq",
-  "state": "held",
+  "state": "released",
   "machine": "58",
   "acquiredAt": 1793372959394,
-  "renewedAt": 1793372959394,
-  "expiresAt": 1793373559394,
+  "renewedAt": 1793373060965,
+  "expiresAt": 1793373060965,
   "enforced": true
 }
