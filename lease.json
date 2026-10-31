@@ -1,9 +1,9 @@
 {
   "holder": "tab-m8fxkf",
-  "state": "held",
+  "state": "released",
   "machine": "56",
   "acquiredAt": 1793465879717,
-  "renewedAt": 1793465879717,
-  "expiresAt": 1793466479717,
+  "renewedAt": 1793465908181,
+  "expiresAt": 1793465908181,
   "enforced": true
 }
