@@ -1,9 +1,9 @@
 {
   "holder": "tab-ndtv6e",
-  "state": "held",
+  "state": "released",
   "machine": "54",
   "acquiredAt": 1793431680652,
-  "renewedAt": 1793432416235,
-  "expiresAt": 1793433016235,
+  "renewedAt": 1793432438073,
+  "expiresAt": 1793432438073,
   "enforced": true
 }
