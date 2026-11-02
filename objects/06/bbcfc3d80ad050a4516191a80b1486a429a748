@@ -1,1607 +1,1521 @@
-t=\count338
- (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count339
-\pgfmatrixcurrentcolumn=\count340
-\pgf@matrix@numberofcolumns=\count341
-)
-\tikz@expandcount=\count342
-
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-topaths.code.tex
-File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(/usr/share/texmf-dist/tex/latex/quantikz/tikzlibraryquantikz2.code.tex
-(/usr/share/texmf-dist/tex/latex/xargs/xargs.sty
-Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
-
-(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
-
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
-\XKV@tempb@toks=\toks41
-)
-\XKV@depth=\count343
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\xargs@max=\count344
-\xargs@toksa=\toks42
-\xargs@toksb=\toks43
-)
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count345
-\xs_countb=\count346
-)
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
-
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count347
-))
-Package: xparse 2025-10-09 L3 Experimental document command parser
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-
-(/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count348
-\calc@Bcount=\count349
-\calc@Adimen=\dimen297
-\calc@Bdimen=\dimen298
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
-LaTeX Info: Redefining \setlength on input line 86.
-LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count350
-\calc@Cskip=\skip58
-)
-(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-)
-\g_MT_multlinerow_int=\count351
-\l_MT_multwidth_dim=\dimen299
-\origjot=\skip59
-\l_MT_shortvdotswithinadjustabove_dim=\dimen300
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen301
-\l_MT_above_intertext_sep=\dimen302
-\l_MT_below_intertext_sep=\dimen303
-\l_MT_above_shortintertext_sep=\dimen304
-\l_MT_below_shortintertext_sep=\dimen305
-\xmathstrut@box=\box70
-\xmathstrut@dim=\dimen306
-)
-(/usr/share/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-(/usr/share/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-matrix.code.tex
-File: tikzlibrarymatrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-quotes.code.tex
-File: tikzlibraryquotes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen307
-\pgfarrowlength=\dimen308
-\pgfarrowwidth=\dimen309
-\pgfarrowlinewidth=\dimen310
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-decorations.pathreplacing.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-decorations.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen311
-\pgfdecoratedremainingdistance=\dimen312
-\pgfdecoratedinputsegmentcompleteddistance=\dimen313
-\pgfdecoratedinputsegmentremainingdistance=\dimen314
-\pgf@decorate@distancetomove=\dimen315
-\pgf@decorate@repeatstate=\count352
-\pgfdecorationsegmentamplitude=\dimen316
-\pgfdecorationsegmentlength=\dimen317
-)
-\tikz@lib@dec@box=\box71
-)
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
-ons.pathreplacing.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-calc.code.tex
-File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-positioning.code.tex
-File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-fit.code.tex
-File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
-s.code.tex
-File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-decorations.pathmorphing.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
-ons.pathmorphing.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-shapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
-ode.tex
-File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-decorations.markings.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
-ons.markings.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-math.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-fpu.code.tex
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
-\tikz@math@for@depth=\count353
-\tikz@math@dimen=\dimen318
-\tikz@math@toks=\toks44
-)
-\pgf@layerbox@background=\box72
-\pgf@layerboxsaved@background=\box73
-\pgf@layerbox@quantback=\box74
-\pgf@layerboxsaved@quantback=\box75
-\c@dummy=\count354
-\myl=\skip60
-\myh=\skip61
-\myd=\skip62
-\c@aaa=\count355
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104
-4.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104
-4.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-\c@wirenumberpermute=\count356
-))
-(/usr/share/texmf-dist/tex/latex/makecell/makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen319
-\ar@mcellbox=\box76
-\extrarowheight=\dimen320
-\NC@list=\toks45
-\extratabsurround=\skip63
-\backup@length=\skip64
-\ar@cellbox=\box77
-)
-\rotheadsize=\dimen321
-\c@nlinenum=\count357
-\TeXr@lab=\toks46
-)
-(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-)
-(/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2025/08/14 v1.18.2 Data Visualization (1.18.2)
-
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks47
-\t@pgfplots@tokb=\toks48
-\t@pgfplots@tokc=\toks49
-\pgfplots@tmpa=\dimen322
-\c@pgfplots@coordindex=\count358
-\c@pgfplots@scanlineindex=\count359
-
-(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_l
-oader.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_p
-gfutil-common-lists.tex))
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
-.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure
-ext.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.te
-x
-\c@pgfplotsarray@tmp=\count360
-)
-(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.t
-ex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.t
-ex
-\c@pgfplotstable@counta=\count361
-\t@pgfplotstable@a=\toks50
-)
-(/usr/share/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.te
-x) (/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading
-.code.tex
-\c@pgfplotslibrarysurf@no=\count362
-
-(/usr/share/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.
-pgfsys-pdftex.def)))
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex)))
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua
-.code.tex)
-\pgfplots@numplots=\count363
-\pgfplots@xmin@reg=\dimen323
-\pgfplots@xmax@reg=\dimen324
-\pgfplots@ymin@reg=\dimen325
-\pgfplots@ymax@reg=\dimen326
-\pgfplots@zmin@reg=\dimen327
-\pgfplots@zmax@reg=\dimen328
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-plotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count364
-\c@ALG@rem=\count365
-\c@ALG@nested=\count366
-\ALG@tlm=\skip65
-\ALG@thistlm=\skip66
-\c@ALG@Lnr=\count367
-\c@ALG@blocknr=\count368
-\c@ALG@storecount=\count369
-\c@ALG@tmpcounter=\count370
-\ALG@tmplength=\skip67
-) (/usr/share/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Package: algpseudocode 
-
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texmf-dist/tex/latex/braket/braket.sty)
-(/usr/share/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
-Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count371
-\algocf@hangindent=\skip68
-
-(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count372
-)
-(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-\skiptotal=\skip69
-\skiplinenumber=\skip70
-\skiprule=\skip71
-\skiphlne=\skip72
-\skiptext=\skip73
-\skiplength=\skip74
-\algomargin=\skip75
-\skipalgocfslide=\skip76
-\algowidth=\dimen329
-\inoutsize=\dimen330
-\inoutindent=\dimen331
-\interspacetitleruled=\dimen332
-\interspacealgoruled=\dimen333
-\interspacetitleboxruled=\dimen334
-\algocf@ruledwidth=\skip77
-\algocf@inoutbox=\box78
-\algocf@inputbox=\box79
-\AlCapSkip=\skip78
-\AlCapHSkip=\skip79
-\algoskipindent=\skip80
-\algocf@nlbox=\box80
-\algocf@hangingbox=\box81
-\algocf@untilbox=\box82
-\algocf@skipuntil=\skip81
-\algocf@capbox=\box83
-\algocf@lcaptionbox=\skip82
-\algoheightruledefault=\skip83
-\algoheightrule=\skip84
-\algotitleheightruledefault=\skip85
-\algotitleheightrule=\skip86
-\c@algocfline=\count373
-\c@algocfproc=\count374
-\c@algocf=\count375
-\algocf@algoframe=\box84
-\algocf@algobox=\box85
-)
-(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
-backgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen335
-\lightrulewidth=\dimen336
-\cmidrulewidth=\dimen337
-\belowrulesep=\dimen338
-\belowbottomsep=\dimen339
-\aboverulesep=\dimen340
-\abovetopsep=\dimen341
-\cmidrulesep=\dimen342
-\cmidrulekern=\dimen343
-\defaultaddspace=\dimen344
-\@cmidla=\count376
-\@cmidlb=\count377
-\@aboverulesep=\dimen345
-\@belowrulesep=\dimen346
-\@thisruleclass=\count378
-\@lastruleclass=\count379
-\@thisrulewidth=\dimen347
-)
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2026/04/26 v3.21 programmable bibliographies (PK/MW)
-
-(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count380
-
-(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count381
-\c@listtotal=\count382
-\c@listcount=\count383
-\c@liststart=\count384
-\c@liststop=\count385
-\c@citecount=\count386
-\c@citetotal=\count387
-\c@multicitecount=\count388
-\c@multicitetotal=\count389
-\c@instcount=\count390
-\c@maxnames=\count391
-\c@minnames=\count392
-\c@maxitems=\count393
-\c@minitems=\count394
-\c@citecounter=\count395
-\c@maxcitecounter=\count396
-\c@savedcitecounter=\count397
-\c@uniquelist=\count398
-\c@uniquename=\count399
-\c@refsection=\count400
-\c@refsegment=\count401
-\c@maxextratitle=\count402
-\c@maxextratitleyear=\count403
-\c@maxextraname=\count404
-\c@maxextradate=\count405
-\c@maxextraalpha=\count406
-\c@abbrvpenalty=\count407
-\c@highnamepenalty=\count408
-\c@lownamepenalty=\count409
-\c@maxparens=\count410
-\c@parenlevel=\count411
-\blx@tempcnta=\count412
-\blx@tempcntb=\count413
-\blx@tempcntc=\count414
-\c@blx@maxsection=\count415
-\blx@maxsegment@0=\count416
-\blx@notetype=\count417
-\blx@parenlevel@text=\count418
-\blx@parenlevel@foot=\count419
-\blx@sectionciteorder@0=\count420
-\blx@sectionciteorderinternal@0=\count421
-\blx@entrysetcounter=\count422
-\blx@biblioinstance=\count423
-\labelnumberwidth=\skip87
-\labelalphawidth=\skip88
-\biblabelsep=\skip89
-\bibitemsep=\skip90
-\bibnamesep=\skip91
-\bibinitsep=\skip92
-\bibparsep=\skip93
-\bibhang=\skip94
-\blx@bcfin=\read3
-\blx@bcfout=\write4
-\blx@langwohyphens=\language5
-\c@mincomprange=\count424
-\c@maxcomprange=\count425
-\c@mincompwidth=\count426
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2026/04/26 v3.21 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count427
-\c@savedafterword=\count428
-\c@annotator=\count429
-\c@savedannotator=\count430
-\c@author=\count431
-\c@savedauthor=\count432
-\c@bookauthor=\count433
-\c@savedbookauthor=\count434
-\c@commentator=\count435
-\c@savedcommentator=\count436
-\c@editor=\count437
-\c@savededitor=\count438
-\c@editora=\count439
-\c@savededitora=\count440
-\c@editorb=\count441
-\c@savededitorb=\count442
-\c@editorc=\count443
-\c@savededitorc=\count444
-\c@foreword=\count445
-\c@savedforeword=\count446
-\c@holder=\count447
-\c@savedholder=\count448
-\c@introduction=\count449
-\c@savedintroduction=\count450
-\c@namea=\count451
-\c@savednamea=\count452
-\c@nameb=\count453
-\c@savednameb=\count454
-\c@namec=\count455
-\c@savednamec=\count456
-\c@translator=\count457
-\c@savedtranslator=\count458
-\c@shortauthor=\count459
-\c@savedshortauthor=\count460
-\c@shorteditor=\count461
-\c@savedshorteditor=\count462
-\c@labelname=\count463
-\c@savedlabelname=\count464
-\c@institution=\count465
-\c@savedinstitution=\count466
-\c@lista=\count467
-\c@savedlista=\count468
-\c@listb=\count469
-\c@savedlistb=\count470
-\c@listc=\count471
-\c@savedlistc=\count472
-\c@listd=\count473
-\c@savedlistd=\count474
-\c@liste=\count475
-\c@savedliste=\count476
-\c@listf=\count477
-\c@savedlistf=\count478
-\c@location=\count479
-\c@savedlocation=\count480
-\c@organization=\count481
-\c@savedorganization=\count482
-\c@origlocation=\count483
-\c@savedoriglocation=\count484
-\c@origpublisher=\count485
-\c@savedorigpublisher=\count486
-\c@publisher=\count487
-\c@savedpublisher=\count488
-\c@language=\count489
-\c@savedlanguage=\count490
-\c@origlanguage=\count491
-\c@savedoriglanguage=\count492
-\c@pageref=\count493
-\c@savedpageref=\count494
-\shorthandwidth=\skip95
-\shortjournalwidth=\skip96
-\shortserieswidth=\skip97
-\shorttitlewidth=\skip98
-\shortauthorwidth=\skip99
-\shorteditorwidth=\skip100
-\locallabelnumberwidth=\skip101
-\locallabelalphawidth=\skip102
-\localshorthandwidth=\skip103
-\localshortjournalwidth=\skip104
-\localshortserieswidth=\skip105
-\localshorttitlewidth=\skip106
-\localshortauthorwidth=\skip107
-\localshorteditorwidth=\skip108
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2026/04/26 v3.21 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2026/04/26 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count495
-\c@textcitetotal=\count496
-\c@textcitemaxnames=\count497
-\c@biburlbigbreakpenalty=\count498
-\c@biburlbreakpenalty=\count499
-\c@biburlnumpenalty=\count500
-\c@biburlucpenalty=\count501
-\c@biburllcpenalty=\count502
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count503
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2026/04/26 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2026/04/26 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count504
-\c@bbx:relatedtotal=\count505
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2026/04/26 v3.21 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2026-01-19 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2026/04/26 v3.21 expl3 case changing code for biblatex
-))
-\@quotelevel=\count506
-\@quotereset=\count507
-
-(./IEEE_TIM_DOA.aux)
-\openout1 = `IEEE_TIM_DOA.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-
--- Lines per column: 58 (exact).
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count508
-\scratchdimen=\dimen348
-\scratchbox=\box86
-\nofMPsegments=\count509
-\nofMParguments=\count510
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count511
-\MPscratchDim=\dimen349
-\MPnumerator=\count512
-\makeMPintoPDFobject=\count513
-\everyMPtoPDFconversion=\toks52
-) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Package hyperref Info: Link coloring OFF on input line 47.
-
-(./IEEE_TIM_DOA.out) (./IEEE_TIM_DOA.out)
-\@outlinefile=\write5
-\openout5 = `IEEE_TIM_DOA.out'.
-
-\c@lstlisting=\count514
-
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
-
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2026/04/26 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `IEEE_TIM_DOA.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'IEEE_TIM_DOA.bbl' found.
- (./IEEE_TIM_DOA.bbl)
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 49.
-
-Underfull \hbox (badness 1968) in paragraph at lines 75--76
-[]\OT1/ptm/b/n/10 Formal Prob-lem State-ment\OT1/ptm/m/n/10 : Given a func-tion
- $\OML/cmm/m/it/10 f \OT1/cmr/m/n/10 :
- []
-
-[1{/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-di
-st/fonts/enc/dvips/base/8r.enc}
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-[]|\OT1/ptm/m/n/8 Attacks FX-construction in
- []
-
-
-Underfull \hbox (badness 6758) in paragraph at lines 131--131
-[]|\OT1/ptm/m/n/8 Dynamic or-a-cle adap-ta-tion,
- []
-
-
-Underfull \hbox (badness 10000) in paragra<?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.11" bltxversion="3.21" xmlns:bcf="https://sourceforge.net/projects/biblatex">
-  <!-- BIBER OPTIONS -->
-  <bcf:options component="biber" type="global">
-    <bcf:option type="singlevalued">
-      <bcf:key>output_encoding</bcf:key>
-      <bcf:value>utf8</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>input_encoding</bcf:key>
-      <bcf:value>utf8</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>debug</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>mincrossrefs</bcf:key>
-      <bcf:value>2</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minxrefs</bcf:key>
-      <bcf:value>2</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortcase</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortupper</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-  </bcf:options>
-  <!-- BIBLATEX OPTIONS -->
-  <!-- GLOBAL -->
-  <bcf:options component="biblatex" type="global">
-    <bcf:option type="singlevalued">
-      <bcf:key>alphaothers</bcf:key>
-      <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labelalpha</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labelnamespec</bcf:key>
-      <bcf:value order="1">shortauthor</bcf:value>
-      <bcf:value order="2">author</bcf:value>
-      <bcf:value order="3">shorteditor</bcf:value>
-      <bcf:value order="4">editor</bcf:value>
-      <bcf:value order="5">translator</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeltitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labeltitlespec</bcf:key>
-      <bcf:value order="1">shorttitle</bcf:value>
-      <bcf:value order="2">title</bcf:value>
-      <bcf:value order="3">maintitle</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeltitleyear</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labeldatespec</bcf:key>
-      <bcf:value order="1" type="field">date</bcf:value>
-      <bcf:value order="2" type="field">year</bcf:value>
-      <bcf:value order="3" type="field">eventdate</bcf:value>
-      <bcf:value order="4" type="field">origdate</bcf:value>
-      <bcf:value order="5" type="field">urldate</bcf:value>
-      <bcf:value order="6" type="string">nodate</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>julian</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>gregorianstart</bcf:key>
-      <bcf:value>1582-10-15</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxalphanames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxitems</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minalphanames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minitems</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>nohashothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>noroman</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>nosortothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>pluralothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>singletitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skipbib</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortalphaothers</bcf:key>
-      <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortlocale</bcf:key>
-      <bcf:value>english</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>ynt</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>sortsets</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniqueprimaryauthor</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquetitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquebaretitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquework</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useafterword</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useannotator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usebookauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usecommentator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditora</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditorb</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditorc</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useforeword</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useholder</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useintroduction</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenamea</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenameb</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenamec</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usetranslator</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useshortauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useshorteditor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-  </bcf:options>
-  <!-- online -->
-  <bcf:options component="biblatex" type="online">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labelalpha</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labelnamespec</bcf:key>
-      <bcf:value order="1">shortauthor</bcf:value>
-      <bcf:value order="2">author</bcf:value>
-      <bcf:value order="3">shorteditor</bcf:value>
-      <bcf:value order="4">editor</bcf:value>
-      <bcf:value order="5">translator</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeltitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labeltitlespec</bcf:key>
-      <bcf:value order="1">shorttitle</bcf:value>
-      <bcf:value order="2">title</bcf:value>
-      <bcf:value order="3">maintitle</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeltitleyear</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>labeldateparts</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>labeldatespec</bcf:key>
-      <bcf:value order="1" type="field">date</bcf:value>
-      <bcf:value order="2" type="field">year</bcf:value>
-      <bcf:value order="3" type="field">eventdate</bcf:value>
-      <bcf:value order="4" type="field">origdate</bcf:value>
-      <bcf:value order="5" type="field">urldate</bcf:value>
-      <bcf:value order="6" type="string">nodate</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxalphanames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>maxitems</bcf:key>
-      <bcf:value>3</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minalphanames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>minitems</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>nohashothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>noroman</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>nosortothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>singletitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skipbib</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquelist</bcf:key>
-      <bcf:value>false</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquename</bcf:key>
-      <bcf:value>false</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniqueprimaryauthor</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquetitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquebaretitle</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>uniquework</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useafterword</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useannotator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usebookauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usecommentator</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditora</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditorb</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useeditorc</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useforeword</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useholder</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useintroduction</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenamea</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenameb</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usenamec</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>usetranslator</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useshortauthor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>useshorteditor</bcf:key>
-      <bcf:value>1</bcf:value>
-    </bcf:option>
-  </bcf:options>
-  <!-- BIBLATEX OPTION SCOPE -->
-  <bcf:optionscope type="GLOBAL">
-    <bcf:option datatype="xml">datamodel</bcf:option>
-    <bcf:option datatype="xml">labelalphanametemplate</bcf:option>
-    <bcf:option datatype="xml">labelalphatemplate</bcf:option>
-    <bcf:option datatype="xml">inheritance</bcf:option>
-    <bcf:option datatype="xml">translit</bcf:option>
-    <bcf:option datatype="xml">uniquenametemplate</bcf:option>
-    <bcf:option datatype="xml">namehashtemplate</bcf:option>
-    <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
-    <bcf:option datatype="xml">sortingtemplate</bcf:option>
-    <bcf:option datatype="xml">extradatespec</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
-    <bcf:option datatype="xml">labelnamespec</bcf:option>
-    <bcf:option datatype="xml">labeltitlespec</bcf:option>
-    <bcf:option datatype="xml">labeldatespec</bcf:option>
-    <bcf:option datatype="string">controlversion</bcf:option>
-    <bcf:option datatype="string">alphaothers</bcf:option>
-    <bcf:option datatype="string">sortalphaothers</bcf:option>
-    <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="string">citepagerange</bcf:option>
-    <bcf:option datatype="string">texencoding</bcf:option>
-    <bcf:option datatype="string">bibencoding</bcf:option>
-    <bcf:option datatype="string">sortingtemplatename</bcf:option>
-    <bcf:option datatype="string">sortlocale</bcf:option>
-    <bcf:option datatype="string">language</bcf:option>
-    <bcf:option datatype="string">autolang</bcf:option>
-    <bcf:option datatype="string">langhook</bcf:option>
-    <bcf:option datatype="string">indexing</bcf:option>
-    <bcf:option datatype="string">hyperref</bcf:option>
-    <bcf:option datatype="string">backrefsetstyle</bcf:option>
-    <bcf:option datatype="string">block</bcf:option>
-    <bcf:option datatype="string">pagetracker</bcf:option>
-    <bcf:option datatype="string">citecounter</bcf:option>
-    <bcf:option datatype="string">citetracker</bcf:option>
-    <bcf:option datatype="string">ibidtracker</bcf:option>
-    <bcf:option datatype="string">idemtracker</bcf:option>
-    <bcf:option datatype="string">opcittracker</bcf:option>
-    <bcf:option datatype="string">loccittracker</bcf:option>
-    <bcf:option datatype="string">labeldate</bcf:option>
-    <bcf:option datatype="string">labeltime</bcf:option>
-    <bcf:option datatype="string">dateera</bcf:option>
-    <bcf:option datatype="string">date</bcf:option>
-    <bcf:option datatype="string">time</bcf:option>
-    <bcf:option datatype="string">eventdate</bcf:option>
-    <bcf:option datatype="string">eventtime</bcf:option>
-    <bcf:option datatype="string">origdate</bcf:option>
-    <bcf:option datatype="string">origtime</bcf:option>
-    <bcf:option datatype="string">urldate</bcf:option>
-    <bcf:option datatype="string">urltime</bcf:option>
-    <bcf:option datatype="string">alldatesusetime</bcf:option>
-    <bcf:option datatype="string">alldates</bcf:option>
-    <bcf:option datatype="string">alltimes</bcf:option>
-    <bcf:option datatype="string">gregorianstart</bcf:option>
-    <bcf:option datatype="string">autocite</bcf:option>
-    <bcf:option datatype="string">notetype</bcf:option>
-    <bcf:option datatype="string">uniquelist</bcf:option>
-    <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="string">refsection</bcf:option>
-    <bcf:option datatype="string">refsegment</bcf:option>
-    <bcf:option datatype="string">citereset</bcf:option>
-    <bcf:option datatype="string">sortlos</bcf:option>
-    <bcf:option datatype="string">babel</bcf:option>
-    <bcf:option datatype="string">datelabel</bcf:option>
-    <bcf:option datatype="string">backrefstyle</bcf:option>
-    <bcf:option datatype="string">arxiv</bcf:option>
-    <bcf:option datatype="boolean">familyinits</bcf:option>
-    <bcf:option datatype="boolean">giveninits</bcf:option>
-    <bcf:option datatype="boolean">prefixinits</bcf:option>
-    <bcf:option datatype="boolean">suffixinits</bcf:option>
-    <bcf:option datatype="boolean">useafterword</bcf:option>
-    <bcf:option datatype="boolean">useannotator</bcf:option>
-    <bcf:option datatype="boolean">useauthor</bcf:option>
-    <bcf:option datatype="boolean">usebookauthor</bcf:option>
-    <bcf:option datatype="boolean">usecommentator</bcf:option>
-    <bcf:option datatype="boolean">useeditor</bcf:option>
-    <bcf:option datatype="boolean">useeditora</bcf:option>
-    <bcf:option datatype="boolean">useeditorb</bcf:option>
-    <bcf:option datatype="boolean">useeditorc</bcf:option>
-    <bcf:option datatype="boolean">useforeword</bcf:option>
-    <bcf:option datatype="boolean">useholder</bcf:option>
-    <bcf:option datatype="boolean">useintroduction</bcf:option>
-    <bcf:option datatype="boolean">usenamea</bcf:option>
-    <bcf:option datatype="boolean">usenameb</bcf:option>
-    <bcf:option datatype="boolean">usenamec</bcf:option>
-    <bcf:option datatype="boolean">usetranslator</bcf:option>
-    <bcf:option datatype="boolean">useshortauthor</bcf:option>
-    <bcf:option datatype="boolean">useshorteditor</bcf:option>
-    <bcf:option datatype="boolean">debug</bcf:option>
-    <bcf:option datatype="boolean">loadfiles</bcf:option>
-    <bcf:option datatype="boolean">safeinputenc</bcf:option>
-    <bcf:option datatype="boolean">sortcase</bcf:option>
-    <bcf:option datatype="boolean">sortupper</bcf:option>
-    <bcf:option datatype="boolean">terseinits</bcf:option>
-    <bcf:option datatype="boolean">abbreviate</bcf:option>
-    <bcf:option datatype="boolean">dateabbrev</bcf:option>
-    <bcf:option datatype="boolean">clearlang</bcf:option>
-    <bcf:option datatype="boolean">sortcites</bcf:option>
-    <bcf:option datatype="boolean">sortsets</bcf:option>
-    <bcf:option datatype="boolean">backref</bcf:option>
-    <bcf:option datatype="boolean">backreffloats</bcf:option>
-    <bcf:option datatype="boolean">trackfloats</bcf:option>
-    <bcf:option datatype="boolean">parentracker</bcf:option>
-    <bcf:option datatype="boolean">labeldateusetime</bcf:option>
-    <bcf:option datatype="boolean">datecirca</bcf:option>
-    <bcf:option datatype="boolean">dateuncertain</bcf:option>
-    <bcf:option datatype="boolean">dateusetime</bcf:option>
-    <bcf:option datatype="boolean">eventdateusetime</bcf:option>
-    <bcf:option datatype="boolean">origdateusetime</bcf:option>
-    <bcf:option datatype="boolean">urldateusetime</bcf:option>
-    <bcf:option datatype="boolean">julian</bcf:option>
-    <bcf:option datatype="boolean">datezeros</bcf:option>
-    <bcf:option datatype="boolean">timezeros</bcf:option>
-    <bcf:option datatype="boolean">timezones</bcf:option>
-    <bcf:option datatype="boolean">seconds</bcf:option>
-    <bcf:option datatype="boolean">autopunct</bcf:option>
-    <bcf:option datatype="boolean">punctfont</bcf:option>
-    <bcf:option datatype="boolean">labelnumber</bcf:option>
-    <bcf:option datatype="boolean">labelalpha</bcf:option>
-    <bcf:option datatype="boolean">labeltitle</bcf:option>
-    <bcf:option datatype="boolean">labeltitleyear</bcf:option>
-    <bcf:option datatype="boolean">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">pluralothers</bcf:option>
-    <bcf:option datatype="boolean">nohashothers</bcf:option>
-    <bcf:option datatype="boolean">nosortothers</bcf:option>
-    <bcf:option datatype="boolean">noroman</bcf:option>
-    <bcf:option datatype="boolean">singletitle</bcf:option>
-    <bcf:option datatype="boolean">uniquetitle</bcf:option>
-    <bcf:option datatype="boolean">uniquebaretitle</bcf:option>
-    <bcf:option datatype="boolean">uniquework</bcf:option>
-    <bcf:option datatype="boolean">uniqueprimaryauthor</bcf:option>
-    <bcf:option datatype="boolean">defernumbers</bcf:option>
-    <bcf:option datatype="boolean">locallabelwidth</bcf:option>
-    <bcf:option datatype="boolean">bibwarn</bcf:option>
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="boolean">skipbib</bcf:option>
-    <bcf:option datatype="boolean">skipbiblist</bcf:option>
-    <bcf:option datatype="boolean">skiplab</bcf:option>
-    <bcf:option datatype="boolean">dataonly</bcf:option>
-    <bcf:option datatype="boolean">defernums</bcf:option>
-    <bcf:option datatype="boolean">firstinits</bcf:option>
-    <bcf:option datatype="boolean">sortfirstinits</bcf:option>
-    <bcf:option datatype="boolean">sortgiveninits</bcf:option>
-    <bcf:option datatype="boolean">labelyear</bcf:option>
-    <bcf:option datatype="boolean">isbn</bcf:option>
-    <bcf:option datatype="boolean">url</bcf:option>
-    <bcf:option datatype="boolean">doi</bcf:option>
-    <bcf:option datatype="boolean">eprint</bcf:option>
-    <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
-    <bcf:option datatype="integer">mincrossrefs</bcf:option>
-    <bcf:option datatype="integer">minxrefs</bcf:option>
-    <bcf:option datatype="integer">maxnames</bcf:option>
-    <bcf:option datatype="integer">minnames</bcf:option>
-    <bcf:option datatype="integer">maxbibnames</bcf:option>
-    <bcf:option datatype="integer">minbibnames</bcf:option>
-    <bcf:option datatype="integer">maxcitenames</bcf:option>
-    <bcf:option datatype="integer">mincitenames</bcf:option>
-    <bcf:option datatype="integer">maxsortnames</bcf:option>
-    <bcf:option datatype="integer">minsortnames</bcf:option>
-    <bcf:option datatype="integer">maxitems</bcf:option>
-    <bcf:option datatype="integer">minitems</bcf:option>
-    <bcf:option datatype="integer">maxalphanames</bcf:option>
-    <bcf:option datatype="integer">minalphanames</bcf:option>
-    <bcf:option datatype="integer">maxparens</bcf:option>
-    <bcf:option datatype="integer">dateeraauto</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="ENTRYTYPE">
-    <bcf:option datatype="string">alphaothers</bcf:option>
-    <bcf:option datatype="string">sortalphaothers</bcf:option>
-    <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="string">indexing</bcf:option>
-    <bcf:option datatype="string">citetracker</bcf:option>
-    <bcf:option datatype="string">ibidtracker</bcf:option>
-    <bcf:option datatype="string">idemtracker</bcf:option>
-    <bcf:option datatype="string">opcittracker</bcf:option>
-    <bcf:option datatype="string">loccittracker</bcf:option>
-    <bcf:option datatype="string">uniquelist</bcf:option>
-    <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="boolean">familyinits</bcf:option>
-    <bcf:option datatype="boolean">giveninits</bcf:option>
-    <bcf:option datatype="boolean">prefixinits</bcf:option>
-    <bcf:option datatype="boolean">suffixinits</bcf:option>
-    <bcf:option datatype="boolean">useafterword</bcf:option>
-    <bcf:option datatype="boolean">useannotator</bcf:option>
-    <bcf:option datatype="boolean">useauthor</bcf:option>
-    <bcf:option datatype="boolean">usebookauthor</bcf:option>
-    <bcf:option datatype="boolean">usecommentator</bcf:option>
-    <bcf:option datatype="boolean">useeditor</bcf:option>
-    <bcf:option datatype="boolean">useeditora</bcf:option>
-    <bcf:option datatype="boolean">useeditorb</bcf:option>
-    <bcf:option datatype="boolean">useeditorc</bcf:option>
-    <bcf:option datatype="boolean">useforeword</bcf:option>
-    <bcf:option datatype="boolean">useholder</bcf:option>
-    <bcf:option datatype="boolean">useintroduction</bcf:option>
-    <bcf:option datatype="boolean">usenamea</bcf:option>
-    <bcf:option datatype="boolean">usenameb</bcf:option>
-    <bcf:option datatype="boolean">usenamec</bcf:option>
-    <bcf:option datatype="boolean">usetranslator</bcf:option>
-    <bcf:option datatype="boolean">useshortauthor</bcf:option>
-    <bcf:option datatype="boolean">useshorteditor</bcf:option>
-    <bcf:option datatype="boolean">terseinits</bcf:option>
-    <bcf:option datatype="boolean">abbreviate</bcf:option>
-    <bcf:option datatype="boolean">dateabbrev</bcf:option>
-    <bcf:option datatype="boolean">clearlang</bcf:option>
-    <bcf:option datatype="boolean">labelnumber</bcf:option>
-    <bcf:option datatype="boolean">labelalpha</bcf:option>
-    <bcf:option datatype="boolean">labeltitle</bcf:option>
-    <bcf:option datatype="boolean">labeltitleyear</bcf:option>
-    <bcf:option datatype="boolean">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">nohashothers</bcf:option>
-    <bcf:option datatype="boolean">nosortothers</bcf:option>
-    <bcf:option datatype="boolean">noroman</bcf:option>
-    <bcf:option datatype="boolean">singletitle</bcf:option>
-    <bcf:option datatype="boolean">uniquetitle</bcf:option>
-    <bcf:option datatype="boolean">uniquebaretitle</bcf:option>
-    <bcf:option datatype="boolean">uniquework</bcf:option>
-    <bcf:option datatype="boolean">uniqueprimaryauthor</bcf:option>
-    <bcf:option datatype="boolean">useprefix</bcf:option>
-    <bcf:option datatype="boolean">skipbib</bcf:option>
-    <bcf:option datatype="boolean">skipbiblist</bcf:option>
-    <bcf:option datatype="boolean">skiplab</bcf:option>
-    <bcf:option datatype="boolean">dataonly</bcf:option>
-    <bcf:option datatype="boolean">skiplos</bcf:option>
-    <bcf:option datatype="boolean">labelyear</bcf:option>
-    <bcf:option datatype="boolean">isbn</bcf:option>
-    <bcf:option datatype="boolean">url</bcf:option>
-    <bcf:option datatype="boolean">doi</bcf:option>
-    <bcf:option datatype="boolean">eprint</bcf:option>
-    <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
-    <bcf:option datatype="xml">labelalphatemplate</bcf:option>
-    <bcf:option datatype="xml">translit</bcf:option>
-    <bcf:option datatype="xml">sortexclusion</bcf:option>
-    <bcf:option datatype="xml">sortinclusion</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
-    <bcf:option datatype="xml">labelnamespec</bcf:option>
-    <bcf:option datatype="xml">labeltitlespec</bcf:option>
-    <bcf:option datatype="xml">labeldatespec</bcf:option>
-    <bcf:option datatype="integer">maxnames</bcf:option>
-    <bcf:option datatype="integer">minnames</bcf:option>
-    <bcf:option datatype="integer">maxbibnames</bcf:option>
-    <bcf:option datatype="integer">minbibnames</bcf:option>
-    <bcf:option datatype="integer">maxcitenames</bcf:option>
-    <bcf:option datatype="integer">mincitenames</bcf:option>
-    <bcf:option datatype="integer">maxsortnames</bcf:option>
-    <bcf:option datatype="integer">minsortnames</bcf:option>
-    <bcf:option datatype="integer">maxitems</bcf:option>
-    <bcf:option datatype="integer">minitems</bcf:option>
-    <bcf:option datatype="integer">maxalphanames</bcf:option>
-    <bcf:option datatype="integer">minalphanames</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="ENTRY">
-    <bcf:option datatype="string">noinherit</bcf:option>
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
-    <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
-    <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="string" backendout="1">indexing</bcf:option>
-    <bcf:option datatype="string" backendout="1">citetracker</bcf:option>
-    <bcf:option datatype="string" backendout="1">ibidtracker</bcf:option>
-    <bcf:option datatype="string" backendout="1">idemtracker</bcf:option>
-    <bcf:option datatype="string" backendout="1">opcittracker</bcf:option>
-    <bcf:option datatype="string" backendout="1">loccittracker</bcf:option>
-    <bcf:option datatype="string">uniquelist</bcf:option>
-    <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">giveninits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">prefixinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">suffixinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useafterword</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useannotator</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useauthor</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">usebookauthor</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">usecommentator</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useeditor</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useeditora</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useeditorb</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useeditorc</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useforeword</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useholder</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useintroduction</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">usenamea</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">usenameb</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">usenamec</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">usetranslator</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useshortauthor</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useshorteditor</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">terseinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">abbreviate</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">dateabbrev</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">clearlang</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">labelnumber</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">labelalpha</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">labeltitle</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">labeltitleyear</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">nohashothers</bcf:option>
-    <bcf:option datatype="boolean">nosortothers</bcf:option>
-    <bcf:option datatype="boolean">noroman</bcf:option>
-    <bcf:option datatype="boolean">singletitle</bcf:option>
-    <bcf:option datatype="boolean">uniquetitle</bcf:option>
-    <bcf:option datatype="boolean">uniquebaretitle</bcf:option>
-    <bcf:option datatype="boolean">uniquework</bcf:option>
-    <bcf:option datatype="boolean">uniqueprimaryauthor</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">skipbib</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">skipbiblist</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">skiplab</bcf:option>
-    <bcf:option datatype="boolean" backendin="uniquename=false,uniquelist=false,skipbib=true,skipbiblist=true,skiplab=true">dataonly</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">skiplos</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">isbn</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">url</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">related</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
-    <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
-    <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">maxbibnames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">minbibnames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">maxcitenames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">mincitenames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">maxsortnames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">minsortnames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">maxitems</bcf:option>
-    <bcf:option datatype="integer" backendout="1">minitems</bcf:option>
-    <bcf:option datatype="integer" backendout="1">maxalphanames</bcf:option>
-    <bcf:option datatype="integer" backendout="1">minalphanames</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
-    <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
-    <bcf:option datatype="string">uniquelist</bcf:option>
-    <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">giveninits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">prefixinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">suffixinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">terseinits</bcf:option>
-    <bcf:option datatype="boolean">nohashothers</bcf:option>
-    <bcf:option datatype="boolean">nosortothers</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
-  </bcf:optionscope>
-  <bcf:optionscope type="NAME">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
-    <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
-    <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">giveninits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">prefixinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">suffixinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">terseinits</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
-  </bcf:optionscope>
-  <!-- DATAFIELDSETS -->
-  <bcf:datafieldset name="setnames">
-    <bcf:member datatype="name" fieldtype="list"/>
-  </bcf:datafieldset>
-  <bcf:datafieldset name="settitles">
-    <bcf:member field="title"/>
-    <bcf:member field="booktitle"/>
-    <bcf:member field="eventtitle"/>
-    <bcf:member field="issuetitle"/>
-    <bcf:member field="journaltitle"/>
-    <bcf:member field="maintitle"/>
-    <bcf:member field="origtitle"/>
-  </bcf:datafieldset>
-  <!-- SOURCEMAP -->
-  <bcf:sourcemap>
-    <bcf:maps datatype="bibtex" level="driver">
-      <bcf:map>
-        <bcf:map_step map_field_set="day" map_null="1"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_type_source="conference" map_type_target="inproceedings"/>
-        <bcf:map_step map_type_source="electronic" map_type_target="online"/>
-        <bcf:map_step map_type_source="www" map_type_target="online"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_type_source="mastersthesis" map_type_target="thesis" map_final="1"/>
-        <bcf:map_step map_field_set="type" map_field_value="mathesis"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_type_source="phdthesis" map_type_target="thesis" map_final="1"/>
-        <bcf:map_step map_field_set="type" map_field_value="phdthesis"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_type_source="techreport" map_type_target="report" map_final="1"/>
-        <bcf:map_step map_field_set="type" map_field_value="techreport"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_field_source="hyphenation" map_field_target="langid"/>
-        <bcf:map_step map_field_source="address" map_field_target="location"/>
-        <bcf:map_step map_field_source="school" map_field_target="institution"/>
+2058aba6b0df9b17b11ca3}
+      \strng{authorfullhash}{619ef89ee12058aba6b0df9b17b11ca3}
+      \strng{authorfullhashraw}{619ef89ee12058aba6b0df9b17b11ca3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{A fast quantum mechanical algorithm for database search}
+      \field{year}{1996}
+      \verb{eprint}
+      \verb quant-ph/9605043
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/quant-ph/9605043
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/quant-ph/9605043
+      \endverb
+    \endentry
+    \entry{4303398}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0062c1d164ab56f33284269b6707deff}{%
+           family={Donati},
+           familyi={D\bibinitperiod},
+           given={Silvano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0466a84d2277462b5cd57beb72046028}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Cheng-Yen},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=223019b0a14c71f8f4b8141345aed630}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chih-Chung},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{fullhash}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{fullhashraw}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{bibnamehash}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{authorbibnamehash}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{authornamehash}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{authorfullhash}{78a06ac74b2b896fbf9c7b5da8125526}
+      \strng{authorfullhashraw}{78a06ac74b2b896fbf9c7b5da8125526}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{number}{5}
+      \field{title}{Uncertainty of Positioning and Displacement Measurements in Quantum and Thermal Regimes}
+      \field{volume}{56}
+      \field{year}{2007}
+      \field{pages}{1658\bibrangedash 1665}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TIM.2007.895584
+      \endverb
+      \keyw{Displacement measurement;Optical noise;Instruments;Length measurement;Position measurement;Pulse measurements;Optical interferometry;Signal analysis;Performance analysis;Signal detection;Instrumentation;interferometry;laser range finder;measurement;metrological instrumentation;metrology;optical instruments}
+    \endentry
+    \entry{Nielsen_Chuang_2010}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=afe17482fc813e497188aee3b3783879}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=415ddff2f58b25977b1a2dedf18f4501}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Isaac\bibnamedelima L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{fullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{fullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{bibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorbibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
+      \field{year}{2010}
+    \endentry
+    \entry{Giovannetti_2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=66fcb193a88a5437214d71986d88e057}{%
+           family={Giovannetti},
+           familyi={G\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=501c0933970931f080455b29b43e560d}{%
+           family={Lloyd},
+           familyi={L\bibinitperiod},
+           given={Seth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f37f709832bd576552b54dc18d6a251a}{%
+           family={Maccone},
+           familyi={M\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{fullhash}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{fullhashraw}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{bibnamehash}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{authorbibnamehash}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{authornamehash}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{authorfullhash}{1e703c613f5bf0ac95e47293a318cefb}
+      \strng{authorfullhashraw}{1e703c613f5bf0ac95e47293a318cefb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1749-4893}
+      \field{journaltitle}{Nature Photonics}
+      \field{month}{3}
+      \field{number}{4}
+      \field{title}{Advances in quantum metrology}
+      \field{volume}{5}
+      \field{year}{2011}
+      \field{pages}{222\bibrangedash 229}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/nphoton.2011.35
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/nphoton.2011.35
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/nphoton.2011.35
+      \endverb
+    \endentry
+    \entry{Yue_2014}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5238d4865783e8fa8c54d16bdd4a09ca}{%
+           family={Yue},
+           familyi={Y\bibinitperiod},
+           given={Jie-Dong},
+           giveni={J\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=f8804144f87884209788f38a7dbb68b6}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yu-Ran},
+           giveni={Y\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=6befcc9797bc222eee6ab4b46ca61d7e}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{fullhash}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{fullhashraw}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{bibnamehash}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{authorbibnamehash}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{authornamehash}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{authorfullhash}{cb497a0221e57d4b11c8a032be5a9013}
+      \strng{authorfullhashraw}{cb497a0221e57d4b11c8a032be5a9013}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Quantum-enhanced metrology for multiple phase estimation with noise}
+      \field{volume}{4}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1038/srep05933
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/srep05933
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/srep05933
+      \endverb
+    \endentry
+    \entry{Kaplan_2016}{inbook}{}{}
+      \name{author}{4}{}{%
+        {{hash=ab2fdd6b2eac4c2b3bd263faf4b5d486}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=471a39b9215297f0b1c4027b75e61e73}{%
+           family={Leurent},
+           familyi={L\bibinitperiod},
+           given={Gaëtan},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5533ab856083ca9b0c98042d38048318}{%
+           family={Leverrier},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dee78f642bf905715368b6882cdd3c6b}{%
+           family={Naya-Plasencia},
+           familyi={N\bibinithyphendelim P\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{443b903be73ede1dd3786874ba1e660a}
+      \strng{fullhash}{cda94b4fbe5ef34ffba8ab4f104b24b3}
+      \strng{fullhashraw}{cda94b4fbe5ef34ffba8ab4f104b24b3}
+      \strng{bibnamehash}{443b903be73ede1dd3786874ba1e660a}
+      \strng{authorbibnamehash}{443b903be73ede1dd3786874ba1e660a}
+      \strng{authornamehash}{443b903be73ede1dd3786874ba1e660a}
+      \strng{authorfullhash}{cda94b4fbe5ef34ffba8ab4f104b24b3}
+      \strng{authorfullhashraw}{cda94b4fbe5ef34ffba8ab4f104b24b3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Cryptology – CRYPTO 2016}
+      \field{isbn}{9783662530085}
+      \field{issn}{1611-3349}
+      \field{title}{Breaking Symmetric Cryptosystems Using Quantum Period Finding}
+      \field{year}{2016}
+      \field{pages}{207\bibrangedash 237}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/978-3-662-53008-5_8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-662-53008-5_8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-662-53008-5_8
+      \endverb
+    \endentry
+    \entry{10.1007/978-3-319-70697-9_6}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=c203d509dba794a9c8c6108dbacf6cc8}{%
+           family={Leander},
+           familyi={L\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fb68853f09314a9b5bf775fd7374ec44}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=8cf4d550b9608037617456afc72747a2}{%
+           family={Takagi},
+           familyi={T\bibinitperiod},
+           given={Tsuyoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9c2e81cda27fe70a24fbccd7c5f70f13}{%
+           family={Peyrin},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{9e6fd650cada4a17673973625f0ae179}
+      \strng{fullhash}{9e6fd650cada4a17673973625f0ae179}
+      \strng{fullhashraw}{9e6fd650cada4a17673973625f0ae179}
+      \strng{bibnamehash}{9e6fd650cada4a17673973625f0ae179}
+      \strng{authorbibnamehash}{9e6fd650cada4a17673973625f0ae179}
+      \strng{authornamehash}{9e6fd650cada4a17673973625f0ae179}
+      \strng{authorfullhash}{9e6fd650cada4a17673973625f0ae179}
+      \strng{authorfullhashraw}{9e6fd650cada4a17673973625f0ae179}
+      \strng{editorbibnamehash}{e97d83b7ab2f85d8e9129522cac5b2a0}
+      \strng{editornamehash}{e97d83b7ab2f85d8e9129522cac5b2a0}
+      \strng{editorfullhash}{e97d83b7ab2f85d8e9129522cac5b2a0}
+      \strng{editorfullhashraw}{e97d83b7ab2f85d8e9129522cac5b2a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using whitening keys is a well understood mean of increasing the key-length of any given cipher. Especially as it is known ever since Grover's seminal work that the effective key-length is reduced by a factor of two when considering quantum adversaries, it seems tempting to use this simple and elegant way of extending the key-length of a given cipher to increase the resistance against quantum adversaries. However, as we show in this work, using whitening keys does not increase the security in the quantum-CPA setting significantly. For this we present a quantum algorithm that breaks the construction with whitening keys in essentially the same time complexity as Grover's original algorithm breaks the underlying block cipher. Technically this result is based on the combination of the quantum algorithms of Grover and Simon for the first time in the cryptographic setting.}
+      \field{booktitle}{Advances in Cryptology -- ASIACRYPT 2017}
+      \field{isbn}{978-3-319-70697-9}
+      \field{title}{Grover Meets Simon -- Quantumly Attacking the FX-construction}
+      \field{year}{2017}
+      \field{pages}{161\bibrangedash 178}
+      \range{pages}{18}
+    \endentry
+    \entry{Arute_2019}{article}{}{}
+      \name{author}{77}{}{%
+        {{hash=a0b41f4400dc855d7426a5f72cadaa6c}{%
+           family={Arute},
+           familyi={A\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0a2abe43325e0dd3690ccc47bfa6c6b7}{%
+           family={Arya},
+           familyi={A\bibinitperiod},
+           given={Kunal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5ef37e7fe45a9ff23c761910726d5e4b}{%
+           family={Bacon},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d831c1d824f8a4e2a69f6495b8fdc91b}{%
+           family={Bardin},
+           familyi={B\bibinitperiod},
+           given={Joseph\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=659b693e073fa93a83924447ea805d77}{%
+           family={Barends},
+           familyi={B\bibinitperiod},
+           given={Rami},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44196321323dfc67fdaa85c495168130}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Rupak},
+           giveni={R\bibinitperiod}}}%
+        {{hash=915e31fc5958183d06275c3c3e811123}{%
+           family={Boixo},
+           familyi={B\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cfb6bdb1d0b7056322d56e3f4fad93a8}{%
+           family={Brandao},
+           familyi={B\bibinitperiod},
+           given={Fernando\bibnamedelimb G.\bibnamedelimi S.\bibnamedelimi L.},
+           giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=11aed4b55c11ca1030deddd80f15b620}{%
+           family={Buell},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fac8774f4c39c4cc9371a032e53c0fb6}{%
+           family={Burkett},
+           familyi={B\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1fac7e902845b1c2d0fd9ae4a0d00cc7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9cba836ac52ec45b3536ecac1ca0c4c4}{%
+           family={Chiaro},
+           familyi={C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f16002805dc7f9d96346bda6700be931}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cf7e5385acaf82df7a53cd34a54e21e2}{%
+           family={Courtney},
+           familyi={C\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ecea25363fad364a9f4a37613078f227}{%
+           family={Dunsworth},
+           familyi={D\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e61ee12360fc49d9013fbf8fe18db89}{%
+           family={Farhi},
+           familyi={F\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f27112cd6eb82fab2bc9d0542c995ea9}{%
+           family={Foxen},
+           familyi={F\bibinitperiod},
+           given={Brooks},
+           giveni={B\bibinitperiod}}}%
+        {{hash=aa6e65cd6932f53db466e337a1cb6760}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0101a428978c8ddc038880b7a77afd98}{%
+           family={Gidney},
+           familyi={G\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ad64cecce98f1d14ae82dabfcaf7db86}{%
+           family={Giustina},
+           familyi={G\bibinitperiod},
+           given={Marissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8f816bc12e277c2a230aaab32148cef6}{%
+           family={Graff},
+           familyi={G\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ffd6b1344764207fb5b1cedb2b502a25}{%
+           family={Guerin},
+           familyi={G\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ac01d23b67bf69493082451323481b4c}{%
+           family={Habegger},
+           familyi={H\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fdafe36c75ea60b5e9310e5a98907464}{%
+           family={Harrigan},
+           familyi={H\bibinitperiod},
+           given={Matthew\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=d7ea6046bc62277e6e2c5fe7d61e78df}{%
+           family={Hartmann},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7a9ef4b5db5d57071194cc11995a6499}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5f670721dca24ae1337011719914a64c}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=33dfa81b00ac11936ef381208950305d}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Trent},
+           giveni={T\bibinitperiod}}}%
+        {{hash=963b22ba5e47cd073c7fc1a754ab2a55}{%
+           family={Humble},
+           familyi={H\bibinitperiod},
+           given={Travis\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5b1bc1fc6c73555d5af1db48cdbef9af}{%
+           family={Isakov},
+           familyi={I\bibinitperiod},
+           given={Sergei\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9900c4e96164131afb8af307845df9b8}{%
+           family={Jeffrey},
+           familyi={J\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=67db50e40049bac70a6d264e681d86de}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Zhang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d2351f128f45cc307e110f1bf030fa0d}{%
+           family={Kafri},
+           familyi={K\bibinitperiod},
+           given={Dvir},
+           giveni={D\bibinitperiod}}}%
+        {{hash=399f6f0649872eb96c7b5d2253ac1654}{%
+           family={Kechedzhi},
+           familyi={K\bibinitperiod},
+           given={Kostyantyn},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6a2991ec48fc939b711eac2466cbcc68}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cbc1620351ea65d57c28a39c84b1ac30}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={Paul\bibnamedelima V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=84fa8eaf8054b75340e704427e2e7414}{%
+           family={Knysh},
+           familyi={K\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2290dc7590a4c730593624b7a1fdc40f}{%
+           family={Korotkov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a7bde64895d0208e927e79c2755b9a83}{%
+           family={Kostritsa},
+           familyi={K\bibinitperiod},
+           given={Fedor},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0106e3d3d8629adc0639fb0388e51a73}{%
+           family={Landhuis},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1660c9b8c16952a4ec028c87eef3abc7}{%
+           family={Lindmark},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ca86a6dfd219877ce431f01a165a869}{%
+           family={Lucero},
+           familyi={L\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=22d2522f63c4d1770eed3debd45fd8fa}{%
+           family={Lyakh},
+           familyi={L\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3f2ddf64c1ea271a8a2634bbbb68d254}{%
+           family={Mandrà},
+           familyi={M\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a253ddc1c4c24cde70238bd45dc9aeff}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7336ef3ca1b8bfadc8b89b8c7c59577b}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1c6ec14427d690fa73b3021943d5439b}{%
+           family={Megrant},
+           familyi={M\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b445b45607e1e8e0672105779ea626b}{%
+           family={Mi},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2338ed7a6906bd7cfdac98c5e56e45b6}{%
+           family={Michielsen},
+           familyi={M\bibinitperiod},
+           given={Kristel},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3660f6bf9d4821aa4c362d0abd316e4f}{%
+           family={Mohseni},
+           familyi={M\bibinitperiod},
+           given={Masoud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5f06874711ade5e9c75656666220f803}{%
+           family={Mutus},
+           familyi={M\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4bda703a11fed621732b26896f391e85}{%
+           family={Naaman},
+           familyi={N\bibinitperiod},
+           given={Ofer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcda02c5188bf25bad1475b8f30cecd}{%
+           family={Neeley},
+           familyi={N\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e6d8fe85e636af42fba1f9d583e70e9}{%
+           family={Neill},
+           familyi={N\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ed18aa264c8650c491f53d6dc4118292}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Murphy\bibnamedelima Yuezhen},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=2d89c5708f0f2aa0a4f4358d53bfc901}{%
+           family={Ostby},
+           familyi={O\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b3e0589d3dfc4ccb2c20d9bae908ad5c}{%
+           family={Petukhov},
+           familyi={P\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b18cccf0f11300769fc4b01f5fe5f13a}{%
+           family={Platt},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d7e98df2b678f196d4696b116fb5edb6}{%
+           family={Quintana},
+           familyi={Q\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8ebda72545842e8ca358df12fd00edc6}{%
+           family={Rieffel},
+           familyi={R\bibinitperiod},
+           given={Eleanor\bibnamedelima G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ab67b0d3986106680d464532f25dc939}{%
+           family={Roushan},
+           familyi={R\bibinitperiod},
+           given={Pedram},
+           giveni={P\bibinitperiod}}}%
+        {{hash=79a0c3f2d2ac6a6e26b1e6e488c3b198}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Nicholas\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9c196f976101682c061efc0614f70fa6}{%
+           family={Sank},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=640413903b4eab5258544e70c464cf91}{%
+           family={Satzinger},
+           familyi={S\bibinitperiod},
+           given={Kevin\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=087a4bb34bd0827f9235dede4eff2970}{%
+           family={Smelyanskiy},
+           familyi={S\bibinitperiod},
+           given={Vadim},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a912a72b8de08532c080010f87041bda}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Kevin\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=edb9b45c05af268e690b431177e285bb}{%
+           family={Trevithick},
+           familyi={T\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8c9c62d63da654e3e637727ef0ada9e9}{%
+           family={Vainsencher},
+           familyi={V\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b483aa193391113d1234b6ae181e0dca}{%
+           family={Villalonga},
+           familyi={V\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=da61f207bd110c14a1e7e8fe213f33eb}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod}}}%
+        {{hash=473d08a31ed9fbf52d5baf436b7a809a}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Z.\bibnamedelimi Jamie},
+           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e94b0ed312e1e2edcfe8a1b6bd1749d8}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6df2c969e6e639ddd23909ad813034d}{%
+           family={Zalcman},
+           familyi={Z\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ddcc46c5456340da59be4077c7102a27}{%
+           family={Neven},
+           familyi={N\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=25ae3182aa7d65d6b2ce4baea1970309}{%
+           family={Martinis},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{fullhash}{9ed5ca9a711651574caed94b21c9e439}
+      \strng{fullhashraw}{9ed5ca9a711651574caed94b21c9e439}
+      \strng{bibnamehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{authorbibnamehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{authornamehash}{b5ee69b81bc21fd247bbaf0f432158b6}
+      \strng{authorfullhash}{9ed5ca9a711651574caed94b21c9e439}
+      \strng{authorfullhashraw}{9ed5ca9a711651574caed94b21c9e439}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{10}
+      \field{number}{7779}
+      \field{title}{Quantum supremacy using a programmable superconducting processor}
+      \field{volume}{574}
+      \field{year}{2019}
+      \field{pages}{505\bibrangedash 510}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1666-5
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41586-019-1666-5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41586-019-1666-5
+      \endverb
+    \endentry
+    \entry{li2019quantumalgorithmgraphisomorphism}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=1a1f520c1123587494e9d4c74ae07269}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=97b013b48ca60d953673c6b341b7226d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hanwu},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{fullhash}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{fullhashraw}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{bibnamehash}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{authorbibnamehash}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{authornamehash}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{authorfullhash}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \strng{authorfullhashraw}{ead9b6ad5c1c2484470f0bb0d4c9423b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{The quantum algorithm for graph isomorphism problem}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1901.06530
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1901.06530
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1901.06530
+      \endverb
+    \endentry
+    \entry{9142431}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5c9816fb36aab86f9ccba1f34f2fb36a}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Hyeokjea},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6f927dba535fcc252523927b6e842608}{%
+           family={Bae},
+           familyi={B\bibinitperiod},
+           given={Joonwoo},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{fullhash}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{fullhashraw}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{bibnamehash}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{authorbibnamehash}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{authornamehash}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{authorfullhash}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \strng{authorfullhashraw}{514f2f5b019c4bdcab27dd26f3e20abe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{9}
+      \field{title}{A Hybrid Quantum-Classical Approach to Mitigating Measurement Errors in Quantum Algorithms}
+      \field{volume}{70}
+      \field{year}{2021}
+      \field{pages}{1401\bibrangedash 1411}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TC.2020.3009664
+      \endverb
+      \keyw{Logic gates;Quantum computing;Noise measurement;Measurement uncertainty;Information processing;Measurement errors;Performance evaluation;NISQ information processing;error mitigation in NISQ devices;quantum computer architecture}
+    \endentry
+    \entry{Zanger_2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=719707dea00ffedd4614c4cd7699e44c}{%
+           family={Zanger},
+           familyi={Z\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a0392e761cae0a163d14dc6b48494423}{%
+           family={Mendl},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a2f0187f4353aef6514eb1be975bdb15}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=84d33279dcf8a883f91d9445425cd97c}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften}%
+      }
+      \strng{namehash}{dabd50bc95b8e23cb1e7bec56d7a493d}
+      \strng{fullhash}{e6a5944b7c8a175924b36fd8316e61e7}
+      \strng{fullhashraw}{e6a5944b7c8a175924b36fd8316e61e7}
+      \strng{bibnamehash}{dabd50bc95b8e23cb1e7bec56d7a493d}
+      \strng{authorbibnamehash}{dabd50bc95b8e23cb1e7bec56d7a493d}
+      \strng{authornamehash}{dabd50bc95b8e23cb1e7bec56d7a493d}
+      \strng{authorfullhash}{e6a5944b7c8a175924b36fd8316e61e7}
+      \strng{authorfullhashraw}{e6a5944b7c8a175924b36fd8316e61e7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2521-327X}
+      \field{journaltitle}{Quantum}
+      \field{month}{7}
+      \field{title}{Quantum Algorithms for Solving Ordinary Differential Equations via Classical Integration Methods}
+      \field{volume}{5}
+      \field{year}{2021}
+      \field{pages}{502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22331/q-2021-07-13-502
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.22331/q-2021-07-13-502
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.22331/q-2021-07-13-502
+      \endverb
+    \endentry
+    \entry{Bharti_2022}{article}{}{}
+      \name{author}{14}{}{%
+        {{hash=7252fb0ec40d2cf015f62bea2c3195be}{%
+           family={Bharti},
+           familyi={B\bibinitperiod},
+           given={Kishor},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5a2b5e34618e120705e762927644cf0a}{%
+           family={Cervera-Lierta},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={Alba},
+           giveni={A\bibinitperiod}}}%
+        {{hash=11933d38f596ce3e28a966359830730f}{%
+           family={Kyaw},
+           familyi={K\bibinitperiod},
+           given={Thi\bibnamedelima Ha},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2036c43951475e8500d1ca024c7c00d7}{%
+           family={Haug},
+           familyi={H\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=61ad4aae7993ccc474ac720659abf6c3}{%
+           family={Alperin-Lea},
+           familyi={A\bibinithyphendelim L\bibinitperiod},
+           given={Sumner},
+           giveni={S\bibinitperiod}}}%
+        {{hash=985f06ea28010d41b98c55dadf1cf6e5}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce554a1b376ee1be7e82f136d4237255}{%
+           family={Degroote},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a35a238e2e4b3b7f6466b1e9c128dc48}{%
+           family={Heimonen},
+           familyi={H\bibinitperiod},
+           given={Hermanni},
+           giveni={H\bibinitperiod}}}%
+        {{hash=107b712d1e1d0da12ec456450de4e440}{%
+           family={Kottmann},
+           familyi={K\bibinitperiod},
+           given={Jakob\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7c555b38206c5fb0ccec33164f55a8ff}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4330659dfb8a2f4cc9b749ef50aafb88}{%
+           family={Mok},
+           familyi={M\bibinitperiod},
+           given={Wai-Keong},
+           giveni={W\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=f156a71a758735a1cfc0aab991a121e2}{%
+           family={Sim},
+           familyi={S\bibinitperiod},
+           given={Sukin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c694837b1d821eb753b9d91ea74b3f3c}{%
+           family={Kwek},
+           familyi={K\bibinitperiod},
+           given={Leong-Chuan},
+           giveni={L\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{06ea5f481c501cb5d1f49ae8a720ec98}
+      \strng{fullhash}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{fullhashraw}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{bibnamehash}{06ea5f481c501cb5d1f49ae8a720ec98}
+      \strng{authorbibnamehash}{06ea5f481c501cb5d1f49ae8a720ec98}
+      \strng{authornamehash}{06ea5f481c501cb5d1f49ae8a720ec98}
+      \strng{authorfullhash}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{authorfullhashraw}{0e002ca20fa71f4cbc58de8f1c529841}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1539-0756}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Noisy intermediate-scale quantum algorithms}
+      \field{volume}{94}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1103/revmodphys.94.015004
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/RevModPhys.94.015004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/RevModPhys.94.015004
+      \endverb
+    \endentry
+    \entry{Callison_2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c1c2c3769021914d5fa04d95c9d5ed64}{%
+           family={Callison},
+           familyi={C\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6113cd6044ada2e45663dd4c645d516f}{%
+           family={Chancellor},
+           familyi={C\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{fullhash}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{fullhashraw}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{bibnamehash}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{authorbibnamehash}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{authornamehash}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{authorfullhash}{9a8ba89e220a95e083c25defcacf55d4}
+      \strng{authorfullhashraw}{9a8ba89e220a95e083c25defcacf55d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9934}
+      \field{journaltitle}{Physical Review A}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Hybrid quantum-classical algorithms in the noisy intermediate-scale quantum era and beyond}
+      \field{volume}{106}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1103/physreva.106.010101
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevA.106.010101
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevA.106.010101
+      \endverb
+    \endentry
+    \entry{ablayev2023hybridclassicalquantumtextsearch}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=715f2ba97022c784afde116d18554728}{%
+           family={Ablayev},
+           familyi={A\bibinitperiod},
+           given={Farid},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d2e3bff166116ba5fa0745e99d8ad346}{%
+           family={Ablayev},
+           familyi={A\bibinitperiod},
+           given={Marat},
+           giveni={M\bibinitperiod}}}%
+        {{hash=69924db97f21e39597d51308c342f7d4}{%
+           family={Salikhova},
+           familyi={S\bibinitperiod},
+           given={Nailya},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{fullhash}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{fullhashraw}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{bibnamehash}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{authorbibnamehash}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{authornamehash}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{authorfullhash}{636417e2bc85a932d454a01ef8ca0dc9}
+      \strng{authorfullhashraw}{636417e2bc85a932d454a01ef8ca0dc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Hybrid classical-quantum text search based on hashing}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2311.01213
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2311.01213
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2311.01213
+      \endverb
+    \endentry
+    \entry{10041809}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=06551875f4cb10ae76df78c1be41f6c2}{%
+           family={Doolittle},
+           familyi={D\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f06c8d8ce889aed2ed7717a4af37a949}{%
+           family={Bromley},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi Thomas},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7ceb1ede08b81c0ede1cc933ce63d461}{%
+           family={Killoran},
+           familyi={K\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=05b83f1fff278e138e1eea3c8bf912bc}{%
+           family={Chitambar},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{306eee5e51af441ac02b18c2d18cedf5}
+      \strng{fullhash}{7fb9be6c890ed5206912b456ab3753f8}
+      \strng{fullhashraw}{7fb9be6c890ed5206912b456ab3753f8}
+      \strng{bibnamehash}{306eee5e51af441ac02b18c2d18cedf5}
+      \strng{authorbibnamehash}{306eee5e51af441ac02b18c2d18cedf5}
+      \strng{authornamehash}{306eee5e51af441ac02b18c2d18cedf5}
+      \strng{authorfullhash}{7fb9be6c890ed5206912b456ab3753f8}
+      \strng{authorfullhashraw}{7fb9be6c890ed5206912b456ab3753f8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Quantum Engineering}
+      \field{title}{Variational Quantum Optimization of Nonlocality in Noisy Quantum Networks}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1109/TQE.2023.3243849
+      \endverb
+      \keyw{Quantum networks;Noise measurement;Qubit;Optimization;Quantum entanglement;Design tools;Quantum algorithm;Design and simulation tools;noisy intermediate-scale quantum (NISQ) algorithms and devices;quantum networking}
+    \endentry
+    \entry{10590348}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=78135c0e5e621ee77416d0bd30b40147}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chen-Yu},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{fullhash}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{fullhashraw}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{bibnamehash}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{authorbibnamehash}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{authornamehash}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{authorfullhash}{78135c0e5e621ee77416d0bd30b40147}
+      \strng{authorfullhashraw}{78135c0e5e621ee77416d0bd30b40147}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 International Conference on Computational Science and Computational Intelligence (CSCI)}
+      \field{title}{Practical Quantum Search by Variational Quantum Eigensolver on Noisy Intermediate-Scale Quantum Hardware}
+      \field{year}{2023}
+      \field{pages}{397\bibrangedash 403}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/CSCI62032.2023.00071
+      \endverb
+      \keyw{Scientific computing;Qubit;Noise;Computer architecture;Quantum state;Hardware;Noise measurement;Quantum search;noisy intermediate-scale quan-tum;variational quantum eigensolver}
+    \endentry
+    \entry{zhu2023feasibilityanalysisgrovermeetssimonalgorithm}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=d9f549403eb417229b191acb635297f9}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qianru},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=fee5077529d1b839148c9a734072d522}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Huiqin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e61363b27abe9d06830efc1335054e8d}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Qiqing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=7f8a6256a19361714c6f6a011671f17d}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bb30480c5e27dee6001ea86204b3199}
+      \strng{fullhash}{ad88083d93136aee8681a4c3c69d3cd4}
+      \strng{fullhashraw}{ad88083d93136aee8681a4c3c69d3cd4}
+      \strng{bibnamehash}{8bb30480c5e27dee6001ea86204b3199}
+      \strng{authorbibnamehash}{8bb30480c5e27dee6001ea86204b3199}
+      \strng{authornamehash}{8bb30480c5e27dee6001ea86204b3199}
+      \strng{authorfullhash}{ad88083d93136aee8681a4c3c69d3cd4}
+      \strng{authorfullhashraw}{ad88083d93136aee8681a4c3c69d3cd4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Feasibility Analysis of Grover-meets-Simon Algorithm}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2301.06706
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2301.06706
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2301.06706
+      \endverb
+    \endentry
+    \entry{robertson2024simonsalgorithmnisqcloud}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=f51b14336cd0102364ccc96b0afd5fa5}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Reece},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ad46bb7baa3020a9b979712c144318fb}{%
+           family={Doucet},
+           familyi={D\bibinitperiod},
+           given={Emery},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e4051dc6b8d39219f5e16261512933d7}{%
+           family={Spicer},
+           familyi={S\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3db31cc74ebe1a04ab0c1e74a9fd277f}{%
+           family={Deffner},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{fullhash}{86574cbe25f6ee65d0dcb02930ea48fc}
+      \strng{fullhashraw}{86574cbe25f6ee65d0dcb02930ea48fc}
+      \strng{bibnamehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{authorbibnamehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{authornamehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{authorfullhash}{86574cbe25f6ee65d0dcb02930ea48fc}
+      \strng{authorfullhashraw}{86574cbe25f6ee65d0dcb02930ea48fc}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Simon's algorithm in the NISQ cloud}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2406.11771
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2406.11771
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2406.11771
+      \endverb
+    \endentry
+    \entry{schwetz2024simonalgorithmmeasurementbasedquantum}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=21330d4d006e7755c9b6e6edbf8bdf08}{%
+           family={Schwetz},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=deaa2b919d6e0cf0b7c2717e802e5e84}{%
+           family={Noack},
+           familyi={N\bibinitperiod},
+           given={Reinhard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{fullhash}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{fullhashraw}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{bibnamehash}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{authorbibnamehash}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{authornamehash}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{authorfullhash}{d8338dc6639406bf449d569618a0a3c6}
+      \strng{authorfullhashraw}{d8338dc6639406bf449d569618a0a3c6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Simon algorithm in measurement-based quantum computing}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2405.18143
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2405.18143
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2405.18143
+      \endverb
+    \endentry
+    \entry{singh2024independentimplementationquantummachine}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=ddacc2daec838dfcca59532643aebb86}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Navneet},
+           giveni={N\bibinitperiod}}}%
+        {{hash=52b6510d5abca01142b05eef71b93998}{%
+           family={Pokhrel},
+           familyi={P\bibinitperiod},
+           given={Shiva\bibnamedelima Raj},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{fullhash}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{fullhashraw}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{bibnamehash}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{authorbibnamehash}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{authornamehash}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{authorfullhash}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \strng{authorfullhashraw}{164c86e6a3ea87d19bebf18ff4293c5f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{An Independent Implementation of Quantum Machine Learning Algorithms in Qiskit for Genomic Data}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2405.09781
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2405.09781
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2405.09781
+      \endverb
+    \endentry
+    \entry{yuan2024quantumcomputingdatabasesoverview}{misc}{}{}
+      \name{author}{7}{}{%
+        {{hash=f205056eda4e4a420d28839ee60b16db}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Gongsheng},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c8a64359b89317ee0bfed6776854b261}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuxing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0e71344f044f1b3b90ba2c35a15012af}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Jiaheng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a43a009c8dea62395c4b69b7c1e34f2d}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Sai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=08e9283bd968e52b44bea6e6bddc4383}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Zhiwei},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=72b8110741fb0282b6330c5cb13dc9f0}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod}}}%
+        {{hash=293c31f46eb012efc4b2449215c92484}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d131bb5cdd64ef625f7e9102295f21f}
+      \strng{fullhash}{3d8bc3bc2f788ec13dc206d56c15cbd6}
+      \strng{fullhashraw}{3d8bc3bc2f788ec13dc206d56c15cbd6}
+      \strng{bibnamehash}{6d131bb5cdd64ef625f7e9102295f21f}
+      \strng{authorbibnamehash}{6d131bb5cdd64ef625f7e9102295f21f}
+      \strng{authornamehash}{6d131bb5cdd64ef625f7e9102295f21f}
+      \strng{authorfullhash}{3d8bc3bc2f788ec13dc206d56c15cbd6}
+      \strng{authorfullhashraw}{3d8bc3bc2f788ec13dc206d56c15cbd6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.DB}
+      \field{eprinttype}{arXiv}
+      \field{title}{Quantum Computing for Databases: Overview and Challenges}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2405.12511
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2405.12511
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2405.12511
+      \endverb
+    \endentry
+    \entry{AbuGhanem:2024vwb}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3eda8be8e45265a5d46e2b609f6cafa7}{%
+           family={AbuGhanem},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{fullhash}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{fullhashraw}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{bibnamehash}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{authorbibnamehash}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{authornamehash}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{authorfullhash}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \strng{authorfullhashraw}{3eda8be8e45265a5d46e2b609f6cafa7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Sci. Rep.}
+      \field{number}{1}
+      \field{title}{{Characterizing Grover search algorithm on large-scale superconducting quantum computers}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{1281}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-024-80188-6
+      \endverb
+      \verb{eprint}
+      \verb 2406.16018
+      \endverb
+    \endentry
+    \entry{robertson2025simonsperiodfindingquantum}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=f51b14336cd0102364ccc96b0afd5fa5}{%
+           family={Robertson},
+           familyi={R\bibinitperiod},
+           given={Reece},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ad46bb7baa3020a9b979712c144318fb}{%
+           family={Doucet},
+           familyi={D\bibinitperiod},
+           given={Emery},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e49fc6c026e89700ff03956c04594ba2}{%
+           family={Mzaouali},
+           familyi={M\bibinitperiod},
+           given={Zakaria},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=12bcbc60fc1551078211dc4a586c42ed}{%
+           family={Domino},
+           familyi={D\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+        {{hash=812bb786b8da90709eb0eca728de16ce}{%
+           family={Gardas},
+           familyi={G\bibinitperiod},
+           given={Bartłomiej},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3db31cc74ebe1a04ab0c1e74a9fd277f}{%
+           family={Deffner},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{fullhash}{6ba54c7bb3f2da3063aca5197a864bcb}
+      \strng{fullhashraw}{6ba54c7bb3f2da3063aca5197a864bcb}
+      \strng{bibnamehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{authorbibnamehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{authornamehash}{b0e899dee4d7ef53752d8440dc594347}
+      \strng{authorfullhash}{6ba54c7bb3f2da3063aca5197a864bcb}
+      \strng{authorfullhashraw}{6ba54c7bb3f2da3063aca5197a864bcb}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Simon's Period Finding on a Quantum Annealer}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2504.10771
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2504.10771
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2504.10771
+      \endverb
+    \endentry
+    \entry{10848114}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=90caf9ee57ccabdf0b8c74f69fe4b7c5}{%
+           family={Schillo},
+           familyi={S\bibinitperiod},
+           given={Niclas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=583f565f763f925fd4f27e04ed672148}{%
+           family={Sturm},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{fullhash}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{fullhashraw}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{bibnamehash}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{authorbibnamehash}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{authornamehash}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{authorfullhash}{5a2365f8e2832c247fe8f19df6eabffe}
+      \strng{authorfullhashraw}{5a2365f8e2832c247fe8f19df6eabffe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Quantum Engineering}
+      \field{title}{Variational Quantum Algorithms for Differential Equations on a Noisy Quantum Computer}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TQE.2025.3532017
+      \endverb
+      \keyw{Quantum cascade lasers;Computers;Qubit;Encoding;Differential equations;Quantum algorithm;Logic gates;Hardware;Noise measurement;Quantum circuit;Differential equations;quantum algorithm;quantum computing}
+    \endentry
+    \entry{sünkel2025quantumcircuitconstructionoptimization}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=70ab7b9604aaf4afe85dd9a6e6bf029f}{%
+           family={Sünkel},
+           familyi={S\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7cddbe5e4082d169d39cc92c33072cab}{%
+           family={Altmann},
+           familyi={A\bibinitperiod},
+           given={Philipp},
+           giveni={P\bi{"version":1,"index":{"21MogaleSuperScooper.jpg":"999e3738c28e06d2300bea7cc433c53955771469","IEEE_TIM_DOA.tex":"9913e48308af09d9ba380c225328d945283d769e","LICENSE":"2f244ac814036ecd9ba9f69782e89ce6b1dca9eb","Plantilla_LaTeX_TFT_ETSII.pdf":"94a84509bad5a222c3ddc82917fcacde5d2e22fe","Portada_TFG.pdf":"8b865db5afe0679490b07d1f1cb778992aa06514","README.md":"7287cbe59e24c171290fcd1dd0029545078a5c71","SquareWave.pgf":"742a3b0cd4b0ab3817c21d0f8afb759fbdd2f35f","bib-database/references.bib":"f9c88e822c476543444c8ffff57329080bdf02b3","biblio.bib":"09e73c91a3c471947d3277cba6e204658b02863f","cc-by.png":"c8473a24786ab016d9c3e717a380910f7cbb0fff","images/jvt.jpg":"4f8244b368d471e6f5353d53eaacfdb00635118f","images/ppp.jpg":"21f3107d29d0e980a784d8929911cf8bbc1eb126","images/sjc.jpg":"3306f6f3b6f32a94b620254bd7c018568bc3ed83","main.tex":"73867275769a0a712cee1e88e57fc6e72b7934ba"}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   cf:map_step map_field_source="school" map_field_target="institution"/>
         <bcf:map_step map_field_source="annote" map_field_target="annotation"/>
         <bcf:map_step map_field_source="archiveprefix" map_field_target="eprinttype"/>
         <bcf:map_step map_field_source="journal" map_field_target="journaltitle"/>
