@@ -1834,564 +1834,1115 @@ F4Íõ•G¢p[œ07ä™SéÏ©Ï×©ÎİÉÖ>ÑÌ‘jùé´KrçáJ±ı“¯Gúï?R½†$…;&ÙVIÿ¼SùÒ'ú]—ÙAß[mÌyŒ™
 5=J—Î¥8 ôƒ>°=8z½GÎ;UàOe¨ì_`‚î¼ŞÓºì¼õdŞ>›Å5¢@ôÓV(?V»¯ÖpæëşJe#b¼ŠöÚûGØŠ6òoñ¨ÍPƒÅ'gÂÀçqØ›p-¶Â~îm°¿«q}ò4ÜÏÂı&ì°;j¥j÷æzÎÜã¯RV±R«”ëX©UÊz©UÊ½Ô*e-+µJù+µJYÇJ­Rne¥Ú•‰·Áu›HË®Rî`eW)õ¬l;Îk•8gsÜ? ö³â0·Šë`n×ÂÜ&ŞªŸïâ¿áŞ$^wO	“—¯R9öbØ'Á^»öe°J6r¹ï
 ¨ağ¹ÒW¥ä±UJ>KQ¥´g)ª”B–¢J)ÒST)YŠJe6ì¥pÏbvíGÇRãS•¾W=ª²Ò÷o˜«|¯Áü»ïu˜×úŞ€yïM˜×ûŞ‚¹Ú÷6Ì|ïÀ\ãÛs­ï]˜7úŞƒùßû0oò} ófß‡0oñıæ:ßn˜·ú>‚ùOßÇ0oóíy»ï˜ë}ŸÂ¼Ã÷Ì;}ŸÃ¼Ë÷Ìzß^˜wû¾„yï+˜÷ú¾†yŸoÌû}ûa>àûæß˜¾oanô}óAß÷0òı s“ïG˜ûşóßO0õ„¹ÙwæßÏ0ŸğıóIß¯0Ÿò5y<®WW{\
 îÃŞ^»ò­÷[˜ßy¿ƒù½÷{˜?x€ù£÷G˜=¥<É«—ó$©=ÌJ©P‚ëV„Ö¾Âg¨Ë}v\ÁÎŸ-Í‚9üawxÔ­n"]åQ>Ëö(}®ªTf¶È1j˜Mïa:£¢“ºé|9V'uÓYs‚Nê¦sç$ÔMgóJvä_Ó~…úT» ›‹i8™Öë*ôş¡³×zÎ4|æ6LÃw sæ
-E!uÿİEg§é¢³ËtÑÈmºè,¤š.:e™.:e›.:#åP—RRRRRRRR+Î‚L	ËL;›.:#v1]tVìjºèÌØÍtÑÙñÓEgÈîféfyjHyjHyjHyjHyjHyjHyjHy¬t:+Ï3]tf®3]tv>ÃtÑúLÓEgé³L©Ï6]t¶oºèŒ}YºYRRRRRRÊ—G{<]#lŞâŒÚ8J×Œ+E-”®3¯„¾RÌÜte¹R'íóÚJ“ºÖ0y¨|CmÔRÓUÈó(ëy³,º]­—EW²Ë¡—ëeÑuêj´,mİºš•µš+ËÊC›e	›_s‰²BŒ6ûÒ6³¼4©²pÃÔîk…İı–¹DÙ F›[it…|«NmD¡£F#·,¾aÒXtUö3Zæg³eèÚ·^oºúıôßô–¡+äz4OmÅ\Ïj]ÏµŒ‘Gµ:­@êa?ÈpRPackage biblatex Info: ... file 'blx-bibtex.def' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2026/04/26 v3.21 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back bibtex backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2026/04/26 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count564
-\c@textcitetotal=\count565
-\c@textcitemaxnames=\count566
-\c@biburlbigbreakpenalty=\count567
-\c@biburlbreakpenalty=\count568
-\c@biburlnumpenalty=\count569
-\c@biburlucpenalty=\count570
-\c@biburllcpenalty=\count571
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count572
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2026/04/26 v3.21 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2026/04/26 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count573
-\c@bbx:relatedtotal=\count574
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2026/04/26 v3.21 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2026-01-19 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-Package: blx-case-expl3 2026/04/26 v3.21 expl3 case changing code for biblatex
-))
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count575
-\csq@gtype=\count576
-\csq@glevel=\count577
-\csq@qlevel=\count578
-\csq@maxlvl=\count579
-\csq@tshold=\count580
-\csq@ltx@everypar=\toks54
-
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
-File: csquotes.cfg 
-))
-
-LaTeX Warning: Writing or overwriting file `self.bib'.
-
-\openout15 = `self.bib'.
-
-
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
-(./inria-poster.aux
-<Reading QR code for "https://github.com/Inria-Chile/inria-latex-poster" at lev
-el 4-M from aux file.>
-)
-\openout1 = `inria-poster.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 2335.97145pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 3383.0325pt, 0.0pt)
-* \paperwidth=2392.87694pt
-* \paperheight=3383.0325pt
-* \textwidth=2335.97145pt
-* \textheight=3354.57977pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-72.26999pt
-* \headheight=14.22636pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-Package hyperref Info: Link coloring OFF on input line 154.
-(./inria-poster.out) (./inria-poster.out)
-\@outlinefile=\write6
-\openout6 = `inria-poster.out'.
-
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 154.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 154.
-\symnumbers=\mathgroup12
-\sympureletters=\mathgroup13
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/InriaSans(1)/m/n --> TU/InriaSans(0)/m/n on input li
-ne 154.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 154.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/InriaSans(0)/m/n on input line 154.
-
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/InriaSans(0)/m/n on input line 154
-.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/InriaSans(1)/m/it --> TU/InriaSans(0)/m/it on input 
-line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/InriaSans(1)/bx/it --> TU/InriaSans(0)/m/it on input
- line 154.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraMono(0)/m/n on input line 154.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/InriaSans(0)/m/n --> TU/InriaSans(0)/b/n on input li
-ne 154.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/InriaSans(0)/m/it --> TU/InriaSans(0)/b/it on input 
-line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  TU/InriaSans(1)/bx/n --> TU/InriaSans(0)/b/n on input l
-ine 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/InriaSans(0)/b/n --> TU/InriaSans(0)/b/n on input li
-ne 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/InriaSans(0)/m/n --> TU/InriaSans(0)/b/n on input li
-ne 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/InriaSans(0)/m/it --> TU/InriaSans(0)/b/it on input 
-line 154.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/FiraMono(0)/m/n --> TU/FiraMono(0)/b/n on input line
- 154.
-
-(/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English
-.dict
-Dictionary: translator-basic-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-
-English.dict
-Dictionary: translator-bibliography-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-environment-dictionary-E
-nglish.dict
-Dictionary: translator-environment-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-months-dictionary-Englis
-h.dict
-Dictionary: translator-months-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-numbers-dictionary-Engli
-sh.dict
-Dictionary: translator-numbers-dictionary, Language: English 
-)
-(/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
-sh.dict
-Dictionary: translator-theorem-dictionary, Language: English 
-)
-\c@lstlisting=\count581
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2026/04/26 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout5 = `inria-poster-blx.bib'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'inria-poster.bbl' found.
-
-(./inria-poster.bbl)
-Package biblatex Info: Reference section=0 on input line 154.
-Package biblatex Info: Reference segment=0 on input line 154.
- (./inria-poster.nav)
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 14.62796pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 36.39577pt on input line 154.
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 14.28163pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 51.17587pt on input line 154.
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 25.77438pt on input line 154.
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 30.3269pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 21.22873pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 15.16344pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 21.22873pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 15.16344pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 30.3269pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 21.22873pt on input line 154.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 15.16344pt on input line 154.
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
-\openout4 = `inria-poster.vrb'.
-
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
- (./inria-poster.vrb
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 35.53407pt on input line 19.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 29.6089pt on input line 31.
-LaTeX Font Info:    Calculating math sizes for size <41.8> on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 36.39577pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 25.47693pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 18.19788pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 25.47693pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 18.19788pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 36.39577pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 25.47693pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 18.19788pt on input line 39.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 24.87375pt on input line 39.
-
-(./sample-figs/tikz-sample-figure.tex
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 21.06253pt on input line 34.
-LaTeX Font Info:    Calculating math sizes for size <24.19> on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 14.7437pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 10.53127pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 21.06253pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 14.7437pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 10.53127pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 21.06253pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 14.7437pt on input line 34.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 10.53127pt on input line 34.
-) (./sample-figs/tikz-loop.tex
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 25.28548pt on input line 14.
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 21.48975pt on input line 14.
-)
-Overfull \hbox (15.06862pt too wide) in paragraph at lines 14--115
- [][] 
- []
-
-
-
-
-<QR code requested for "https://github.com/Inria-Chile/inria-latex-poster" in v
-ersion 0-M.>
-
-<Copying the QR code for "https://github.com/Inria-Chile/inria-latex-poster" in
- version 4-M as previously calculated.>
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/m/n' will be
-(Font)              scaled to size 17.90073pt on input line 126.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 20.56386pt on input line 127.
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/b/n' will be
-(Font)              scaled to size 25.77438pt on input line 136.
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-LaTeX Font Info:    Font shape `TU/FiraMono(0)/b/n' will be
-(Font)              scaled to size 21.48975pt on input line 140.
-
-
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'english' will be used instead.
-
-(./sample-figs/tikz-findings-venn.tex
-LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 17.69974pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 12.64273pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 25.28548pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 17.69974pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(1)/m/n' will be
-(Font)              scaled to size 12.64273pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 25.28548pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 17.69974pt on input line 14.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/it' will be
-(Font)              scaled to size 12.64273pt on input line 14.
-) (./sample-figs/tikz-hepta.tex)
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 20.72614pt on input line 207.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/b/n' will be
-(Font)              scaled to size 24.68683pt on input line 226.
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 9.53429pt on input line 229.
-
-Underfull \hbox (badness 1337) in paragraph at lines 229--229
-[][]\TU/InriaSans(0)/m/n/24.19 Stuart Russell and Peter Norvig.[] \TU/InriaSans
-(0)/m/it/24.19 Artificial Intelligence: A Modern Approach\TU/InriaSans(0)/m/n/2
-4.19 .[] 4th. Pearson, 2020. ISBN: 978-
- []
-
-)
-LaTeX Font Info:    Font shape `TU/InriaSans(0)/m/n' will be
-(Font)              scaled to size 3.48285pt on input line 398.
-File: theme/rf-inria.pdf Graphic file (type pdf)
-<use theme/rf-inria.pdf>
- [1
-
-]
-\tf@nav=\write7
-\openout7 = `inria-poster.nav'.
-
-\tf@toc=\write8
-\openout8 = `inria-poster.toc'.
-
-\tf@snm=\write9
-\openout9 = `inria-poster.snm'.
-
- (./inria-poster.aux
-<Reading QR code for "https://github.com/Inria-Chile/inria-latex-poster" at lev
-el 4-M from aux file.>
-)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
- ***********
-Package rerunfilecheck Info: File `inria-poster.out' has not changed.
-(rerunfilecheck)             Checksum: AEA4B6A8AE45636C75679C2F0DFA4493;93.
-Package logreq Info: Writing requests to 'inria-poster.run.xml'.
-\openout1 = `inria-poster.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 57177 strings out of 470184
- 1191734 string characters out of 5479438
- 2555081 words of memory out of 5000000
- 84750 multiletter control sequences out of 15000+600000
- 666660 words of font info for 258 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 111i,23n,132p,1879b,6307s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on inria-poster.pdf (1 page).
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            kú{Df—"¥’±9çâŸâû†AÌ“A²~Fä9Ä¦àˆG’?O^×à¹c(WÄ§¡lIuÜ[İ„ó9
-Ù»Ûê~:-çp±Ä¦ŞÚ#ñ¼;7ù‹‹¹¥\§}T¾?343tµHâ~?Ÿ=Œê¿_‚>kCÙ“9‡×x	ªà6Ãlç1éÓ81‹™ü2#>ÉKê}'oOèn³„Äw&ûâèQ’ïõIå‡í6/ëóúÜŞ'eò½Òcƒé™„úFŠ?:˜1ï—‡²!}¹3Åî˜!şÛ|j2íõŒıëÁ§'ßëä²dOæøØbvä’æ0_<¹Í$Û$[™3É–ÏñÿÎgGªøç²#Uü—­¹—=3{„Ä’”XRSÃYIôË‹”·TRX¢Ä²Á’ĞÒÔZS—®ÈR’èóNÌ=Ş’*ÇLÇ›OlúÉ®Iú|¶€-ÓuL}Üş˜´úÚÏß á-™¹Õ'ñ«¸\ì[ŠÂb¤Ò·¶_}¨“‘©İNä™ÌOÌ˜’-HÉ¾ß¸Ã‰ßNFªXĞJÓ×Óó7Ÿi_öGqjFßñ\*¤ı÷qºwBüş—M{TÆ§Ç›ùÌü”Åxq-—œ‡ef'Æ™±œmƒé¹Hæ˜$ds¥v3#„JC;‚¯&Am‚—‡Ô€®§¸^
-–”¥1–¥	3%l½Œ‡0L¬¢ÛÉa˜:/§Xë§ÔI<ü÷Š¬öß#2H¹¾ü‰(ï¤ùÛgñ)aúyÀEqëÔ3ƒJN-â{pn	ªrCŠ‡—RjÉÓ‰Í‡x+ïâ¹¡¢!Uú‰~tò£I¶'›Ò¦;nZæø8¹ÅOş7Û=;­ÏPOr2í÷KçŸn¶å‰³…ÛÂ¥»O‹¿g‹ÿëŠ'v?N?3©ı2İOnå©Wñ¾ş«0U˜´äè‰TûSùÇ³ŠMG&Ë<é÷Wº3åp™'{’•†?[¸TÇœ+ëÙÜ©`råNf6¼q
-±\ï'ñ_ÿM¿»»»;İ1Ù”|ÎI»R^£7½ÒúC_‹¿Å¿±€3òF~jHŠ×.øI~…wxwx%?bÁ©´øq)÷¤”¤ıÙô+GxXş\rÈş§øôÇŸíXJÿÄÇ'¥J,Ÿ‘oÄH[øÌÁòãóÁ?É9ú1‰x%ò¬ÈA‡”lj§ë']3)ìó£|)0œÆ³<¤!ØTßqØ?>ddR³ÛŠ7D,ŒİbaÔc²¥'SüÕ
-CLCLW1v&{V'%ûøÓ=Ù‘Ê÷ÏsŞë=Óı~ÿk
-C.ÃÑÜó"gògò'ó§Å„Ş|.Ç™Š-É±ãbtöÜÁñÔÒÑ?8şg¾Ï|³CÉÁû}L¤/ß`şàø,ù£öÜâöïâ“¢øœLOªs›X†¡º¡ºËt«™{tW!¦ë3‡¿Â(ó8İfæİjİ—Ì8İ³Ì³¨M¾†ª;Äd&ë&2='+œ&¯yÆ¦ùĞ`Ğ4×ë^d¶1×èZt3t‹tO17énÑmG)ÌÓÍ×eY²š9Ú‰ï!Ú#nbNÖE˜ºöÌ<&‚ô5È‚¹†!j ÚsZÎ-˜¢Š×CÜaÕµFë3™ñÚ:¼ºÿ-Nëz™‹Lg›ÂÖ€íËPD+RÍtcëZ1_›MçŠô·ô·°6‰Wœ¯#Ö²çyÆxÆ!.ô½èï­K¤ó¢%;^°´\ 3Ôr‰L_´å°fc78ŞpbğÿB=¡Hÿµ‹®s•|÷0™{˜k,—š.5‘iÙf‰˜l9ÆZeÚ*m-•hù
-å¶÷Ñò<®?ÙpwŠ~gĞ²KŞ‚¾—‰µ51ŒE~?o‘N
-ñéÇç¿š‘Ò”Æ®X&[’ƒ}a:3o‹Ú†êbUoĞbó…X&Ãj¦0àrKåOu=hÓ}FZÁ¿WŸJüµÅ>dMö¥²áØØ*å+ıbâ¹ŠÇ"1á•Æ)¤¾ï!&[`$V+%‰=7D¿k}×z™å2‹`bÂş#uO ğ@Æ+¡1Ä²ZÉ”}5³H—ÚŸÆKuìR-—ÊŠ®‘¢$»Ô“´1ö9RßŠU½»ŞıóDV5-±GNÅeºLéĞ´H_ïc¥íGe6±›å^9ƒã,c,©B{]"êçh·tVñot’Ú»K\ÃçkæSö<´¦ÓZ¿K„»uûÑÖ~f?h3Ä¶¡rßF–0çØü’³D)1,^ïBû–(¿=¿†½+ùÒøß*…”"¾4±Û»@štG”Éò¡¶÷ÄíT}=¦­&ŠuyÒŞ’œO]b¾×[³öåûòÇdø­c²ü…­øM¼dÚgÓÓ—?)”ä%MVÖÌÇ—ír¼JÇ$¹vä–f»8p©-èf_ãt—Rêd]ld».a›øÖ)ëäšæEóÄW‰æc“ó-Yâ¹Â*¶~ôå³i?©kw¦ZœªV©muÇˆvš¶*i—5Éã¯@ü`øÁğ§–Ñ%ávÍE—YÂ[ŞZ¶–}Ûş¶İeÇË®ì¯†_Ë5§[×j +4kãxÌœ‡â¶·$Xû¸_`ÿgX¡Y.‚óûÕğ³áW™å²ı=ãwÎØUšÆKŒïŞ1teû¸û¸6Ä’éÿmĞ¬Üi¹Ó2Ê6Ê¦Ó]n»Ëÿ(rù]údûõZı%MV=ğw5MZ}A8_ÛO;J;,!ÌÔNMª±?ŒCö¥óI•f²¸ÉÒ%é¥+k|Hæ—¬Ù7árí×Æ		¹(ìÒ%g’Vb».ø¨ÉÊœk¸•ƒ„ÄÿĞwŠ;ùî£œänhXèheœ¯ÕØv%^CŒ7\+3ÛğŒ~”áj3fåwËaËb³Q×)K:€3³ w†ªäK•l·pz§Ş¦wë}zƒŞœ@?ìPÉvãvcXàÜ,©ĞwÕë{êOÕ7é ÎÎ)~Wık–:ı0ÃpÃå†Mú a™!`Xi¸Ë°Î°Æ0Ø0HÎGE½\\Ã0É0ÕpµaŠ¡2O>²~dµØÑ¿FÆ;/ww~ë=à¥ágß¾—õ ~CìĞ?™$,0dâ=e‡Ub± ÷æNÑkP€ğÊAHá»_ˆñô{üäŸ³PJ™TìÍİ;·ôÒÇ(dZù z	I½s?³©Ó2îÍÌeş‘s›şˆó9.!¯Üó«B’\…Ê—ÿõÊ5×tµDÈùø³­µÙÅR\T¡ u\Èx.…Œ¾BõPÈPë„¬%ûØBÚãÍµMY•J(H;òŠ'¤ì5…,ÇAUíÎ­¯²èã…¬Ê˜ßõ2ÖÍüûAÕ•Ê¯÷/Dßü*
-,ƒwœK–yd
-:›r®£B®›P 1QÈº5æR·…¬Ê¡n¦,d59×§\ÏšğÎLr9›Ù¶³|[W6}¾sİÌï>OÈŸP€_ÍìN(Hï)¤¸öBAË ´Mä?yÔ!«jæ&êï„œfYùµÒÂŒ[ÙÕ²\ÇJAåx&d}§Tš×üEÈØZÕ5§³5!ë_M)³­™BŞ=k¡ÎEaûp!«“ß.äyærëó3ŸOwF
-7Æò*ıS÷MB-&ÿ¾ZM-òìƒ
-]…<Ÿcäú\£-1ÿ¾+ÕrîS„´%!ï'g¹”…mo¹ÍT…,æUù~Bm÷ŸéKÓ|ŠSˆ’˜*{ÓüJ#ü#u3û'Ua…Œ)…›Yæ{÷—İ¼D}=²Î3ÿÏG³íã…,û”ÜîéÔ‘Ú{N!¯Ñ´g¶4çÑ;—»MuOtUÏ2•KPÙfs¤BNg!×OJò™äŞWäòÙ¥ ªŸTŒ)Ù¾ß äÙú„êB!G—BÌn
-İ#	éÿ³»›
-Ş+
-ªæ#™êõ¨j~R˜O©r¿—
-^{…pôSó	F~ç!Û;ıBŒåBÖgHÈ£ŸÍí!ë{ÓBÜƒ	*Î—`È~¶W˜Yõ_µ÷ğÿÆÛBÒùb¡ŞÇËşî3¿Ù™úwF…‚”HÈ¡öi{º–*R¿'—ßó!¯:œıüüŸuò5²½ãT·rAõ¨]ÈÏrr¿fBg(Ÿ·&
-ıîW]ÊïmW!¯y¹ºgŞ…xB—ïB6×2·»0oq*F!c?X¨·Ü…¼ü•s!zş“!Ï7J²)‰ğôvù¾‰"dè§Uc¿Çœ5—¹œãSØüŸî	†üŞjÌıAUk
-òMœÂ¾‘PØwŒJóşŞFa¾K%èS„Üu
-=ŞÒ‰ì¶„í0»ù¡ğÏ:
-sg›Ï}O¦;œB~j•ÿç+BA¾%’İ8+ü#õ5õ§ƒÙÔ‰sª\
-9Ì³ùl%ıøÍ³İ\ßôÈÅ–©f	l•ÙÎúñæ¸Ú7³ÓãDPÑg9>ßËïi€P 1RÈğyXîOÈrûN–÷'¯¹¾©PÈñ\È«'WûyŒšÏC~ó/!Ã ª„…šGf÷‰…Ñ=}œjßDª) a–p¬á(•g¼ãõ(t—4P—mÉ—õ)Uƒü’FwƒãN2¨#¾\?YÎ0œbˆ§zåÎˆ³PzÉ¶äKBlŞĞJÓ9ÑKæÃ†>†~†¯-™Ï$=U¬Ä!W,;¬o[Ò¡.×Ö[jI_>Îô“Qâ ¸4‹ÛZÓßFƒ‰`64şöcN4h:h¤$ûÑ¸ŸpÈˆãáĞÕtÄxØˆƒÛä6…UR¥ü;êU*©5ÕåE¾ñ†äı=Ò+Mê¸--Ãlñ–…qÄîl»Í¤»Ì˜•I-5/“U,Ï#7=l†<nzÜô[AøCEÜWÌ¯˜su¹9B#³€XëÄùN‰ùˆuæuh/×™ïSôZ‡É¼[ÆŠÂ|Ñw·ù³Él´Üê\ïXïÀ–ó‚YıRÒÇ|N‚ÍãŠÇåêg.šÏ/“räx7ÆÎ¦˜Õ1U%3Âì!Fª4f«ÈavÊ8;¯øÙ”|vÊ—¾„ê®ßlgivŞgffÁs-ÔÕWZ³ÿ±cšı/µéÂÔ’:%ÒfçÑ¾gç‘O¡z¡Ùy%EıË>­xdÿ±èZóµæƒ–ƒ¼NG*²f~¾©¹+o–‰3Óu*ñX=§‰¸DNÄÿ¦à* 8wšÚi1ä’Næ8@şåææ+‰û_íÙáOøßó¹áÿòÊí¸x•”äA.åû§ÓÏ'8ÕzªµÌ’;=­=­k3±¨ã8Uló¨ùu˜N K½ÔÅëò/”½KÎU—>]şÁs”:®Ú#ëò”´Kñ»ü«u¸KŠ3×¥@GÜ¥àç¨‹êë;ÇÛ†èfQÇä)†tÔYÛZƒ¶d\`—Hë-+¥´ı™$·ÿ£l„cmG+©Ît×9fºaa³9]–J8ÉÙİÙÖqŒc²¥L·\%¦Š×™Bş9ä{rÆ¸-9¦×"’ÿ›!¯?VIª;ñ5æÏ¸ztİíH„c9ÖÌÖYS›¤—³—SJe‚•r¶B“5*r¥¼‡Ú/BL“ 0Áz­-9ÆmG­©¹ÒšnïE"cU2A%ËU²V%/«$ÓÿëÎÄ'qxÓÒß.átjl©©Œ£Üö¡­ØásÔ¢z[j+µáú{†­—MM®’)Y3>)“T2E%·ªb¦íÚ¼ )¬KË-ü›nâ×ÙÔ±ÑŞ¾E\w×Ô’™çUòŠJv«$ŸÿÉô×Ï™NöNv?âÓ.ÿ‹Í$´æ•’ŞöŞöi+©ÂÄØ4Aš§Ñ‘ó§ô?evßÏbuo`7 åtÄã—Øî'ñ’à˜ºL¶O´O™(ª«ìÓå0ÖùŸS*çû8ûäÿ/fã:´ïÎkì×'á§}ñ‹ø¹Á¯í·Ø—ØïPÂ{ö=²^"ogË!û×€ƒb¸ñ”Jv„ƒLÄÖ®}ŞÔğVªÍ(æoñ÷r7°¸æj§8‰RG|}u:lˆY¨ãö-öjß›ìöA÷}î<x6'	´¦Å×F©&“y¢ÛáSş!¬é
-GØÁÅ„*™G;Ggç×T÷ÄT÷$‘©î«Ïxgxf ø!‡„4›Å\ÌìÑnb1£½Äj–×Òò9öölG³#Y8Ëñ¼sªÈéVXf:g:OuœëH7Ûp§çw#¾óµòŒÍĞŸd
-×‰=„îÅKé}µò{÷#8ÏAÛ+’ sé\Œ«'»Ü±ÜßÕX+Æ9ù¯r¬ãJ`Ë9ÎdÎOÊ[u|„rä.'a¥H£s¯£Æ™oêø-9~tèçÌoª19ÕÈ‘ ˆ .KG#UÁÑ)äìè|L¦£¬·8Ïô´AB{OÂ+î"æ÷+n)Ş ¼!ï+³±ğÏ|ñø‰\íTÇO®dÙí<7 ¸µ¬àN¶kÙ¦ŒÜÆşà<èúÁ)ñÈÎI¾)¾Ñ¿ulzì.i-}Dö§SÇ]xŸò|àıÀ›øÆUn©¤L¤D„ØJ”}%bÈ7å’ŒqCÁ>¤wçb|¨áàp*‹iíj£p‹:3§£Z»¤´NU4^·WI;6ú»#U21)“5Nä"Vë!ìÅì××t×UÉ:1'&ƒnÉìv4BRwºÔ1–Åsë—´¾Ó…5¶O`7ºÔñ„
-u=åÚ–7ÏŠİ‰wâKİ^÷´Ld†Ÿ¼¼Äs‰g‡I¾ŸBzJ¸>â"âJö·+ı¶ÄxD'åŸ¸ÇùÛ%ÅüÛ…ç¥÷£éı2xvÊÅüa<‡åä™,ö¶Éû¥yo±j¶ñ'g‡(mYu¬PÉS’¶0ø¾$><äŞìÁ´òOàõLfªf¢Üñ	?²êø‹æş‹Õ»õnM^‹ƒUIeÖ”#à]—ƒmLMŒWl¼d©R²)CyÖqÊS0Ô3ÔSéVËeä|èÃÄzªË'6½šœJ…¯¥˜˜^’F{²g2(3&ÕQe{>vxáY¡‰¨=×8Ô(åNFæTj²"ş,k²\j2^Tà«@ÏÛ‡¾ËİC=z]ûò­ä
-c®ñ§òJ$¶4OÆš@<ğ†ÄØİ–¼b·S¹^|Nb¯a¨'=Ù´¡ÊWÓQ%îÎn.?7¸oñÜàåZ‘›<„[<£|£|ıù"?¡Däîn‹[O«ân«[İ<?»Eüìşâ+÷7î?}Œ3Äû	×ŠÿÎÈÅŞ5¾u¾•¾û]<]<? ØêøA§Ëî˜WEó ½HYŞ,ò/òóşo|ÕJP–ï½ùôdŒIfOÇD‘‘"CU’©¼´|Óûf’£lÉ¡o„<Wy•™CÏsÓ=¹sq “jïQ	in÷K1’±Ç“½ò©çSÏÛ]€=*Ù¯’ßã8”`IÓ«ŸJêTÒ6o91'NH §*Ê}Í^uœ­’±)-r”#©zßÑ¾c}¼¼#¼xy©÷nqp–7=Çû¦y§¡%oE½Qqy¼/SüL\§’å¸]¤»/Év»÷$ßr¯:V©ä•¤ê‡û$R÷œ˜£¸Ë}ê¸A%óU²@%·ªä×œÈ&VbÉò½K%€‡}eôyÖŸ¿€[ÀİÊÑ;}‰O|×ø)Î İÓâO…-@ÙÇ‡>¼ÄyAŒüSü­Æ–æCAœ^â§b¹ñ«Jàq^w¬|œxÎ°—KV8ßsÎ¤ó“ú¬J^]ü]üTĞE%ã²fŒÈ£qŒSÉ<Õ| ¬ä(×†bÉ.-Ÿ
-|/ı
-÷’Ì+Üü@~O¿–ø“Hã†q‡ü]©8èo
-œØïÿ	q[àKÿ—şŠ@6ôœ8Uæo¿VÑGêub{Æ­–h[0¶KªXÙâKÊ·
-É¾£K¿Å±÷ÔÁ„ùP@a•T(×R‘5çªd…JQÉs*yU%åÍ"Rk0¢ö;^m1_ ¤%Ç‰g¥Jºg`>¢»â9Ed¼J®UÉ–‚0:˜-:^Æ’iÄ¤Û÷#
-©ûÅìğ«¤‡JV«d£JŞV‰6˜‰¿ùtœTÇ•Œ. c“p£JnKÂr™µ(¬ÈÀxCŞĞãAu¼«’ø(‰-5ğİ‹|¸V%LÜßlı<ıBı2ıÃú§ô/è_×¿­ÿH¿Oÿş'ızÁfp‚†2C­¡ÎPoèdh2ô2ô54Î14\je˜h˜f˜m¸Î°À°Ä°Â°Î°Ñp¿áaÃ†ç/Ş0¼gØkøÊpÈğ›1Œ#‹ºÊ°±Æx´±½±±³±‡ñtãÆ~Æ!ÆQÆñÆC†YÆ«Œ·—o0ŞoÜdÜb\m|Õø¦ñ}ã6ãã÷Æ_ŸM&‡ÉoúÛXijıÿØ; 9ªjÏìôùû¾f²CR Y
-Á”A²4‘³¶±B@‚R$”€ ¢A–#’ !dG¢"pºŠRQbÄ€‹f;ñD"¨H Áà&…ÿ÷1}Ïô1Ù@™~ÕÇ?Şûÿ¿÷şñŞÿ³Kö’“É~Ò O!g“ÉóÈ‹É3Èeäµä*ò2òNr„\KŞLA¬'%G*£ä&òiøş=ù"ùWr'ù£(j¤2‹T::”Z‚Ï¤¦Sãxú`ì\jšß§Ãû,ê\ê³0ÿ|ˆZ‹†åÔõV¾›¨;¨j-µ†¥F©ÍÔsğk;õ2õ7j+üÚEôªLóô8®ÓĞSé÷À¯YôzA/ çÓĞÑ—Ò‹èôU0e¼ï o¦Gèµô:úazİƒo¤7Ñ[ègàıEÓ­şDÛïôèC3£1“™¿Ğ½Ìl¦‡™Æô3'1§2g2—0ç02K˜åÌÌ-Ì—™{Bğf3•~y„y‚ùókøı[æyæuf§õ+^òıİ
-PàßN˜Á¿N¡€:Œ9Â·Â-ç}àæĞÂåO¥ç‚“Á)M<¤=øÀnİBĞƒŒãƒeÖ¯×ñ•àkà0R¹ÇÂ¸/PŞSÌZğ(X€º7
-$7ƒ­à€$õ<|N¥·ƒ`7ø/ÄÚºØ¸¿³X[Â
-›Fâ`RfÌ)¹Ëúÿ$ŸCØiì{!¿fg³ıìIì<‹w§9\À.ñò|¾˜½´%‡¯rRWd”ÃÊ¶ù¿º—$»Ú¡{'û­%ÜÏ>`aÿ¨Cµ|d/´vCšu¨Ì™èüŠı]®rŸ›°şbî’şò6^wêqXGëc¦¦ö„œo°]ÉÙßO¼íFnë›JOáFèpüÁÜáÜÖÊ¸#­r>ÄÜ0|w.÷îîn	·¦\ÏİÁİÍİÄİÇõpq/Q_'~Î=Æı
-¦ıû÷2|ÿû÷Gò¯ğu¾Îú:¿–ÛïL8œ?š/?R)ÇòÅàÃûám¶nœß?cOãÏpÂ­÷Nh¯^ÆŸÇ_l…–ñ+cG¿Uü¡p¾¦İÎßÍßÇ?À?Ä?æäåŸãoªlçwğ»x‚ŞÌoå‹êÏòòÓ²ªÌW¾¬lRXuzú€:®N×ú´¥ÚƒÚ?´©ú"ı›úƒú+úÕ³ªwWÿXUk}µ¥µÕ®©“–2?e0hç-÷ƒ×À¶Ïö1N`¯e·•<éÄü“=Š;ëc®äáŞàfñWòğoğ³„Ï(×jÁ„ï¿6Î¶Ò¢ûeÃ+¼>¯rRÖ‹}Ìnë»W²cæIvIûa?¼Sà†‚:‹‘E`‹T¿èüWöğ%$$Lf
-ï¦}ÂZ0Wpó½Dã>.Œãg	ç
-‹á×•0u	¾¿~_'|U¸[X¿îƒ÷÷…Ç„‡àûçBt|^vQcÂ³Â‹ö«ÂÂa·@ĞoÂ0.r¢&î´ü’=â4q²8[œ#öŠƒâ|q¤²H\ ãŸ//¯WˆQüŠˆê±ZìÁï‚éß"~_ü¡èoå“0ş—â6ñ)ñÏâkâ.±$îwYZdé¢[b¤ô»¤Ã¤éÒ\i¦Ô'Âği¾´HºRº@Z¥ô%©!Í%¾.}Cú´NºMÚ J›¥‡¥q|«ôœ´¾wH»}ÒÇß”p½9Y“'Ëãø4¹Gî•O’gËı²?ß©Nh	\ÑŸ)_(^>ÇŠù’¼B¾B¾KşŠ¼b¯•¿Ÿ/SZiëewTŞ&ÿQŞ,o•ÇåW¬¸·ä.å_r·E™¬ô(AiOSf+Ç+½Vì€rº2OÇÏ†÷yJò:í³´/8¡ËÊÃÊÊ­ÊÕ<÷*ûJ›K"*ÿ»JñÕé”¤"	irùu!GO('Û×öeŠ Ÿ€¶(A+ÊäÏåYååB2Í]Ê«6 -ß£0jYµË“Õª:YE)=j'­‹]Ôá*AûÛu¤ºoGÚ™1íëSûÕÁ„v·âå;Oı˜úÉÂ¼î|JMşKÜ©_T¿ â«Ô›œ\×ªaü§˜©ôí0õêıê:ø~ŞÚ7yØ©åuƒ…¹QıM³ŞR_Qw¨Wÿ«vi@Û®*Z];X;TÛ£¢”aÊtíõH˜òíCš¡ÍÓ>¨ }D;U;N;S{Fm÷÷ÃñµA|±v…vÖ	Şk7è\­İªm¢¿«İ«¹²ù±ö-nD{\ÇÇ´Ö£Ş-~6&èBø¯j¾¢¡~YÖ÷dn)£wë²¾Óß¥ûSŞ¯¯èóôÓõ³aüûô¨şœ¯Û;R·ªŸÓŸb.×]Îoe wôa}•~³~§¯oßÒ³ü-øïéëù·0ë¨ôğŞ¨ÿRÿ­¦oÃKúóúë0ÏnıÍ&>^EO¦ZTäªµ÷Uµ%p|¿»:‘Ş—Û,Oì±eS=®Ãué”Ozîñèä—sZub}kÑ¹ü:aßzûôT"¯Ú¯nÎ®fÇ˜ÕU.$:'dUåƒÏUÏ·Àâ~¸¼º·WNûÖ#yuõšÊ5+,Vµ`’óF?¯b5x+VøDl%¶£K'–V–6–èò‰å•åª•£fåªb¥ B<ëÆtx—s€
-ËÖà-`ûúêÿ'9P‡ßİğ‰cÀ¶‰ğ…j˜ÑÕèB|ªZé Ç&cæc†9++÷k¡pV¾×"1¥	¾ÓÄtö–ŒqŸ¥fJ)6¥ŠÓ£çÅ”¡F¸tpJX—•îfå\R®._é'W¿NùÛ^
-q6oo âu¼J
-èv ]z$åª8w; ö1¸òCuEotUŞ¡QÍ½º­twœÃœÛ¯É€ÅÄe“¢¿_çïü”j!½(ªÿèÛuŸÜÑöÂÄÎÅÇÄ"7–Kjvo¨ú øH†VtèªC˜ß{¯o+ğ®Z_Ş3|á¹ Œ8‰>ğÖªö*·ĞH?Tan›ßxA¨ÄÆ¦çaÒºÛ­Q¸†j¤Ubˆ»hBo/áÅµÏ¦X·VÀÕ€¤[”é¤_S;W'¼¥ı‘ÌÇÎÖI±îğ¿b•LX6‹—|»Ü«¶‘dZUÜÉ×6»nX›q¦}ıºCa4ŞxW¼DÅckÜH“ßé’lûJ
-îQµ‹²jBY®!ÕŒ§¬rÚµoÊ3©/ =56{ÍcMh34šÿpgVÂr°Xğ¿“ç¤h8¨;¶&„Û‹.»dÌ‰öt* ‡X(G\{=	s£Íc,q^ÍÓŞğ³Úçµ×_¶×/°fÎ¸•Ö¤×J¾Uk-Äàqí¶${[É×_¶E$ˆÅ®‹ZµÍ¶ïÇÖè8ùv^Ÿ“ÚK´Ôçx½Ë¦Ï&iL1†ê˜ÈO¦ŒÇês¸=á’Ãq~œV\òz'Õä6ÖÔwOï£ò¦2Ë;˜»Šx7q@ØÏzs¼$rj7bsyŸ±€–±òÆB:”¦½¸¥YÉıÃ®AµÃíMÖo{)_o&"c5ÅÚ·×Öo®Gæ6*v¾ÅRË¯õl—ÂzŒûzîÈlc†	6GAoû~ìr¨š(Ù¤q+¹¦·ãã°˜±.8#ù9ãŸÓ<HÃãèŠÚ½&µYÉ%ï¿`1#i–>eÓÔÛ³Gü*‘•n²xxöhŞÚ>¨;Özİ± =ˆ£oÌ0fsŒAc¾±ÀXd\`,6ŞSw,Ot£½-tÇÉËí‹hµÚ¦²®_“,Î¢Ş,À§ºÓz°ßë>I´³{üãÓR7oé¿ûW<,?gp_‹ësí-@¯>~l›r\ıÜtÄ¼>¶Šo£ğZ»—ıfß!IC±›#9O‘Şéò²ö®¬õK^©¸öm@ÚG5»@Å¨4*fàpîeLÖLÉPMİ˜dÖ)¡tsK=°€”³y{ı²G—RØ‡SOåÅdsÑF£h+>Ù¦Çh†Iö­¤•3²²z‘mìx_qZüVöZk}ÆrâÇµ!ŞSô˜$y¶mÏ{ÚOis¸ö†A4“ ¤A6ÈÖõ'2ùÏü=Ti~y~²võkåmÏ6‡ëKäö0'y]ü¾-¢¹ÊÛ’ThÕ‰9»6XÓŸÚyŸ/Ö¶=­[×ŞVÎÊ·¸6‚.¬¹ƒU²ÛIM[*!¯vëU™I³¨˜9q­ü§Ic]»vıª]z«“4W±.æ[·Wºaˆæñ0ù=ÙA™û.‘`a´:Oç­‹©€$ıã~ë}3¿¦İıñP^ùTÌìÖ;Y_ğTõÎeQ­öô+ŞH·/ëAü¾º{%û:.¸¢³¿¢;^qı šÒ†ZIQkŠì9ŸÔZ*rVÁ+!ï²rbœö9(GX ½ËIMÆ¯	ë–¿ô1ß)),#ı(­(ı®¤Oò·ìÈ ™ÿİ‘ºxm·Óu§_Õœ“Ëq€Î~è±)¬ï”HğÌˆfÙŞíöÛöyT^Rˆ_ñ*ñ l2Ä< ù×ˆÃx6Sg„é~ë°~Q»Ö«Ö¢ïºÈâowlN4ßyVî¬^
-Ü6Ô'Gİ‘²ÜôïØ'¢]ğú:smç©c^p”qTcFc&èÇ€Ùà8£×è7{ÍÙf¿yRwËöjQ9\n¦ùO`£ğ0>†3Ä 1LŒ9@“c$CPcÒÀfÍÀP»tk†‡P	cÄ˜4¼flÈÀı¾¯}Ş
-(jµD¨7ùT‹à¤§íæ¯e.?„é¹>àzÆ:)ä·;j…¬–üíÎSBQ+ËU”B6)ƒjP&hƒnĞ&ƒ‰óÆ¢&™;._QÉ×ªZ¬äö4ÜşwÇò*e\{>©Ö/€ò@\]óc&İÅêV+€ŸFÒ ù52©O†1<©şELĞ"¦G©–}¿-ˆZ¨ÆŒ°½‡ò•Sù©‚W¥Å~¶{Š ıÙšôáìGwÅè­í/ÿ*2ìU|éö:5¨ÙI~/Š ¨¶Üá­û~yè¿•Ü¾>¬ƒsT{
-Ñšßg¡øVÜ(÷9ÀŒ±ËóÂl“(n IâÆY³ÿmo¾ı1÷DùO}Wüâ'úÓåB<pw"ÒË²k/‹öDwG’ç®Ø5Jh¶’1 Ğ & ¬Á6X“œÁ58“|{ŠßàM†ĞLˆ†ØMH†ÔLÉkùr"¿‡p/â_ÌX2™Š&îÏ»|>‰‰k‘U&™…>âA‹.¿"U™—’EêÜ?‰#ö4û§t^yd¶ü²¾<o_é‡RMÉY$Ñş¡~f”ğOH]"á@½ R÷¸Äp¾âE{^?“LòŸÈ +dÑqÀ–`"gSÒÿŸ Ü½	\UeğÿÀä
-n¹V€b›–kZYŠà
-*	š•%—õÂ]½÷j
-­)K§l·rŠÊÊv§m¬³İÔÊÊÊ™¬©Æ×²²õş¿Ï9?‘ç}?ïÿ~ç{}Îóœóœ‡£—‰‘G³;mü°£º…\¬<šµõˆ´ÛÓÏ4W‹Úš{ƒ®gQíÎûFıhnNqôŞ§G´bÖöu2­|ØÔ{ÈÖşÚûpíWÍÙ‰<ô,¼WkxÏ»#gÓ"®}køëÛ¦£©·Íıê¿¹‹”·„õ¿—ëÛâ;¼ÖågÓ_ª7n¿~È‘­ïğ=šß#¬‘Aš“úß4|£ÛÖ•Gu+êVB˜¿Ã¿,8òë™ÖÏø¯OÑ|å¥ZX«ÔĞ}GúÀè&¶~KYÛ{ôjôİú‘ké:òEot“ß·ô’uŠM}-Ñl~¶%^Ñ®3‰>ÌNDúÏ¦gó­âhªÆ¨&ëíúÏ¦ÒßÚõ Üuj×Xµ.ç"|IÛpÅ`Tî&õSÑLüërÍ´£{Õè&Ş6½r¯qus÷Ù#Õí[ÏÑ·™#‡Öa´~]|ıÕ®f®D·r=kó«Ûÿ-USù×V_»uğèÚÁ£É9e3œÖÏÁõHóµ¨ÿÍ¬ª-ßônåÓHÕè·Ím=\QÓØ¯1­´<;º«aú‰tk³¶å9lkzÌÆ>M®ml=|¯Ãv=lËúTó-Ç1M½ÿ«ó·v­Î1‡V!©zïG|³Ò]ó›:´gÍ‘éîèÎ$æ.9í¹cÔïÛôúŸŞF3Wõ;ì}aÓ;óô;lE{û÷ŸìØş‘fhµ9ßúÙjÛ×œvìıG[m·®Çjy'€îÓ¤TìêØ5ÁŒêŒÅË2–gÔd¬ÊX±fIpIõ’ÅK–-Y¾¤fÉª%«—¬iê)Ãá³ÆŞ¶ùWluìâØe±ËckbWmìtèˆÛØÕ<¦³8fyía¬ ŠÚØ5ƒ™Ò’1›Æ6óf%rÓÈ–ß0š¿#§¼6RûKË¯Õ!t:´fë0ÕµÁk—oì„İH=Ÿ7k£ú©ıÚÿN«µ»µ´¾¿íe¥ëJ]Iã®Ó¦®í¡mì×P'fMûÆy­EìXÏÛ«Åb/ãé~[<í¸æG­ı~´m­·¥qôÿjßÁ¶®»o*?Zª­í«İ½ZÜi²n%ssilLİ\ºU£jÕroë¯åoT³O[²ÙÒÑö»¤ª·ÿJc÷5Õ®vköjº'Óûv,iã3üú«–¾Ëµfµ¦ÇµwÜtÔõ®Úÿ¶Ä~I¤éFÇ±¶=tltĞK5="ØÜT½iñ¦e›–oªÙ´jÓêMk61jÓÈ%#7MÊ¹i†¾WgLloØ›.Î)ijö.e|{Ä]ªnDS»v±¶FdŒlüû¨¦ÈG¶ïÃ‘ó£±ÛKÃ·T‡öN$Çºöê˜{òªñ¯«ëêeó_M©FZV{ëáá!µÕ}mı©-ÿ¶¶€ö¸o¼†5õ;<„¶÷'mûµí®İöqMcÏQjÇŠõó¯©¯GÚ2®iø$ {+¿jkø3gòªİûxFï«š?Z·»ÅıØHİŸ.ÓÔXfªÕ÷¶ıßQ5¢Q?{µğ$¨CıN½û.9sœ¾´w?ˆ#Ú»cã½V}w-µØæÛeÛÚó¡}ÕŒ`ãûFÖ½Áh|o®}WÜÜÓ·CÏ
-š©Ã­{Øğ=S¯z;:÷jâ}IB»æ»­}ÏĞ0õÑ|ßÖü^Ïæ[¹¶ÖÓ¨ì_Qß3ª‘÷¾ß×•mtûDÊÖÖßg›z—İêgAÁ¶›ë‡Xÿë÷úõµ¶­täwtö5Ü‡©=şõjS¼/‘¶µ‹Ú÷ßùÑÒwŸQÿGö7­Û¬ş~—‡ïoİÂş­Ùı§}õDµs«-?u(Mª^Zëê¾ùªî­E{ïÇÍïëuØ¦½šİW¢6.Qí|–Ñ±ú}Ä>>µ=mc=eÛîÍ‡Şp½Mt;5w4œuu¤Ôê‡Ù†qmóóã¶Ú³M}½æv@i¬äö—ïÓÛú_S;*¶°'rLíWC{ª×±}ö¢›a4}ç:lgò¦Òwø}¼éØGËê˜¦êLÛÚ_SO[¿ ú°ƒëßéê÷¥ÍípÜ¶òj{Ù§Ôß5ªí£ùèFf6M¸#›èı›Ÿ]µåË´æûöÏï¢èñÌFv_hë¯ı=_mzzu¨Œl!ÜÆÜ·näİÚ5‰íéƒ¢›İ57ºÑ]D¢-Ëæ×!¶æ™jsëK£:Üµ=‡S«C¹Ô|Ÿ¥êí Õèÿ¤èØx¦ı©j¸"£µñ9:÷¿ú«/{2Òô(¦ñg-‡Ïg"›íwU›{÷†åİŠ~©¥±CŸ}KİKÅ¾»9vSì–Ø±ïdlÊØûæ¦Ñ›Fgœ¾iTÆ››ÆÅÒëÔõJõØ·újî1ÔöoÊÚûUÙ‘î&lï‡†_í\óøÚaE²qä´QG«JF^;fZüÆ®õ¿ûP-Ş=~)Òà»‘z×G~URO6ffê]»şÚ—ê«Mš‡¶¯i¦+ã¨§6Ã#­c¤t¢>oÙÁ¹^ëFíwŸĞÂÕÊFSOšú º™ÿ×Úøî¯v¥¿©ç»µ­¸nÏÅ~m§èÿ±$[¹¤2¶jI•jã¥å˜Gún¬¥ü‹èĞ~	‘î£ÜØÎA¦­#Ûrx»ŞŒudËÃCmé 4ı%NÛÆk}ókCzßÖ5=¿Öv®œ6vcÇµé¿j´v=jtj•?‘­qÓ¶Û»>ªõ­¬5Ï3•¬ØîUo7ÆÿÍºÇÆÿ§Vİè¥=ûÆ´n'­®×lû£ñ¶ñ£[»3s{Ö¡¶gÅjİ½¯N]{y÷=rWè–ö‰nn…lÛÜÔÚnÏ¯µ÷£³¸éÕ#ÍÍõëìè•îë·6ö¶9½ÿõÿ¼n½?ªÍîæÚØº5ŸªŞşÒõïìªÉpT“kNÛúöT#û]7·fµ}ék"uÿU§-áüïË©õ~¶o\Ö»±êİÁ:ÛûVãnÂ[õîFë©vÌ¥Úÿúµâë²æÿûÖáº­}æÛÿv¸»Æ¿hÏ¬¢5³ÆS ˆ{ë×—·ä{GÖ¯wô=cd¾WŒl´„Œ_ósïöÏ\¢Zõü O“óç¨£ğü¡éÿW÷ü°ş¾ Qºo:7üŠOµùK¹ÆWıÖŠZêuj[LÃrnMıê%ßtä?*´üka¤Ì¨ÌXx¤~²ÃHÃı’à¦&Ö[5¹µßê/š3'G—ÅÖdT/	fŒÌÕŞoëÇ¯¥ÜkioG¿ÚU­ZùsäÏnüyAäaÒ”ÿGÚkøv\µĞ®\£ÖÖ7G>ÉhŸû–f<İS¶%óMáí1iîÖôŸ7´õBG}l)¬–M´wßøÅ¿õ;$4•¾öš×Å»méjMº;ê¾-OgZ[¾Gî/Şúxt$Ÿ[ÛßªM=Jûz¥ö=_kßsÑÃzßí4õÇmÇö9>ô.6îˆ8µ°ksæ­Ü§½ñú?èª®[[z{óÒÒî›	<TŞI´æ9CK¿ìét¸?æoÆé%ùeóG6zvšİæóçøJ
-'”•8
-}ÃÆÌNËÉ,qÚ|Óm|ûOAáÄÜLlßZ»Ã‡vµØò…¾©ˆ-à9ÒAƒ_Ïá{CùÃö†Ràd$ó´Ã¥½GÈ¦<Òˆ­WtæŞĞŸ^c÷†ÂÎÚ:yalÜ‰Ycáè9YöÌùÃ‡>?mFû
-=&,º¯RÍ~ïØÔï°ğ3fıßZV{Ã:á·'è¯:á[š¿ßÀS¦3…ÂiÂ©&Obò¤ÉÂ‰ÂÔ¦Â4'é¼¤ä¤AI¾”¤”)))'¤œ”’ŸR˜Rœ’–26)9e`Ê ”SNN9%eHÊi)ÃRF¤ŒJrFÊY)g§ŒKIMIO™”2%eZJFJfÊô”)3Sf¥ÌN™›raÊÅ)óSrSl)y))E)ö”’”ÒGŠ3Å•âIñ§œ’48I)‹şEp4•ö'èó©©Æy’¡3ÍH“¡?ğÄt}N5¯Ó´éÔ#ü°HŞFÈ†Hy×©Á—0ıBú—Ğ5ÔÊ_X(<)y YvÂFÍùo˜—–hçˆ¨Ó»pƒ"[ts;‡ñvè§´úæuÓ¿z¦M­×P*ˆœ€ŒFÎ@Æ"g#Éô)ÈTd’d"Ó‘ÈL$9™…ÌF!F#× Ë‘;;‘¯È7ànä~
-1éÂYF8ÈTd¢Ÿ„d"3™Hr.2ÉFrè›hzHÒ™‰x‘ˆñ#äµJm@6"›ÍÈ[È€]•ıÊá%H)â@\ˆñ ~$€”#íèåxD§cUxï¾ı”¥×7àÈhkLl\ç.ñ	]»uïÑ§¿:ôïQÿ/üú„2x•ï.W¿‡úÑ¿¦Íœ5söŒôù9çæ´'¤°¨½íìßûIÕ§éú4IŸ&KÊi‚>¥éSºÙçrš¢OSU¿moH¦>MÑ'İMÉÑ§	ú¤{ª!óõ)¯…,\tÅ•¾êêÅ×ˆú†oºù–[o[~{­…{ï[yÿ®zèè¸¯ıµ¯<poËË/(,*¶—”:œ.·Ç»Àç”•W+«ZgÎš®6g‰ÍßØı7sú„´ì!ÃÎhw%<&Ì2®÷	L»ÃïyTÂİîğ{•ğOowøİJøÃÚ~·£~û‹_u=á·?ûUÂÑTûÃ?álø]Fø#Ú~ç£şğö‡wTÚ_ûÃmøaêx¯ªÕİœkÔ\=¨V©Eê!õ×«Õß¸~R=ÅõÓ‹Ô3ÕêYEêïêC®?âX¤¶©¹ş‰c‘:¨Ş
-«Vo‡½ÖM½ö\xµz>üùğîjmø®ßß¾Pmÿ„ë+-Ë,ÕêËC–EêaËj®ÿfy“ë–·¹Ö/Å#UXDXÄ"ÏuBÄ0®‡GÌàzfÄL®³"nàzuäw‘õDT„
-ëra—X—ŸX­ªî‰=¸î™Ø“ëcáÜ+±:½û$.R}ûqİ?ñX®K<ëÄÄ$®“r’˜‚ıA‰ƒĞ9!ñ„ÄnjhâP®‡%ÃtxâLG%â|Fâ™èœ•x×cÇ&2öM$vU—'^ÎõÂÄ+¹^™ø(v,IÖ¤…ªkRbRµJâ·Péùcµ:%é®G%â:;)'©«º0ébæx¹I•è/Kº)i‘º9étnMºUI«¸^“ô\Rwµ%é]®ßKzı÷“ŞçzkÒV®?Hú€ë¯“¾Æä…*,9Œ	Gxr8×–dçˆä(t:%GsmMá:69–ëøäœû$÷A§or_®û%÷çúØäã¸>>ùx®“¹|2çS’Ïæ<1y
-ú™É™ÉİÔ¬äYèä&Û8ç%¢_”ìázQòœ¯Lş3:W%_ÍõâäÛ¸¾=ùE®×'¯ç:a@Â n-ºX¨zHâZŸ»«Ü;.T*E¥T«°”°”…*<%<e‘²¤X¸H‰Lé¦¢R
--REƒŠ)U<¨dPµ*TŠc“k× × …Ê=ÈÍµggP‚òºüÔjU}ªí ñ<:HÃøyÈ/„òkèB	í	-4¦—=m¿³s&q÷\^èó—xÜg·©#yZOªı®Tx;û3üöuµáÿêhø™Ûş“:ü¨æÃıÑšğ'´+üÕÆ"üæóÿf¼²yoèóz²ººè­½¡?¿µ7ÔRüG´óö³UÇÿ¸ˆM¯pú#ÔTÖ…ß¾ò{Oİ|ø:ì–Ão_ùmÑvŠàú½¹ô7UŠÇısoHË)È¡–Ë„o!ã¾0å\¤T¨e½ğØÿ4_¾S§§fqÙJœyà·ÍUØÖD&†Etd|¡ó·ı“=‰oø¿×şB!ä÷#~õÀú#4nä¨ÓG9ãÌ³Æ]ûX.,ÜÕé°ç4=éÕ»OÈpÜ·_ÿc;>QxÒÉ§rêiC‡ÒA¦NHKŸ8iò”©Ó22§Ï˜™uî¬ìœÙsÎ›{şMOœµc3§œVÿ`cVk¦>	4›y6Xë²Yó–ÂoôYcë~-;¨×Nâãã›ª_i³g·wú¶f -÷ø0ËŞÿ¡,¨ßí=®1>Åj]øÕC‘Ä.ÈKığ'ÌL›İŞáû:~ÿ°ˆæŞ_˜- ®âë
-¨o5M5¢º†¢»wëjEşM¹ ƒ!{5ÿfŸ_ÜZtBÓòÂ€}¡Rì8iV–lJËï—Ò¦NíØCÖv§¯^íÁ}´±Ãg”ñ_óô÷Š	ª“ñÂ©{‰œÇùhy@ÅY¿Ug[ÿ­Ò­÷¨,ëSj®õiu¾õuõyu¡õE5Ïº^]d}S]l}XåZT6ëÇ*Ïº]å[Íÿdh1VÆêÿ:­¬*F1?RUæ|	ª«ê&ÿäãÿmô1VIéÿsÃD•Ä´a€È€{:A¨NR'«SÔ`5DªNSCÕ05\P#Õ(uº­Æ¨3Ô™ê,5V­ÎQãHQªš ÒTºš¨&©ÉjŠšª¦©•©¦«j¦ÊRçªY*[å¨Ùj:OÍUç«Ô…jºH]¬æ«\eSy*Ÿr,TEªXÙU‰*UåT.åVåU”OùU@•©rU¡‚ªRU©KÔ¥êOê2u9¹ÎlC]¡®TVW©«ÕbuºV-QKÕ_ÔuêzµLİ nT7©›Õ-êVu›Z®nWw¨;Õ
-õWu³âf·Z¬‘Ö(k'k´Õj±ÆZ»Xã­	ÖÎÖnÖîÖÖ®ÖÖc¬½¬½­}¬}­ı¬ı­ÇZ³oM´&Y“­¬­)ÖAÖ¬'ZO²l=Å:Ø:Äzªõ4ë|ëPë0ëpëëHë(ëéÖÑÖ1Ö3¬Ï±³·¦Z'XÓ¬“¬“­S¬­Ó¬ÖLëTëtëXkµş{«"k±Õn-±–ZV§Õeu[=õÌkÔ=ê^uŸúlåJu?5IÏîR«<®QªÇ˜İ?aÌóŸb~ÿóú¿«5ê9õ¼zA­UÿPëÔ‹j½zI½¬^Q¯ª×ÔëêµA½©6ªMj³zK½£¶¨wÕ{ê}µU} >T©mÆLi§Úùí¿ÔÇj»úD}ªş­vşû?ê3õ¹úB}­v¨/ÕWêµKíV;ï	…Öì«‹ïÎ§v>½ó™Ïï|qçúo¾­v>¼óÁïÜş­úöÛıê;õ½: ~P?ªŸÔAõ³úE½¸¯…·zC¡jórİ]5W“!Hè?ôˆ8ôGí§…æeèŠĞOWüôÇ‹ú}à6ÓáºG¹Sª¦š_D¾Õë×¯ß°|ıòuw-^\]]ŞúÆš~Ã…Ù–F~µš¦¹2/´ËğVô,Üƒ¤ÒïcÓä=­îM2äım"2MŞáê>e²¼ÇÕnÒå}®6›(ïuõõñOû5µ¹ûoöÔöv±¾aa\?0dÌ˜Qg´ç<Bg¥ıá?5v_èeDóg‘÷‘HÜ¸}¡OÎ©ã©gïUÁØ½=\ÿ{ú¾ĞÔ&Ì0%€!“gí}=«‘ˆ	dï=’³/4^X²/4§t_èNä2ÇáòOôú×SWa·Ú½/tº‡pÇœ‡Ëƒè}YO¢³îŞZü÷İŸö…Æ]†_È¤ûåûByÈÃ÷…V,4ù’Œ¤#ÿXxø=úğqTıE‚ú¥¦¿ú¹f°zànÆ4)ÕÓÚW¹Sûï´Ï9N©¯^ê£Şû¸Ïu<•y+×÷}ÒG~£Ô)?+µ»WÍê«Òá÷©J=óEõİ·}ÔÉ¿(usOov_Uv^_õùXê+£ÿÁ>jÙ¯}T¿Ó¾œ¡Ôüı}Ô…ú¨5ÔâòL¥>æ{§¾*7U©ÓiP·ÿÖGyşè£®£áLÂÎÚğ¾*€h<“wÔ¾êrjÑW!½&A©›çöU!»ÿ¼/T~Õ¾ĞRää¼«)¤Yí¾Ğ™Kö…f 6d;ò;rÜÒºüÒõ;;-{v{GkuCîféú½Éñ­%<"Lub¥¯"£Ât–E£÷â`(ÄxÊ«É5Ş÷}^„t"Ö:û*TgÇh\ÒUëÎ(	ÁNéæÒ²µ¿´2Ÿ¯Ğ_™å,óÙœşZuI¡?¥Üæ+±¹ª¾^‘Çç²9Õazn›Ïç©8L>oâ¤ÔÙ™9‡üŸnóÖ]l:l™×ë,tº6gºÍÔklş#åôéK8´_¦ÆOˆWÕ·.Wêó"ÕÆ;Î
-?t+hğêJÖ~tCîÓ¯òçÍ|¹_™«Jl±˜Ç½µy³^.2Nr|\­îË;#ÇËz’Ë‘_õ¼œˆÿN|ÂÂïñzqµû:¦~Y`'õ{(^ı„…ßCã0»†Ô?±ğk(dŞ…âÑ;ş“Ph·ÀËƒŒÌ†pèß¥éEÕ>şÄ3»öâ'¾ÔwßPèj-µ“êŒÖ¡é½Š‰V½ûĞFkç91½Ì%ÊºŠšë2ŒG==zª¾õ²æÔ±'ré ºEO>é¬‹‡ÔÍà§Ì?çP¾¨Ü3Œ?áìäº÷ç¢èi€¨/«÷:ıBÅ˜´öwáEQÕ%Üÿ©ûKÕá¯ãë-ÔMîF9õ´c"ëÒ?öìáƒz÷w‚Nÿx5Î¬?M¿hŞGn†mßşï¾?ğÃ?ü¹êâÌËÜõÒË¯¼úÚëolxóİ÷ŞßúÁ‡mûçÿÙñåW_³Sûîª[¿pháBış¯/`ù½ü=`’ò?ôœÉTÏSµÏ›/ÿñ%ûC‘iÈXd&r%²ùrr#RPº?ä@|H.RYº¿Ñ{ó~ÇşĞAd¾kh¿p¯wè1ä9¯y­i¬BÊmeÎ@³¯–¿ùÕw¡g÷‘ı"÷ '`6a¶š>]¥§Ó¡ªIsÕ¤Y*'KådªóÓÕùÕ³TZz³Å_âFè<Kè í…d?åP‰”¢.-§{”ò!6›ñ+[WP¶²BåT)[%½M™[å»T^~±Ê+-P>§ÊÏg^è(Qù¥>üp©|‡Må»|ˆCóí*ßS©¼%¥*A™ZPfÇ]9ìX¡¼>¿*¶•«‚ÂrU\Tå¶RU\ìVÅå>U(QîÊ|U\†yY•²û|ª”;NI^‰òxmªÄY[§*-,VÊ<å(ÎW‚"ˆÿ.§rx˜½V”+‡øºĞøTAÀ«å„Y Í¨JÒêª@yrT•šæUƒÎ’å³-PN—Kù\Aå"œüÒè(—¯R¹*Jøº*MµÛV ‚n˜dœÛM~—+wÀo¤ßCŞiûŞ|yT^W¾²—‘®2åµû”—4å‘W^Ÿr’§^üôúÊKÚ½eyÊŸoSvg¡ò;FzeF<vÒíõÀ ©_RH¼™§c/PáRò©¢sv+KUÀMyÚ0sùğ© ñ*ó8T¡Ë¦‚y”Ÿ-¨‚%6eËw« Ã®*lÌ÷ı¥Ü§KUe^QŞ•ØuR&•.Òp©J_UQş•eeH±ªäæï<4r ¾’¼²€~&ïõøKtikıùY3³§ÎUÆW®eî‚m×lôcÏb¬­*ÓÏôıõÖÍO³åÛ3
-+'Øü…ëéÏv—•ÆõôG¢Ÿï)(4–á›‹ì™³I%Î€¬¿?Âİ¤2wşakíëz„Cv‡eWºò<Î[S¯ò?¤?TüÈ.Ôºw+s¨“ê÷—»Ä×NğRgœßâ3áú¿CßÔ¦#›üv§z½…î‚†q6«Ğë´å6Ô?Üíay0zöÌ¼ÒÂü@S/Â#õâèı³´f€Ú1h„Ì-ªù÷¢9Œyç s‘ó‘íÈ'ÈÈ×ÈNd#éÍÈ[Èä}d+ò=r ™EÔáÆ›yòyéÃ0õ1ò+Òó£05
-™‰xk‡W>:|ı¤~Ç«Ç”ÈóºsÃ\`¬M`,(cñëÍÊ½°fÑ•‹—Õ»Gò«?Ú\|$ÔR«ÿ”ÈYD›]f9ú¹	yK¨¥VÿQ‘İD›Õ†òŒaÃçOÎœ9!5sşüó‡3¹0êt¦ÙKœŒÖ³KÜ–^êõÏÑÂaa²ğdápáYÂ4a¦p~ŞäK„eš•‰úáBÑ¿ZÔŞ$¼]x·ğ~±ÿˆ¨ÿ&ü»ğÂWÄŞ›ÂwDÿQ,êÏ%Ş;E¯èÿ ê_…ú]Öï$ì,ìfš÷õñÂÑ?EÔÃ„£…gÓ„S…3…³Åı…¢¶	‹….¡_X)¼\ÜıYÔK„7oşUxŸğ!áÂg„/ˆ/	ßı·„ïÿ)ü·ğKá…û…?	ZÂMêl´ÿñÂ¢ßO˜$<A8D8BìŸ!êq¢(êQŸ+êó„	ó…%bÏ#ê2á%¢¿PxµèÿEx“ğváİáf}zPÔ	Ÿ>'|Qøšp“øÿ®¨?~"üp§p¯ğá¯ÂhıÄé"ì!ì+L#LNf	çç	ó„v¡[V	«…W	—
-o´ÈwÂUÂÕ³¯÷"/ˆş+ÂÍÂ­ÂO„_
-w†„ÑòİG‚°·0Qx¢p˜ğd2V8A8EÌõ7&W!s„ó„yB»Ğ-«„ÕÂ¥Â…ÿ>.|V¸Nø†ğáGÂÏ„ß÷	
-õMÜÈaWaa’ğdáÙpx½TmUóS}¶<Í´Jæy6çüL[€	‡3 ®ù3Êó‹J·iÀød²ÓV¬
-JM?
-*=æE¡{şĞ¡Ã4†ª‘:Ù8O5Î9Æy¶>O˜`œ'çéÆ9Û8Ÿgœ/Ğç´4ã<Å8ggÃfÚ\ã|¾q6l¦ş¤a¥6Ó›é~ôp¢a>q–q6Â™dÄhÒ4ãl¸˜d¸˜dØ™lÄnrºq6ÜN6ülÄe²áv²a²áÛd#.S¦é›j¸j¸šiœûSgç™ÆÙÈi†i†i†qaøŸaØÌ0|Î4r"Óˆ[¦b¦á6s>O7â6İğsºa:İ0nÄdºiÇÈ×é†o3Ró$ãl¸aÄp†áÃ#”†ÛFîfv²ŒÔe6³Œ¸e¡d>Ï2ÜÎ2®³ÜË6âœmäC¶‘®lÃŸl#³4f~f~f1Ï6Ê6Û7ÛÎ4æ>åvsŒprŒsŒ”åvgišm„0Ç°?Ç¼6Òqá÷†Œœ¾€˜úçv†Fê,}0Ó8›×èsZ¦q6ôÓı´ÙúœnèLLÓçÉ9ú<e†>OËÒçésõyÆT}ÎJ5Î³áCÖùúœ=GŸgggCgÎDUT4?µÀé2¨S‘oş”e·™*{‰ÙøìURf^:l6¹p˜v‡hÉBæ{21–‹3}•æEN¡³L9*ÅJ¥éÔå4Õ.ª‹Ç]KæO–07Üü¹•ÛÃŸ®2^‰Ÿ70?u¦>Ó`õy>Óœ8O>×8Ÿ§Ï™³õyºasúúL5âœmœs2•Ïã	(¿-`Æ×_pˆvO©&ãå¯Í¿ô<~Ÿ¨Ëªæg—¹Ë”¿Â4›,+6{±2é÷Ê¤ß+·‰OâSm_VYV8ŠÍÍ,Û®¨¥nçµ—¤£¹ßÄ0s¾#ïoÕKêå™z¼èw—1\/Ñï'úÇO"<M8BÆX£Å½ßë9À9b>A8I8M8C8KÆúsıPàñçbQçÉ|±Hì•Š;·Œ}2+G¶#úqâÅè_&öé÷°Äï*ñ÷Zy}räÏ¢«ğ	÷.á=z-¦Ìtx‰½Ç$>>#|NÜéù„~Rÿ’Äã5á›bï-ñç]Ñß*e²MÔÛ…Ÿ	w¿ÿ+cê½¢ÿ½øû“¨ÿC¢¶„™Ôó­#ê.Âna¦ûcÂÌø÷3ß•'æÉÂAÂ“…§
-G
-ÏÿÇ‹:]Ô“E!áèùŠ®[ÙğOz|-áêyËBd¾ØÏ÷Eâ®Tôİ¢öÁ?rÑ¯
-3ëãeâÏ"±w•ğZñï/¢¾Ax‹¸¿]øWÑ¿Gx˜YGõcÂ¿	ŸwÏ‰ÿÿı—„¯‰ù›af=zKôß~ ü§ğáçbÿKQïvK:õüH×÷hÔ?‹==O"/Æ´:"Ü´ß)ÜŒ_¬èëy“¶×=Üô·—èëùÓWºõ 1?AxŠøwZ¸YÇô|jŸ§Šı³ÄŞ8aZ¸Y¾“á‰2¿Òœ)ö³%^z¥Ós¡¨ç‡›u%_ì‹?QëyWÄ/¬7¿ñÖó¯ÎÈåbï
-x§ÌÃ´z‰ğz¡=¡ç¹’wJøwI:ï•t< úC½«ÃãâşIá³bïy±·.Ü\+ò²øÿº˜oó·Eı¨?„Ÿ‘ŞI¸ŸŠ»/$}_…›}ä·áf}Üõ.ûÅı¢şYø»PÏ•4#-fşZ-¦¿E¿+\†~O‹™ş>3=ÇZÌö•$L±˜áœQæ<P«Oÿôºİ÷g‰ù8‹ÔQOu†p¦„›-êóÄı…³ÜæóE¿ØbæCüóÀ³ˆŸ_ÜW/óË%İW¯–XÌút½øw“èß&úwŠún‹ÙŸÜ'ê%>ˆú	áS³=+öŸıuâÿKÂ×,fù½	çëûÅ¼§½?Òı˜o÷Û…ŸIzvXêŞërÙe1Ÿ…í“t€àA±÷›PŒû°“0Va†Ó]Ô½"Ìría¦çø3İ"Ìöu‚èŸ"îNó¢-şœ%öôÜ×XÛ,æ“#Ì|Î{3…Ùb~ìF8Šşü3ÿòE],ş9DíúE¿BÔ—/ĞË’©îÕzz‰ø{½èß$áß&¼Sx·këç_¢~0Â,§GÄÿ'"Ìzü”øówÉçÅş:±÷²ğuáF1[Ôï	·	?~!å¡÷›ĞÏŸwK8ûÅü‡³ıı,ú¿‹Z¢´ÿa'¸—tÇFšã£øHŠy/¸N—;¼[—{¤ùw€ğ±ŠØ?-Ò|v:"ÒŒßh1?KÌÇ‰:MÔ“áÃºÜE=3Òl—Ù‘æ½î<±¡ø7_Ôùßbqçˆ4Óç‰4ËÛi[Ê…U‘z}Æ‘æf¡Øû³„wM¤™O‰4ÛÑÎ-âïíbÿ¯‘f?Y#ú÷EšãÂÄşÃÂÇÅüIQ?+îŸ4ë×:ÑYô_—tèÿ­¢ÇAo‹ûw#Í1çÏŠ½O¤Ü>¾ıÂİ¢¿_üùAø³ğw±e¶ÇH¡5ÊŒ_ç(Ó^×(3>=¢Ìxöö‡ú_&Šz ¸;1Êw°p¨˜õ˜(³]Œ2ïcãÅ<=Ê‡O‰2ã•eö+YQæx"GôçŠş<ÑÏ2Ë«@ÔvñÇ)ú^qğƒ¢¾TX-¼R¸X¸T¸Lx³p¹¤sE”9Æª‘t¬ıUbïÑ(s.´:Ê,·§%k$kÅŞzÑUÔ¢ÌqÔfÑß"ú[…ÛÄ¿íîgî±ÿµø¿[ø½ğgaHì[:™÷íNLc…ñ¤ı‹ºW'sü×WÔÇ‰yr'3¿SDÿ¤Næ;ÁÌxı‘¢#ÛÉl×ã;™í-]ìMóLa–„›#æsE=OÂŸßÉÌ‡|a±Øsˆ¿QûÅ~E'³ÿºDü_(¼Zø±w“ğváİb®÷ñÑåò¨®>-ñX#\+î×w2ïã¯J|6ˆùfá–Nf9nûÛÄ¿Eı¹¸ÿRÜïîîd¾;ÚßIÚ·èÿ,î~Â¢MıÈh³Ü­¢îm¦§«¨{F›ñèmÎ6İ'‰yJ´Yn'‰z<õ0ñwT´îb~v´ÙNS%œtÑŸm–C¦ØÏæç
+E!uÿİEg§é¢³ËtÑÈmºè,¤š.:e™.:e›.:#åP—RRRRRRRR+Î‚L	ËL;›.:#v1]tVìjºèÌØÍtÑÙñÓEgÈîféfyjHyjHyjHyjHyjHyjHyjHy¬t:+Ï3]tf®3]tv>ÃtÑúLÓEgé³L©Ï6]t¶oºèŒ}YºYRRRRRRÊ—G{<]#lŞâŒÚ8J×Œ+E-”®3¯„¾RÌÜte¹R'íóÚJ“ºÖ0y¨|CmÔRÓUÈó(ëy³,º]­—EW²Ë¡—ëeÑuêj´,mİºš•µš+ËÊC›e	›_s‰²BŒ6ûÒ6³¼4©²pÃÔîk…İı–¹DÙ F›[it…|«NmD¡£F#·,¾aÒXtUö3Zæg³eèÚ·^oºúıôßô–¡+äz4OmÅ\Ïj]ÏµŒ‘Gµ:­@êa?ÈpRatepart">origyeardivision</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendmonth</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendday</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendhour</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendminute</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendsecond</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendtimezone</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">origendyeardivision</bcf:field>
+      <bcf:field fieldtype="field" datatype="date" skip_output="true">urldate</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart" nullok="true">urlendyear</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart" nullok="true">urlyear</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlmonth</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlday</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlhour</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlminute</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlsecond</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urltimezone</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlyeardivision</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendmonth</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendday</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendhour</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendminute</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendsecond</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendtimezone</bcf:field>
+      <bcf:field fieldtype="field" datatype="datepart">urlendyeardivision</bcf:field>
+      <bcf:field fieldtype="field" datatype="verbatim">doi</bcf:field>
+      <bcf:field fieldtype="field" datatype="verbatim">eprint</bcf:field>
+      <bcf:field fieldtype="field" datatype="verbatim">file</bcf:field>
+      <bcf:field fieldtype="field" datatype="verbatim">verba</bcf:field>
+      <bcf:field fieldtype="field" datatype="verbatim">verbb</bcf:field>
+      <bcf:field fieldtype="field" datatype="verbatim">verbc</bcf:field>
+      <bcf:field fieldtype="field" datatype="uri">url</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">xdata</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">ids</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="entrykey" skip_output="true">entryset</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="entrykey">related</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="keyword">keywords</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">options</bcf:field>
+      <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
+      <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
+      <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
+    </bcf:fields>
+    <bcf:entryfields>
+      <bcf:field>abstract</bcf:field>
+      <bcf:field>annotation</bcf:field>
+      <bcf:field>authortype</bcf:field>
+      <bcf:field>bookpagination</bcf:field>
+      <bcf:field>crossref</bcf:field>
+      <bcf:field>day</bcf:field>
+      <bcf:field>doi</bcf:field>
+      <bcf:field>eprint</bcf:field>
+      <bcf:field>eprintclass</bcf:field>
+      <bcf:field>eprinttype</bcf:field>
+      <bcf:field>endday</bcf:field>
+      <bcf:field>endhour</bcf:field>
+      <bcf:field>endminute</bcf:field>
+      <bcf:field>endmonth</bcf:field>
+      <bcf:field>endsecond</bcf:field>
+      <bcf:field>endtimezone</bcf:field>
+      <bcf:field>endyear</bcf:field>
+      <bcf:field>endyeardivision</bcf:field>
+      <bcf:field>entryset</bcf:field>
+      <bcf:field>entrysubtype</bcf:field>
+      <bcf:field>execute</bcf:field>
+      <bcf:field>file</bcf:field>
+      <bcf:field>gender</bcf:field>
+      <bcf:field>hour</bcf:field>
+      <bcf:field>ids</bcf:field>
+      <bcf:field>indextitle</bcf:field>
+      <bcf:field>indexsorttitle</bcf:field>
+      <bcf:field>isan</bcf:field>
+      <bcf:field>ismn</bcf:field>
+      <bcf:field>iswc</bcf:field>
+      <bcf:field>keywords</bcf:field>
+      <bcf:field>label</bcf:field>
+      <bcf:field>langid</bcf:field>
+      <bcf:field>langidopts</bcf:field>
+      <bcf:field>library</bcf:field>
+      <bcf:field>lista</bcf:field>
+      <bcf:field>listb</bcf:field>
+      <bcf:field>listc</bcf:field>
+      <bcf:field>listd</bcf:field>
+      <bcf:field>liste</bcf:field>
+      <bcf:field>listf</bcf:field>
+      <bcf:field>minute</bcf:field>
+      <bcf:field>month</bcf:field>
+      <bcf:field>namea</bcf:field>
+      <bcf:field>nameb</bcf:field>
+      <bcf:field>namec</bcf:field>
+      <bcf:field>nameatype</bcf:field>
+      <bcf:field>namebtype</bcf:field>
+      <bcf:field>namectype</bcf:field>
+      <bcf:field>nameaddon</bcf:field>
+      <bcf:field>options</bcf:field>
+      <bcf:field>origday</bcf:field>
+      <bcf:field>origendday</bcf:field>
+      <bcf:field>origendhour</bcf:field>
+      <bcf:field>origendminute</bcf:field>
+      <bcf:field>origendmonth</bcf:field>
+      <bcf:field>origendsecond</bcf:field>
+      <bcf:field>origendtimezone</bcf:field>
+      <bcf:field>origendyear</bcf:field>
+      <bcf:field>origendyeardivision</bcf:field>
+      <bcf:field>orighour</bcf:field>
+      <bcf:field>origminute</bcf:field>
+      <bcf:field>origmonth</bcf:field>
+      <bcf:field>origsecond</bcf:field>
+      <bcf:field>origtimezone</bcf:field>
+      <bcf:field>origyear</bcf:field>
+      <bcf:field>origyeardivision</bcf:field>
+      <bcf:field>origlocation</bcf:field>
+      <bcf:field>origpublisher</bcf:field>
+      <bcf:field>origtitle</bcf:field>
+      <bcf:field>pagination</bcf:field>
+      <bcf:field>presort</bcf:field>
+      <bcf:field>related</bcf:field>
+      <bcf:field>relatedoptions</bcf:field>
+      <bcf:field>relatedstring</bcf:field>
+      <bcf:field>relatedtype</bcf:field>
+      <bcf:field>second</bcf:field>
+      <bcf:field>shortauthor</bcf:field>
+      <bcf:field>shorteditor</bcf:field>
+      <bcf:field>shorthand</bcf:field>
+      <bcf:field>shorthandintro</bcf:field>
+      <bcf:field>shortjournal</bcf:field>
+      <bcf:field>shortseries</bcf:field>
+      <bcf:field>shorttitle</bcf:field>
+      <bcf:field>sortkey</bcf:field>
+      <bcf:field>sortname</bcf:field>
+      <bcf:field>sortshorthand</bcf:field>
+      <bcf:field>sorttitle</bcf:field>
+      <bcf:field>sortyear</bcf:field>
+      <bcf:field>timezone</bcf:field>
+      <bcf:field>url</bcf:field>
+      <bcf:field>urlday</bcf:field>
+      <bcf:field>urlendday</bcf:field>
+      <bcf:field>urlendhour</bcf:field>
+      <bcf:field>urlendminute</bcf:field>
+      <bcf:field>urlendmonth</bcf:field>
+      <bcf:field>urlendsecond</bcf:field>
+      <bcf:field>urlendtimezone</bcf:field>
+      <bcf:field>urlendyear</bcf:field>
+      <bcf:field>urlhour</bcf:field>
+      <bcf:field>urlminute</bcf:field>
+      <bcf:field>urlmonth</bcf:field>
+      <bcf:field>urlsecond</bcf:field>
+      <bcf:field>urltimezone</bcf:field>
+      <bcf:field>urlyear</bcf:field>
+      <bcf:field>usera</bcf:field>
+      <bcf:field>userb</bcf:field>
+      <bcf:field>userc</bcf:field>
+      <bcf:field>userd</bcf:field>
+      <bcf:field>usere</bcf:field>
+      <bcf:field>userf</bcf:field>
+      <bcf:field>verba</bcf:field>
+      <bcf:field>verbb</bcf:field>
+      <bcf:field>verbc</bcf:field>
+      <bcf:field>xdata</bcf:field>
+      <bcf:field>xref</bcf:field>
+      <bcf:field>year</bcf:field>
+      <bcf:field>yeardivision</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>set</bcf:entrytype>
+      <bcf:field>entryset</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>article</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>issn</bcf:field>
+      <bcf:field>issue</bcf:field>
+      <bcf:field>issuetitle</bcf:field>
+      <bcf:field>issuesubtitle</bcf:field>
+      <bcf:field>issuetitleaddon</bcf:field>
+      <bcf:field>journalsubtitle</bcf:field>
+      <bcf:field>journaltitle</bcf:field>
+      <bcf:field>journaltitleaddon</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>version</bcf:field>
+      <bcf:field>volume</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>bibnote</bcf:entrytype>
+      <bcf:field>note</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>book</bcf:entrytype>
+      <bcf:field>author</bcf:field>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>mvbook</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>inbook</bcf:entrytype>
+      <bcf:entrytype>bookinbook</bcf:entrytype>
+      <bcf:entrytype>suppbook</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>booktitle</bcf:field>
+      <bcf:field>bookauthor</bcf:field>
+      <bcf:field>booksubtitle</bcf:field>
+      <bcf:field>booktitleaddon</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>booklet</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>howpublished</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>collection</bcf:entrytype>
+      <bcf:entrytype>reference</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>mvcollection</bcf:entrytype>
+      <bcf:entrytype>mvreference</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>incollection</bcf:entrytype>
+      <bcf:entrytype>suppcollection</bcf:entrytype>
+      <bcf:entrytype>inreference</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>booksubtitle</bcf:field>
+      <bcf:field>booktitle</bcf:field>
+      <bcf:field>booktitleaddon</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>dataset</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>version</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>manual</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>edition</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>version</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>misc</bcf:entrytype>
+      <bcf:entrytype>software</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>howpublished</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>version</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>online</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>version</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>patent</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>holder</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>version</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>periodical</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>editoratype</bcf:field>
+      <bcf:field>editorbtype</bcf:field>
+      <bcf:field>editorctype</bcf:field>
+      <bcf:field>issn</bcf:field>
+      <bcf:field>issue</bcf:field>
+      <bcf:field>issuesubtitle</bcf:field>
+      <bcf:field>issuetitle</bcf:field>
+      <bcf:field>issuetitleaddon</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>yeardivision</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>mvproceedings</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>eventday</bcf:field>
+      <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
+      <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
+      <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventendyeardivision</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
+      <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
+      <bcf:field>eventyear</bcf:field>
+      <bcf:field>eventyeardivision</bcf:field>
+      <bcf:field>eventtitle</bcf:field>
+      <bcf:field>eventtitleaddon</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>venue</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>proceedings</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>eventday</bcf:field>
+      <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
+      <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
+      <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventendyeardivision</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
+      <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
+      <bcf:field>eventyear</bcf:field>
+      <bcf:field>eventyeardivision</bcf:field>
+      <bcf:field>eventtitle</bcf:field>
+      <bcf:field>eventtitleaddon</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>venue</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>inproceedings</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>booksubtitle</bcf:field>
+      <bcf:field>booktitle</bcf:field>
+      <bcf:field>booktitleaddon</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editortype</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>eventday</bcf:field>
+      <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
+      <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
+      <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventendyeardivision</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
+      <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
+      <bcf:field>eventyear</bcf:field>
+      <bcf:field>eventyeardivision</bcf:field>
+      <bcf:field>eventtitle</bcf:field>
+      <bcf:field>eventtitleaddon</bcf:field>
+      <bcf:field>isbn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>venue</bcf:field>
+      <bcf:field>volume</bcf:field>
+      <bcf:field>volumes</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>report</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>institution</bcf:field>
+      <bcf:field>isrn</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>number</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>version</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>thesis</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>eid</bcf:field>
+      <bcf:field>institution</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>pages</bcf:field>
+      <bcf:field>pagetotal</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>unpublished</bcf:entrytype>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>eventday</bcf:field>
+      <bcf:field>eventendday</bcf:field>
+      <bcf:field>eventendhour</bcf:field>
+      <bcf:field>eventendminute</bcf:field>
+      <bcf:field>eventendmonth</bcf:field>
+      <bcf:field>eventendsecond</bcf:field>
+      <bcf:field>eventendtimezone</bcf:field>
+      <bcf:field>eventendyear</bcf:field>
+      <bcf:field>eventendyeardivision</bcf:field>
+      <bcf:field>eventhour</bcf:field>
+      <bcf:field>eventminute</bcf:field>
+      <bcf:field>eventmonth</bcf:field>
+      <bcf:field>eventsecond</bcf:field>
+      <bcf:field>eventtimezone</bcf:field>
+      <bcf:field>eventyear</bcf:field>
+      <bcf:field>eventyeardivision</bcf:field>
+      <bcf:field>eventtitle</bcf:field>
+      <bcf:field>eventtitleaddon</bcf:field>
+      <bcf:field>howpublished</bcf:field>
+      <bcf:field>language</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>pubstate</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>type</bcf:field>
+      <bcf:field>venue</bcf:field>
+    </bcf:entryfields>
+    <bcf:multiscriptfields>
+      <bcf:field>abstract</bcf:field>
+      <bcf:field>addendum</bcf:field>
+      <bcf:field>afterword</bcf:field>
+      <bcf:field>annotator</bcf:field>
+      <bcf:field>author</bcf:field>
+      <bcf:field>bookauthor</bcf:field>
+      <bcf:field>booksubtitle</bcf:field>
+      <bcf:field>booktitle</bcf:field>
+      <bcf:field>booktitleaddon</bcf:field>
+      <bcf:field>chapter</bcf:field>
+      <bcf:field>commentator</bcf:field>
+      <bcf:field>editor</bcf:field>
+      <bcf:field>editora</bcf:field>
+      <bcf:field>editorb</bcf:field>
+      <bcf:field>editorc</bcf:field>
+      <bcf:field>foreword</bcf:field>
+      <bcf:field>holder</bcf:field>
+      <bcf:field>institution</bcf:field>
+      <bcf:field>introduction</bcf:field>
+      <bcf:field>issuesubtitle</bcf:field>
+      <bcf:field>issuetitle</bcf:field>
+      <bcf:field>issuetitleaddon</bcf:field>
+      <bcf:field>journalsubtitle</bcf:field>
+      <bcf:field>journaltitle</bcf:field>
+      <bcf:field>journaltitleaddon</bcf:field>
+      <bcf:field>location</bcf:field>
+      <bcf:field>mainsubtitle</bcf:field>
+      <bcf:field>maintitle</bcf:field>
+      <bcf:field>maintitleaddon</bcf:field>
+      <bcf:field>nameaddon</bcf:field>
+      <bcf:field>note</bcf:field>
+      <bcf:field>organization</bcf:field>
+      <bcf:field>origlanguage</bcf:field>
+      <bcf:field>origlocation</bcf:field>
+      <bcf:field>origpublisher</bcf:field>
+      <bcf:field>origtitle</bcf:field>
+      <bcf:field>part</bcf:field>
+      <bcf:field>publisher</bcf:field>
+      <bcf:field>relatedstring</bcf:field>
+      <bcf:field>series</bcf:field>
+      <bcf:field>shortauthor</bcf:field>
+      <bcf:field>shorteditor</bcf:field>
+      <bcf:field>shorthand</bcf:field>
+      <bcf:field>shortjournal</bcf:field>
+      <bcf:field>shortseries</bcf:field>
+      <bcf:field>shorttitle</bcf:field>
+      <bcf:field>sortname</bcf:field>
+      <bcf:field>sortshorthand</bcf:field>
+      <bcf:field>sorttitle</bcf:field>
+      <bcf:field>subtitle</bcf:field>
+      <bcf:field>title</bcf:field>
+      <bcf:field>titleaddon</bcf:field>
+      <bcf:field>translator</bcf:field>
+      <bcf:field>venue</bcf:field>
+    </bcf:multiscriptfields>
+    <bcf:constraints>
+      <bcf:entrytype>article</bcf:entrytype>
+      <bcf:entrytype>book</bcf:entrytype>
+      <bcf:entrytype>inbook</bcf:entrytype>
+      <bcf:entrytype>bookinbook</bcf:entrytype>
+      <bcf:entrytype>suppbook</bcf:entrytype>
+      <bcf:entrytype>booklet</bcf:entrytype>
+      <bcf:entrytype>collection</bcf:entrytype>
+      <bcf:entrytype>incollection</bcf:entrytype>
+      <bcf:entrytype>suppcollection</bcf:entrytype>
+      <bcf:entrytype>manual</bcf:entrytype>
+      <bcf:entrytype>misc</bcf:entrytype>
+      <bcf:entrytype>mvbook</bcf:entrytype>
+      <bcf:entrytype>mvcollection</bcf:entrytype>
+      <bcf:entrytype>online</bcf:entrytype>
+      <bcf:entrytype>patent</bcf:entrytype>
+      <bcf:entrytype>periodical</bcf:entrytype>
+      <bcf:entrytype>suppperiodical</bcf:entrytype>
+      <bcf:entrytype>proceedings</bcf:entrytype>
+      <bcf:entrytype>inproceedings</bcf:entrytype>
+      <bcf:entrytype>reference</bcf:entrytype>
+      <bcf:entrytype>inreference</bcf:entrytype>
+      <bcf:entrytype>report</bcf:entrytype>
+      <bcf:entrytype>set</bcf:entrytype>
+      <bcf:entrytype>thesis</bcf:entrytype>
+      <bcf:entrytype>unpublished</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:fieldxor>
+          <bcf:field>date</bcf:field>
+          <bcf:field>year</bcf:field>
+        </bcf:fieldxor>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>set</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>entryset</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>article</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>journaltitle</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>book</bcf:entrytype>
+      <bcf:entrytype>mvbook</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>inbook</bcf:entrytype>
+      <bcf:entrytype>bookinbook</bcf:entrytype>
+      <bcf:entrytype>suppbook</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>booktitle</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>booklet</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:fieldor>
+          <bcf:field>author</bcf:field>
+          <bcf:field>editor</bcf:field>
+        </bcf:fieldor>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>collection</bcf:entrytype>
+      <bcf:entrytype>reference</bcf:entrytype>
+      <bcf:entrytype>mvcollection</bcf:entrytype>
+      <bcf:entrytype>mvreference</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>editor</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>incollection</bcf:entrytype>
+      <bcf:entrytype>suppcollection</bcf:entrytype>
+      <bcf:entrytype>inreference</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>editor</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>booktitle</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>dataset</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>manual</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>misc</bcf:entrytype>
+      <bcf:entrytype>software</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>online</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+        <bcf:fieldor>
+          <bcf:field>url</bcf:field>
+          <bcf:field>doi</bcf:field>
+          <bcf:field>eprint</bcf:field>
+        </bcf:fieldor>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>patent</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>number</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>periodical</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>editor</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>proceedings</bcf:entrytype>
+      <bcf:entrytype>mvproceedings</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>inproceedings</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>booktitle</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>report</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>type</bcf:field>
+        <bcf:field>institution</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>thesis</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>type</bcf:field>
+        <bcf:field>institution</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>unpublished</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:constraint type="data" datatype="isbn">
+        <bcf:field>isbn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="issn">
+        <bcf:field>issn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="ismn">
+        <bcf:field>ismn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="pattern" pattern="(?:sf|sm|sn|pf|pm|pn|pp)">
+        <bcf:field>gender</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+  </bcf:datamodel>
+  <!-- CITATION DATA -->
+  <!-- SECTION 0 -->
+  <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">biblio.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">horowitz2015</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">dickson2007</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">dewilde2016</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">wang2003</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nyt">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    w€ğ±ŠØ?-Ò|v:"ÒŒßh1?KÌÇ‰:MÔ“áÃºÜE=3Òl—Ù‘æ½î<±¡ø7_Ôùßbqçˆ4Óç‰4ËÛi[Ê…U‘z}Æ‘æf¡Øû³„wM¤™O‰4ÛÑÎ-âïíbÿ¯‘f?Y#ú÷EšãÂÄşÃÂÇÅüIQ?+îŸ4ë×:ÑYô_—tèÿ­¢ÇAo‹ûw#Í1çÏŠ½O¤Ü>¾ıÂİ¢¿_üùAø³ğw±e¶ÇH¡5ÊŒ_ç(Ó^×(3>=¢Ìxöö‡ú_&Šz ¸;1Êw°p¨˜õ˜(³]Œ2ïcãÅ<=Ê‡O‰2ã•eö+YQæx"GôçŠş<ÑÏ2Ë«@ÔvñÇ)ú^qğƒ¢¾TX-¼R¸X¸T¸Lx³p¹¤sE”9Æª‘t¬ıUbïÑ(s.´:Ê,·§%k$kÅŞzÑUÔ¢ÌqÔfÑß"ú[…ÛÄ¿íîgî±ÿµø¿[ø½ğgaHì[:™÷íNLc…ñ¤ı‹ºW'sü×WÔÇ‰yr'3¿SDÿ¤Næ;ÁÌxı‘¢#ÛÉl×ã;™í-]ìMóLa–„›#æsE=OÂŸßÉÌ‡|a±Øsˆ¿QûÅ~E'³ÿºDü_(¼Zø±w“ğváİb®÷ñÑåò¨®>-ñX#\+î×w2ïã¯J|6ˆùfá–Nf9nûÛÄ¿Eı¹¸ÿRÜïîîd¾;ÚßIÚ·èÿ,î~Â¢MıÈh³Ü­¢îm¦§«¨{F›ñèmÎ6İ'‰yJ´Yn'‰z<õ0ñwT´îb~v´ÙNS%œtÑŸm–C¦ØÏæç
 çE›éÊuA´yŸ³G›÷§„ëb/(¼TÒS-¼Rì/–F›ıÚMâş6áâşná}’F›õêábş”ğïÂ •ô½(ş½"úoÀÁèoıw¢Í~ê}áG¢ÿ±äÛ¿Eÿ?¢ÿµÄã[Qï~'şÿ(éüEÜı.ê0«é.ÂjÎŸb„]¬f?ÜÍjº?Fìõµšõò8«é>Ù*å/ê“D=Dìƒ9Ø%úgˆãÄ<Mô'‹:Ãj–ÃLÑÏ¶šıôyV™÷‹ûùÏ|Q‹¹CÜy$~«9Ş¨u•Ø»LÂ[d5óı*ñçZáuV³İh5ëÃíÂñ¥p•Õ¬¿Š«Eÿ)Qÿ]Òó‚Õ¼(æ¯ˆ»7ÄŞ&«Y®ïˆú}‰ÇGÂÅİ¿…ÿgbÿk«ÙOÿWô÷ŠûïEı|Šôıj5Ç7!‰%Æ|ÇÛ)Æ4×ÿÙH›Ç»Ç˜ã˜^pê~¢¼p@ŒÌó9Ùõ¸>FÆw1f=!æ£E}VŒÌï„i1f19ÆlgğÔ3cd|'îÏ‹1óíB‰ÏÅÂ¼sÜScKcÌşß-ñğÅ˜é,—ğªàùúyœ¦Ÿ÷H8W‰ıkcÌñÍ_bÌr¸AÂ¿EÜß.\c>#ª‰1çM+cÌgt«Äş£îjx©¾¯Ãô}=Æ|W¾6Æ,÷õ°F×q÷fŒùlé-	ç]Ñÿ@ÒõO‰ï'1fûı\ø¥Ä§p·Ä¿¤ç‡óÙÊÏ1æZ„ßÅ^X¬ùL,2ÖL‡5VúıX3œ®±fø=cÍrékÆûXÑOŠ5Ë5Ex’è†	GÇšÏ®ÎÓÄşÔXsü3=ÖLÇ¹â~¶Ø;_Ì/Š5çM¶X3_ìbÏ)ôŠQ…—/^!¼Zü]"ñ»^Â»IÔ·‰wŠşİâî>1Pøˆğ‰X™Ç‰úïÂÄı‹âş•X³<Ş€ë~^ì½#|?Ö,çÄİÇâï¿cÍùÉÄŸ¯Åü¿’{Åı÷¢şQø‹ğ13ŸGÅ™jkœiŞ®Ñå+ôsø².ï83¼cãÌúœ$îRDÿ$Q‰3ëÅ°8s¾1*Î,¯3ÄŞX±7AÔ“„Ó„3„³âÌôÎõ¿‹ãÌñ@¨‹Ä¿R±ç–øùâÌ~½\ô«„—Å™Ï‰úª83ÿ®õuÂãÌzz‹„s»øûW1¿Gxœy_xHì=&ñù›¨Ÿ‰3ëÏs¢ÿq÷RœÙo¾&ùıfœYŞo‰ù»qæsÙà‡z'î?ÿ>—ø|gÖ£ân·äÿ~Qÿ ñ8?ÆŞo¢¯?B0ïv–÷<Â¸Î¦ûQ÷èlŞOzÃz>ßÙÌ×MONélöÛ§‰»Í~x´˜ŸÕÙ¼¯ŒëlöóiÍò,êáL±ŸİÙ¼ÏÏ‘p.ı‹á·ºüE]ÔÙ,¿R±ïîlÎ3|Ír.{UÿËD½HxUg³¼¦³ÙoÿEÂ[&é¸UìİÑÙÌï»:›ùèß/|HüLÔ{Ïˆú9á?„/I>¾*Ü ú›%ü-’®­mb¾]ÔŸ‰z‡äÛ7Íç×»Ä|_g³>õÁÎæøø7Q«.&#º˜í3º‹™¾¸.ò¯‹Yº{u1ÓÓ¯‹îñ]Ìøw't1×VÒÅ|ÆZ³şÿFÏêböïãD&œ,ñ™&ê,á8T?»õÅ<Qv1ë‰¨]]Ìzµ@âõ¥âÿåâş
 Q_-é_"êÄŸÛD}g³^İ-êûÄßá(üyDÔOŸş]ì¿ ê»˜õòÑ£‹Yî›DıN³¾/ö?óÅüß¢ÿQ-üoó]å^Q/ö~êböK¿v‘}	$]–xÓßNñò>'Ş\Ç¥Wëw­İE¿W¼é_¿xyŸoæó Ñ?AxJ¼¼Ïõáèxó¹ÙYğ]ŞPov™oö“ãÍ5Šñæ;¿™ñæ;»ìxy~o–Ë…ñæ¸d¾Ä+®ÔówQ;„xóİ™n†âÏ%ñæııòx³¯^os–H|¯n‚§c~›¨ïîŞ'öŒ7ëñ#Ï'âÍò{*Ş¼?ı=Şlo/×Å›ııË¢~]Ô%œ·…ï‰ûEı¯xóyá§ñf½ıBô¿÷ß
 ÷¿óÅŸ_$¼?âÍùJx‚Y/¬	r¿vM0í÷öI0ËõØß%˜ıyŠ¨Oõ³Ÿ&êQ¢>CÔgS%Üô3Ó„YÂ9ÂyÂ<¡]è„UÂjáUÂ¥Â…Ë…wI<î•ô>`¾XÔ‹ù“Âg…Ï×%˜õÿå)?É‡	f{z[ì½'üPØğg³!$ ô2¶<;âD åÊ–ïB¸Î¯@‚ÊVPd|b+¨T¶BşpR˜èk¬¡..AJ¬Ù‹|·û”­³ÌJ0+q#è—àÆá@Ê	íÄ®“Ø8	’Ğ]~„K7Nİ^'n¬¸Ë”Íƒ5/Á{b¾€kŒ|XóáÔGD}UJä'’~ñc%@ZFdÊ0æ²OÊ	¿Â†`$ğJ<­D¯u¥W¯ò›z®q¥Ï³fsÎSy6½ìñ"A•Gşå‘gyåH•Ê+äOK©Ê#òŠ0*
