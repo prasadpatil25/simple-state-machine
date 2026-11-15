@@ -1,9 +1,9 @@
 {
   "holder": "tab-w49oi3",
-  "state": "held",
+  "state": "released",
   "machine": "59",
   "acquiredAt": 1794754112633,
-  "renewedAt": 1794754112633,
-  "expiresAt": 1794754712633,
+  "renewedAt": 1794754311992,
+  "expiresAt": 1794754311992,
   "enforced": true
 }
