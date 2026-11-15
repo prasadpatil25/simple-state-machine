@@ -1,0 +1,1420 @@
+\documentclass[journal,10pt]{IEEEtran}
+
+% The supplementary material for "Repo as Root Disk". Everything here is
+% referenced from the main text by its S-number. Same class and packages as
+% the paper, so the algorithms and tables set identically.
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+% Paragraph columns set ragged right: justified narrow cells stretch the
+% spaces between words into gaps.
+\usepackage{array}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{tikz}
+% The main text's palette, for the figure moved here from it.
+\definecolor{ink}{HTML}{1A1A1A}
+\definecolor{rule}{HTML}{9A9A9A}
+\definecolor{accent}{HTML}{1F5C4D}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Supplementary Material for Repo as Root Disk: A Code Hosting Service as the Backing Store for Browser-Native Virtual Machines}, pdfauthor={Prasad Patil}}
+
+% Pointers into the main text are generated from its label file by xref.mjs,
+% never typed (AGENTS.md 3.3): \Mref{label} prints the main text's own number.
+\makeatletter
+\newcommand{\Mref}[1]{\@ifundefined{xr@M@#1}{\textbf{??}\@latex@warning{Reference `#1' in the main text undefined}}{\@nameuse{xr@M@#1}}}
+\makeatother
+\InputIfFileExists{xref-main.tex}{}{}
+
+% Every experimental number is generated from traces/ by results.mjs, never
+% typed (AGENTS.md 3.1): \R{key} prints it. An unknown key prints ?? and warns.
+\makeatletter
+\newcommand{\R}[1]{\@ifundefined{r@#1}{\textbf{??}\@latex@warning{Result `#1' undefined}}{\@nameuse{r@#1}}}
+\makeatother
+\InputIfFileExists{generated/results.tex}{}{}
+% Generated table and figure bodies. \@@input is TeX's own input, which,
+% unlike LaTeX's \input, is expandable and so may sit inside a tabular.
+\makeatletter
+\newcommand{\gen}[1]{\@@input generated/#1 }
+\makeatother
+
+\renewcommand{\thealgorithm}{S\arabic{algorithm}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thesection}{S-\Roman{section}}
+
+% A column heading on two lines, which fits a narrow column without
+% shrinking the table's type.
+\newcommand{\hd}[1]{\begin{tabular}[b]{@{}c@{}}#1\end{tabular}}
+
+
+\begin{document}
+
+\title{Supplementary Material for\\
+Repo as Root Disk: A Code Hosting Service as the\\
+Backing Store for Browser-Native Virtual Machines}
+\author{Prasad~Patil}
+\maketitle
+
+\begin{abstract}
+This supplement holds the material the main text refers to by S-number. It
+gives the parameters of every experiment, the observed rate-limit envelope, the
+restore and conflict-resolution algorithms, and the threat model. It also gives
+the full contention grid with its live-service runs, a race of two guests on
+one filesystem, the per-sync restore
+tables for the captured histories, and the restic repeats. A command in the
+artifact's README reproduces every number that has an archived trace; the next
+section lists those that do not.
+\end{abstract}
+
+\section{Experiment Parameters}
+\label{sup:params}
+
+Table~\ref{tab:params} gives the parameters of every experiment in the main text.
+
+\paragraph{What has no archived trace} The artifact's harnesses recompute most
+figures in the paper from the traces it ships. The following were measured but
+are not in an archived trace:
+\begin{itemize}\itemsep1pt
+\item the 2,460-entry tree GitHub's endpoint refused, and the 233,593-byte blob
+GitLab's JSON endpoint returned once (archived reads did not see it again);
+\item the 1\,GB machine's 299\,s commit to GitLab, whose record a later run
+overwrote, and GitHub's throttling on the live replay beyond the per-sync rates
+its log gives;
+\item the other session's refusal at 541 a minute;
+\item Codeberg's two 504 answers to a 256\,KB chunk, and the text of Forgejo's
+403 ref-lock refusal, which an engine test keeps verbatim; the archived Forgejo
+race records its outcome, not the message.
+\end{itemize}
+
+\paragraph{The loop in a browser} Headless Chrome with a fresh profile loads a
+page that runs the loop of the main text's Section~\Mref{sec:loop} with the same modules, client
+settings and guest as the Node harness. The driver speaks the DevTools protocol.
+It counts every request the tab sends to the service from the browser's own
+network events, where a preflight appears as an \texttt{OPTIONS} request of its
+own, and assigns each to a phase by the wall-clock bounds the page records. The
+token reaches the page as a function argument, never in a URL or a log. The
+Node loop ran beside it in the same session. The two cache variants run the same
+page with every request, or none, bypassing the browser's HTTP cache. GitHub
+lets a reference be cached for \R{br.refMaxAge}\,s and updates it at another URL, so a tab left
+to its cache rebuilt the state six syncs old in each of \R{br.none.rounds} rounds. Writes do not
+bypass it, since that also skips the preflight cache: \R{br.all.preflights} preflights for \R{br.all.api}
+requests.
+
+\begin{table*}[!t]
+\caption{Experiment parameters. In-process rows run the engine against a counting host, which isolates protocol cost from service variance; the others are measured against the live service. Every row runs under Node, with the emulator build the browser loads, except where marked: $^\dagger$ its capture ran in Chrome, $^\S$ it ran in Chrome, $^\ddagger$ it ran a Linux kernel under WSL2.}
+\small
+\centering
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lllP{0.94\columnwidth}@{}}
+\toprule
+experiment & disk & chunk & other parameters \\
+\midrule
+rate envelope & n/a & 4\,KB & 1 to 16 ways, 1\,s to 120\,s, \R{params.envWrites} writes \\
+object latency & n/a & 16\,KB--4\,MB & 11 writes per size, interleaved, first round discarded \\
+concurrency & n/a & 4, 256\,KB & 1 to 16 ways, four runs of 24 and of 16 writes \\
+capture fidelity & 16\,MB & 256\,KB & in-memory and streamed buffers, \R{fid.perDevice} runs each \\
+end-to-end loop & 16\,MB & 256\,KB & blank base, \R{loop.rounds} rounds on GitHub, \R{loop.increments} increments each \\
+browser loop$^\S$ &16\,MB & 256\,KB & \R{br.browser}, \R{br.rounds} rounds beside \R{nb.rounds} under Node; cache variants \R{br.variantRounds} rounds each \\
+read paths & n/a & 256\,KB & \R{reads.objects} objects, \R{reads.rounds} paired rounds, \R{reads.ways} ways \\
+host comparison & 64\,MB & 256\,KB & 1 to 16 chunks, \R{hosts.rounds} rounds, back to back \\
+deduplication & 256\,MB & 256\,KB & three states, \R{occ.machines} machines on each device, each compacted cold \\
+distribution & 256\,MB & 256\,KB & Alpine 3.20.10, five packages, \R{alp.rounds} runs; chroot and root boot \\
+commit shapes$^\dagger$ & 256\,MB & 256\,KB & 1,000 seeded and 43 captured syncs, in process \\
+object store$^\dagger$ & 256\,MB & 256\,KB & 43 captured syncs over HTTP, loopback server \\
+chunk sweep$^\dagger$ & 256\,MB & 32\,KB--1\,MB & \texttt{mke2fs} ranges; 43-phase session re-chunked \\
+restic & 256\,MB & 256\,KB & 0.19.1, rest-server 0.14.0, compression off \\
+native snapshot$^\dagger$ & 256\,MB & n/a & v86 save\_state, three rounds, all in Chrome \\
+contention & 64\,MB & 256\,KB & 2 to 8 writers, 50 rounds, in process \\
+contention, live & 16\,MB & 256\,KB & 2 to 8 writers, 3 rounds; GitHub, GitLab and Gitea, and Forgejo at 16\,KB chunks \\
+two guests & \R{tg.diskMB}\,MB & 256\,KB & v86 guests, ext2, \R{tg.kinds} kinds of work, \R{tg.rounds} rounds, in-process host; \texttt{e2fsck} in WSL \\
+1\,GB history$^\dagger$ & 1\,GB & 256\,KB & corpus workload, 43 syncs; GitHub and GitLab \\
+kernel over NBD$^\ddagger$ & \R{kern.sizeMB}\,MB & 256\,KB & Linux \R{kern.release}, ext4, rebuilt by a second daemon; GitHub \\
+preflight & n/a & n/a & OPTIONS to GitHub and GitLab, no credential \\
+failures & \R{faults.diskMB}\,MB & 256\,KB & six phases, four kinds, plaintext and encrypted, in process \\
+flush ablation & 16\,MB & 256\,KB & v86 guest, ext2, \R{flush.rounds} rounds, in-process host \\
+flush ablation$^\ddagger$ & 64\,MB & 256\,KB & Linux \R{kern.release}, ext4, \R{flush.rounds} rounds, in-process host \\
+encryption & 256\,MB & 256\,KB & both captured histories, 1\,GB captured again; plaintext and AES-GCM, in process \\
+\bottomrule
+\end{tabular}
+
+\label{tab:params}
+\end{table*}
+
+\section{Rate-Limit Envelope}
+\label{sup:envelope}
+
+Table~\ref{tab:envelope} is the envelope of Section~\Mref{sec:tier} of the main text: short bursts from
+rest pass at any concurrency, and whether a sustained rate is refused depends on
+what preceded it. The second session was refused at \R{env2.refused} a minute after \R{env2.refusedSeconds}\,s, then,
+after the minute's wait, passed \R{env2.later} for \R{env2.laterSeconds}\,s at the width at which the first was
+refused at \R{env.refusedLow}. It began \R{env2.afterKernelMin} minutes after the kernel run and \R{env2.afterHeavyMin} after the other
+GitHub runs, on the same account. A third session, unarchived, was refused at
+541. Every archived row comes
+from \texttt{envelope.mjs}. The first session's two runs are recorded in their
+console logs, \texttt{traces/envelope-github.log} and
+\texttt{envelope-github-ceiling.log}, since later runs overwrote the JSON file
+each wrote; the second session is \texttt{envelope-github-session2.log} and
+\texttt{.json}. The
+rate is what the run achieved rather than what it asked for, and the duration is
+how long it held before the deadline or the refusal.
+
+\begin{table}[htbp]
+\caption{The observed envelope. The first \R{env.rows1} rows are one session's two archived
+runs, of \R{env.runA} and \R{env.runB} writes. The next \R{env2.rows} are a second archived session of
+\R{env.runC} writes, in the order it ran: after the minute's wait that its refusal at
+\R{env2.refused} imposed, \R{env2.later} a minute passed, the rate the first session was refused at.
+The last row is a third session, in a browser page whose log was not kept.}
+\small
+\centering
+\begin{tabular}{@{}lrrl@{}}
+\toprule
+rate & duration & concurrency & result \\
+\midrule
+\gen{tab-envelope.tex}
+\midrule
+\gen{tab-envelope2.tex}
+\midrule
+\textbf{541/min} & \textbf{40\,s} & \textbf{8} & \textbf{403} (third session) \\
+\bottomrule
+\end{tabular}
+\label{tab:envelope}
+\end{table}
+
+Two documented limits bound writing, 80 a minute and 500 an
+hour~\cite{ghratelimits}, and neither
+fired: the first run sustained \R{env.heldRate} a minute for \R{env.heldMinutes} minutes and made \R{env.runA}
+writes in all, in minutes. The ceiling the service's points system implies, five
+points a write against 900 a minute, is 180, and it did not fire either. What
+did was a refusal between \R{env.passRate} and \R{env.refusedLow} a minute in the first session and between
+\R{env2.pass} and \R{env2.refused} in the second, and a refusal costs a minute. The second session's
+pass at \R{env2.later} after its wait shows the limit is not a fixed rate: what a rate meets
+depends on what preceded it.
+
+Table~\ref{tab:latency} is the cost per write by payload, eleven writes at
+each size, interleaved with the first round discarded. Every median carries a
+bootstrap 95\% confidence interval from 2,000 resamples of the observations
+themselves at a fixed seed. The samples are small and a request-metered
+service's distribution is not normal, so an interval assuming normality would
+understate it. A fixed seed means a published interval can be re-derived from
+the archived observations rather than believed. The tail is reported
+beside the median because a sync is many writes and pays the tail: at \R{lat.worstTailSize}
+the p95 is \R{lat.worstTail} times the median, and every other size is inside \R{lat.otherTail}.
+
+\textbf{The intervals are as much of the finding as the medians are.} At every
+size the interval spans more than a quarter of the median, from \R{lat.spanLow} at \R{lat.spanLowSize}
+to \R{lat.spanHigh} at \R{lat.spanHighSize}. Sizes eight or more times apart are separated in every case,
+but three nearer pairs are not. The intervals for 16 and 64\,KB overlap by
+\R{lat.overlap16v64}\,ms, and 1\,MB's, widened by the tail its p95 shows, overlaps both
+2\,MB and 4\,MB. A single median over a handful of writes against a live
+service is not a quantity anyone should design against. The trend by payload is
+solid, and the order of neighboring sizes is not.
+
+\begin{table}[!htb]
+\caption{Cost of one object write by payload: medians of \R{lat.reps} with a
+bootstrap 95\% interval, on GitHub, no concurrency.}
+\small
+\centering
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+payload & writes & median & 95\% CI & p95 & MB/s \\
+\midrule
+\gen{tab-latency.tex}
+\bottomrule
+\end{tabular}
+\label{tab:latency}
+\end{table}
+
+Fig.~\Mref{fig:crossover} of the main text plots these rates.
+
+We measured concurrency twice, four runs at each level: once with a 4\,KB
+payload to isolate the request rate, and once with the 256\,KB chunk the engine
+actually writes. At 4\,KB, concurrency 1, 2, 4, 8 and 16 gave \R{conc.rates}
+writes a minute. Runs at one level differ by up to \R{conc.spread} of the
+median (at \R{conc.spreadWidth} ways). The per-request median lies between \R{conc.medLow} and \R{conc.medHigh}\,ms,
+and its 95\% intervals all fall inside \R{conc.ciLow} to \R{conc.ciHigh}\,ms. Those intervals pool the
+requests of all four runs and treat them as independent, so they describe the
+spread of requests rather than of sessions; the run range beside each rate is
+the session-to-session figure. That last figure is what makes the scaling real
+rather than an artifact of a warming connection: concurrency does the work, and
+the server does not get slower. At 256\,KB the same levels gave \R{chunkconc.rates}
+a minute, which is \R{chunkconc.mbs}\,MB/s.
+
+\textbf{The two series part company at sixteen ways.} The small payload holds
+its \R{conc.small16Median}\,ms median there; the chunk-sized one rises from \R{chunkconc.serialMedian} to
+\R{chunkconc.sixteenMedian}\,ms, so its rate reaches \R{chunkconc.speedup} times serial against the small payload's
+\R{conc.small16Speedup}. Requests still scale and bytes stop, which suggests that by sixteen ways
+the link, not the service, is the constraint; we did not isolate it. The
+256\,KB series is also the noisier of the two, spanning \R{chunkconc.eightLow} to \R{chunkconc.eightHigh} a minute at
+eight ways against \R{conc.smallEightLow} to \R{conc.smallEightHigh} for the small one. A measurement that moves bytes
+inherits the variance of whatever else is using the link. That is why the
+figures above are medians of four runs, reported with their range.
+
+\section{How Often Writers Meet}
+\label{sup:collisions}
+
+The cost of contention only matters at the rate contention happens. A sync's
+duration $d$ is the window in which a second writer can arrive from the same
+parent: \R{loop.firstS}\,s for the loop's commit in Section~\Mref{sec:loop} of the main text, \R{hosts.github.sec16}\,s for
+sixteen chunks on GitHub. Two writers syncing every $T$
+seconds collide with probability about $2d/T$, which at five-minute intervals
+is \R{coll.loopPct} per sync for the first and \R{coll.bigPct} for the second. The
+approximation is the union bound on two uniform arrivals and is loose above a
+few percent. That is enough for the design decision it supports. With a
+per-round cost growing as $N^2$ and a collision rate that rises with sync
+duration, the concurrency model is handoff and forking rather than simultaneous
+writers.
+
+\section{Algorithms}
+\label{sup:algorithms}
+
+Algorithm~\ref{alg:restore} is the restore of Section~\Mref{sec:sync} of the main text; its loop bound is the
+bounded-restore property as code. The cipher fits a manifest when both are
+encrypted under the same salt or neither is. The MAC check applies to an
+encrypted manifest, and a missing digest fails the digest check, except in a
+manifest of the format before digests restored without a pin.
+Algorithm~\ref{alg:conflict} is the conflict
+resolution the evaluation's contention experiment measures; the final line's
+budget is one by default and a parameter otherwise. A refused epoch is kept:
+\textsc{Fork} starts a branch at $\mathit{head}_{\mathit{prev}}$ and the next
+sync lands the epoch there. The stale set $S$ is cleared by hydrating the
+chunks it names, or the whole machine.
+
+Algorithm~\Mref{alg:sync} of the main text leaves two details to the host
+adapter's \textsc{Commit}. Under encryption the manifest carries its MAC (Section~\ref{sup:deterministic}).
+On a host whose commits apply changes to the tree they inherit, the same request
+deletes the objects the next manifest drops, with the manifest in the last
+commit of a split sync (Table~\ref{tab:batch-tree}). A refusal is a lost race only where it
+means one: GitHub answers any validation failure with 422, so its 422 counts
+only when the reference update returns it, while Gitea's 422 counts by its
+message, \texttt{sha does not match}.
+
+\begin{algorithm}[!htb]
+\caption{Restore. Note the loop bound.}
+\label{alg:restore}
+\begin{algorithmic}[1]
+\Require host $H$, branch $B$, cipher $E$, optional pinned digest $d$
+\State $\mathit{ref} \gets \textsc{ResolveRef}(H, B)$
+\State $T \gets \textsc{ReadTree}(H, \mathit{ref}.\mathit{tree})$
+\State $m \gets \textsc{ReadObject}(H, T[\mathit{manifest}])$
+\If{$d$ given \textbf{and} $\textsc{Sha256}(m) \neq d$}
+  \State \textbf{abort} \Comment{substituted, or an older state}
+\EndIf
+\State $M \gets \textsc{Parse}(m)$
+\If{$E$ does not fit $M$ \textbf{or} $\textsc{Mac}_{E}(M) \neq M.\mathit{mac}$}
+  \State \textbf{abort} \Comment{no or wrong key; or $M$ altered}
+\EndIf
+\State $\mathit{disk} \gets M.\mathit{baseIsBlank}$ \textbf{?} $\mathbf{0}^{M.n}$ \textbf{:}
+  $\textsc{Fetch}(M.\mathit{base})$
+\For{$i \in \textsc{Indices}(M)$} \Comment{the live set; the history is never read}
+  \State $c \gets \textsc{ReadObject}(H, M.\mathit{chunks}[i])$
+  \Statex \hfill \Comment{an object two chunks share is read once}
+  \If{$\textsc{Sha256}(c) \neq M.\mathit{digests}[i]$}
+    \State \textbf{abort} \Comment{object ids are SHA-1; this is the check that matters}
+  \EndIf
+  \State $\mathit{disk}[\textsc{Extent}(i)] \gets E.\textsc{Decrypt}(c, i)$
+  \Statex \hfill \Comment{bound to its position; see the threat model}
+\EndFor
+\State \Return $\mathit{disk}$
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[!htb]
+\caption{Conflict resolution, after a refused reference update.}
+\label{alg:conflict}
+\begin{algorithmic}[1]
+\Require prepared set $P$, zeroed set $Z$, manifest $M_{\mathit{prev}}$ and
+  $\mathit{head}_{\mathit{prev}}$ as at preparation, stale set $S$, rebase budget $b$
+\State $\mathit{ours} \gets \{i : (i,\cdot) \in P\} \cup Z$
+\State reload the branch, giving $M_{\mathit{theirs}}$ and a new $\mathit{head}$
+\State $\mathit{theirs} \gets \{i : M_{\mathit{theirs}}.\mathit{chunks}[i] \neq
+  M_{\mathit{prev}}.\mathit{chunks}[i]\}$ over $i$ in either manifest
+  \Statex \hfill \Comment{a chunk they zeroed is absent, and changed}
+\If{$\mathit{ours} \cap \mathit{theirs} \neq \emptyset$}
+  \State $M \gets M_{\mathit{prev}}$; $\mathit{head} \gets \mathit{head}_{\mathit{prev}}$
+  \Statex \hfill \Comment{so the branch refuses this epoch again until it is forked}
+  \State \textbf{raise} \textsc{Conflict}$(\mathit{ours} \cap \mathit{theirs})$
+  \Statex \hfill \Comment{two filesystem states, not two edits}
+\EndIf
+\State $S \gets S \cup \mathit{theirs}$ \Comment{in the manifest now, not on the device}
+\State \Return commit again onto the new $\mathit{head}$ with budget $b - 1$
+\end{algorithmic}
+\end{algorithm}
+
+\section{Threat Model}
+\label{sup:threat}
+
+Table~\ref{tab:threat} is the threat model Section~\Mref{sec:limits} of the main text discusses. The residual
+column is the substance: each mitigation narrows an exposure rather than
+removing it, and two of them depend on the service rather than on us.
+
+\begin{table*}[!t]
+\caption{Threat model.}
+\small
+\centering
+\begin{tabular}{@{}P{0.12\textwidth}P{0.17\textwidth}P{0.32\textwidth}P{0.30\textwidth}@{}}
+\toprule
+asset & adversary & mitigation & residual \\
+\midrule
+disk contents & the service & client-side encryption under random nonces; free space is absent, not stored & metadata: sizes, timing, chunk counts, occupancy \\
+\addlinespace
+disk contents & another reader of a public repository & encryption & the chunk graph stays public \\
+\addlinespace
+chunk integrity & anyone able to write objects & SHA-256 digest per chunk, checked on read and required for every chunk of a current-format manifest; under encryption, each ciphertext bound to its chunk index and the manifest authenticated by an HMAC under a second key from the passphrase & a plaintext machine's manifest and tree remain SHA-1 unless its digest is pinned; a whole older manifest, authentic in its day, needs the pin \\
+\addlinespace
+credential & script or extension with DOM access & fine-grained token, one repository; kept in page memory, never stored & bearer token readable by any script on the page \\
+\addlinespace
+installed software & whoever supplies a package & same-origin delivery & no signature check offline \\
+\addlinespace
+deleted data & anyone with history access & compaction, then host GC & a secret written once persists until both \\
+\bottomrule
+\end{tabular}
+\label{tab:threat}
+\end{table*}
+
+\section{Contention}
+\label{sup:contention}
+
+Table~\ref{tab:contention-full} is the complete grid behind
+Section~\Mref{sec:contention} of the main text: writers racing to sync one
+machine. Each row is 50 rounds of four chunks per writer on a 64\,MB disk, in
+process against a fast-forward-only reference through the real engine. ``Hot''
+puts a quarter of each writer's chunks in a four-chunk region all of them share.
+A writer refused in one round would fork in use; the simulation abandons its
+epoch before the next round, so rounds stay independent. The plans are seeded,
+but the order in which writers reach the reference depends on asynchronous
+hashing, so the tallies move by about a point between runs, as a race does.
+
+\textbf{A fourth failure mode lies outside this grid.} The main text lists three
+failure modes the grid exposes. A fourth lies in the resolution that takes the
+branch's state after a refusal. A full hydrate must also write zeros where the
+branch dropped a chunk. Otherwise a chunk the other writer deleted keeps this
+device's bytes, the stale guard clears anyway, and the carried epoch re-commits
+those bytes over the deletion. That is the overlapping write the refusal exists
+to stop. A reload therefore marks every chunk the branch changed as stale,
+deletions included, and hydration writes zeros where the branch has none; two
+engine tests hold it.
+
+\begin{table*}[t]
+\caption{Writers racing to sync one machine from one parent. Outcomes are
+shares of attempts; requests are per landed sync; wasted requests are those of
+attempts that did not land.}
+\footnotesize
+\centering
+\begin{tabular}{@{}rlrrrrrrr@{}}
+\toprule
+writers & sets & budget & first & rebased & refused & aborted & req./landed & wasted \\
+\midrule
+\gen{tab-contention.tex}
+\bottomrule
+\end{tabular}
+\label{tab:contention-full}
+\end{table*}
+
+Table~\ref{tab:contention-live} is the same race on GitLab: three rounds per
+row, two chunks per writer, every writer's traffic under one governor at 150
+writes per minute. The probe reads the head manifest after every round and
+checks that each landed writer's chunks are named in it. Three rounds were not:
+both syncs of the first two two-writer rounds landed without a conflict, and one
+writer's chunks were absent afterwards; the same at eight writers with a budget
+of seven. GitLab's \texttt{last\_commit\_id} is validated before the commit is
+made, so two syncs arriving together both pass and the second overwrites the
+first. Table~\ref{tab:contention-github} is the same probe on GitHub. No round
+lost an update, since the fast-forward-only reference update is atomic. A
+budget of one rebase aborted exactly the losers of the second race, half at four
+writers and three quarters at eight.
+
+\textbf{Forgejo, raced.} The same table gives the probe on Forgejo, on
+Codeberg, with \R{live.forgejo.chunkKB}\,KB chunks: Codeberg's gateway answered the first commit of a
+256\,KB chunk with 504 twice, and what the race measures is the manifest's
+refusal, not the chunks'. No round lost an update. One writer at a time,
+Forgejo looks like GitLab: its contents API requires the blob a writer expects
+to replace and refuses a writer already stale with 409, which is all the
+one-at-a-time probe can see (archived with this run). Racing shows the
+difference. Each change is committed in a scratch clone and pushed against the
+head it started from. A writer that passed the check alongside another is
+therefore refused one step later by git's own ref lock, 403 ``cannot lock
+ref'', and nothing reaches the branch over a moved head. The engine classifies
+that refusal as a lost race, so the loser rebases rather than failing; a test
+holds it. At eight writers \R{live.forgejo.errors} attempts failed
+outright with a bare 500: writes the service failed rather than lost, none
+counted as landed, their epochs kept.
+
+\textbf{And Gitea.} Forgejo was forked from Gitea and shares its contents API,
+so the same probes ran on gitea.com, which is not one of the three services
+compared elsewhere in the paper. One writer at a time Gitea refused a stale
+writer as Forgejo does, but with 422 rather than 409, a third spelling of the
+same refusal. Raced, at our own 256\,KB chunk, which gitea.com accepted where
+Codeberg's gateway did not, no round lost an update, and at eight writers
+\R{live.gitea.errors} attempts failed with a bare 500. Codeberg's 504 is therefore more likely a
+limit of that deployment than of the API, though the two projects have
+diverged enough that one run on the other cannot settle it.
+
+\begin{table}[!htb]
+\caption{The race on GitLab, three rounds per row, two chunks per writer.
+Outcomes are shares of attempts; ``lost'' counts rounds in which a landed
+writer's chunks were missing from the head manifest afterwards.}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\centering
+\begin{tabular}{@{}rrrrrrrrr@{}}
+\toprule
+writers & budget & first & rebased & refused & aborted & \hd{req./\\landed} & \hd{s/\\round} & lost \\
+\midrule
+\gen{tab-contention-gitlab.tex}
+\bottomrule
+\end{tabular}
+\label{tab:contention-live}
+\end{table}
+
+\begin{table}[!htb]
+\caption{The race on GitHub, Forgejo and Gitea, three rounds per row, two
+chunks per writer, Forgejo's at \R{live.forgejo.chunkKB}\,KB. No round on any of them lost an update;
+``err.'' counts attempts the service failed with a server error.}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\centering
+\begin{tabular}{@{}rrrrrrrrrr@{}}
+\toprule
+writers & budget & first & rebased & refused & aborted & err. & \hd{req./\\landed} & \hd{s/\\round} & lost \\
+\midrule
+\gen{tab-contention-github.tex}
+\bottomrule
+\end{tabular}
+\label{tab:contention-github}
+\end{table}
+
+\section{Two Guests on One Filesystem}
+\label{sup:twoguest}
+
+This section asks whether the conflict rule keeps a real filesystem consistent
+when two guests write to one machine at once. The races of
+Section~\ref{sup:contention} commit synthetic chunk sets, which say nothing
+about the filesystem the chunks hold.
+
+\textbf{Setup.} One guest formatted a \R{tg.diskMB}\,MB disk with its own
+\texttt{mke2fs}: ext2, 1\,KB blocks, eight block groups. It made two
+directories of four 64\,KB files each and committed the disk at 256\,KB chunks.
+For each kind of work in Table~\ref{tab:two-guest}, a branch was cut from that
+commit and two guests booted from it, each under its own engine attached at
+the branch head. They did the work on separate files, in separate kernels with
+separate page caches. Guest A synced first and guest B second. A refused B
+forked, as the application offers, and synced there. Capture was armed at the
+prompt, as in the application, so each epoch held the write of the guest's
+read-write mount. The host was the in-process one with fast-forward-only
+references. \R{tg.rounds} rounds of \R{tg.kinds} kinds gave \R{tg.pairs} pairs
+(\texttt{traces/two-guest.json}).
+
+\textbf{Checks.} Every image was checked outside the guests, with
+\texttt{e2fsck -fn} from e2fsprogs \R{tg.e2fsck} for the filesystem. Each file
+a guest wrote was read back with \texttt{debugfs} and compared by MD5 with what
+that guest had read after writing it, and the deleted file was looked up. Where
+blocks had been allocated, the base image included, \texttt{e2fsck} remarked
+that the superblock's free counts lagged the group descriptors. It recomputes
+those counts and exits 0, and we count such an image as sound.
+
+\begin{table*}[!t]
+\caption{Two guests booted from one ext2 commit, each doing its half of the
+work on a separate file, A syncing first; \R{tg.rounds} rounds a row. Chunks
+are each epoch's; ``shared'' counts the chunks both changed, chunk 0 always
+among them. ``Sound'' counts images of A's branch and B's fork that pass
+\texttt{e2fsck -fn} with every file intact. The last column describes an image
+the engine never commits: every chunk B changed laid over A's head, as a rebase
+without the overlap check would commit.}
+\small
+\centering
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+work & \hd{chunks\\A\,/\,B} & shared & \hd{B\\refused} & sound & merge without the overlap check \\
+\midrule
+\gen{tab-two-guest.tex}
+\bottomrule
+\end{tabular}
+\label{tab:two-guest}
+\end{table*}
+
+\textbf{Result.} Every second sync was refused, and chunk 0, which holds the
+superblock and the group descriptors, was shared every time. A guest's sync
+rewrites the superblock even after work that allocates nothing: the in-place
+rewrites shared chunk 0 alone. All \R{tg.images} images of the branches and
+forks were sound. On ext2, then, two mounted guests never take the rebase path,
+which serves epochs that share no filesystem metadata.
+
+\textbf{What the refusal prevents.} For each pair we also built two images the
+engine never commits. The first lays every chunk B changed over A's head, as
+Table~\ref{tab:two-guest} describes. The second keeps A's copy of each shared
+chunk and merges only B's disjoint ones. It fared the same in every kind, losing
+B's write where the first lost A's. Each guest allocated from the same bitmaps
+and group descriptors, unaware of the other. A chunk-level merge therefore kept
+one guest's allocation and dropped the other's, or kept both allocations of the
+same blocks. Only the in-place rewrites, which allocate nothing, merged soundly,
+and they were refused for the superblock alone. That refusal is conservative,
+and a merge that understood the filesystem could admit it; we have not built one.
+
+\textbf{Limits.} The experiment covers one filesystem, one kernel, one disk
+geometry and small writes. A filesystem that does not rewrite shared metadata
+at every sync could produce disjoint epochs, which would rebase, and this
+experiment does not establish that the result is consistent. One active writer
+per branch, with forks for parallel work, remains the recommendation.
+
+
+\section{The Captured Histories}
+\label{sup:histories}
+
+Table~\ref{tab:history-full} gives every checkpoint of the captured \R{hist.syncs}-sync
+history of Section~\Mref{sec:scaling} of the main text, on the 256\,MB machine:
+format, Alpine, vim, then a forty-step working session.
+Table~\ref{tab:history-1gb} gives the same for the 1\,GB machine under the
+corpus workload. Table~\ref{tab:history-long} continues the 256\,MB session to
+\R{long.syncs} syncs by repeating its working half: append, partial rewrite, vim edit,
+delete and create, and package churn. Each covers the three commit shapes and restic, with the dirty
+chunks of the sync and the live set at each point. The
+engine represents a zeroed chunk on a blank base by absence and fetches each
+distinct object once on restore, so the chunk-exploded column can be below the
+live set where the guest copied files onto chunk-aligned blocks.
+
+\begin{table}[!htb]
+\caption{The \R{hist.syncs}-sync 256\,MB history: restore cost as requests / MB fetched.}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\centering
+\begin{tabular}{@{}rrrrrrr@{}}
+\toprule
+sync & dirty & live & whole image & delta pack & chunk exploded & restic \\
+\midrule
+\gen{tab-history-256.tex}
+\bottomrule
+\end{tabular}
+\label{tab:history-full}
+\end{table}
+
+\begin{table}[!htb]
+\caption{The 1\,GB history under the corpus workload: restore cost as requests
+/ MB fetched. At the last sync the stores hold \R{gb.whole.storageMB}, \R{gb.delta.storageMB}, \R{gb.ours.storageMB} and \R{gb.restic.storageMB}\,MB
+and have spent \R{gb.whole.uploads}, \R{gb.delta.uploads}, \R{gb.ours.uploads} and \R{gb.restic.uploads} upload requests. On the services, the
+machine committed to GitHub in \R{gb.github.commitRequests} requests and \R{gb.github.commitSeconds}\,s at 150 writes per
+minute, the tree built in batches, and to GitLab in \R{gb.gitlab.commits} batch commits and
+299\,s. It restored from GitHub in \R{gb.github.restoreRequests} requests: \R{gb.github.serialA} and \R{gb.github.serialB}\,s serially
+and \R{gb.github.wide}\,s eight-wide, the run then meeting the hourly ceiling. It restored from
+GitLab in \R{gb.gitlab.restoreRequests} requests (\R{gb.gitlab.treePages} of them tree pages, directories included),
+\R{gb.gitlab.serial}\,s serially and \R{gb.gitlab.wide}\,s eight-wide, medians of three.}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\centering
+\begin{tabular}{@{}rrrrrrr@{}}
+\toprule
+sync & dirty & live & whole image & delta pack & chunk exploded & restic \\
+\midrule
+\gen{tab-history-1gb.tex}
+\bottomrule
+\end{tabular}
+\label{tab:history-1gb}
+\end{table}
+
+\begin{table}[!htb]
+\caption{The 256\,MB session continued to \R{long.syncs} syncs: restore cost as requests
+/ MB fetched, with restic measured every fiftieth sync. Delta pack's restore
+first costs more requests than ours at sync \R{long.crossover}, \R{long.crossDelta} to \R{long.crossOurs}, and stays above it.
+At the last sync the stores hold \R{long.whole.storageMB}, \R{long.delta.storageMB}, \R{long.ours.storageMB} and \R{long.restic.storageMB}\,MB and have
+spent \R{long.whole.uploads}, \R{long.delta.uploads}, \R{long.ours.uploads} and \R{long.restic.uploads} upload requests.}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\centering
+\begin{tabular}{@{}rrrrrrr@{}}
+\toprule
+sync & dirty & live & whole image & delta pack & chunk exploded & restic \\
+\midrule
+\gen{tab-history-long.tex}
+\bottomrule
+\end{tabular}
+\label{tab:history-long}
+\end{table}
+
+Table~\ref{tab:batch-tree} replays the long session on an in-process host that
+commits as GitLab does: each commit applies creations, updates and deletions to
+the tree it inherits, and a listing costs a request per 100 entries,
+directories included. The engine deletes from the tree what the next manifest does
+not name. The variant beside it never deletes, so its tree keeps every
+object ever written. The 1\,GB machine's GitLab restore, of a branch committed in
+one pass, listed \R{gb.gitlab.treePages} pages, as this model with deletions does for it.
+
+\begin{table}[!htb]
+\caption{The long session on a batch-commit host: tree files, tree pages and
+restore requests, with the engine's deletions and without them.}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\centering
+\begin{tabular}{@{}rrrrrrrr@{}}
+\toprule
+& & \multicolumn{3}{c}{with deletions} & \multicolumn{3}{c}{without} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+sync & live objects & files & pages & restore & files & pages & restore \\
+\midrule
+\gen{tab-batch-tree.tex}
+\bottomrule
+\end{tabular}
+\label{tab:batch-tree}
+\end{table}
+
+Table~\ref{tab:checkpoint} runs a delta pack that writes one pack of every chunk
+holding data each \R{ck.every} syncs, and drops the packs before it from its tree, on
+the seeded plan and the long session. Restore is measured just before and just
+after a checkpoint, its worst and best cases.
+
+\begin{table}[!htb]
+\caption{Delta pack with a checkpoint every \R{ck.every} syncs: restore as requests / MB
+fetched, storage held, and cumulative upload requests. Ours holds
+\R{scale.ours.storageMB}\,MB at sync \R{scale.syncs} of the seeded plan, after \R{scale.ours.upload} upload requests.}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\centering
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+workload & sync & restore & storage, MB & uploads \\
+\midrule
+\gen{tab-checkpoint.tex}
+\bottomrule
+\end{tabular}
+\label{tab:checkpoint}
+\end{table}
+
+\textbf{The 1\,GB machine synced live.} Synced to GitLab one phase at a time,
+the \R{gb.syncs} commits cost \R{gb.gitlab.liveRequests} requests and \R{gb.gitlab.liveMinutes} minutes, and the history then restored
+in \R{gb.gitlab.liveRestore}\,s, byte-identical. On GitHub the first \R{gb.github.liveSyncs} commits cost \R{gb.github.liveRequests}
+requests. The stream had by then spent some 2,200 requests in the hour, and the
+service throttled it from 150 to between \R{gb.github.throttleLow} and \R{gb.github.throttleHigh} writes a minute, each
+refusal costing its retry-after.
+
+\section{Other Repository Operations}
+\label{sup:operations}
+
+\textbf{Compaction's read and GitLab's body size.} Compaction reads the disk back
+first. On the streamed device, reading and hashing all 1,024 chunks took
+\R{compact.streamedEmpty}\,s nearly empty and \R{compact.streamedFull}\,s filled, medians of \R{compact.rounds} cold runs. Written chunks
+are local, while unwritten ones come from the base, here a local file and in a
+browser a ranged request. On the in-memory blank it took \R{compact.memoryEmpty} and \R{compact.memoryFull}\,s.
+GitLab accepted a \R{hosts.gitlab.oneRequestMB}\,MB request body, \R{hosts.gitlab.oneRequestPayloadMB}\,MB of chunks in base64, as one
+commit. Our adapter split the next step, \R{hosts.gitlab.splitMB}\,MB, into \R{hosts.gitlab.splitRequests} commits at a ceiling we
+chose rather than one the service published, so the service's limit is
+unmeasured and our ceiling may split commits that need not be split. In the run
+of Table~\Mref{tab:hosts} our governor halved its width \R{ours.halvings} times and never restored it,
+and a variant that cannot restore it took \R{ratchet.sec16}\,s against \R{hosts.github.sec16}\,s, so that run
+cannot show what recovery is worth.
+
+A repository's other operations only partly survive the change of unit. Naming
+a state does: a tag is a reference that never moves, one request and no
+storage. Searching does, because every state costs the live set plus three to
+restore whatever its age, so binary search over a history is affordable.
+Finding which sync broke an environment across 64 commits took eight
+reconstructions, against 64 for a scan. A replaying store, paying more for older
+states, cannot do this, and neither can a versioned recipe, which has nothing to
+boot. A fork hands someone a configured machine rather than sharing one. A pull
+request is a proposed reference update with a gate, and the merge does not
+survive, since overlapping chunk sets are refused. Diff and blame do not map at
+block granularity.
+
+Two behaviors of a batch-commit host appear only when it is synced twice. A
+batch commit inherits the previous tree, so a commit that lists every live
+object asks the host to create files that already exist. The adapter sends only
+the files the tree lacks, and deletes those the next manifest does not name
+(Table~\ref{tab:batch-tree}). And GitLab's \texttt{start\_sha} is not a parent pin: it means ``create
+this branch from that commit'' and is refused for a branch that exists.
+
+Committing the 1\,GB machine of Section~\Mref{sec:scaling} of the main text showed three
+more. GitHub's tree endpoint fails at 2,460 entries where 941 succeed, so the
+adapter builds trees incrementally through \texttt{base\_tree}. GitLab lists a
+tree 100 entries a page, directories included, so the reference and tree that
+cost GitHub three requests cost it \R{gb.gitlab.refAndTree}. And GitLab's JSON blob endpoint once
+returned 233,593 bytes of a 262,144-byte chunk whose object was intact. The
+per-chunk digest of Section~\Mref{sec:limits} of the main text, designed against
+substitution, refused that restore, and the raw endpoint serves the bytes whole.
+The truncation did not recur in \R{reads.gitlab.reads} later reads of random 256\,KB chunks
+through the same endpoint.
+% And a repository is not a shared drive: two writers mounting one
+%device read-write corrupt it, as any block device without a cluster filesystem
+%would, and that failure is silent.
+
+\section{Chunk Size}
+\label{sup:chunk}
+
+The prototype fixes the chunk at 256\,KB. Table~\ref{tab:chunk} is what other
+sizes would have cost on a captured trace of \texttt{mke2fs} on a 256\,MB disk,
+\R{chunk.ranges} intercepted writes of about \R{chunk.writeKB}\,KB each at 8\,MB intervals, which is a
+filesystem laying down block-group metadata. Nothing about the guest depends on
+the chunk size: it writes the same bytes to the same offsets whatever the engine
+later does with them. The dirty set is a pure function of the trace, so every
+size is computed exactly from one run rather than measured across five. One run
+per workload makes the sweep a screening, not a basis for choosing a size.
+
+Two costs move in opposite directions. Requests fall as the chunk grows, since
+a fixed set of writes lands in fewer chunks. Bytes rise, because a write that
+straddles a boundary sends both chunks whole: a \R{chunk.writeKB}\,KB write costs two 256\,KB
+chunks, which is the \R{chunk.amp256}$\times$ at our own size. The time column resolves
+them against the rate the client paces to, 150 writes a minute, and the
+\R{chunk.eightWay}\,MB/s measured eight-wide in Section~\ref{sup:envelope}, and shows where the binding
+constraint changes hands.
+
+\begin{table}[!htb]
+\caption{What each chunk size would have cost on the \texttt{mke2fs} capture.
+Time is the larger of the two costs at the 150 writes/minute the client paces
+to and the \R{chunk.eightWay}\,MB/s measured eight-wide, and ``bound by'' says which.
+Restore requests are arithmetic for the \R{chunk.liveMB}\,MB live set of Section~\ref{sup:histories}'s
+256\,MB machine, $\lceil L/k \rceil + 3$.}
+\small
+\centering
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{@{}lrrrrrl@{}}
+\toprule
+chunk & dirty & sent & amplif. & \hd{write\\req} & \hd{restore\\req} & time \\
+\midrule
+\gen{tab-chunk.tex}
+\bottomrule
+\end{tabular}
+\label{tab:chunk}
+\end{table}
+
+\textbf{On this trace our design point is not the optimum.} The write path is
+request-bound up to 512\,KB and byte-bound at 1\,MB, so the cost is least at
+512\,KB, where 256\,KB costs \R{chunk.formatRatio} times as long; and restore requests halve with
+every doubling, which favors larger chunks again.
+
+\paragraph{A second workload, and a different shape of answer}
+That trace is a filesystem format, the workload most favorable to large
+chunks: every write in it is a quarter-megabyte of bulk metadata. A working
+session is the opposite, small scattered writes whose amplification rises with
+the chunk, so we repeated the sweep on one. The \R{chunk2.phases}-phase session of
+Section~\ref{sup:histories} was captured at 256\,KB, but a capture keeps more
+than it was taken for. It stores every dirty chunk's contents, so the disk after
+each phase can be reconstructed exactly. Two consecutive reconstructions then
+differ in precisely the bytes that phase wrote. That recovers a byte-level trace,
+compared a 4\,KB block at a time since a block is what a disk writes, and
+every chunk size is then computed from it exactly by the same method. A write
+that lays down the bytes already present leaves no difference and so is
+invisible here; it is also free, because the engine hashes the chunk, finds it
+present and sends nothing. A changed chunk is not always an upload either: its
+new content may already be stored, from an earlier sync or another index, and
+the engine's dedup probe then references it. Each size keeps the contents it
+has stored, as the probe does over a session. As a check, at the capture's own
+256\,KB the sweep gives \R{chunk2.uploads} uploads, and an independent count over the captured
+chunks reproduces that exactly. The format trace of Table~\ref{tab:chunk} has ranges and no
+contents, so it cannot model the probe and its sent column is an upper bound.
+
+\begin{table}[!htb]
+\caption{The same sweep on the \R{chunk2.phases}-phase working session, summed over the whole
+run. Each phase is a sync and pays its own manifest, tree and commit; a chunk
+ending a phase entirely zero is a deletion, and one whose content is already
+stored a reference, rather than an upload. Limits as in Table~\ref{tab:chunk}.}
+\small
+\centering
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+chunk & dirty & sent & amplif. & \hd{write\\req} & time \\
+\midrule
+\gen{tab-chunk2.tex}
+\bottomrule
+\end{tabular}
+\label{tab:chunk2}
+\end{table}
+
+\textbf{The prediction holds and the conclusion survives it.} Amplification on
+the working session is far worse at every size, \R{chunk2.amp256}$\times$ against
+\R{chunk.amp256}$\times$ at our own 256\,KB and \R{chunk2.amp1M}$\times$ against \R{chunk.amp1M}$\times$ at
+1\,MB, which is the scattered-write penalty the format trace could not show.
+The crossover does not move: both workloads are request-bound through 512\,KB
+and byte-bound at 1\,MB, so both put the least cost at 512\,KB, and on both
+1\,MB is dearer than 512\,KB and cheaper than our 256\,KB. Our design point
+costs \R{chunk.formatRatio} times the optimum on the format and \R{chunk2.ratio} times on the session.
+
+We report this rather than tune to it. The analysis below 512\,KB is the same
+analysis that justifies the design's central trade, which is to spend requests
+rather than let restore grow, so a reader can see the trade rather than take
+the constant on faith. A deployment that knew its workload should raise the
+size; the engine takes it from the manifest and nothing in the protocol
+depends on 256\,KB.
+
+%Two effects this table does not carry. Free space is represented by absence, so
+%a larger chunk makes a sparsely written machine store more: a chunk is occupied
+%if any byte in it is. And a larger chunk coarsens the conflict unit, since two
+%writers collide when they touch one chunk rather than one block.
+
+\begin{table}[!htb]
+\caption{Committing a machine that carries a distribution, medians of
+\R{alp.rounds} runs. Installed is \texttt{apk}'s own count. Chunks are those holding
+data; stored is their distinct objects at 256\,KB, which is what committing the
+machine from blank uploads. Stored exceeds installed because a chunk is sent
+whole however little of it changed.}
+\label{tab:distribution}
+\centering\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+State & Installed & Chunks & Objects & Stored & Ratio \\
+\midrule
+\gen{tab-distribution.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Staging Software Into the Guest}
+\label{sup:staging}
+
+The machine has no network by design, so software reaches it by a second path.
+v86 exposes a 9p filesystem the guest mounts and the page writes files into
+directly, so a rootfs archive or a package file travels from the page's own
+origin into the guest without a request to any third party. That share lives in
+browser memory and is empty after a reload, which makes it staging rather than
+storage: anything worth keeping is copied onto the block device, where the sync
+protocol can see it. Table~\ref{tab:distribution} is what committing such a machine costs.
+The image's own guest is a Buildroot system built against uClibc, with no
+package manager and no repository built against its C library, so the
+distribution goes on the block device. A chroot into an Alpine minirootfs there
+is a complete musl userland with a working \texttt{apk}, and every file of it
+lands on the device the sync protocol commits.
+
+\textbf{The machine of Section~\Mref{sec:alpine} of the main text.} We unpack an Alpine 3.20.10
+minirootfs, \R{alp.archiveMB}\,MB across \R{alp.entries} entries, onto the device through the 9p share and
+chroot into it; \texttt{apk-tools \R{alp.apk}} reports \R{alp.before} packages installed. Installing
+\texttt{vim} from \R{alp.files} local \texttt{.apk} files totaling \R{alp.filesMB}\,MB, in one invocation,
+reports \texttt{\R{alp.okLine}}, and \texttt{vim --version} runs inside the chroot.
+
+Two details belong to the offline setting. Packages install as one selection,
+since \texttt{apk} resolves only the set it is handed: \texttt{vim} alone fails
+on \texttt{libncursesw} and succeeds with its dependencies named alongside. And
+installation is unverified, since \texttt{--allow-untrusted} is what makes a
+local file installable at all: a real reduction in assurance.
+
+The \texttt{chroot} is a convenience, not a requirement. The same commit,
+restored onto a disk, booted as the root filesystem of the image's own kernel,
+\R{root.kernel}, started with \texttt{root=/dev/sda} and an \texttt{rdinit} naming no program, so
+that the kernel mounts the root itself. The distribution's BusyBox \R{root.busybox} shell ran
+as process~1 on the disk mounted at \texttt{/}, where \texttt{apk} listed \R{root.packages} packages,
+\texttt{vim} ran and its file was present, in each of \R{alp.rounds} runs.
+
+Committing the minirootfs stores \R{alp.rootfsObjects} objects, \R{alp.rootfsMB}\,MB, for the
+\R{alp.rootfsInstalled}\,MB that \texttt{apk} counts as installed. Once \texttt{vim} brings that to
+\R{alp.vimInstalledExact}\,MB, which its summary line rounds down to \R{alp.okMiB}\,MiB, the machine is \R{alp.vimObjects} objects and \R{alp.vimMB}\,MB.
+The ratio of stored to installed bytes \emph{falls} as the machine grows, from
+\R{alp.ratioRootfs}$\times$ to \R{alp.ratioVim}$\times$, the opposite of the expected direction; we have not
+isolated why.
+
+\section{Capture Fidelity}
+\label{sup:fidelity}
+
+The guest runs in the same emulator build under Node, so the checks are a
+harness with an archived trace. Booting made \R{fid.bootWrites} writes to the disk, and one
+\texttt{dd} of one sector arrived as one intercepted call of \R{fid.sectorKB}\,KB. Formatting a filesystem, mounting it, writing a
+file and unmounting then produced \R{fid.calls} intercepted calls, \R{fid.kb}\,KB or about
+\R{fid.kbPerCall}\,KB each, across stages that repeatedly rewrite the same structures.
+The commit of that epoch, restored onto zeros, reproduced the live disk with
+\emph{\R{fid.differing} differing bytes} across 16\,MB, so last-writer-wins ordering is
+correct. To rule out luck, a second machine booted from nothing but the commit
+mounted the filesystem and read back the file. On the streamed device, where no
+single buffer exists to compare against, the device's own record of written
+\R{fid.blockBytes}-byte blocks was the reference: \emph{\R{fid.blocks} of \R{fid.blocks}} reproduced.
+That is the stronger check, since the reference comes from the device rather
+than our interceptor. The write pattern was identical across all \R{fid.runs} runs,
+\R{fid.perDevice} on each device.
+
+The flush that precedes every seal was tested by leaving it out
+(Section~\Mref{sec:kernel} of the main text). In each round the guest writes a
+file holding a fresh marker, and two syncs follow at once, the first without
+the flush and the second with it. The restored disk is then searched for the
+marker. The same test runs on a Linux kernel through the NBD device, the
+server in a container sharing the kernel and the host in process. Each round
+also writes a second marker and polls the device every half second, unasked,
+until it arrives. \texttt{flush-guest.mjs} and \texttt{flush-kernel.sh} archive both.
+
+Capture also costs the guest nothing we could measure. In Chrome, on the machine
+the captured history ends at, \R{wrap.mb}\,MB through the device took \R{wrap.attached}\,s with the
+wrapper attached and \R{wrap.detached}\,s detached, medians of \R{wrap.pairs} interleaved rounds
+spanning \R{wrap.low} to \R{wrap.high}\,s. A paired Wilcoxon signed-rank test over the rounds
+finds no difference ($W = \R{wrap.W}$, two-sided $p = \R{wrap.p}$), though \R{wrap.pairs} rounds cannot
+exclude a small cost.
+
+\section{Further Limitations of the Prototype}
+\label{sup:limits}
+
+Four limits of the prototype matter to anyone deploying it. None of them
+changes a measured result.
+
+\paragraph{Installing offline gives up verification}
+Removing the network keeps the no-server claim intact and moves the trust
+decision to whoever put the package in front of the user. Serving packages from
+the page's own origin makes that origin the trust anchor, a coherent position but
+a weaker one than a signed index. A deployment that cared could verify signatures
+in the page against Alpine's published keys before injection; we have not built
+that.
+
+\paragraph{The kernel is not versioned}
+\label{sup:chroot}
+The install runs in a chroot on the committed device, under a kernel and an
+init from the read-only image. Section~\Mref{sec:alpine} of the main text also boots the
+image's kernel with the committed device as its root and the distribution's
+shell as process~1, which removes the image's userland. The kernel and its
+command line still come from the image, so a machine cannot change its kernel,
+and a kernel upgrade inside the distribution has no effect.
+
+\paragraph{Machines have to be sized in advance}
+The device is a fixed-size image, so a machine is provisioned rather than grown:
+a 16\,MB disk holds the minirootfs and nothing useful after it, and the package
+install above needs 256\,MB. Growing a machine is bookkeeping by design: the
+manifest lists only written chunks, so its size can be raised, the guest
+rebooted and the filesystem grown (Section~\Mref{sec:design} of the main text).
+The prototype does not implement it, and refuses to attach a device whose size
+differs from the manifest's; we have not measured a growth. Under-provisioning surfaces as an out-of-space error, not a
+refusal.
+
+\paragraph{What the budget permits}
+The rate limit follows the engine onto the kernel: what must fit is the dirty
+region between two syncs, about 187\,MB at 150 writes per minute, 256\,KB chunks
+and a five-minute interval. Comfortable for a workstation, hopeless for a
+database or a build server.
+
+\section{Provider Capabilities}
+\label{sup:capabilities}
+
+The protocol's concurrency guarantee is not a property of the protocol. It is
+the property of whichever atomic primitive the backing service exposes, and the
+three services expose three different ones. Table~\ref{tab:capabilities} states
+what each was measured to provide, and the guarantee that follows.
+
+Git's own transport is not among them for a browser. We sent \R{gt.probes} probes, without
+credentials, to the git endpoints of GitHub and GitLab: a preflight for a push,
+and a cross-origin read of the push and fetch reference advertisements. None
+carried \texttt{Access-Control-Allow-Origin}, and GitHub refused the preflight
+outright, so a page can neither push nor read the answer
+(\texttt{traces/git-transport.json}). Git's transport would otherwise push a
+sync as one packfile and move the reference only from the value it expects, on
+every host. A client outside the browser has no such limit, and for the kernel
+device of Section~\Mref{sec:kernel} of the main text a push may be the cheaper
+path; we have not measured it.
+
+\begin{table*}[t]
+\centering
+\caption{Concurrency and atomicity capabilities of the evaluated services. The
+guarantee is per commit: no landed sync is overwritten. Two guests sharing one
+mounted filesystem are kept consistent by the refusal of the second, not by a
+merge (Section~\ref{sup:twoguest}).}
+\label{tab:capabilities}
+\begin{tabular}{@{}P{0.11\textwidth}
+                P{0.14\textwidth}
+                P{0.18\textwidth}
+                P{0.14\textwidth}
+                P{0.09\textwidth}
+                P{0.22\textwidth}@{}}
+\toprule
+\textbf{Service} &
+\textbf{Object writes} &
+\textbf{Atomic reference CAS} &
+\textbf{Per-file CAS} &
+\textbf{Lost updates} &
+\textbf{Guarantee for simultaneous writers} \\
+\midrule
+
+GitHub &
+Blob, tree, commit &
+Yes: fast-forward-only reference update; stale parent refused (422) &
+Not needed &
+\R{live.github.lostOf} &
+Holds: a lost race is detected; disjoint epochs rebase, overlapping ones are refused \\
+
+\addlinespace
+
+GitLab &
+None; batch commit &
+No: the commits API takes no expected parent for an existing branch, and a stale one is accepted &
+Partial: \texttt{last\_commit\_id} on the manifest is refused when stale, but validated before the commit is made &
+\R{live.gitlab.lostOf} &
+\textbf{Does not hold}: two syncs arriving together both pass the check and the second overwrites the first \\
+
+\addlinespace
+
+Forgejo &
+None; batch commit &
+Not exposed, but enforced: the contents API pushes each commit against the head it started from &
+Yes, required on every update: 409 to a writer already stale; a writer that goes stale mid-commit is refused at git's ref lock (403) &
+\R{live.forgejo.lostOf} &
+Holds, measured with up to eight writers; at eight, \R{live.forgejo.errors} attempts failed with a server error, none lost \\
+
+\addlinespace
+
+Gitea (the code Forgejo was forked from) &
+None; batch commit &
+Not exposed; its refusal of a writer that goes stale mid-commit was not observed separately &
+Yes, required on every update: 422 to a writer already stale &
+\R{live.gitea.lostOf} &
+Holds, measured with up to eight writers at 256\,KB; at eight, \R{live.gitea.errors} attempts failed with a server error, none lost \\
+
+\addlinespace
+
+Object store &
+Per-object PUT &
+N/A &
+Conditional write since 2024~\cite{s3conditional,s3cas2024}; S3 documents that of concurrent conditional writes the first to finish lands and the rest are refused &
+Not measured on S3 &
+Holds by S3's documented semantics, on the pointer; our loopback store refused the second of two writers (Section~\ref{sup:objectstore}) \\
+
+\bottomrule
+\end{tabular}
+\end{table*}
+
+The distinction that matters is between a compare-and-swap and a check-then-act.
+GitHub's reference update compares and swaps in one operation, so a writer whose
+parent has moved is refused. GitLab's \texttt{last\_commit\_id} compares first
+and commits second. It refuses a writer that was already stale when it arrived
+and cannot refuse one that goes stale in between. That is a narrower guarantee,
+and the difference is the three lost rounds. Forgejo's is the atomic kind, and
+it took the race to show it. One writer at a time, the probe sees only the file
+check, which GitLab's also passes. Only under simultaneous writers does the
+second refusal appear: git's ref lock on the push.
+
+\textbf{Compaction is the exception on every host.} It commits a parentless
+snapshot, which is not a fast-forward of anything, so on GitHub the reference
+has to be forced, and the refs API takes no expected value for a forced update.
+Forcing it unconditionally would discard, without a word, a sync another writer
+landed after this device last looked. The engine therefore reads the reference
+immediately before the forced move and refuses if it has moved. That turns a
+silent loss into a refusal but is itself a check-then-act, so compaction is
+safe for a machine with one writer at the time it runs and should be scheduled
+as such. GitLab and Forgejo cannot make a parentless commit at all, and
+compaction there is a branch recreated by hand.
+
+\textbf{The protocol therefore guarantees no more than its host does.} Where the
+service offers an atomic primitive, phase P7 is a compare-and-swap and no landed
+sync is lost. Where it offers only a check-then-act, the design is safe for
+writers that hand off in sequence and unsafe for writers that overlap in time.
+A deployment on such a host should serialize its writers rather than rely on
+the protocol. Nothing in the engine can supply an atomicity the API does not
+have.
+
+\section{Against a Conventional Object Store}
+\label{sup:objectstore}
+
+The design rules of Section~\Mref{sec:rules} of the main text are for services
+that meter requests, so which do? Amazon S3 meters bytes and requests without a
+ceiling of the kind we hit, does not address by content, and since 2024 offers a
+compare-and-swap on an object~\cite{s3conditional,s3cas2024}. IPFS addresses by content,
+but its mutable name is a signed record resolved through a hash table, not a
+compare-and-swap, and persistence depends on pinning~\cite{ipfs}. A forge alone
+supplies content addressing, a compare-and-swap reference and durability
+together, from an account the user already holds.
+
+Table~\ref{tab:objectstore} runs our commit shape on both. The object-store
+column is the same engine's shape against a store with no tree and no commit.
+It issues a PUT per new chunk under its content hash, a PUT for the sync's
+manifest under a per-sync key so the history is kept, and a conditional PUT on a
+pointer object. Both columns are counted by the same accounting on the same workload, so the
+difference is the substrate and nothing else.
+
+\textbf{What this is and is not.} Both columns run in process against counting
+hosts, so the request and byte counts are exact: they follow from what the
+protocol must issue, not from a network. The claim is about request shape,
+which is what the design's cost model turns on, and the price below is
+arithmetic over a published rate card rather than a bill we were charged.
+
+\textbf{The same shape over real HTTP.} A model whose two sides we both wrote
+shows less than it appears to, so we ran the object-store shape again,
+unchanged, against a server on the loopback: \texttt{src/analysis/s3-server.js}.
+It implements GET, PUT, DELETE and the two conditional PUT forms S3 gained in
+2024, with the status codes S3 documents for them. Those are 412 for a
+create-if-absent on a present key or for a stale ETag, and 404 for a
+replace-if-unchanged against a key that holds nothing. The shape does not know
+which host it has. Measurement is taken from the server's log, and
+Table~\ref{tab:wire} gives it. Every figure matches the in-process model, and
+the client's count of what it sent matches the server's count of what arrived:
+\R{wire.served} requests, including the restore after each of the \R{wire.syncs} syncs. Both count
+the pointer object's own bytes.
+
+\begin{table}[!htb]
+\caption{The object-store shape in process and over HTTP, on the \R{wire.syncs}-sync
+session. The right column is read from the server's access log.}
+\small
+\centering
+\begin{tabular}{@{}lrr@{}}
+\toprule
+ & in process & over HTTP \\
+\midrule
+\gen{tab-wire.tex}
+\bottomrule
+\end{tabular}
+\label{tab:wire}
+\end{table}
+
+\textbf{And what it still is not.} The server is ours and it is on the
+loopback, which is how the restic comparison of Section~\ref{sup:restic} is measured and
+for the same reason: it makes the request path real without pretending the
+network is. Nothing here measures S3's latency, its throughput, its durability
+or its behavior under load, and none of those should be inferred from it. We
+had no credentials for a commercial object store and did not run against one.
+The harness takes \texttt{--url} and will run against any store speaking these
+operations: the experiment a reader with an account can perform and we could
+not.
+
+\begin{table}[!htb]
+\caption{The same commit shape on a forge and on an object store, 1,000 syncs
+on a 256\,MB disk. Restore is requests / MB fetched.}
+\small
+\setlength{\tabcolsep}{4pt}
+\centering
+\begin{tabular}{@{}rrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{restore} & \multicolumn{2}{c}{cumulative upload req} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+sync & forge & object store & forge & object store \\
+\midrule
+\gen{tab-objectstore.tex}
+\bottomrule
+\end{tabular}
+\label{tab:objectstore}
+\end{table}
+
+\textbf{The difference is a constant, not a shape.} One request per restore,
+for the reference and commit a forge needs to name a state where a store needs
+one pointer; two per sync, for the tree and the commit. Storage differs by two
+percent, which is the tree and commit objects and the per-chunk digests our
+manifest carries. Restore is flat in both after the live set stops growing, and
+the bytes are identical. Everything the evaluation concludes about commit
+shape, bounded restore and request economy therefore belongs to any store that
+holds one object per request, and only the constant belongs to git.
+
+What does not transfer is the part that is not a request count. A forge has a
+ceiling and no price; a store has a price and no ceiling of that kind.
+\texttt{price.mjs} prices the 1\,GB machine of Section~\ref{sup:histories} from its archived
+replay at S3 Standard's published us-east-1 rates~\cite{s3pricing}: \$0.005 per
+thousand PUTs, \$0.0004 per thousand GETs, \$0.023 per GB-month, and data out
+free to 100\,GB a month. An object store spends two requests fewer per sync than
+our shape, the exact difference above. The history's \R{price.uploads} upload requests are
+therefore \R{price.puts} PUTs, \R{price.perSync} a sync. A weekly restore is \R{price.gets} GETs for \R{price.restoreMB}\,MB,
+and our \R{price.storedMB}\,MB of storage bounds the store's from above. Synced once a day with
+that
+average sync, the machine costs \R{price.daily} a month: \R{price.dailyStorage} of storage, \R{price.dailyWrites} of
+writes and nothing measurable for reads. Synced as hard as the captured
+workload, all \R{price.syncs} syncs every day, it costs \R{price.hard}, of which \R{price.hardWrites} is writes.
+The bill is storage for a machine at rest and requests for one in use, and the
+second is the ceiling in another currency. Pricing a whole-machine commit every
+day instead gives \R{price.whole}, but that is a compaction rather than a sync.
+
+\section{Failure and Recovery}
+\label{sup:faults}
+
+Table~\ref{tab:faults} fails a sync in each of its phases and measures what the
+failure cost. We take the machine to a settled state, write four chunks, and
+make the host fail at one phase. The client then does the only thing it knows
+how to do, which is sync again. Finally the disk is restored from the branch
+name alone and compared with the device byte for byte. The row \emph{the reply}
+fails after the last phase: the host moves the reference and the answer saying
+so is lost, which the client cannot tell from a failed update. The host is the
+in-process counting host, and the \R{faults.encryptedCases} network and server rows are run again
+with encryption on.
+
+``Spent'' is the requests the failed attempt made, ``left'' the objects it put
+in the store, ``reused'' those of them the retry referenced rather than sending
+again, and ``recovery'' the requests the next sync needed. In every row the
+restored disk was identical and the reference never moved before its phase.
+
+\begin{table*}[t]
+\caption{A sync failed in every phase, on an \R{faults.diskMB}\,MB machine with four dirty
+chunks. No row lost a write; no row orphaned an object.}
+\small
+\centering
+\setlength{\tabcolsep}{1pt}
+\begin{tabular}{@{}llrrrrrl@{}}
+\toprule
+fails in & as & spent & left & reused & orphaned & recovery & lost \\
+\midrule
+\gen{tab-faults.tex}
+\bottomrule
+\end{tabular}
+\label{tab:faults}
+\end{table*}
+
+Four things follow. Nothing an interrupted sync uploaded is wasted, because
+the retry recomputes the same content ids and the tree names them. Nothing is
+orphaned for the same reason, so the garbage a failure leaves is zero rather
+than merely collectable. Under encryption a retry would compute new ids, since
+every encryption draws a fresh nonce, so the engine keeps a failed attempt's
+ciphertexts and resends one whose plaintext has not changed. Without that, a
+retry orphaned everything the attempt had uploaded. The reference is the commit
+point: a failure anywhere before it leaves the branch exactly where it was.
+After it, the state is already published, and the retry is refused, since its
+parent is no longer the head. The engine records the manifest each unanswered
+attempt would have published. When a refusal finds that manifest at the head, the
+commit is its own; it adopts the commit rather than refusing its epoch as
+another writer's. That costs \R{faults.recoveryLost} requests rather than \R{faults.recovery}, the refused attempt and the
+read of the head. Elsewhere the recovery cost does not depend on where the
+failure happened. That leaves something unclaimed: a failure at the reference
+update has a complete commit sitting in the store, and retrying the reference
+alone would cost one request rather than eight. The engine does not, because a client that remembered a commit id across
+a crash would have to decide whether it was still the right parent, and the
+eight requests are cheaper than that decision.
+
+\section{Scaling Past the Measured Sizes}
+\label{sup:scaling}
+
+The evaluation reaches 1\,GB, where the hourly request budget starts to bind.
+Rather than assert what 8\,GB would do, we state the model, check it against
+both machines we did measure, and extrapolate with its error attached.
+
+A restore reads the distinct objects the manifest names plus a fixed number of
+requests to find them: two for the reference on GitHub, one for the tree, one
+for the manifest. A sync writes the new objects plus a tree batch per thousand
+live objects, a commit and a reference update. Neither term involves the
+history. Against the two captured machines, four times apart in disk and eight
+in live data, the model predicts restore and commit requests within
+\textbf{\R{model.requestError}\%} and restore wall clock within \textbf{\R{model.timeError}\%}; on GitLab, whose
+tree listing pages, the request prediction is exact and the wall clock is
+within a tenth of a percent once its slower per-request rate is used.
+
+\begin{table}[!htb]
+\caption{The model past the measured sizes, at 75\% occupancy, 256\,KB chunks
+and the \R{model.duplicateShare}\% duplicate share the 1\,GB machine had. ``Hourly budget'' is a
+restore plus a commit against a token's 5,000 requests an
+hour~\cite{ghratelimits}.}
+\small
+\setlength{\tabcolsep}{4pt}
+\centering
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+live disk & objects & restore & \hd{at 8\\ways} & commit & \hd{hourly\\budget} \\
+\midrule
+\gen{tab-scalingmodel.tex}
+\bottomrule
+\end{tabular}
+\label{tab:scalingmodel}
+\end{table}
+
+\textbf{The wall is requests, not bytes or storage.} At 256\,KB chunks one
+hour of a token's allowance restores about \R{model.oneHourGB}\,GB of live disk. A 6\,GB
+machine needs about \R{model.sixRestoreWindows} hourly windows for a restore and \R{model.sixBothWindows} for a restore and a
+commit together, while its restore's bytes take \R{model.sixWideMinutes} minutes at eight ways. Storage is not
+the constraint either: 6\,GB of live disk is inside GitLab's 10\,GB per project
+and past what GitHub recommends, which is a policy limit rather than a
+mechanical one.
+
+Two levers move the wall, and the table prices both. Doubling the chunk halves
+every request count, so the same 6\,GB machine restores in \R{model.six512} requests at
+512\,KB and \R{model.six1M} at 1\,MB, at the byte cost Section~\ref{sup:chunk} measures. And a
+batch-commit host removes the commit side entirely, since its sync is one
+request whatever the machine's size, which is the portability result of
+Section~\Mref{sec:portability} of the main text turning from an economy into a scaling property.
+
+
+
+
+\section{Deterministic Encryption}
+\label{sup:deterministic}
+
+This section explains why the engine encrypts under random nonces rather than
+deterministically. A deterministic variant derives each chunk's nonce from its
+plaintext under the key, so identical chunks encrypt identically and free space
+still collapses to one object. That is deterministic authenticated encryption in
+the sense of Rogaway and Shrimpton~\cite{siv}: it leaks plaintext equality and
+nothing else. On a chunk-aligned block store, equality has three classes. One
+is free space, the reason for the variant. Another is a chunk reverting to
+earlier content, which reveals a rollback of that chunk. The third is duplicates
+across positions, which Section~\Mref{sec:dedup} of the main text found only in a
+format's structure and in copies a user makes.
+
+The hazard is the confirmation attack of Harnik et al.~\cite{harnik}, which
+needs no key. An adversary who can read the repository and get content onto the
+disk, say a file the user downloads, learns by ciphertext equality alone whether
+it was already there. Alignment raises the bar, since the bytes must fill a
+256\,KB chunk exactly and the observer must be a reader who is not the owner, as
+a public or shared repository supplies. Yu et al.~\cite{sidechannel} treat the
+multi-tenant form, and the exchange that followed~\cite{sidechannelcomment}
+shows its defences unsettled.
+
+Random nonces remove the hazard rather than narrowing it, and free space keeps
+its saving: the engine represents a chunk the guest has zeroed on a blank base
+by absence, exactly as an unwritten chunk. It encrypts every stored chunk with
+AES-GCM~\cite{gcm} under a fresh random 96-bit nonce, with the chunk index and salt as
+associated data, so an object decrypts only at its own position. The key is
+derived from a passphrase by PBKDF2-HMAC-SHA256~\cite{rfc8018} over 250,000 iterations. No two
+ciphertexts can be related, and a host cannot rearrange them.
+
+The derivation yields two 256-bit blocks. The first is the chunk key, and the
+second keys an HMAC-SHA256 over every manifest the machine commits, all of it
+but the MAC itself. Attach and restore verify it before the manifest is used,
+so a host without the passphrase can change nothing in the manifest: not which
+object sits at which index, not a digest, not the format version. What remains
+is a whole older manifest, which the pinned digest refuses. A cipher that does
+not fit the machine is refused before anything is written: no passphrase for an
+encrypted machine, one derived for another salt, or one given for a plaintext
+machine. The residual leak,
+occupancy and write pattern, is what the commit tree reveals under any cipher.
+
+What random nonces give up is every other duplicate. Table~\ref{tab:encrypted}
+replays both captured machines through the real engine twice, in plaintext and
+encrypted. The working session repeats only its format's chunks and a package
+it removes and adds back, and loses little. The corpus workload copies files
+with \texttt{tar}, and loses a quarter. The cipher itself is cheap: in
+\R{enc.runtime}, a key takes \R{enc.deriveMs}\,ms to derive and a chunk \R{enc.chunkMs}\,ms to encrypt, medians in one
+process.
+
+\begin{table}[!htb]
+\caption{Encryption's cost at the last sync of each captured machine:
+requests to restore, upload requests over the whole history, and MB stored, in
+plaintext and under random nonces, on the in-process host. Both restored byte
+for byte. The 1\,GB row is a second capture of the corpus workload, kept with
+its bytes. Its live set equals the first capture's, with \R{census.big.distinct} distinct objects
+against the first's \R{census.big.originalDistinct}.}
+\small
+\setlength{\tabcolsep}{3pt}
+\centering
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+& \multicolumn{2}{c}{restore} & \multicolumn{2}{c}{uploads} & \multicolumn{2}{c}{MB stored} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+machine & plain & enc. & plain & enc. & plain & enc. \\
+\midrule
+\gen{tab-encrypted.tex}
+\bottomrule
+\end{tabular}
+\label{tab:encrypted}
+\end{table}
+
+The general lesson is narrow. Deterministic encryption is defensible only with
+one key per tenant, no adversary able to both inject plaintext and read
+ciphertext, and equality classes of no value. Deduplication across tenants under
+a shared key fails all three. Table~\ref{tab:threat} summarizes what is
+protected, against whom, and what remains.
+
+\section{restic Repeats}
+\label{sup:restic}
+
+The measured tools are restic 0.19.1~\cite{resticsw} and rest-server
+0.14.0~\cite{restserver}. restic's chunker is seeded per repository. We repeated the 120-sync run on a
+64\,MB disk, the default of the harness, three times. Restore at sync 120 took
+\R{repeat.req} requests for \R{repeat.mb}\,MB. Storage was \R{repeat.storage}\,MB,
+and each run made \R{repeat.uploads} upload requests. The runs agree within \R{repeat.reqSpread}
+request, $\pm$\R{repeat.bytesSpread}\% of bytes and $\pm$\R{repeat.storageSpread}\% of storage about the middle of each
+range.
+
+Restore is by a client with no cache. The \texttt{repair index} figures in
+Section~\Mref{sec:scaling} of the main text are the 1,000-sync run on the
+256\,MB disk. The rewrite itself costs \R{restic.repaired.rewrite} requests. Restore then reads \R{restic.repaired.ranges}
+ranges to cover a live set of \R{scale.ours.live} chunks and costs \R{restic.repaired.req} requests for \R{restic.repaired.mb}\,MB,
+against our \R{scale.ours.req} for \R{scale.ours.mb}\,MB.
+
+On a forge every one of those ranges would be a whole pack, since its object API
+has no ranged read for a private repository. We reran restic on both captured
+histories and recorded, for each restore, the packs it read. Compacted, it read
+\R{rf.hist.packs} packs at sync 43: \R{rf.hist.rangeMB}\,MB by range, or \R{rf.hist.wholeMB}\,MB in \R{rf.hist.wholeReq} requests read whole. At sync
+\R{long.syncs} of the long session it read \R{rf.long.packs} packs: \R{rf.long.rangeMB}\,MB by range, or \R{rf.long.wholeMB}\,MB in
+\R{rf.long.wholeReq} requests. Its storage at that point is \R{restic.repaired.storageMB}\,MB against
+our \R{scale.ours.storageMB}\,MB.
+
+% The supplement cites the same database as the main text. Its own
+% reference list is short and numbered independently, so a citation here
+% never has to agree with a number over there.
+{\footnotesize
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+}
+
+\end{document}
